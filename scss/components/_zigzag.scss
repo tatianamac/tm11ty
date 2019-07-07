@@ -70,12 +70,22 @@
   background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-white-green {
+  height: 5em;
+  background: 
+    linear-gradient(45deg, transparent 50%, $white 50%),
+    linear-gradient(90deg, transparent 50%, $green 50%),
+    linear-gradient(135deg, $white 50%, $leaf-green 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 .zigzag-lt-grey-green {
   height: 5em;
   background: 
-              linear-gradient(45deg, transparent 50%, $light-grey 50%),
-              linear-gradient(90deg, transparent 50%, $green 50%),
-              linear-gradient(135deg, $light-grey 50%, $leaf-green 50%), 0 50%;
+    linear-gradient(45deg, transparent 50%, $light-grey 50%),
+    linear-gradient(90deg, transparent 50%, $green 50%),
+    linear-gradient(135deg, $light-grey 50%, $leaf-green 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
@@ -83,9 +93,9 @@
 .zigzag-black-green {
     height: 5em;
     background: 
-                linear-gradient(45deg, transparent 50%, $black 50%),
-                linear-gradient(90deg, transparent 50%, $green 50%),
-                linear-gradient(135deg, $black 50%, $leaf-green 50%), 0 50%;
+      linear-gradient(45deg, transparent 50%, $black 50%),
+      linear-gradient(90deg, transparent 50%, $green 50%),
+      linear-gradient(135deg, $black 50%, $leaf-green 50%), 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
   }

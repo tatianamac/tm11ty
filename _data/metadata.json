@@ -3,7 +3,7 @@
   "url": "https://www.tatianamac.com/",
   "description": "A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Work, writing, speaking.",
     "filename": "rss.xml",
     "path": "/feed/rss.xml",
     "url": "https://tatianamac.com/feed/rss.xml",

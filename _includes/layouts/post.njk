@@ -1,9 +1,15 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-post
+templateClass: container
 ---
-<h1>{{ title }}</h1>
+<div class="wrapper">
+    <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl ">
+        <p class="t-eyebrow-line t-typeweight">{{ date }}</p>
+        <h1 class="t-titlingfont t-extrajumbo">{{ title }}</h1>
+    </div>
 
-{{ content | safe }}
+    <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl padding-thicc@l padding-thicc@m padding-thicc@s">
 
-<p><a href="{{ '/' | url }}">← Home</a></p>
+    {{ content | safe }}
+    </div>
+</div>

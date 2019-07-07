@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Tatiana Mac</title>
-	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+	<subtitle>Work, writing, speaking.</subtitle>
 	<link href="https://tatianamac.com/feed/rss.xml" rel="self"/>
 	<link href="https://www.tatianamac.com/"/>
-	<updated>2018-09-29T17:00:00-07:00</updated>
+	<updated>2019-04-16T17:00:00-07:00</updated>
 	<id>https://tatianamac.com/</id>
 	<author>
 		<name>Tatiana Mac</name>
 		<email>inquiry@tatianamac.com</email>
 	</author>
-	
-	<entry>
-		<title>This is my first post.</title>
-		<link href="https://www.tatianamac.com/posts/firstpost/"/>
-		<updated>2018-04-30T17:00:00-07:00</updated>
-		<id>https://www.tatianamac.com/posts/firstpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;// this is a command&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;function myCommand() {&lt;/span&gt;&lt;br&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	let counter = 0;&lt;/mark&gt;&lt;br&gt;&lt;mark class=&quot;highlight-line highlight-line-active&quot;&gt;	counter++;&lt;/mark&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;// Test with a line break above this line.&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;highlight-line&quot;&gt;console.log(&#39;Test&#39;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-</content>
-	</entry>
 	
 	<entry>
 		<title>This is my second post.</title>
@@ -60,6 +47,21 @@
 &lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
 &lt;h2 id=&quot;section-header&quot;&gt;Section Header &lt;a class=&quot;direct-link&quot; href=&quot;#section-header&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cracked</title>
+		<link href="https://www.tatianamac.com/posts/firstpost/"/>
+		<updated>2019-04-16T17:00:00-07:00</updated>
+		<id>https://www.tatianamac.com/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;Driving with a cracked windshield feels dangerous at first, especially the moments after it happens. Your instinct says to pull over, stop driving until you get a new windshield. But you get distracted and end up driving with it for longer than you want. Then after awhile, you forget how you felt when it first happened and how close you are to a potentially scary fate. At some point, the last bits of tension fail and inevitably shatter when you least expect it.&lt;/p&gt;
+&lt;p&gt;Every day, I drive around with cracked windshields of varying depth. I never know when they will shatter. I never know how much strength they each have left. But I know they will all eventually shatter.&lt;/p&gt;
+&lt;p&gt;It obstructs the view, but I learned to navigate around it. I started to find the way it refracts stop lights in the rain a bit charming, if not inconvenient at times.&lt;/p&gt;
+&lt;p&gt;On most days, I forget about the crack. And it&#39;s fine, those days.&lt;/p&gt;
+&lt;p&gt;But then it happens. The crack goes from its familiar shape to something far scarier, changing states from idle to aggressive. In that fractional moment, I remember why it&#39;s dangerous to drive with cracked windshields. It&#39;s dangerous because the crack never goes away. You might look past it, forget it, but it was always there to remind you that it was always going to crack. It never hid its betrayal, you just stopped looking.&lt;/p&gt;
+&lt;p&gt;As many times as they fail me, I still can&#39;t just stop driving these cars with shattered windshields. Because it&#39;s hard to get rid of your car. There&#39;s memories in the miles, it takes time and money and energy to find and to reacquaint yourself with a new car, and you want to believe it won&#39;t get worse. Perhaps there&#39;s an ignorant part of me that believes that the crack can heal itself.&lt;/p&gt;
+&lt;p&gt;So I drive in trepidation, conscious and careful not to place any pressure on this fragile line, but in the end I know that no matter how hard I try, that I have no bearing on its shattering point. It&#39;s just a matter of time.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
