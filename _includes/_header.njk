@@ -1,0 +1,19 @@
+<header class="site-header wrapper">
+    <div class="logo grid-whole@xxs grid-whole@xs grid-half@s grid-third@m grid-third@l grid-third@xl">
+    <a href="{{ '/' | url }}">
+        <svg version="1" id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 114">
+        <title>Tatiana Mac</title>
+        <desc>Geometric logo with two parallel lines on top and bottom, then a backwards 11 in the middle.</desc>
+            <path d="M0 0h117v10H0zM1 104h117v10H1zM28 20v75h9V41l27 22V50zM80 20v75h10V41l26 22V50z"/>
+        </svg>
+
+    </a>
+    </div>
+    <nav class="main-navigation grid-whole@xxs grid-whole@xs grid-half@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
+    <ul class="nav navi linklist">
+        {%- for nav in collections.nav | reverse -%}
+        <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a class="t-white t-link-accent-white t-ltr-stretch t-height-medium" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+        {%- endfor -%}
+    </ul>
+    </nav>
+</header>
