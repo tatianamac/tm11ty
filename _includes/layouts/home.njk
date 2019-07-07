@@ -290,7 +290,21 @@ templateClass: content
                     <h3 class="t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight t-serifweight t-white t-height-tight">Bah-hum-blog.</h3>
                 </div>
                 <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-                    {{ content | safe }}
+                    
+    {{ post.data.excerpt }}
+    <a href="{{ post.url | url }}" class="t-white">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    <time class="" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    {% for tag in post.data.tags %}
+      {%- if tag != "posts" -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+
+
+                    
+
+
                     <p class="t-serifweight t-height-cozy t-white t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
                         The question to answer isn't, &ldquo;Have I made a place where people have the freedom to express themselves?&rdquo; Instead we have to ask, &ldquo;Have I made a place where everyone has the safety to exist?&rdquo;
                     </p>

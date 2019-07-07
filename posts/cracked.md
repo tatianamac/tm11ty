@@ -6,6 +6,8 @@ tags:
   - personal
 layout: layouts/post.njk
 ---
+<!-- It's dangerous because the crack never goes away. You might look past it, forget it, but it was always there to remind you that it was always going to crack. It never hid its betrayal, you just stopped looking.
+--- -->
 
 Driving with a cracked windshield feels dangerous at first, especially the moments after it happens. Your instinct says to pull over, stop driving until you get a new windshield. But you get distracted and end up driving with it for longer than you want. Then after awhile, you forget how you felt when it first happened and how close you are to a potentially scary fate. At some point, the last bits of tension fail and inevitably shatter when you least expect it.
             
