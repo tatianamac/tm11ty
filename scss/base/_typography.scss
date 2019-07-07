@@ -1,0 +1,425 @@
+// REUSABLES
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+    font-weight: $bold;
+  }
+
+.t-mini{
+  font-size: .75em;
+}
+
+.t-jumbo{
+  font-size: 5em;
+}
+
+.t-extrajumbo{
+  font-size: 10em;
+  padding: 0;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-serifweight {
+  @include serifweight;
+  font-display: swap;
+}
+
+.t-typeweight {
+  @include typewriter;
+  font-display: swap;
+}
+
+.t-height-tight {
+  line-height: $t-height-tight;
+}
+
+.t-height-cozy {
+  line-height: $t-height-cozy;
+}
+
+.t-height-none {
+  line-height: $t-height-none;
+}
+
+.t-chonkfont\@xs {
+  @include screen-xs {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@s {
+  @include screen-s {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@m {
+  @include screen-m {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@l {
+  @include screen-l {
+    @include chonkfont;
+  }
+}
+
+.t-chonkfont\@xl {
+  @include screen-l {
+    @include chonkfont;
+  }
+}
+
+.t-thiccfont\@xs {
+  @include screen-xs {
+    @include thiccfont;
+  }
+}
+
+.t-thiccfont\@s {
+  @include screen-s {
+    @include thiccfont;
+  }
+}
+
+.t-thiccfont\@m {
+  @include screen-m {
+    @include thiccfont;
+  }
+}
+
+.t-thiccfont\@l {
+  @include screen-l {
+    @include thiccfont;
+  }
+}
+
+.t-thiccfont\@xl {
+  @include screen-l {
+    @include thiccfont;
+  }
+}
+
+.t-fullfont\@xs {
+  @include screen-xs {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@s {
+  @include screen-s {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@m {
+  @include screen-m {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@l {
+  @include screen-l {
+    @include fullfont;
+  }
+}
+
+.t-fullfont\@xl {
+  @include screen-l {
+    @include fullfont;
+  }
+}
+
+.t-normiefont\@xs {
+  @include screen-xs {
+    @include normiefont;
+  }
+}
+
+.t-normiefont\@s {
+  @include screen-s {
+  @include normiefont;
+  }
+}
+
+.t-normiefont\@m {
+  @include screen-m {
+  @include normiefont;
+  }
+}
+
+.t-normiefont\@l {
+  @include screen-l {
+  @include normiefont;
+  }
+}
+
+.t-normiefont\@xl {
+  @include screen-xl {
+  @include normiefont;
+  }
+}
+
+.t-slimmfont\@xs {
+  @include screen-xs {
+    @include slimmfont;
+  }
+}
+
+.t-slimmfont\@s {
+  @include screen-s {
+  @include slimmfont;
+  }
+}
+
+.t-slimmfont\@m {
+  @include screen-m {
+  @include slimmfont;
+  }
+}
+
+.t-slimmfont\@l {
+  @include screen-l {
+  @include slimmfont;
+  }
+}
+
+.t-slimmfont\@xl {
+  @include screen-xl {
+  @include slimmfont;
+  }
+}
+
+.t-thinnfont\@xs {
+  @include screen-xs {
+  @include thinnfont;
+  }
+}
+
+.t-thinnfont\@s {
+  @include screen-s {
+  @include thinnfont;
+  }
+}
+
+.t-thinnfont\@m {
+  @include screen-m {
+  @include thinnfont;
+  }
+}
+
+.t-thinnfont\@l {
+  @include screen-l {
+  @include thinnfont;
+  }
+}
+
+.t-thinnfont\@xl {
+  @include screen-xl {
+    @include thinnfont;
+  }
+}
+
+.t-giganticfont\@xs {
+  @include screen-xs {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@s {
+  @include screen-s {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@m {
+  @include screen-m {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@l {
+  @include screen-l {
+  @include giganticfont;
+  }
+}
+
+.t-giganticfont\@xl {
+  @include screen-xl {
+    @include giganticfont;
+  }
+}
+
+.t-babyfont {
+  @include babyfont;
+}
+
+body {
+      font-family: $sans-serif;
+      font-size: 18px; //The smallest it should be!
+      line-height: 1.5;
+  }
+
+  h5 {
+    font-family: $serif;
+    font-weight: $regular;
+    font-size:1.25em;
+  }
+
+  p {
+    color: $mid-grey;
+
+  &.comingsoon {
+      color: $mid-grey;
+      text-transform: uppercase;
+      font-size: .8em;
+      letter-spacing: .05em;
+      text-decoration: none;
+      padding: 10px 0;
+      margin-right: 2em;
+      transition: all .2s ease-in;
+    }
+  }
+
+  .details {
+    text-transform: uppercase;
+    font-size: .8em;
+    color: $dark-grey;
+    letter-spacing: .025em;
+    padding-top: .5em;
+    min-width: 100px;
+  }
+
+  .wip {
+     font-style: italic;
+     color: $mid-grey;
+   }
+
+.t-white {
+    @include t-white;
+}
+
+.t-red {
+  color: #E60073;
+}
+
+.t-black {
+    @include t-black;
+}
+
+.t-light-grey {
+  color: $light-grey;
+}
+
+.t-light-green {
+  color: #bdf5bd;
+}
+
+.t-blush-pink {
+  color: $blush-pink;
+}
+
+.t-link-accent-white {
+    @include t-link-hover;
+    @include bdr-thinn-white;
+    line-height: $t-height-extra-loose;
+    padding: 10px 0;
+}
+
+.t-link-accent-black {
+  @include t-link-hover;
+  @include bdr-thinn-black;
+  // line-height: $t-height-loose;
+  padding: 2px 0;
+}
+
+.t-link-accent-green {
+  @include t-link-hover;
+  @include bdr-thinn-green;
+  line-height: $t-height-extra-loose;
+  padding: 10px 0;
+}
+
+.t-ltr-stretch {
+    @include t-uppercase;
+    @include t-ltr-spaceout-s;
+}
+
+.t-link-accent-blue {
+    @include t-link-hover;
+    @include bdr-thinn-blue;
+    color: $primary-color;
+    padding: 4px 0;
+}
+
+.t-link-accent-pink {
+    @include t-link-hover;
+    line-height: $t-height-loose;
+    @include bdr-thinn-white;
+    color: $pink;
+    padding: 2px 0;
+}
+
+.t-eyebrow {
+  @include t-eyebrow;
+}
+
+.bdr-t-bar-r-grey {
+  @include bdr-t-bar-r-grey;
+}
+
+.t-eyebrow-line {
+  @include t-eyebrow;
+  @include bdr-t-bar-r-grey;
+  @include bdr-baby-grey-end;
+  overflow: hidden;
+}
+
+.t-eyebrow-line-pink {
+  @include t-eyebrow;
+  @include bdr-t-bar-r-pink;
+  @include bdr-baby-pink-end;
+  overflow: hidden;
+}
+
+.t-titlingfont {
+  font-family: $condensed;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: .25rem;
+}
+
+code {
+  background: $green;
+  padding:  .5rem;
+  color: $black;
+  margin: .25rem;
+}
+
+// LISTS
+
+  ul.linklist {
+    @include list-clear-style;
+
+    li {
+    @include inline-style;
+    margin: 0 2rem 0 0;
+    }
+
+  }
+
+  ul.longform {
+    list-style-type: square;
+    padding-bottom: .5rem;
+
+    li {
+      margin:  0 0 1rem 0;
+    }
+  }

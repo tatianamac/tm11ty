@@ -1,0 +1,371 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr [col]);
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vh;
+    // grid-template-areas: a thing to explore later; cool a a b type formatting
+    //   "header"
+    //   "nav"
+    //   "content"
+    //   "footer"
+}
+
+.wrapperhero {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr [col]);
+  grid-template-rows: repeat (2);
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  grid-auto-flow: dense;
+    // grid-template-areas: a thing to explore later; cool a a b type formatting
+    //   "header"
+    //   "nav"
+    //   "content"
+    //   "footer"
+
+  a::after {
+    content: none;
+ }
+
+ .wrapper-photogrid {
+  grid-row-gap: 1em;
+  grid-auto-rows: min-content;
+ }
+
+}
+
+.padding-thinn {
+  @include thinnpadding;
+}
+
+.padding-thinn\@xs {
+  @include screen-xs {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@s {
+  @include screen-s {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@m {
+  @include screen-m {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@l {
+  @include screen-l {
+    @include thinnpadding;
+  }
+}
+
+.padding-thinn\@xl {
+  @include screen-xl {
+    @include thinnpadding;
+  }
+}
+
+.padding-normie\@xs {
+  @include screen-xs {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@s {
+  @include screen-s {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@m {
+  @include screen-m {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@l {
+  @include screen-l {
+    @include normiepadding;
+  }
+}
+
+.padding-normie\@xl {
+  @include screen-xl {
+    @include normiepadding;
+  }
+}
+
+.padding-thicc\@xs {
+  @include screen-xs {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@s {
+  @include screen-s {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@m {
+  @include screen-m {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@l {
+  @include screen-l {
+    @include thiccpadding;
+  }
+}
+
+.padding-thicc\@xl {
+  @include screen-xl {
+    @include thiccpadding;
+  }
+}
+
+.order-one {
+  order: 1;
+}
+
+.order-minusone {
+  order: -1;
+}
+
+.order-minusone\@xs {
+  @include screen-xs {
+    order: -1;
+  }
+}
+
+.order-minusone\@s {
+  @include screen-s {
+    order: -1;
+  }
+}
+
+.order-minusone\@m {
+  @include screen-m {
+    order: -1;
+  }
+}
+
+.order-minusone\@l {
+  @include screen-l {
+    order: -1;
+  }
+}
+
+.order-minusone\@xl {
+  @include screen-xl {
+    order: -1;
+  }
+}
+
+.order-zero {
+  order: 0;
+}
+
+.order-zero\@xs {
+  @include screen-xs {
+    order: 0;
+  }
+}
+
+.order-zero\@s {
+  @include screen-s {
+    order: 0;
+  }
+}
+
+.order-zero\@m {
+  @include screen-m {
+    order: 0;
+  }
+}
+
+.order-zero\@l {
+  @include screen-l {
+    order: 0;
+  }
+}
+
+.order-zero\@xl {
+  @include screen-xl {
+    order: 0;
+  }
+}
+
+.order-one {
+  order: 1;
+}
+
+.order-one\@xs {
+  @include screen-xs {
+    order: 1;
+  }
+}
+
+.order-one\@s {
+  @include screen-s {
+    order: 1;
+  }
+}
+
+.order-one\@m {
+  @include screen-m {
+    order: 1;
+  }
+}
+
+.order-one\@l {
+  @include screen-l {
+    order: 1;
+  }
+}
+
+.order-one\@xl {
+  @include screen-xl {
+    order: 1;
+  }
+}
+
+.order-two {
+  order: 2;
+}
+
+.order-two\@xs {
+  @include screen-xs {
+    order: 2;
+  }
+}
+
+.order-two\@s {
+  @include screen-s {
+    order: 2;
+  }
+}
+
+.order-two\@m {
+  @include screen-m {
+    order: 2;
+  }
+}
+
+.order-two\@l {
+  @include screen-l {
+    order: 2;
+  }
+}
+
+.order-two\@xl {
+  @include screen-xl {
+    order: 2;
+  }
+}
+
+.order-three {
+  order: 3;
+}
+
+.order-three\@xs {
+  @include screen-xs {
+    order: 3;
+  }
+}
+
+.order-three\@s {
+  @include screen-s {
+    order: 3;
+  }
+}
+
+.order-three\@m {
+  @include screen-m {
+    order: 3;
+  }
+}
+
+.order-three\@l {
+  @include screen-l {
+    order: 3;
+  }
+}
+
+.order-three\@xl {
+  @include screen-xl {
+    order: 3;
+  }
+}
+
+.order-four {
+  order: 4;
+}
+
+.order-four\@xs {
+  @include screen-xs {
+    order: 4;
+  }
+}
+
+.order-four\@s {
+  @include screen-s {
+    order: 4;
+  }
+}
+
+.order-four\@m {
+  @include screen-m {
+    order: 4;
+  }
+}
+
+.order-four\@l {
+  @include screen-l {
+    order: 4;
+  }
+}
+
+.order-four\@xl {
+  @include screen-xl {
+    order: 4;
+  }
+}
+
+.order-five {
+  order: 5;
+}
+
+.order-five\@xs {
+  @include screen-xs {
+    order: 5;
+  }
+}
+
+.order-five\@s {
+  @include screen-s {
+    order: 5;
+  }
+}
+
+.order-five\@m {
+  @include screen-m {
+    order: 5;
+  }
+}
+
+.order-five\@l {
+  @include screen-l {
+    order: 5;
+  }
+}
+
+.order-five\@xl {
+  @include screen-xl {
+    order: 5;
+  }
+}

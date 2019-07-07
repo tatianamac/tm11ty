@@ -1,0 +1,83 @@
+// SCREEN SIZES
+$screen-xs-min: 200px;
+$screen-s-min: 600px;
+$screen-m-min: 1024px;
+$screen-l-min: 1440px;
+$screen-xl-min: 1920px;
+
+$screen-xxs-max: 199px;
+$screen-xs-max: 599px;
+$screen-s-max: 1023px;
+$screen-m-max: 1439px;
+$screen-l-max: 3000px;
+
+// COLORS //
+$cobalt: #0e4bff;
+$citron: #F3F315;
+
+$black: #222222;
+$white: #ffffff;
+$beige: #F5F4EE;
+
+$dark-grey: #4F4F4F;
+$mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
+$light-grey: #eeeeee; // for backgrounds only
+
+$fuschia: #B2098B;
+$neon-yellow: #f3f315;
+$yellow: #FFD926;
+$red: #FF5327;
+$pink: #FF0DD1;
+$blush-pink: #FFF3F3;
+$purple: #4A4FA5;
+$true-blue: #0531B2; 
+$royal-blue: #2159FE;
+$gold: #FFBC0E;
+$orange: #ff5327;
+
+$seafoam: #00B378;
+$green: #42ff0d;
+$leaf-green: #27B300;
+$teal-green: #037A5C;
+$emerald-green: #004328;
+$curry: #cbab00;
+$dark-curry: #a88d00;
+$dusty-rose: #cbab99;
+
+$primary-color: $cobalt;
+$secondary-color: $blush-pink;
+
+// TYPOGRAPHY //
+$sans-serif: '05-brother1816-book', Helvetica, sans-serif;
+$serif: 'freigdisproboo', Georgia, 'Times New Roman', serif;
+$condensed: 'League Gothic Condensed', Impact, sans-serif;
+$mono: Courier, mono;
+
+$t-height-none: 0;
+$t-height-tight: 1.1;
+$t-height-cozy: 1.25;
+$t-height-loose: 2;
+$t-height-extra-loose: 3;
+
+$thin: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+// SIZE //
+
+$baby: .8em;
+$thinn: 1em;
+$slimm: 1.5em;
+$normie: 2em;
+$full: 2.5em;
+$thicc: 3em;
+$chonk: 5em;
+$gigantic: 15em;
+
+// BORDER STYLES //
+
+// HTML ELEMENTS
+
+$t-arrow-up-r: "\2197";

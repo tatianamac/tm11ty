@@ -2,6 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.tatianamac.com/scss/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/scss/abstracts/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/scss/base/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/scss/components/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/scss/layout/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/scss/pages/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/scss/themes/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/scss/vendor/README/</loc>
+    <lastmod>2017-10-12</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tatianamac.com/posts/firstpost/</loc>
     <lastmod>2018-05-01</lastmod>
   </url>
@@ -52,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/tags/number-2/</loc>
+    <loc>https://www.tatianamac.com/tags/another-tag/</loc>
     <lastmod>2019-07-07</lastmod>
   </url>
   
@@ -62,7 +102,7 @@
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/tags/another-tag/</loc>
+    <loc>https://www.tatianamac.com/tags/number-2/</loc>
     <lastmod>2019-07-07</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,125 @@
+.zigzag-blue-yellow {
+    height: 5em;
+    background: 
+                linear-gradient(45deg, transparent 50%, $cobalt 50%),
+                linear-gradient(90deg, transparent 50%, $yellow 50%),
+                linear-gradient(135deg, $cobalt 50%, $curry 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-yellow-white {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $curry 75%),
+                linear-gradient(45deg, transparent 74%, $yellow 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-white-grey {
+    height: 5em;
+    background: 
+                linear-gradient(45deg, transparent 50%, $white 50%),
+                linear-gradient(90deg, transparent 50%, $light-grey 50%),
+                linear-gradient(135deg, $white 50%, $mid-grey 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-grey-black {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $mid-grey 75%),
+                linear-gradient(45deg, $black 74%, $light-grey 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-black-pink {
+    height: 5em;
+    background: 
+                linear-gradient(45deg, transparent 50%, $black 50%),
+                linear-gradient(90deg, transparent 50%, $pink 50%),
+                linear-gradient(135deg, $black 50%, $fuschia 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-pink-white {
+    height: 5em;
+    background: linear-gradient(-45deg, transparent 74%, $fuschia 75%),
+                linear-gradient(45deg, $white 74%, $pink 75%) 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-white-blue {
+  height: 5em;
+  background: 
+              linear-gradient(45deg, transparent 50%, $white 50%),
+              linear-gradient(90deg, transparent 50%, $cobalt 50%),
+              linear-gradient(135deg, $white 50%, $true-blue 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-blue-blush {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, $true-blue 75%),
+              linear-gradient(45deg, $blush-pink 74%, $cobalt 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-lt-grey-green {
+  height: 5em;
+  background: 
+              linear-gradient(45deg, transparent 50%, $light-grey 50%),
+              linear-gradient(90deg, transparent 50%, $green 50%),
+              linear-gradient(135deg, $light-grey 50%, $leaf-green 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-black-green {
+    height: 5em;
+    background: 
+                linear-gradient(45deg, transparent 50%, $black 50%),
+                linear-gradient(90deg, transparent 50%, $green 50%),
+                linear-gradient(135deg, $black 50%, $leaf-green 50%), 0 50%;
+    background-repeat: repeat-x;
+    background-size: 5em 5em, 5em 5em;
+  }
+
+.zigzag-green-fuschia {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, $leaf-green 75%),
+              linear-gradient(45deg, $fuschia 74%, $green 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-yellow-black {
+  height: 5em;
+  background: 
+              linear-gradient(45deg, transparent 50%, $neon-yellow 50%),
+              linear-gradient(90deg, transparent 50%, $dark-grey 50%),
+              linear-gradient(135deg, $neon-yellow 50%, $black 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-black-grey {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, $black 75%),
+              linear-gradient(45deg, $light-grey 74%, $dark-grey 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-grey-yellow {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, $mid-grey 75%),
+              linear-gradient(45deg, $neon-yellow 74%, $light-grey 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}

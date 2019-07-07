@@ -1,0 +1,19 @@
+.gradient-fire {
+  background: #f12711;  /*fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #f5af19, #f12711);
+  background: linear-gradient(to bottom, #f5af19, #f12711);
+}
+
+.gradient-dusk{
+  background:  #a6c1ee;  
+  background: -webkit-linear-gradient(to top, #fbc2eb, #a6c1ee);  
+  background: linear-gradient(to top, #fbc2eb, #a6c1ee);
+
+}
+
+.gradient-softlight {
+  background: rgba(212,228,239,1);
+background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(249,227,215,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(249,227,215,1)));
+background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(249,227,215,1) 100%);
+}

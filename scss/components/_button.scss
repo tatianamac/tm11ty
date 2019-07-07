@@ -1,0 +1,19 @@
+  button {
+    font-family: inherit;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding: 1em;
+    margin: 1em 1em 0 0;
+
+    &.primary {
+    border: 1px solid $white;
+    background: $cobalt;
+    color: $white;
+    }
+
+    &.secondary {
+    border: 1px solid $cobalt;
+    background: $white;
+    color: $cobalt;
+    }
+  }

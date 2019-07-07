@@ -1,0 +1,330 @@
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+  @if $self {
+    &,
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  } @else {
+    &:hover,
+    &:active,
+    &:focus {
+      @content;
+    }
+  }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+  #{$context} & {
+    @content;
+  }
+}
+/// Background size helper
+
+@mixin background-size($width, $height: $width) {
+    @include prefix(background-size, $width $height, 'webkit' 'moz');
+}
+
+//DEVICES
+
+// up to watch
+@mixin screen-xxs {
+  @media screen and (max-width: #{$screen-xxs-max}) {
+    @content;
+  }
+}
+
+// up to phone
+@mixin screen-xs {
+  @media screen and (min-width: #{$screen-xs-min}) and (max-width: #{$screen-xs-max}) {
+    @content;
+  }
+}
+
+// up to tablet
+@mixin screen-s {
+  @media screen and (min-width: #{$screen-s-min}) and (max-width: #{$screen-s-max}) {
+    @content;
+  }
+}
+
+// up to laptop
+@mixin screen-m {
+  @media screen and (min-width: #{$screen-m-min}) and (max-width: #{$screen-m-max}) {
+    @content;
+  }
+}
+
+// up to desktop
+@mixin screen-l {
+  @media screen and (min-width: #{$screen-l-min}) and (max-width: #{$screen-l-max}) {
+    @content;
+  }
+}
+
+// up to giant monitors
+@mixin screen-xl {
+  @media screen and (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+//SPACING
+
+@mixin clearspace() {
+  margin:0;
+  padding:0;
+}
+
+@mixin thiccpadding() {
+  padding: $thicc;
+}
+
+@mixin thinnpadding(){
+  padding: $thinn;
+}
+
+@mixin normiepadding() {
+  padding: $normie;
+}
+
+@mixin padding-btm-none() {
+  padding-bottom: 0;
+}
+
+@mixin align-self-center() {
+  align-self: center;
+}
+
+@mixin height-full() {
+  height: 100%;
+}
+
+//TYPOGRAPHY
+
+// Size
+
+@mixin babyfont() {
+  font-size: $baby;
+}
+
+@mixin thinnfont() {
+  font-size: $thinn;
+}
+
+@mixin slimmfont() {
+  font-size: $slimm;
+}
+
+@mixin normiefont() {
+  font-size: $normie;
+}
+
+@mixin fullfont() {
+  font-size: $full;
+}
+
+@mixin thiccfont() {
+  font-size: $thicc;
+}
+
+@mixin chonkfont() {
+  font-size: $chonk;
+}
+
+@mixin giganticfont() {
+  font-size: $gigantic;
+}
+
+@mixin serif() {
+  font-family: $serif;
+}
+
+@mixin typewriter() {
+  font-family: Courier, monospace;
+}
+
+@mixin sansserif() {
+  font-family: $sans-serif;
+  font-weight: $light;
+}
+
+@mixin serifweight() {
+  @include serif;
+  font-weight: $light;
+}
+
+@mixin t-white() {
+  color: $white;
+}
+
+@mixin t-black() {
+  color: $black;
+}
+
+@mixin t-uppercase() {
+  text-transform: uppercase;
+}
+
+@mixin t-ltr-spaceout-s() {
+    letter-spacing: .05em;
+}
+
+@mixin t-ltr-spaceout-m() {
+    letter-spacing: .15em;
+}
+
+@mixin t-eyebrow {
+    @include babyfont;
+    @include t-uppercase;
+    @include t-ltr-spaceout-m;
+    font-weight: $light;
+}
+
+@mixin list-clear-style() {
+    list-style: none outside;
+    padding: 0;
+}
+
+@mixin inline-style() {
+    display: inline;
+}
+
+//GRID based on a 12-col
+
+@mixin grid-quarter() {
+  grid-column: span 3;
+}
+
+@mixin grid-third() {
+  grid-column: span 4;
+}
+
+@mixin grid-half() {
+  grid-column: span 6;
+}
+
+@mixin grid-twothirds() {
+  grid-column: span 8;
+}
+
+@mixin grid-whole() {
+  grid-column: span 12;
+}
+
+@mixin grid-quarter-in-third-r-r() {
+  grid-column: 8 / span 4;
+}
+
+@mixin align-self-r() {
+  justify-self: end;
+}
+
+// BORDER
+
+@mixin bdr-thinn-blue() {
+  border-bottom: 2px solid $cobalt;
+  @include txn-ease-in-quick;
+}
+
+@mixin bdr-thinn-white() {
+  border-bottom: 2px solid $white;
+}
+
+@mixin bdr-thinn-black() {
+  border-bottom: 2px solid $black;
+}
+
+@mixin bdr-thinn-green() {
+  border-bottom: 2px solid $green;
+}
+
+@mixin bdr-thicc-pink() {
+  border-bottom: 5px solid $pink;
+  @include txn-ease-in-quick;
+}
+
+@mixin bdr-hover() {
+    &:hover {
+      @include bdr-thicc-pink;
+      border-width: 100%;
+    }
+
+/* removing arrow until I can figure out how to do it accessibly
+    &:hover:after {
+      color: $white;
+    }
+
+    &:after {
+        color: $pink;
+        text-decoration: none;
+    }*/
+}
+
+@mixin t-link-hover() {
+    text-decoration: none;
+    @include txn-ease-in-quick;
+    @include bdr-hover;
+}
+
+// this is accent t-bar border
+
+@mixin bdr-baby-grey-line() {
+  border-bottom: 1px solid $light-grey;
+}
+
+@mixin bdr-baby-grey-end() {
+  border-right: 1px solid $light-grey;
+}
+
+@mixin bdr-baby-pink-line() {
+  border-bottom: 1px solid $pink;
+}
+
+@mixin bdr-baby-pink-end() {
+  border-right: 1px solid $pink;
+}
+
+@mixin bdr-t-bar-r-grey() {
+&::after {
+  content: "";
+  @include bdr-baby-grey-line;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-right: -100%;
+  vertical-align: middle;
+  }
+}
+
+@mixin bdr-t-bar-r-pink() {
+&::after {
+  content: "";
+  @include bdr-baby-pink-line;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin-right: -100%;
+  vertical-align: middle;
+  }
+}
+
+// TRANSITIONS
+
+@mixin txn-ease-in-quick() {
+  transition: all .2s ease-in;
+}
+
+// DROP SHADOW
+
+@mixin dropshadow-grey() {
+  filter: drop-shadow(.5em .5em 0px $light-grey);
+}

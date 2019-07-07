@@ -1,0 +1,316 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+ }
+
+// GRID 
+.grid-quarter\@xs {
+	@include screen-xs {
+		@include grid-quarter;
+	}
+}
+
+.grid-quarter\@s {
+	@include screen-s {
+		@include grid-quarter;
+	}
+}
+
+.grid-quarter\@m {
+	@include screen-m {
+		@include grid-quarter;
+	}
+}
+
+.grid-quarter\@l {
+	@include screen-l {
+		@include grid-quarter;
+	}
+}
+
+.grid-quarter\@xl {
+	@include screen-xl {
+		@include grid-quarter;
+	}
+}
+
+.grid-third\@xs { 
+	@include screen-xs {
+	@include grid-third;
+	}
+}
+
+.grid-third\@s { 
+	@include screen-s {
+	@include grid-third;
+	}
+}
+
+.grid-third\@m { 
+	@include screen-m {
+		@include grid-third;
+	}
+}
+
+.grid-third\@l {
+	@include screen-l {
+		@include grid-third;
+	}
+}
+
+.grid-third\@xl {
+	@include screen-xl {
+		@include grid-third;
+	}
+}
+
+.grid-half\@xs {
+	@include screen-xs {
+		@include grid-half;
+	}
+}
+
+.grid-half\@s {
+	@include screen-s {
+		@include grid-half;
+	}	
+}
+
+.grid-half\@m {
+	@include screen-m {
+		@include grid-half;
+	}
+}
+
+.grid-half\@l {
+	@include screen-l {
+		@include grid-half;
+	}	
+}
+
+.grid-half\@xl {
+	@include screen-xl {
+		@include grid-half;
+	}
+}
+
+.grid-twothirds\@xs {
+	@include screen-xs {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@s {
+	@include screen-s {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@m {
+	@include screen-m {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@l {
+	@include screen-l {
+		@include grid-twothirds;
+	}
+}
+
+.grid-twothirds\@xl {
+	@include screen-xl {
+		@include grid-twothirds;
+	}
+}
+
+.grid-whole\@xs {
+	@include screen-xs {
+		@include grid-whole;
+	}
+}
+
+.grid-whole\@s {
+	@include screen-s {
+		@include grid-whole;
+	}
+}
+
+.grid-whole\@m {
+	@include screen-m {
+		@include grid-whole;
+	}
+}
+
+.grid-whole\@l {
+	@include screen-l {
+		@include grid-whole;
+	}
+}
+
+.grid-whole\@xl {
+	@include screen-xl {
+		@include grid-whole;
+	}
+}
+
+.span-col-two\@xs {
+	@include screen-xs {
+		grid-column: span 2;
+	}
+}
+
+.span-col-two\@s {
+	@include screen-s {
+		grid-column: span 2;
+	}
+}
+
+.span-col-two\@m {
+	@include screen-m {
+		grid-column: span 2;
+	}
+}
+
+.span-col-two\@l {
+	@include screen-l {
+		grid-column: span 2;
+	}
+}
+
+.span-col-two\@xl {
+	@include screen-xl {
+		grid-column: span 2;
+	}
+}
+
+.span-row-two\@xs {
+	@include screen-xs {
+		grid-row: span 2;
+	}
+}
+
+.span-row-two\@s {
+	@include screen-s {
+		grid-row: span 2;
+	}
+}
+
+.span-row-two\@m {
+	@include screen-m {
+		grid-row: span 2;
+	}
+}
+
+.span-row-two\@l {
+	@include screen-l {
+		grid-row: span 2;
+	}
+}
+
+.span-row-two\@xl {
+	@include screen-xl {
+		grid-row: span 2;
+	}
+}
+
+.span-row-three\@xs {
+	@include screen-xs {
+		grid-row: span 3;
+	}
+}
+
+.span-row-three\@s {
+	@include screen-s {
+		grid-row: span 32;
+	}
+}
+
+.span-row-three\@m {
+	@include screen-m {
+		grid-row: span 3;
+	}
+}
+
+.span-row-three\@l {
+	@include screen-l {
+		grid-row: span 3;
+	}
+}
+
+.span-row-three\@xl {
+	@include screen-xl {
+		grid-row: span 3;
+	}
+}
+// GRID ALIGNMENT
+
+// helpful for SVG illustrations that need more breathing room
+
+.grid-quarter-in-third-r-r {
+	@include grid-quarter-in-third-r-r;
+}
+
+.align-self-r {
+	@include align-self-r;
+}
+
+// PADDING THINGS
+
+.padding-thinn {
+	@include thinnpadding;
+}
+
+.padding-normie {
+	@include normiepadding;
+}
+
+.padding-thicc {
+	@include thiccpadding;
+}
+
+.padding-btm-none {
+	padding-bottom: 0;
+}
+
+// BACKGROUND THINGS
+
+.bg-primary {
+	background: $primary-color;
+}
+
+.bg-black {
+	background: $black;
+}
+
+.bg-purple {
+	background: $purple;
+}
+
+.bg-teal-green {
+	background: $teal-green;
+}
+
+.bg-ltgrey {
+	background: $light-grey;
+}
+
+.bg-emeraldgreen {
+	background: $emerald-green;
+}
+
+// DROP SHADOW
+
+.dropshadow-grey {
+	@include dropshadow-grey;
+}

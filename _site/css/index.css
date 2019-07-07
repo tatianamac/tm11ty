@@ -15,9 +15,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  /* font-family: sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: var(--white); */
 }
 p:last-child {
   margin-bottom: 0;
@@ -37,20 +37,20 @@ a[href] {
 a[href]:visited {
   color: var(--navy);
 }
-main {
+/* main {
   padding: 1rem;
-}
+} */
 main :first-child {
   margin-top: 0;
 }
-header {
+/* header {
   border-bottom: 1px dashed var(--lightgray);
 }
 header:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 table {
   margin: 1em 0;
 }
@@ -126,7 +126,7 @@ pre {
 }
 
 /* Nav */
-.nav {
+/* .nav {
   padding: 0;
   list-style: none;
   float: left;
@@ -142,7 +142,7 @@ pre {
 .nav-item-active {
   font-weight: 700;
   text-decoration: underline;
-}
+} */
 
 /* Posts list */
 .postlist {
