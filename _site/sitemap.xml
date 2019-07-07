@@ -42,21 +42,6 @@
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/posts/secondpost/</loc>
-    <lastmod>2018-07-04</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tatianamac.com/posts/thirdpost/</loc>
-    <lastmod>2018-08-24</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tatianamac.com/posts/fourthpost/</loc>
-    <lastmod>2018-09-30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tatianamac.com/posts/cracked/</loc>
     <lastmod>2019-04-17</lastmod>
   </url>
@@ -92,17 +77,12 @@
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/tags/second-tag/</loc>
-    <lastmod>2019-07-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tatianamac.com/tags/personal/</loc>
     <lastmod>2019-07-07</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/tags/number-2/</loc>
+    <loc>https://www.tatianamac.com/speaking/</loc>
     <lastmod>2019-07-07</lastmod>
   </url>
 </urlset>

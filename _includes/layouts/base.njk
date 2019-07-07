@@ -2,9 +2,14 @@
 <html lang="en">
 
   {% include "_head.njk" %}
-  <div {% if navClass %} class="{{ navClass }}{% endif %} container">
+
+  <body>
+    <div id="skip">
+        <a href="#content">Skip Content</a>
+    </div>
+    <div {% if navClass %} class="{{ navClass }}{% endif %} container">
     {% include "_header.njk" %}
-  </div>
+    </div>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %} id="content">
         {{ content | safe }}
      </main>

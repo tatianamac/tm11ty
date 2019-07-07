@@ -2,14 +2,14 @@
 layout: layouts/base.njk
 templateClass: container
 ---
-<div class="wrapper">
+<section class="wrapper">
     <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl ">
         <p class="t-eyebrow-line t-typeweight">{{ date }}</p>
         <h1 class="t-titlingfont t-extrajumbo">{{ title }}</h1>
-    </div>
+</section>
 
-    <div class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl padding-thicc@l padding-thicc@m padding-thicc@s">
+    <article class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl padding-thicc@l padding-thicc@m padding-thicc@s">
 
     {{ content | safe }}
-    </div>
+    </article>
 </div>
