@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.tatianamac.com/posts/firstpost/</loc>
+    <lastmod>2018-05-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/posts/secondpost/</loc>
+    <lastmod>2018-07-04</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/posts/thirdpost/</loc>
+    <lastmod>2018-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/posts/fourthpost/</loc>
+    <lastmod>2018-09-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/README/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/about/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/posts/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/page-list/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/tags/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/tags/number-2/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/tags/second-tag/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/tags/another-tag/</loc>
+    <lastmod>2019-07-07</lastmod>
+  </url>
+</urlset>

@@ -1,0 +1,53 @@
+<h1 id="eleventy-base-blog">eleventy-base-blog <a class="direct-link" href="#eleventy-base-blog" aria-hidden="true">#</a></h1>
+<p>A starter repository showing how to build a blog with the <a href="https://github.com/11ty/eleventy">Eleventy</a> static site generator.</p>
+<p><a href="https://travis-ci.org/11ty/eleventy-base-blog"><img src="https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master" alt="Build Status"></a></p>
+<h2 id="demos">Demos <a class="direct-link" href="#demos" aria-hidden="true">#</a></h2>
+<ul>
+<li><a href="https://eleventy-base-blog.netlify.com/">Netlify</a></li>
+<li><a href="https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog">Get your own Eleventy web site on Netlify</a>—seriously, just click OK a few times and it’s live—Netlify is amazing.</li>
+<li><a href="https://11ty.github.io/eleventy-base-blog/">GitHub Pages</a></li>
+</ul>
+<h2 id="getting-started">Getting Started <a class="direct-link" href="#getting-started" aria-hidden="true">#</a></h2>
+<h3 id="1.-clone-this-repository%3A">1. Clone this repository: <a class="direct-link" href="#1.-clone-this-repository%3A" aria-hidden="true">#</a></h3>
+<pre><code>git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
+</code></pre>
+<h3 id="2.-navigate-to-the-directory">2. Navigate to the directory <a class="direct-link" href="#2.-navigate-to-the-directory" aria-hidden="true">#</a></h3>
+<pre><code>cd my-blog-name
+</code></pre>
+<p>Specifically have a look at <code>.eleventy.js</code> to see if you want to configure any Eleventy options differently.</p>
+<h3 id="3.-install-dependencies">3. Install dependencies <a class="direct-link" href="#3.-install-dependencies" aria-hidden="true">#</a></h3>
+<pre><code>npm install
+</code></pre>
+<h3 id="4.-edit-_data%2Fmetadata.json">4. Edit _data/metadata.json <a class="direct-link" href="#4.-edit-_data%2Fmetadata.json" aria-hidden="true">#</a></h3>
+<h3 id="5.-run-eleventy">5. Run Eleventy <a class="direct-link" href="#5.-run-eleventy" aria-hidden="true">#</a></h3>
+<pre><code>npx eleventy
+</code></pre>
+<p>Or build and host locally for local development</p>
+<pre><code>npx eleventy --serve
+</code></pre>
+<p>Or build automatically when a template changes:</p>
+<pre><code>npx eleventy --watch
+</code></pre>
+<p>Or in debug mode:</p>
+<pre><code>DEBUG=* npx eleventy
+</code></pre>
+<h3 id="implementation-notes">Implementation Notes <a class="direct-link" href="#implementation-notes" aria-hidden="true">#</a></h3>
+<ul>
+<li><code>about/index.md</code> shows how to add a content page.</li>
+<li><code>posts/</code> has the blog posts but really they can live in any directory. They need only the <code>post</code> tag to be added to this collection.</li>
+<li>Add the <code>nav</code> tag to add a template to the top level site navigation. For example, this is in use on <code>index.njk</code> and <code>about/index.md</code>.</li>
+<li>Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in <code>.eleventy.js</code> -&gt; <code>templateFormats</code>.
+<ul>
+<li>Because <code>css</code> and <code>png</code> are listed in <code>templateFormats</code> but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).</li>
+</ul>
+</li>
+<li>The blog post feed template is in <code>feed/feed.njk</code>. This is also a good example of using a global data files in that it uses <code>_data/metadata.json</code>.</li>
+<li>This example uses three layouts:
+<ul>
+<li><code>_includes/layouts/base.njk</code>: the top level HTML structure</li>
+<li><code>_includes/layouts/home.njk</code>: the home page template (wrapped into <code>base.njk</code>)</li>
+<li><code>_includes/layouts/post.njk</code>: the blog post template (wrapped into <code>base.njk</code>)</li>
+</ul>
+</li>
+<li><code>_includes/postlist.njk</code> is a Nunjucks include and is a reusable component used to display a list of all the posts. <code>index.njk</code> has an example of how to use it.</li>
+</ul>

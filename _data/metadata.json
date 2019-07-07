@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Tatiana Mac",
+  "url": "https://www.tatianamac.com/",
+  "description": "A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
-    "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "filename": "rss.xml",
+    "path": "/feed/rss.xml",
+    "url": "https://tatianamac.com/feed/rss.xml",
+    "id": "https://tatianamac.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Tatiana Mac",
+    "email": "inquiry@tatianamac.com"
   }
 }
