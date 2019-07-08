@@ -454,3 +454,20 @@ code {
       margin:  0 0 1rem 0;
     }
   }
+
+  .direct-link {
+    text-decoration: none;
+    font-style: normal;
+    margin-left: .1em;
+  }
+
+  a[href].direct-link,
+  a[href].direct-link:visited {
+    color: transparent;
+  }
+  a[href].direct-link:focus,
+  a[href].direct-link:focus:visited,
+  :hover > a[href].direct-link,
+  :hover > a[href].direct-link:visited {
+    color: $pink;
+  }
