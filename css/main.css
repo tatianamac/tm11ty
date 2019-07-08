@@ -758,6 +758,7 @@ img {
 
 .bg-black {
   background: #222222;
+  color: #ffffff;
 }
 
 .bg-purple {
@@ -780,8 +781,8 @@ img {
   background: #004328;
 }
 
-.bg-yellow {
-  background: #f3f315;
+.bg-blushpink {
+  background: #FFF3F3;
 }
 
 .dropshadow-grey {
@@ -1881,7 +1882,6 @@ ul.longform li {
 }
 
 .nav-item ul {
-  color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1892,30 +1892,9 @@ ul.longform li {
   text-align: center;
   margin: 0.5rem auto;
 }
-
-.nav-item a[href] {
+.nav-item ul a {
+  color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color--primary);
-  padding: 4px 0;
-}
-
-.nav-item a[href]:hover {
-  text-decoration: none;
-  border-bottom: 4px solid var(--color--accent);
-}
-
-.nav-item a[href]:not(:hover) {
-  text-decoration: none;
-}
-
-.nav-item-active {
-  padding: 4px 0;
-  border-bottom: 4px solid var(--color--secondary);
-}
-
-.linklist {
-  font-size: 0.85em;
 }
 
 button {
@@ -1995,6 +1974,13 @@ button.secondary {
 .zigzag-white-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #ffffff 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ffffff 50%, #27B300 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-blushpink-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #FFF3F3 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #FFF3F3 50%, #27B300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }

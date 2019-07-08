@@ -10,13 +10,13 @@
     <div{% if navClass %} class="{{ navClass }}{% endif %} container">
     {% include "_header.njk" %}
     </div>
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %} id="content">
+    <main class="{% if templateClass %}{{ templateClass }}{% endif %} {% if bgColor %} bg-{{ bgColor }} {% endif %}" id="content">
         {{ content | safe }}
      </main>
 
     
     <div class="container clearspace">
-        <div class="zigzag-lt-grey-green">
+        <div class="zigzag-{% if bgColor %}{{ bgColor }}{% endif %}-green">
         </div>
         <div class="zigzag-green-fuschia">
         </div>
