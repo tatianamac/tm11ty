@@ -1,8 +1,6 @@
-# TM11
+# TM11TY
 
-Tatiana Mac's portfolio site. Called TM11 because it will be the first post-#a11y website to date, and to honor the eleven characters in my name.
-
-Built by hand using CSS Grid.
+Tatiana Mac's portfolio site. Called TM11 because it will be the first post-#a11y website to date,  honor the eleven characters in my name, Gemini sun, and figuring out Single Site Generators!
 
 ## Built With
 
