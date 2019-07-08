@@ -247,6 +247,11 @@
   border-bottom: 2px solid $green;
 }
 
+@mixin bdr-thicc-green() {
+  border-bottom: 2px solid $green;
+  @include txn-ease-in-quick;
+}
+
 @mixin bdr-thicc-pink() {
   border-bottom: 5px solid $pink;
   @include txn-ease-in-quick;

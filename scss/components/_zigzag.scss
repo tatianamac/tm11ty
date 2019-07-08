@@ -16,6 +16,16 @@
     background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-yellow-green {
+  height: 5em;
+  background: 
+    linear-gradient(45deg, transparent 50%, $neon-yellow 50%),
+    linear-gradient(90deg, transparent 50%, $green 50%),
+    linear-gradient(135deg, $neon-yellow 50%, $leaf-green 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 .zigzag-white-grey {
     height: 5em;
     background: 
@@ -110,10 +120,10 @@
     background-size: 5em 5em, 5em 5em;
   }
 
-.zigzag-green-fuschia {
+.zigzag-green-black {
   height: 5em;
   background: linear-gradient(-45deg, transparent 74%, $leaf-green 75%),
-              linear-gradient(45deg, $fuschia 74%, $green 75%) 0 50%;
+              linear-gradient(45deg, $black 74%, $green 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }

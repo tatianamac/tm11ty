@@ -1462,7 +1462,7 @@ ul.linklist {
   padding: 0;
 }
 ul.linklist li {
-  display: inline;
+  display: inline-block;
   margin: 0 2rem 0 0;
 }
 
@@ -1881,20 +1881,53 @@ ul.longform li {
   justify-content: flex-end;
 }
 
-.nav-item ul {
+.nav-item {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   opacity: 1;
   transition: opacity 200ms ease-out;
+  padding: 0.125rem 0;
+  border-bottom: 2px solid #ffffff;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  /* removing arrow until I can figure out how to do it accessibly
+      &:hover:after {
+        color: $white;
+      }
+
+      &:after {
+          color: $pink;
+          text-decoration: none;
+      }*/
 }
-.nav-item ul li {
+.nav-item:hover {
+  border-bottom: 5px solid #FF0DD1;
+  transition: all 0.2s ease-in;
+  border-width: 100%;
+}
+.nav-item li {
   text-align: center;
   margin: 0.5rem auto;
 }
-.nav-item ul a {
-  color: #ffffff;
+.nav-item a {
   text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.35rem 0;
+}
+
+.nav-item-active {
+  border-bottom: 2px solid #42ff0d;
+  transition: all 0.2s ease-in;
+}
+
+.dark {
+  color: var(--color--primary);
+}
+
+.light {
+  color: var(--color--neutral);
 }
 
 button {
@@ -1925,6 +1958,13 @@ button.secondary {
 .zigzag-yellow-white {
   height: 5em;
   background: linear-gradient(-45deg, transparent 74%, #cbab00 75%), linear-gradient(45deg, transparent 74%, #FFD926 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-yellow-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #f3f315 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #f3f315 50%, #27B300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
@@ -1999,9 +2039,9 @@ button.secondary {
   background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag-green-fuschia {
+.zigzag-green-black {
   height: 5em;
-  background: linear-gradient(-45deg, transparent 74%, #27B300 75%), linear-gradient(45deg, #B2098B 74%, #42ff0d 75%) 0 50%;
+  background: linear-gradient(-45deg, transparent 74%, #27B300 75%), linear-gradient(45deg, #222222 74%, #42ff0d 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
@@ -2260,7 +2300,7 @@ li.inline {
 }
 
 #contact {
-  background: #B2098B;
+  background: #222222;
 }
 
 @keyframes floating {
