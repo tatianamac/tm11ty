@@ -26,6 +26,14 @@
   background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-yellow-white {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, $curry 75%),
+              linear-gradient(45deg, transparent 74%, $yellow 75%) 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 .zigzag-white-grey {
     height: 5em;
     background: 
