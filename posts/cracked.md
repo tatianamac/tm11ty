@@ -5,6 +5,8 @@ date: 2019-04-17
 tags:
   - personal
 layout: layouts/post.njk
+bgColor: white
+colorMode: dark
 ---
 <!-- It's dangerous because the crack never goes away. You might look past it, forget it, but it was always there to remind you that it was always going to crack. It never hid its betrayal, you just stopped looking.
 --- -->
