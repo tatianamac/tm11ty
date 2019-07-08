@@ -32,7 +32,7 @@
 }
 
 .logo {
-  fill: currentColor;
+  fill: $pink;
   display: block;
   margin: 1em 2em 0 0;
   min-width: 40px;
@@ -52,7 +52,7 @@
 }
 
 .nav-item ul {
-  color: $color-neutral;
+  color: $white;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -65,12 +65,26 @@
   }
 }
 
+.nav-item a[href] {
+  @include t-uppercase;
+  @include t-ltr-spaceout-s;
+  color: var(--color--primary);
+  padding: 4px 0;
+}
+
+.nav-item a[href]:hover {
+  text-decoration: none;
+  border-bottom: 4px solid var(--color--accent);
+}
+
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
+  // border-bottom: 4px solid var(--color--primary);
 }
+
 .nav-item-active {
-  font-weight: 700;
-  text-decoration: underline;
+  padding: 4px 0;
+  border-bottom: 4px solid var(--color--secondary);
 } 
 
 .linklist {

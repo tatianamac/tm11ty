@@ -12,6 +12,12 @@ $screen-m-max: 1439px;
 $screen-l-max: 3000px;
 
 // COLORS //
+:root {
+    --color--accent: #FF0DD1;
+    --color--primary: #111111;
+    --color--secondary: #0e4bff;
+    --color--neutral: #f1f1f1;
+}
 $cobalt: #0e4bff;
 $citron: #F3F315;
 

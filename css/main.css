@@ -1,3 +1,10 @@
+:root {
+  --color--accent: #FF0DD1;
+  --color--primary: #111111;
+  --color--secondary: #0e4bff;
+  --color--neutral: #f1f1f1;
+}
+
 .gradient-fire {
   background: #f12711;
   /*fallback for old browsers */
@@ -761,12 +768,20 @@ img {
   background: #037A5C;
 }
 
+.bg-yellow {
+  background: #f3f315;
+}
+
 .bg-ltgrey {
   background: #eeeeee;
 }
 
 .bg-emeraldgreen {
   background: #004328;
+}
+
+.bg-yellow {
+  background: #f3f315;
 }
 
 .dropshadow-grey {
@@ -1410,6 +1425,37 @@ code {
   margin: 0.25rem;
 }
 
+.postlist {
+  list-style: none;
+  padding: 0;
+}
+
+.postlist-item {
+  counter-increment: start-from -1;
+}
+
+.postlist-item:before {
+  display: inline-block;
+  pointer-events: none;
+  content: "" counter(start-from, decimal-leading-zero) ". ";
+  line-height: 100%;
+  text-align: right;
+}
+
+.postlist-date {
+  word-spacing: -0.5px;
+}
+
+.postlist-link {
+  display: inline-block;
+  padding: 0.25em 0.1875em;
+  /* 4px 3px /16 */
+}
+
+.postlist-item-active .postlist-link {
+  font-weight: bold;
+}
+
 ul.linklist {
   list-style: none outside;
   padding: 0;
@@ -1817,6 +1863,7 @@ ul.longform li {
 }
 
 .logo {
+  fill: #FF0DD1;
   display: block;
   margin: 1em 2em 0 0;
   min-width: 40px;
@@ -1833,16 +1880,38 @@ ul.longform li {
   justify-content: flex-end;
 }
 
-.navi ul {
+.nav-item ul {
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   opacity: 1;
   transition: opacity 200ms ease-out;
 }
-.navi ul li {
+.nav-item ul li {
   text-align: center;
   margin: 0.5rem auto;
+}
+
+.nav-item a[href] {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color--primary);
+  padding: 4px 0;
+}
+
+.nav-item a[href]:hover {
+  text-decoration: none;
+  border-bottom: 4px solid var(--color--accent);
+}
+
+.nav-item a[href]:not(:hover) {
+  text-decoration: none;
+}
+
+.nav-item-active {
+  padding: 4px 0;
+  border-bottom: 4px solid var(--color--secondary);
 }
 
 .linklist {
@@ -1923,6 +1992,13 @@ button.secondary {
   background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-white-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #ffffff 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ffffff 50%, #27B300 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 .zigzag-lt-grey-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #eeeeee 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #eeeeee 50%, #27B300 50%), 0 50%;
@@ -1977,10 +2053,6 @@ li.inline {
 #about {
   background: #f3f315;
   padding-top: 0;
-}
-#about #about {
-  align-items: center;
-  display: flex;
 }
 
 .clients {
@@ -2230,4 +2302,4 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=css/main.css.map */
