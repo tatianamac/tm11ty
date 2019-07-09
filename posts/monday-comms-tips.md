@@ -40,7 +40,9 @@ Include your pronouns when introducing yourself. "Nice to meet you all. I'm Tati
 
 - Offer times early in an email thread that will end there. I find that preemptively offering times avoids the empty back and forth of "when are you available?"
 - *Include timezones.* Use a tool like Spacetime to help you find amenable times without tying your brain into a knot.
--To confirm a time, send a calendar invite. (I also frame language in earlier comms, so it's not an unexpected invite, which is jarring. Include time zones and make sure your calendar time zone is set.
+
+- To confirm a time, send a calendar invite. (I also frame language in earlier comms, so it's not an unexpected invite, which is jarring. Include time zones and make sure your calendar time zone is set.
+
 - Offer non-call alternatives when appropriate. When someone suggests a call as a default, and it doesn't feel necessary, I usually suggest another non-call way to solve it. For example, sometimes starting a document with initial ideas, or reading through something, etc, is what is warranted. I'll include a line like, "If we both still feel a call would be necessary after this, happy to schedule a call with an agenda to make the most of both our time." Despite being an ambivert, I find that calls drain me quite a bit. I also try to remind the other person that it's their time, too.
 
 ## Scoping/Speaking
