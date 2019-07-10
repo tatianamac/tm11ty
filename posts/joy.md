@@ -1,3 +1,14 @@
+---
+title: Leave Me To My Hard-Earned Joy
+description: Let people enjoy things
+date: 2019-07-10
+tags:
+  - communication
+  - personal
+layout: layouts/post.njk
+bgColor: dustyrose
+colorMode: dark
+---
 It's so incredibly hard for me to cultivate joy.
 
 I successfully do it all the time. I find joy at the blistered 25,000th step in crooked Portuguese street, in the the song of languages I've never heard before, in the shadow and stillness of the early morning light. I smile whenever someone chases after the bus and catches it, whenever a dog pees on its own leg, and when someone I love really, truly, hugs me in a way that makes it seem like our souls melted into one another. I fill at the textural :36 mark of *Perfect,* at the sound of Gerhard Richter's palette knife, and of the tingling numbness when my glove makes contact with the bag.
