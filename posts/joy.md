@@ -7,6 +7,7 @@ tags:
   - personal
 layout: layouts/post.njk
 bgColor: blushpink
+navClass: blushpink
 colorMode: dark
 ---
 It's so incredibly hard for me to cultivate joy.
