@@ -1,6 +1,6 @@
 It's so incredibly hard for me to cultivate joy.
 
-I successfully do it all the time. I find joy at the blistered 25,000th step in crooked Portuguese street, in the the song of languages I've never heard before, in the shadow and stillness of the early morning light. I smile whenever someone chases after the bus and catches it, whenever a dog pees on its own leg, and when someone I love really, truly, hugs me in a way that makes it seem like our souls did. I fill at the textural :36 mark of *Perfect,* at the sound of Gerhard Richter's palette knife, and of the tingling numbness when my glove makes contact with the bag.
+I successfully do it all the time. I find joy at the blistered 25,000th step in crooked Portuguese street, in the the song of languages I've never heard before, in the shadow and stillness of the early morning light. I smile whenever someone chases after the bus and catches it, whenever a dog pees on its own leg, and when someone I love really, truly, hugs me in a way that makes it seem like our souls melted into one another. I fill at the textural :36 mark of *Perfect,* at the sound of Gerhard Richter's palette knife, and of the tingling numbness when my glove makes contact with the bag.
 
 I feel self love when I set my mind to figuring out an entire developmental concept that was fuzzy at best, in a weekend, and dedicated myself to build something to prove it.
 
@@ -16,7 +16,7 @@ The 40 continuous minutes of Mike Posner, 33 mental images of the Fauves, the 12
 
 So, dear friends, know this. When it seems like what I'm saying is heavy, that I'm being negative, that I never seem to stop fighting, or that I won't stay in situations that you didn't see anything wrong with, it's because of this.
 
-I have worked so incredibly hard for so much, but *especially* in a quest to have and to hold my feathers of joy—walking against the wind—whitened knuckles. When you tell me to be more positive, it demonstrates that you cannot perceive the metric tonnes of positivity it took me to get to the place where I am. 
+I have worked so incredibly hard for so much, but *especially* in a quest to have and to hold my feathers of joy—walking against the wind—whitened knuckles. When you tell me to be more positive, it demonstrates that you cannot perceive the metric tonnes of positivity it took me to get exactly where I am. 
 
 So if you can't find room in your heart or in your mind to be curious about that, that's fine. But all I ask from you:
 
