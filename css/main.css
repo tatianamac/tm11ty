@@ -1438,7 +1438,7 @@ code {
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
-  content: "" counter(start-from, decimal-leading-zero) ". ";
+  /* content: "" counter(start-from, decimal-leading-zero) ". "; */
   line-height: 100%;
   text-align: right;
 }

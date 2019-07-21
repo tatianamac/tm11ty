@@ -9,7 +9,7 @@ bgColor: white
 colorMode: dark
 ---
 
-I spent a lot of time in my inbox—I imagine many of you can relate. Over the years, I've gathered some helpful communication tips that I found improved my efficiency and happiness. Balancing my email time for me is an exercise in automating the right things, while maintaining the humanness of communications.
+I spent a lot of time in my inbox&mdash;I imagine many of you can relate. Over the years, I've gathered some helpful communication tips that I found improved my efficiency and happiness. Balancing my email time for me is an exercise in automating the right things, while maintaining the humanness of communications.
 
 ## General
 
