@@ -459,6 +459,7 @@ code {
     text-decoration: none;
     font-style: normal;
     margin-left: .1em;
+    color: var(--color--secondary);
   }
 
   a[href].direct-link,
@@ -469,5 +470,5 @@ code {
   a[href].direct-link:focus:visited,
   :hover > a[href].direct-link,
   :hover > a[href].direct-link:visited {
-    color: $pink;
+    color: var(--color--accent);
   }
