@@ -2,16 +2,21 @@
   publish = "_site"
   command = "DEBUG=* eleventy"
 
-/perfmatters   https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
-/perfmatters/   https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
-/PerfMatters/   https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
-/PerfMatters   https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen
-/EdgeCases/ https://slides.com/tatianamac/edge-cases/fullscreen
-/edgecases/ https://slides.com/tatianamac/edge-cases/fullscreen
-/edgecases https://slides.com/tatianamac/edge-cases/fullscreen
-/EdgeCases https://slides.com/tatianamac/edge-cases/fullscreen
+[[redirects]]
+  from = "/[pP]erf[mM]atters"
+  to = "https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen"
 
-/sunday.html /writing/sunday.html
-/cracked.html /writing/cracked.html
-/monday-communication-tips.html /writing/monday-communication-tips.html
-/tired.html /writing/tired.html
+  from = "/[eE]edge[cC]ases"
+  to = "https://slides.com/tatianamac/edge-cases/fullscreen"
+
+  from = "/sunday.html"
+  to = "/writing/sunday.html"
+  
+  from = "/cracked.html"
+  to = "/writing/cracked.html"
+
+  from - "/monday-communication-tips.html"
+  to: = "/writing/monday-communication-tips.html" 
+  
+ from = "/tired.html"
+  to = "/writing/tired.html"
