@@ -6,17 +6,22 @@
   from = "/[pP]erf[mM]atters"
   to = "https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen"
 
+[[redirects]]
   from = "/[eE]edge[cC]ases"
   to = "https://slides.com/tatianamac/edge-cases/fullscreen"
 
+[[redirects]]
   from = "/sunday.html"
   to = "/writing/sunday.html"
   
+  [[redirects]]
   from = "/cracked.html"
   to = "/writing/cracked.html"
 
+[[redirects]]
   from - "/monday-communication-tips.html"
   to: = "/writing/monday-communication-tips.html" 
-  
+
+[[redirects]]
  from = "/tired.html"
   to = "/writing/tired.html"
