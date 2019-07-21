@@ -8,7 +8,8 @@ layout: layouts/post.njk
 bgColor: white
 colorMode: dark
 ---
-
+It’s what I evolved to handle. My dual existence, or non-existence, is what gave me immense resilience. But it also made me acutely aware of everything around me. My heightened observational skills are survival mechanisms. 
+---
 On the surface, today was a good day. I usually tend to all my plants on Sunday; it’s a ritual I look forward to. It’s finally spring so I can fertilise and up-pot. A good friend and I usually get our nails done every couple of months on Sunday.
 
 My favourite plant has spider mites. I had to buy her some special oil and insecticide and quarantine her. At the nail salon, the Vietnamese women made fun of my L’origine du monde pin. As many Viets, they don’t know that I’m Vietnamese and am fluent.

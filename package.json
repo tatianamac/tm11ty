@@ -30,6 +30,7 @@
     "markdown-it-anchor": "^5.0.2"
   },
   "dependencies": {
+    "gray-matter": "^4.0.2",
     "sass": "^1.22.3"
   }
 }
