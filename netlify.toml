@@ -3,25 +3,25 @@
   command = "DEBUG=* eleventy"
 
 [[redirects]]
-  from = "/[pP]erf[mM]atters"
+  from = "/perfmatters"
   to = "https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen"
 
 [[redirects]]
-  from = "/[eE]edge[cC]ases"
+  from = "/edgecases"
   to = "https://slides.com/tatianamac/edge-cases/fullscreen"
 
 [[redirects]]
   from = "/sunday.html"
-  to = "/writing/sunday.html"
+  to = "/posts/sunday.html"
   
   [[redirects]]
   from = "/cracked.html"
-  to = "/writing/cracked.html"
+  to = "/posts/cracked.html"
 
 [[redirects]]
   from = "/monday-communication-tips.html"
-  to = "/writing/monday-communication-tips.html" 
+  to = "/posts/monday-communication-tips.html" 
 
 [[redirects]]
  from = "/tired.html"
-  to = "/writing/tired.html"
+  to = "/posts/tired.html"
