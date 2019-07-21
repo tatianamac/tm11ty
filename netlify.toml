@@ -19,7 +19,7 @@
   to = "/writing/cracked.html"
 
 [[redirects]]
-  from - "/monday-communication-tips.html"
+  from = "/monday-communication-tips.html"
   to: = "/writing/monday-communication-tips.html" 
 
 [[redirects]]
