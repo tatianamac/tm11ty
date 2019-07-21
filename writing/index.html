@@ -1,13 +1,14 @@
 ---
 layout: layouts/base.njk
+tags:
+  - nav
 navtitle: Writing
-permalink: /writing/
-
+templateClass: content
 navClass: bg-blushpink
 bgColor: blushpink
 colorMode: dark
 ---
-{# <section id="writing" class="container">
+<section id="writing" class="container">
   <div class="wrapper">
       <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl span-row-two@m span-row-two@l span-row-two@xl padding-thinn">
           <h2 class="t-eyebrow t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-black">Selected Writings</h2>
@@ -72,6 +73,4 @@ colorMode: dark
       <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
           
       </div>
-#}
-{% set postslist = collections.posts %} 
-{% include "postslist.njk" %}
+</section>
