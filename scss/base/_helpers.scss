@@ -75,6 +75,10 @@ h1 {
   @include clearspace;
 }
 
+.display-flex {
+  display: flex;
+  align-self: space-around;
+}
 /**
  * Hide text while making it readable for screen readers
  * 1. Needed in WebKit-based browsers because of an implementation bug;
