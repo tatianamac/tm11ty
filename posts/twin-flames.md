@@ -1,7 +1,7 @@
 ---
 title: Twin Flame
 description: Reflections on relations
-date: 2019-07-25
+date: 2019-07-25 06:41:23
 tags:
   - personal
 layout: layouts/post.njk
