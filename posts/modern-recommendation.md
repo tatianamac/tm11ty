@@ -66,9 +66,9 @@ But I emphasise it because Henry will bring a sort of compassion that is highly 
 
 I'm grateful that we get to work together in any capacity at all, and even more grateful for our friendship. 
 
-If you only take *one* thing away from this, it's that you should absolutely at least follow him and his work.
+If you only take *one* thing away from this, it's that you should absolutely at least [follow him](https://www.twitter.com/xdesro) and [his work](https://henry.codes).
 
-If you're a good-enough-for-him company and you're hiring, then you should write him the best, most thoughtful offer for a creative developer role where he can flex his full range of capabilities and continue to grow into uncharted ones. I know that if I were (or ever become) the hiring manager for a company, Henry would be my very first hire if he would have it.
+If you're a good-enough-for-him company and you're hiring, then you should [write him the best, most thoughtful offer](https://henry.codes/contact) for a creative developer role where he can flex his full range of capabilities and continue to grow into uncharted ones. I know that if I were (or ever become) the hiring manager for a company, Henry would be my very first hire if he would have it.
 
 
 
