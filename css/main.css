@@ -888,6 +888,12 @@ h1 {
   padding: 0;
 }
 
+.display-flex {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
 /**
  * Hide text while making it readable for screen readers
  * 1. Needed in WebKit-based browsers because of an implementation bug;
@@ -953,16 +959,20 @@ h1 {
   font-display: swap;
 }
 
+.t-height-none {
+  line-height: 0;
+}
+
+.t-height-dense {
+  line-height: 0.9;
+}
+
 .t-height-tight {
   line-height: 1.1;
 }
 
 .t-height-cozy {
   line-height: 1.25;
-}
-
-.t-height-none {
-  line-height: 0;
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
@@ -1185,6 +1195,30 @@ body {
   line-height: 1.5;
 }
 
+article h2 {
+  font-family: "freigdisproboo", Georgia, "Times New Roman", serif;
+}
+
+article a {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  /* removing arrow until I can figure out how to do it accessibly
+      &:hover:after {
+        color: $white;
+      }
+
+      &:after {
+          color: $pink;
+          text-decoration: none;
+      }*/
+  color: #0e4bff;
+}
+article a:hover {
+  border-bottom: 5px solid #FF0DD1;
+  transition: all 0.2s ease-in;
+  border-width: 100%;
+}
+
 h5 {
   font-family: "freigdisproboo", Georgia, "Times New Roman", serif;
   font-weight: 400;
@@ -1192,7 +1226,7 @@ h5 {
 }
 
 p {
-  color: #767676;
+  color: #222222;
 }
 p.comingsoon {
   color: #767676;

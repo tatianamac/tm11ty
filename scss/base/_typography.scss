@@ -35,16 +35,20 @@
   font-display: swap;
 }
 
+.t-height-none {
+  line-height: $t-height-none;
+}
+
+.t-height-dense {
+  line-height: $t-height-dense;
+}
+
 .t-height-tight {
   line-height: $t-height-tight;
 }
 
 .t-height-cozy {
   line-height: $t-height-cozy;
-}
-
-.t-height-none {
-  line-height: $t-height-none;
 }
 
 .t-chonkfont\@xs {
@@ -267,6 +271,15 @@ body {
       line-height: 1.5;
   }
 
+  article h2 {
+    font-family: $serif;
+  }
+
+  article a {
+    @include t-link-hover;
+    color: $primary-color;
+  }
+
   h5 {
     font-family: $serif;
     font-weight: $regular;
@@ -274,7 +287,7 @@ body {
   }
 
   p {
-    color: $mid-grey;
+    color: $black;
 
   &.comingsoon {
       color: $mid-grey;
