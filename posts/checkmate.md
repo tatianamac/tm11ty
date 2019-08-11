@@ -1,7 +1,7 @@
 ---
 title: Check, m8. Tech, h8.
 description: She means well.
-date: 2019-09-11 09:16:32 +8:00
+date: 2019-08-11 09:16:32 +8:00
 tags:
   - industry
 layout: layouts/post.njk
