@@ -19,7 +19,7 @@ I told you your interview process was abusive, and yet, you responded with reque
 
 I wondered if maybe it was me or something I said or did?
 
-I contain multitudes, but so many of them don't fit into that little LinkedIn quip that's either your Role at Company or your abstracted identiies reduced to 2-3 words. Designer. Writer. Speaker. And if you're proud of where you work and/or if you're drinking the KoolAid you're the former, and if you're not or you're unemployed like me, you're the latter. And then once you've climbed the ladder at the former, you can then safely return to the latter.
+I contain multitudes, but so many of them don't fit into that little LinkedIn quip that's either your Role at Company or your abstracted identities reduced to 2-3 words. Designer. Writer. Speaker. And if you're proud of where you work and/or if you're drinking the KoolAid you're the former, and if you're not or you're unemployed like me, you're the latter. And then once you've climbed the ladder at the former, you can then safely return to the latter.
 
 I've made you LOL and RT with shitposts about JS, CSS, HTML, YAML, and HAML in the thousand. I've made you unfollow me in the dozens with two words, 11 letters that isn't a slur, but because you hate being identified that way, you'll tell me it is. But now you're kinda mad I won't say what it is, right? Even though you don't want me to say it.
 
