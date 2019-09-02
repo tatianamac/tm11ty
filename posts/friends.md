@@ -13,7 +13,7 @@ This week changed my life. I left this week without more than 1-2 hours of sleep
 
 Being me this week felt approximately like walking through hundreds of people who each had different coloured forks and the only thing they could agree on is that they would stab me if I did something they didn't like. Except forks are words and people don't believe the scars. When you're walking through rows and rows of being forked (poor repos) you just want to get through it. And that's all I wanted. I wanted to get through this week with a modicum of my sense of self.
 
-When I thought my friends would help, they did not show up. Instead of shielding the forks, they ducked and asked everyone to stop. Guess what? People didn't stop. Twitter is not knowing for its ability to pull on the breaks.
+When I thought my friends would help, they did not show up. Instead of shielding the forks, they ducked and asked everyone to stop. Guess what? People didn't stop. Twitter is not known for its ability to pull on the breaks.
 
 So here I am, being accosted to death by tiny messages of hate that scoop out a small part of my soul. Being me, I am fairly used to getting a few messages of hate every day. But not hundreds an hour. I had to go on blocking/muting/reporting rampages and it still didn't feel like enough.
 
