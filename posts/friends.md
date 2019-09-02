@@ -1,7 +1,7 @@
 ---
 title: Friendship, though.
 description: When your interests are white supremacy, white feminism, and gaslighting.
-date: 2019-09-12 04:04:23 +2:00
+date: 2019-09-02 04:04:23 +2:00
 tags:
   - personal
 layout: layouts/post.njk
