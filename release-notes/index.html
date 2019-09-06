@@ -1,47 +1,13 @@
-<!doctype html>
-<html lang="en">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tatiana Mac</title>
-    <meta name="Description" content="A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.">
-
-    <link rel="preload" href="../fonts/05-brother1816-book-webfont.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../fonts/freigdisproboo-webfont.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="../fonts/leaguegothic-condensed-regular-webfont.woff" as="font" type="font/woff" crossorigin>
-
-    
-    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="alternate" href="/feed/rss.xml" type="application/atom+xml" title="Tatiana Mac">
-  </head>
-
-  <body>
-    <div id="skip">
-        <a href="#content">Skip Content</a>
-    </div>
-    <div class="bg-emeraldgreen container">
-    <header class="site-header wrapper">
-    <div class="logo grid-whole@xxs grid-whole@xs grid-half@s grid-third@m grid-third@l grid-third@xl">
-    <a href="/">
-        <svg version="1" id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 114">
-        <title>Tatiana Mac</title>
-        <desc>Geometric logo with two parallel lines on top and bottom, then a backwards 11 in the middle.</desc>
-            <path d="M0 0h117v10H0zM1 104h117v10H1zM28 20v75h9V41l27 22V50zM80 20v75h10V41l26 22V50z"/>
-        </svg>
-
-    </a>
-    </div>
-    <nav class="main-navigation grid-whole@xxs grid-whole@xs grid-half@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
-    <ul class="linklist"><li class="nav-item"><a class="dark light" href="/work/">Work</a></li><li class="nav-item"><a class="dark light" href="/sponsor/">Sponsor</a></li><li class="nav-item"><a class="dark light" href="/speaking/">Speaking</a></li><li class="nav-item"><a class="dark light" href="/about/">About</a></li></ul>
-    </nav>
-</header>
-    </div>
-    <main class="  bg-emeraldgreen " id="content">
-        
-
-  <div class="wrapper container">
+---
+layout: layouts/base.njk
+navtitle: Release Notes
+templateClass: content
+navClass: bg-emeraldgreen
+bgColor: emeraldgreen
+colorMode: light
+---
+<section id="release-notes" class="container">
+    <div class="wrapper">
     <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl t-white padding-thinn">
                 <h1
                     class="t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight">
@@ -57,22 +23,27 @@
     
     <section 
     class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl t-white padding-thinn">
-
-        <p class="t-white t-typeweight t-space-strip">21 July 2019</p>
-
-        ```markdown ## General```
+    <h2 id="1-2-3"
+    class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+    Version 1.2.5</h2>
+        <p class="t-white t-typeweight t-space-strip">7 September 2019</p>
     
-    
-    
-            <p class="t-white">Barcelona updates. Erratic cleanups.</p>
+            <p class="t-white">First post-Reactgate updates. I'm now perpetually exhausted.</p>
             <h3
                 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
                 Content</h3>
             <ul class="longform">
-                <li>Fixed inaccurate link for Sunday post.</li>
-                <li></li>
+                <li>Updated speaking events: moving Write/Speak/Code, Clarity, and Joint Futures to past.</li>
+                <li>Added Concatenate, New Adventures, and UX in the City.</li>
+                <li>Updated blog posts to writing section.</li>
+                <li>Removed Patreon from sponsors page.</li>
             </ul>
-
+            <h3
+                class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                Systems</h3>
+            <ul class="longform">
+                <li>Utilised nunjucks templating better, using includes for replicated sections. Excited to continue to expand upon the power of Eleventy to write less markdown manually and allow the SSG to take care of it.</li>
+            </ul>
         <p class="t-white t-typeweight t-space-strip">17 July 2019</p>
     <h2 id="1-2-3"
     class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
@@ -293,45 +264,6 @@
                     tendency to overdescribe. Conciseness and clarity over comprehensiveness.</li>
 
             </ul>
-
-        
     </section>
-</div>
-     </main>
-
-    
-    <div class="container clearspace">
-        <div class="zigzag-emeraldgreen-green">
-        </div>
-        <div class="zigzag-green-black">
-        </div>
     </div>
-
-  <footer id="contact" class="container">
-    <div class="wrapper">
-        <div class=" grid-whole@xs grid-whole@s grid-whole@m grid-whole@l grid-whole@xl">
-            <h2 class="t-eyebrow t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-white">Contact</h2>
-        </div>
-        <div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
-            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="mailto:inquiry@tatianamac.com">Email</a>
-        </div>
-        <div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
-            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="https://www.twitter.com/tatianatmac/"  rel="noopener noreferrer">Twitter</a>
-        </div>
-<div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
-            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="https://codepen.io/tatianamac/"  rel="noopener noreferrer">Codepen</a>
-        </div>
-
-        <div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
-            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="https://www.dribbble.com/tatianatmac/"  rel="noopener noreferrer">Dribbble</a>
-        </div>
-        <div class="grid-whole@xs grid-whole@s grid-whole@m grid-whole@l grid-whole@xl">
-            <p class="t-white t-mini">Copyright 2019 &copy; Tatiana Mac. Built with HTML &amp; CSS with SASS and sass atop <a href="https://www.11ty.io" class="t-link-accent-green t-white">Eleventy</a>. Read my <a class="t-link-accent-green t-white" href="../release-notes">release notes</a>. Subscribe to my <a class="t-link-accent-green t-white" href=" /feed/feed.xml">RSS feed</a></p>
-        </div>
-    </div>
-</footer>
-
-
-    <!-- Current page: /release-notes/ -->
-  </body>
-</html>
+    </section>
