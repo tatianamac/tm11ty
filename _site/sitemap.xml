@@ -92,6 +92,11 @@
   </url>
   
   <url>
+    <loc>https://www.tatianamac.com/release-notes/</loc>
+    <lastmod>2019-07-08</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.tatianamac.com/README/</loc>
     <lastmod>2019-07-08</lastmod>
   </url>
@@ -119,5 +124,10 @@
   <url>
     <loc>https://www.tatianamac.com/posts/checkmate/</loc>
     <lastmod>2019-08-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/posts/friends/</loc>
+    <lastmod>2019-09-02</lastmod>
   </url>
 </urlset>
