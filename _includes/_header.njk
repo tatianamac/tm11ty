@@ -12,7 +12,7 @@
     <nav class="main-navigation grid-whole@xxs grid-whole@xs grid-half@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
     <ul class="linklist">
         {%- for nav in collections.nav | reverse -%}
-        <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a class="dark{% if colorMode == light %} light{% endif %}" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
+        <li class="nav-item{% if nav.url == page.url %} nav-item-active{% endif %}"><a{% if colorMode %} class="{{ colorMode }}"{% endif %} href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a></li>
         {%- endfor -%}
     </ul>
     </nav>
