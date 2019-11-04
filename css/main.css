@@ -1915,14 +1915,14 @@ a[href].direct-link:focus:visited,
   outline: 5px solid #FF5327;
 }
 
-.logo {
+#logo {
   fill: #FF0DD1;
   display: block;
   margin: 1em 2em 0 0;
   min-width: 40px;
   max-width: 50px;
 }
-.logo a {
+#logo a {
   border-bottom: none;
 }
 
@@ -2387,4 +2387,4 @@ li.inline {
   background-size: 5em 5em, 5em 5em;
 }
 
-/*# sourceMappingURL=css/main.css.map */
+/*# sourceMappingURL=main.css.map */
