@@ -7,7 +7,7 @@ tags:
   - humour
 layout: layouts/post.njk
 bgColor: yellow
-navClass: bg-white
+navClass: bg-yellow
 colorMode: dark
 ---
 I was showing someone my old math notes to someone and they said to me, "how did you write so small?" I responded, "a small pen."
@@ -48,4 +48,4 @@ It might sound like a heavy burden to examine my actions so carefully but honest
 
 What it looks like now: I save a lot more drafts in my Twitter. I post less. I share some of the things I wanna say to close friends. I slow myself down. I take more time to consider the impact of my actions. I think about how wildly the fire can rage before I light the match.
 
-I think about the energy it takes for me to light the match at all. If I truly hate something, whether it be a tool or a person who is a tool, I ask if it's worth my energy to call attention to this. I ask myself it is worth sinking myself into a pit of hate for a moment—as someone who experiences depression, this is not something I am wont to do. I ask myself: Instead of using this match to burn someone undeserving down, could I instead use it to light the way for someone who deserves it?
+As I get older and more tired and as my meatsack deteriorates, I work to conserve energy. I think about the energy it takes for me to light the match at all.  If I truly hate something, whether it be a tool or a person who is a tool, I ask if it's worth my energy to call attention to this. I ask myself it is worth sinking myself into a pit of hate for a moment—as someone who experiences depression, this is not something I am wont to do. I ask myself: Instead of using this match to burn someone undeserving down, could I instead use it to light the way for someone who deserves it?
