@@ -1940,6 +1940,13 @@ a[href].direct-link:focus:visited,
   opacity: 1;
   transition: opacity 200ms ease-out;
   padding: 0.125rem 0;
+}
+.nav-item li {
+  text-align: center;
+  margin: 0.5rem auto;
+}
+.nav-item a {
+  text-transform: uppercase;
   border-bottom: 2px solid #ffffff;
   text-decoration: none;
   transition: all 0.2s ease-in;
@@ -1952,21 +1959,14 @@ a[href].direct-link:focus:visited,
           color: $pink;
           text-decoration: none;
       }*/
-}
-.nav-item:hover {
-  border-bottom: 5px solid #FF0DD1;
-  transition: all 0.2s ease-in;
-  border-width: 100%;
-}
-.nav-item li {
-  text-align: center;
-  margin: 0.5rem auto;
-}
-.nav-item a {
-  text-transform: uppercase;
   text-decoration: none;
   font-size: 0.95rem;
   padding: 0.35rem 0;
+}
+.nav-item a:hover {
+  border-bottom: 5px solid #FF0DD1;
+  transition: all 0.2s ease-in;
+  border-width: 100%;
 }
 
 .nav-item-active {
