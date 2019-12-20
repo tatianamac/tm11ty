@@ -77,11 +77,6 @@
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/speaking/</loc>
-    <lastmod>2019-07-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tatianamac.com/sponsor/</loc>
     <lastmod>2019-07-07</lastmod>
   </url>
@@ -107,11 +102,6 @@
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/writing/</loc>
-    <lastmod>2019-07-21</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tatianamac.com/posts/twin-flames/</loc>
     <lastmod>2019-07-25</lastmod>
   </url>
@@ -134,5 +124,15 @@
   <url>
     <loc>https://www.tatianamac.com/posts/shitposts/</loc>
     <lastmod>2019-11-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/speaking/</loc>
+    <lastmod>2019-12-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/writing/</loc>
+    <lastmod>2019-12-20</lastmod>
   </url>
 </urlset>

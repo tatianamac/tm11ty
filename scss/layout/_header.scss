@@ -71,24 +71,13 @@
   font-size: .95rem;
   padding: .35rem 0;
   }
-
-}
-
-.nav-item-active {
-  @include bdr-thicc-green;
-  // @include bdr-thinn-green;
+  
 }
 
 .dark {
   color: var(--color--primary);
-
 }
 
 .light {
   color: var(--color--neutral);
 }
-  
-  // a[href]:not(:hover) {
-  //   @include t-white;
-  //   @include t-uppercase;
-  // }
