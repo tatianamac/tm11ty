@@ -1,27 +1,17 @@
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(12, [col] 1fr [col]);
+  grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 2vw;
   grid-row-gap: 2vh;
-    // grid-template-areas: a thing to explore later; cool a a b type formatting
-    //   "header"
-    //   "nav"
-    //   "content"
-    //   "footer"
 }
 
 .wrapperhero {
   display: grid;
-  grid-template-columns: repeat(12, [col] 1fr [col]);
+  grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat (2);
   grid-column-gap: 2em;
   grid-row-gap: 2em;
   grid-auto-flow: dense;
-    // grid-template-areas: a thing to explore later; cool a a b type formatting
-    //   "header"
-    //   "nav"
-    //   "content"
-    //   "footer"
 
   a::after {
     content: none;
