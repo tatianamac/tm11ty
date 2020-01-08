@@ -1542,7 +1542,7 @@ button, .download {
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em; }
 
-.zigzag-yellow-green {
+.zigzag-neon-yellow-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #f3f315 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #f3f315 50%, #27B300 50%), 0 50%;
   background-repeat: repeat-x;
@@ -1602,7 +1602,7 @@ button, .download {
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em; }
 
-.zigzag-blushpink-green {
+.zigzag-blush-pink-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #FFF3F3 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #FFF3F3 50%, #27B300 50%), 0 50%;
   background-repeat: repeat-x;

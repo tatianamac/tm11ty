@@ -6,8 +6,8 @@ tags:
   - communication
   - personal
 layout: layouts/post.njk
-bgColor: blushpink
-navClass: bg-blushpink
+bgColor: blush-pink
+navClass: bg-blush-pink
 colorMode: dark
 ---
 It's so incredibly hard for me to cultivate joy.
