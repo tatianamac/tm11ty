@@ -77,11 +77,6 @@
   </url>
   
   <url>
-    <loc>https://www.tatianamac.com/sponsor/</loc>
-    <lastmod>2019-07-07</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.tatianamac.com/work/</loc>
     <lastmod>2019-07-08</lastmod>
   </url>
@@ -138,6 +133,11 @@
   
   <url>
     <loc>https://www.tatianamac.com/media/</loc>
-    <lastmod>2019-12-23</lastmod>
+    <lastmod>2020-01-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.tatianamac.com/sponsor/</loc>
+    <lastmod>2020-01-08</lastmod>
   </url>
 </urlset>
