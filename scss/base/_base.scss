@@ -288,41 +288,14 @@ img {
 	background: $primary-color;
 }
 
-.bg-black {
-	background: $black;
-	color: $white;	
-}
+$bg-color: ("black": #{$black}, "purple": #{$purple}, "teal-green": #{$teal-green}, "yellow": #{$yellow}, "blush-pink": #{$blush-pink}, "emerald-green": #{$emerald-green}, "light-grey": #{$light-grey}, "dusty-rose": #{$dusty-rose}, "pale-peach": #{$pale-peach});
 
-.bg-purple {
-	background: $purple;
-}
-
-.bg-teal-green {
-	background: $teal-green;
-}
-
-.bg-yellow {
-	background: $neon-yellow;
-}
-
-.bg-ltgrey {
-	background: $light-grey;
-}
-
-.bg-soft-mint {
-	background: $soft-mint;
-}
-
-.bg-pale-peach {
-	background: $pale-peach;
-}
-
-.bg-emeraldgreen {
-	background: $emerald-green;
-}
-
-.bg-blushpink {
-	background: $blush-pink;
+@each $name, $colour in $bg-color {
+  .bg- {
+    &#{$name} {
+      background: $colour;
+    }
+  }
 }
 
 // DROP SHADOW

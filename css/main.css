@@ -618,8 +618,7 @@ img {
   background: #0e4bff; }
 
 .bg-black {
-  background: #222222;
-  color: #ffffff; }
+  background: #222222; }
 
 .bg-purple {
   background: #4A4FA5; }
@@ -628,22 +627,22 @@ img {
   background: #037A5C; }
 
 .bg-yellow {
-  background: #f3f315; }
+  background: #FFD926; }
 
-.bg-ltgrey {
+.bg-blush-pink {
+  background: #FFF3F3; }
+
+.bg-emerald-green {
+  background: #004328; }
+
+.bg-light-grey {
   background: #eeeeee; }
 
-.bg-soft-mint {
-  background: #eaffd1; }
+.bg-dusty-rose {
+  background: #cbab99; }
 
 .bg-pale-peach {
   background: #ffe0d1; }
-
-.bg-emeraldgreen {
-  background: #004328; }
-
-.bg-blushpink {
-  background: #FFF3F3; }
 
 .dropshadow-grey {
   filter: drop-shadow(0.5em 0.5em 0px #eeeeee); }
@@ -1606,7 +1605,7 @@ button, .download {
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em; }
 
-.zigzag-lt-grey-green {
+.zigzag-light-grey-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #eeeeee 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #eeeeee 50%, #27B300 50%), 0 50%;
   background-repeat: repeat-x;
