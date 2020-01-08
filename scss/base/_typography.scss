@@ -51,6 +51,10 @@
   line-height: $t-height-cozy;
 }
 
+.t-height-loose {
+  line-height: $t-height-loose;
+}
+
 .t-chonkfont\@xs {
   @include screen-xs {
     @include chonkfont;
@@ -349,7 +353,6 @@ body {
 .t-link-accent-black {
   @include t-link-hover;
   @include bdr-thinn-black;
-  // line-height: $t-height-loose;
   padding: 2px 0;
 }
 
@@ -357,7 +360,14 @@ body {
   @include t-link-hover;
   @include bdr-thinn-green;
   line-height: $t-height-extra-loose;
-  padding: 10px 0;
+  padding: 2px 0;
+}
+
+.t-link-accent-orange {
+  @include t-link-hover;
+  @include bdr-thinn-orange;
+  color: $rust;
+  padding: 2px 0;
 }
 
 .t-ltr-stretch {
@@ -369,7 +379,7 @@ body {
     @include t-link-hover;
     @include bdr-thinn-blue;
     color: $primary-color;
-    padding: 4px 0;
+    padding: 2px 0;
 }
 
 .t-link-accent-pink {
@@ -449,12 +459,19 @@ code {
 
     li {
     display: inline-block;
-    // @include inline-style;
     margin: 0 2rem 0 0;
     }
 
   }
 
+  ul.medialist {
+    @include list-clear-style;
+
+    li {
+      margin: .5rem 0 0 0;
+    }
+  }
+  
   ul.longform {
     list-style-type: square;
     padding-bottom: .5rem;

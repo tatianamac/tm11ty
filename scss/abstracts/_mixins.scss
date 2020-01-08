@@ -248,7 +248,7 @@
 }
 
 @mixin bdr-thicc-green() {
-  border-bottom: 2px solid $green;
+  border-bottom: 5px solid $green;
   @include txn-ease-in-quick;
 }
 
@@ -257,21 +257,15 @@
   @include txn-ease-in-quick;
 }
 
+@mixin bdr-thinn-orange() {
+  border-bottom: 2px solid $orange;
+  @include txn-ease-in-quick;
+}
+
 @mixin bdr-hover() {
     &:hover {
       @include bdr-thicc-pink;
-      border-width: 100%;
     }
-
-/* removing arrow until I can figure out how to do it accessibly
-    &:hover:after {
-      color: $white;
-    }
-
-    &:after {
-        color: $pink;
-        text-decoration: none;
-    }*/
 }
 
 @mixin t-link-hover() {
@@ -332,4 +326,9 @@
 
 @mixin dropshadow-grey() {
   filter: drop-shadow(.5em .5em 0px $light-grey);
+}
+
+// ZIG ZAG BASE
+@mixin zigzag-base() {
+  height: 5em;
 }

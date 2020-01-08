@@ -8,13 +8,7 @@ li.inline {
 
 // EXPERIENCE //
 #about {
-  background: $neon-yellow;
   padding-top: 0;
-
-  // #about {
-  // align-items: center;
-  // display: flex;
-  // }
 }
 
   .clients {
@@ -232,10 +226,6 @@ li.inline {
   }
 
   // SPONSOR //
-
-  #sponsor  {
-    background: $light-grey;
-  }
   
     @mixin triptych--tablet() {
       .triptych {

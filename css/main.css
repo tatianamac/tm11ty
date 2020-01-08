@@ -633,6 +633,12 @@ img {
 .bg-ltgrey {
   background: #eeeeee; }
 
+.bg-soft-mint {
+  background: #eaffd1; }
+
+.bg-pale-peach {
+  background: #ffe0d1; }
+
 .bg-emeraldgreen {
   background: #004328; }
 
@@ -790,6 +796,9 @@ h1 {
 .t-height-cozy {
   line-height: 1.25; }
 
+.t-height-loose {
+  line-height: 2; }
+
 @media screen and (min-width: 200px) and (max-width: 599px) {
   .t-chonkfont\@xs {
     font-size: 5em; } }
@@ -944,20 +953,10 @@ article h2 {
 article a {
   text-decoration: none;
   transition: all .2s ease-in;
-  /* removing arrow until I can figure out how to do it accessibly
-      &:hover:after {
-        color: $white;
-      }
-  
-      &:after {
-          color: $pink;
-          text-decoration: none;
-      }*/
   color: #0e4bff; }
   article a:hover {
     border-bottom: 5px solid #FF0DD1;
-    transition: all .2s ease-in;
-    border-width: 100%; }
+    transition: all .2s ease-in; }
 
 h5 {
   font-family: "freigdisproboo", Georgia, "Times New Roman", serif;
@@ -1009,61 +1008,42 @@ p {
 .t-link-accent-white {
   text-decoration: none;
   transition: all .2s ease-in;
-  /* removing arrow until I can figure out how to do it accessibly
-      &:hover:after {
-        color: $white;
-      }
-  
-      &:after {
-          color: $pink;
-          text-decoration: none;
-      }*/
   border-bottom: 2px solid #ffffff;
   line-height: 3;
   padding: 10px 0; }
   .t-link-accent-white:hover {
     border-bottom: 5px solid #FF0DD1;
-    transition: all .2s ease-in;
-    border-width: 100%; }
+    transition: all .2s ease-in; }
 
 .t-link-accent-black {
   text-decoration: none;
   transition: all .2s ease-in;
-  /* removing arrow until I can figure out how to do it accessibly
-      &:hover:after {
-        color: $white;
-      }
-  
-      &:after {
-          color: $pink;
-          text-decoration: none;
-      }*/
   border-bottom: 2px solid #222222;
   padding: 2px 0; }
   .t-link-accent-black:hover {
     border-bottom: 5px solid #FF0DD1;
-    transition: all .2s ease-in;
-    border-width: 100%; }
+    transition: all .2s ease-in; }
 
 .t-link-accent-green {
   text-decoration: none;
   transition: all .2s ease-in;
-  /* removing arrow until I can figure out how to do it accessibly
-      &:hover:after {
-        color: $white;
-      }
-  
-      &:after {
-          color: $pink;
-          text-decoration: none;
-      }*/
   border-bottom: 2px solid #42ff0d;
   line-height: 3;
-  padding: 10px 0; }
+  padding: 2px 0; }
   .t-link-accent-green:hover {
     border-bottom: 5px solid #FF0DD1;
-    transition: all .2s ease-in;
-    border-width: 100%; }
+    transition: all .2s ease-in; }
+
+.t-link-accent-orange {
+  text-decoration: none;
+  transition: all .2s ease-in;
+  border-bottom: 2px solid #ff5327;
+  transition: all .2s ease-in;
+  color: #942f00;
+  padding: 2px 0; }
+  .t-link-accent-orange:hover {
+    border-bottom: 5px solid #FF0DD1;
+    transition: all .2s ease-in; }
 
 .t-ltr-stretch {
   text-transform: uppercase;
@@ -1072,44 +1052,24 @@ p {
 .t-link-accent-blue {
   text-decoration: none;
   transition: all .2s ease-in;
-  /* removing arrow until I can figure out how to do it accessibly
-      &:hover:after {
-        color: $white;
-      }
-  
-      &:after {
-          color: $pink;
-          text-decoration: none;
-      }*/
   border-bottom: 2px solid #0e4bff;
   transition: all .2s ease-in;
   color: #0e4bff;
-  padding: 4px 0; }
+  padding: 2px 0; }
   .t-link-accent-blue:hover {
     border-bottom: 5px solid #FF0DD1;
-    transition: all .2s ease-in;
-    border-width: 100%; }
+    transition: all .2s ease-in; }
 
 .t-link-accent-pink {
   text-decoration: none;
   transition: all .2s ease-in;
-  /* removing arrow until I can figure out how to do it accessibly
-      &:hover:after {
-        color: $white;
-      }
-  
-      &:after {
-          color: $pink;
-          text-decoration: none;
-      }*/
   line-height: 2;
   border-bottom: 2px solid #ffffff;
   color: #FF0DD1;
   padding: 2px 0; }
   .t-link-accent-pink:hover {
     border-bottom: 5px solid #FF0DD1;
-    transition: all .2s ease-in;
-    border-width: 100%; }
+    transition: all .2s ease-in; }
 
 .t-eyebrow {
   font-size: 0.8em;
@@ -1200,6 +1160,12 @@ ul.linklist {
   ul.linklist li {
     display: inline-block;
     margin: 0 2rem 0 0; }
+
+ul.medialist {
+  list-style: none outside;
+  padding: 0; }
+  ul.medialist li {
+    margin: .5rem 0 0 0; }
 
 ul.longform {
   list-style-type: square;
@@ -1495,13 +1461,13 @@ a[href].direct-link:focus:visited,
 .outline-me {
   outline: 5px solid #FF5327; }
 
-#logo {
+.logo {
   fill: #FF0DD1;
   display: block;
   margin: 1em 2em 0 0;
   min-width: 40px;
   max-width: 50px; }
-  #logo a {
+  .logo a {
     border-bottom: none; }
 
 .main-navigation {
@@ -1525,22 +1491,12 @@ a[href].direct-link:focus:visited,
     border-bottom: 2px solid #ffffff;
     text-decoration: none;
     transition: all .2s ease-in;
-    /* removing arrow until I can figure out how to do it accessibly
-        &:hover:after {
-          color: $white;
-        }
-    
-        &:after {
-            color: $pink;
-            text-decoration: none;
-        }*/
     text-decoration: none;
     font-size: .95rem;
     padding: .35rem 0; }
     .nav-item a:hover {
       border-bottom: 5px solid #FF0DD1;
-      transition: all .2s ease-in;
-      border-width: 100%; }
+      transition: all .2s ease-in; }
 
 .dark {
   color: var(--color--primary); }
@@ -1638,6 +1594,12 @@ button, .download {
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em; }
 
+.zigzag-pale-peach-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #ffe0d1 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ffe0d1 50%, #27B300 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em; }
+
 .zigzag-blushpink-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #FFF3F3 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #FFF3F3 50%, #27B300 50%), 0 50%;
@@ -1688,7 +1650,6 @@ li.inline {
   padding: 0; }
 
 #about {
-  background: #f3f315;
   padding-top: 0; }
 
 .clients {
@@ -1850,9 +1811,6 @@ li.inline {
   margin: 1.25em;
   vertical-align: baseline;
   background: #ffffff; }
-
-#sponsor {
-  background: #eeeeee; }
 
 .pixel-box {
   display: inline-block;
