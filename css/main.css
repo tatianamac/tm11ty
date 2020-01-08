@@ -644,6 +644,9 @@ img {
 .bg-pale-peach {
   background: #ffe0d1; }
 
+.bg-neon-yellow {
+  background: #f3f315; }
+
 .dropshadow-grey {
   filter: drop-shadow(0.5em 0.5em 0px #eeeeee); }
 
@@ -1647,9 +1650,6 @@ li.inline {
 .clearspace {
   margin: 0;
   padding: 0; }
-
-#about {
-  padding-top: 0; }
 
 .clients {
   display: flex;
