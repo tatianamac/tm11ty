@@ -1163,11 +1163,17 @@ ul.linklist {
     display: inline-block;
     margin: 0 2rem 0 0; }
 
-ul.medialist {
+ul.medialist--tight {
   list-style: none outside;
   padding: 0; }
-  ul.medialist li {
-    margin: .5rem 0 0 0; }
+  ul.medialist--tight li {
+    margin: .75rem 0 0 0; }
+
+ul.medialist--loose {
+  list-style: none outside;
+  padding: 0; }
+  ul.medialist--loose li {
+    margin: 1rem 0 0 0; }
 
 ul.longform {
   list-style-type: square;

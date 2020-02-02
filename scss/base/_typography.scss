@@ -464,11 +464,19 @@ code {
 
   }
 
-  ul.medialist {
+  ul.medialist--tight {
     @include list-clear-style;
 
     li {
-      margin: .5rem 0 0 0;
+      margin: .75rem 0 0 0;
+    }
+  }
+
+  ul.medialist--loose {
+    @include list-clear-style;
+
+    li {
+      margin: 1rem 0 0 0;
     }
   }
   
