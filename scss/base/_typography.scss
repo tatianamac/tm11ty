@@ -506,3 +506,9 @@ code {
   :hover > a[href].direct-link:visited {
     color: var(--color--accent);
   }
+
+  //SYMBOLS
+
+  a.right-arrow:after {
+    content: "\2197";
+  }

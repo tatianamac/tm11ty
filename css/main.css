@@ -1197,6 +1197,9 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: var(--color--accent); }
 
+a.right-arrow:after {
+  content: "\2197"; }
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
