@@ -3,6 +3,7 @@ tag: event
 eventName: CSSCamp
 eventCityName: Barcelona, Catalunya, ES
 eventCityAbbr: bcn
+date: 2019-07-19
 eventMonthYear: July 2019
 eventURL: https://www.csscamp.tech
 eventSlidesURL: https://slides.com/tatianamac/socially-inclusive-design-systems/fullscreen

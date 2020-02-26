@@ -3,6 +3,7 @@ tag: event
 eventName: Concatenate
 eventCityName: Lagos, NG & Nairobi, KE
 eventCityAbbr: con
+date: 2019-10-09
 eventMonthYear: October 2019
 eventURL: https://www.concatenate.dev/
 eventSlidesURL: http://slides.com/tatianamac/how-privilege-defines-performance/fullscreen/
