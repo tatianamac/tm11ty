@@ -30,9 +30,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
 /* Speaking Event Collection */
-  eleventyConfig.addCollection("events", function(collection) {
-    return collection.getFilteredByGlob("./src/speaking/events/*.md");
-  });
+  // eleventyConfig.addCollection("events", function(collection) {
+  //   return collection.getFilteredByGlob("./src/speaking/events/*.md");
+  // });
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
@@ -51,20 +51,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
   );
-
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function(err, browserSync) {
-        const content_404 = fs.readFileSync('404.html');
-
-        browserSync.addMiddleware("*", (req, res) => {
-          // Provides the 404 content without redirect.
-          res.write(content_404);
-          res.end();
-        });
-      }
-    }
-  });
 
   return {
     templateFormats: [

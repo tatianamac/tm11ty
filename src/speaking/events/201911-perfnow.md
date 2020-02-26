@@ -1,4 +1,5 @@
 ---
+tag: event
 eventName: perf.now()
 eventCityName: Amsterdam, Netherlands
 eventMonthYear: November 2019
