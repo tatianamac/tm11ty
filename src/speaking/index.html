@@ -42,11 +42,11 @@ colorMode: dark
 
         {% for post in collections.event | reverse %}
             <figure class="stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <div class="stamp-date stamp--topright">
+                <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
                     <svg viewbox="0 0 100 100">
                         <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
                         <text>
-                            <textpath href="#stamp-{{ eventCityAbbr }}" aria-label="{{ post.data.eventCityName }}">
+                            <textpath href="#stamp-{{ post.data.eventCityAbbr }}" aria-label="{{ post.data.eventCityName }}">
                                 {{ post.data.eventCityName }}
                             </textpath>
                         </text>
@@ -58,31 +58,13 @@ colorMode: dark
                         <a href="{{ eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
                     </p>
                     <p>
-                        {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}
+                        {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}{% if post.data.eventVideoURL %} · <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>{% endif %} {% if post.data.eventKeynote %}🗝🎵{% endif %}
                     </p>
                 </div>
             </figure>
         {% endfor %}
 
-        {# <figure class="stamp--neg10@m stamp--neg10@l stamp--neg10@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-nottingham"/>
-                    <text>
-                        <textpath href="#stamp-nottingham" aria-label="Nottingham, UK">
-                            Nottingham, UK
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="stub-content">
-                <p>
-                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://newadventuresconf.com/2020/" rel="noopener noreferrer">New Adventures</a>
-                </p>
-                <p class="t-black t-typeweight details">22-24 Jan 2020 🗝🎵</p>
-            </div>
-        </figure>
+        {# 
 
         <figure class="stamp--5@m stamp--5@l stamp--5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
