@@ -1,19 +1,19 @@
 @font-face {
     font-family: '05-brother1816-book';
     font-display: swap;
-    src: local('05-brother1816-book'), url('../fonts/05-brother1816-book-webfont.woff2') format('woff2'),
+    src: local('05-brother1816-book'), url('../static/fonts/05-brother1816-book-webfont.woff2') format('woff2'),
          url('../fonts/05-brother1816-book-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'freigdisproboo';
     font-display: swap;
-    src: local('freigdisproboo'), url('../fonts/freigdisproboo-webfont.woff2') format('woff2'),
+    src: local('freigdisproboo'), url('../static/fonts/freigdisproboo-webfont.woff2') format('woff2'),
          url('../fonts/freigdisproboo-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'League Gothic Condensed';
     font-display: swap;
-    src: local('League Gothic Condensed'), url('../fonts/leaguegothic-condensed-regular-webfont.woff') format('woff');
+    src: local('League Gothic Condensed'), url('../static/fonts/leaguegothic-condensed-regular-webfont.woff') format('woff');
 }

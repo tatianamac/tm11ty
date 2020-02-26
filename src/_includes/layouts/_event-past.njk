@@ -12,12 +12,12 @@
         </svg>
     </div>
     <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-        <p class="t-black details t-typeweight t-babyfont">November 2019</p>
+        <p class="t-black details t-typeweight t-babyfont">{{ eventMonthYear }}</p>
         <p>
-            <a href="https://perfnow.nl/" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">perf.now()</a>
+            <a href="{{ eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ eventName }}</a>
         </p>
         <p>
-            <a class="details t-link-accent-blue" href="https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen/" rel="noopener noreferrer">Slides</a>
+            {% if eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}
         </p>
     </div>
 </figure>

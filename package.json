@@ -23,15 +23,31 @@
   "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "@11ty/eleventy-plugin-rss": "^1.0.6",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
-    "luxon": "^1.12.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "luxon": "^1.22.0",
     "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.0.2"
+    "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "gulp": "^4.0.2",
-    "sass": "^1.22.7"
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-flatmap": "^1.0.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-optimize-js": "^1.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "^2.11.0",
+    "jshint-stylish": "^2.2.1",
+    "lazypipe": "^1.0.2",
+    "sass": "^1.26.1",
+    "stylelint": "^13.2.0"
   }
 }

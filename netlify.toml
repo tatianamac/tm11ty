@@ -1,5 +1,5 @@
 [build]
-  publish = "_site"
+  publish = "dist"
   command = "DEBUG=* eleventy"
 
 [[redirects]]
