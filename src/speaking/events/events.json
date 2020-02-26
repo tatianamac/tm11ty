@@ -1,3 +1,5 @@
 {
-    "tags": ["event"]
+    "tags": ["event"],
+    "template": "event.njk",
+    "permalink": false
 }

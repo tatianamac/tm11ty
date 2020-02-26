@@ -199,18 +199,18 @@ var buildSVGs = function (done) {
 	// Optimize SVG files
 	return src(paths.svgs.input)
 		.pipe(svgmin())
-    .pipe(dest(paths.svgs.output));
+		.pipe(dest(paths.svgs.output));
     
 };
 
 // Copy image assets
 var copyAssets = function (done) {
-  // Make sure this feature is activated before running
-  if (!settings.copy) return done();
+	// Make sure this feature is activated before running
+	if (!settings.copy) return done();
 
-  // Copy assets
-  return src(paths.assets.input)
-    .pipe(dest(paths.assets.output));
+	// Copy assets
+	return src(paths.assets.input)
+	.pipe(dest(paths.assets.output));
 
 };
 
@@ -224,8 +224,6 @@ var copyFonts = function (done) {
 	  .pipe(dest(paths.fonts.output));
   
   };
-
-
 
 // Watch for changes to the src directory
 var startServer = function (done) {
@@ -270,9 +268,9 @@ exports.default = series(
 		buildScripts,
 		lintScripts,
 		buildStyles,
-    buildSVGs,
-	copyAssets,
-	copyFonts
+		buildSVGs,
+		copyAssets,
+		copyFonts
     )
 );
 
