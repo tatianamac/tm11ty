@@ -118,10 +118,6 @@ colorMode: dark
 
         {% for post in collections.event | reverse %}
 
-{#  Current dilemma: Trying to wrap a for loop around to account for events that have not yet happened. #}
-        {# {% if compareDate() %}
-        {{ post.data.eventName }}
-        {% else %} #}
             <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
                 <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
                     <svg viewbox="0 0 100 100">
