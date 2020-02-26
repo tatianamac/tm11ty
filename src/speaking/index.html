@@ -55,11 +55,12 @@ colorMode: dark
                 <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
                     <p class="t-black details t-typeweight t-babyfont">{{ post.data.eventMonthYear }}</p>
                     <p>
-                        <a href="{{ eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
+                        <a href="{{ post.data.eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
                     </p>
                     <p>
                         {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}{% if post.data.eventVideoURL %} · <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>{% endif %} {% if post.data.eventKeynote %}🗝🎵{% endif %}
                     </p>
+                    {{ content | safe }}
                 </div>
             </figure>
         {% endfor %}
@@ -125,27 +126,7 @@ colorMode: dark
         </figure>    
         <!-- COMPLETED -->
 
-        <figure class="stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-ams"/>
-                    <text>
-                        <textpath href="#stamp-tor" aria-label="Amsterdam, Netherlands">
-                            Amsterdam, Netherlands
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <p class="t-black details t-typeweight t-babyfont">November 2019</p>
-                <p>
-                    <a href="https://perfnow.nl/" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">perf.now()</a>
-                </p>
-                <p>
-                    <a class="details t-link-accent-blue" href="https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen/" rel="noopener noreferrer">Slides</a>
-                </p>
-            </div>
-        </figure>
+        
         <figure class="stamp stamp--10@m stamp--10@l stamp--10@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
             <div class="stamp-date stamp--topright">
                 <svg viewbox="0 0 100 100">
@@ -236,28 +217,7 @@ colorMode: dark
             </div>
         </figure>
 
-        <figure class="stamp stamp--5@m stamp--5@l stamp--5@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-koln"/>
-                    <text>
-                        <textpath href="#stamp-koln" aria-label="Cologne, DE">
-                            Cologne, DE
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <p class="t-black details t-typeweight t-babyfont">September 2019</p>
-                <p>
-                    <a href="https://www.meetup.com/Think-About-about-Tech-Design-and-their-impact-on-Society/events/263549213/?isFirstPublish=true" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">Think About! Meetup</a>
-                </p>
-                <p>
-                    <!--<a class="details t-link-accent-blue" href="https://areena.yle.fi/1-50271945">Video</a> &middot; -->
-                    <a class="details t-link-accent-blue" href="https://slides.com/tatianamac/socially-inclusive-design-systems/fullscreen" rel="noopener noreferrer">Slides</a>
-                </p>
-            </div>
-        </figure>
+        
 
         <figure class="stamp stamp--neg5@m stamp--neg5@l stamp--neg5@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
             <div class="stamp-date stamp--topright">
@@ -485,25 +445,7 @@ colorMode: dark
             </div>
         </figure>
 
-        <figure class="stamp grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <div class="stamp-date stamp--btmright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-spin6"/>
-                    <text>
-                        <textpath href="#stamp-spin6" aria-label="Yosemite, Calif., USA">
-                            Yosemite, Calif., USA
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <p class="t-black details t-typeweight t-babyfont">August 2018</p>
-                <p>
-                    <a href="https://stldesignweek.com/" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight padding-btm-none">Epicurrence</a>
-                </p>
-                <p class="details">Fireside Chat</p>
-            </div>
-        </figure>
+
     </div> #}
 
 <svg class="visually-hidden">

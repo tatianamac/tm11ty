@@ -6,5 +6,6 @@ eventCityAbbr: ams
 eventMonthYear: November 2019
 eventURL: https://perfnow.nl/
 eventSlidesURL: https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen/
+eventVideoURL: https://youtu.be/Hzs_8e3Xhhc
 eventStampLoc: topright
 ---
