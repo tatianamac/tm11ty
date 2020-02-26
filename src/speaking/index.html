@@ -39,34 +39,25 @@ colorMode: dark
                 <img class="selfportrait-yellow" src="../assets/img/tmac-headshot.jpg" alt="Portrait of me looking over my shoulder">
             </picture>
         </div>
+        <figure class="stamp--neg5@m stamp--neg5@l stamp--neg5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
-        {% for post in collections.event | reverse %}
-            <figure class="stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
-                    <svg viewbox="0 0 100 100">
-                        <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
-                        <text>
-                            <textpath href="#stamp-{{ post.data.eventCityAbbr }}" aria-label="{{ post.data.eventCityName }}">
-                                {{ post.data.eventCityName }}
-                            </textpath>
-                        </text>
-                    </svg>
-                </div>
-                <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                    <p class="t-black details t-typeweight t-babyfont">{{ post.data.eventMonthYear }}</p>
-                    <p>
-                        <a href="{{ post.data.eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
-                    </p>
-                    <p>
-                        {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}{% if post.data.eventVideoURL %} · <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>{% endif %} {% if post.data.eventKeynote %}🗝🎵{% endif %}
-                    </p>
-                    {{ content | safe }}
-                </div>
-            </figure>
-        {% endfor %}
-
-        {# 
-
+            <div class="stamp-date stamp--topright">
+                <svg viewbox="0 0 100 100">
+                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-pgh"/>
+                    <text>
+                        <textpath href="#stamp-pgh" aria-label="Pittsburgh, PA, USA">
+                            Pittsburgh, PA, USA
+                        </textpath>
+                    </text>
+                </svg>
+            </div>
+            <div class="stub-content">
+                <p>
+                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://designconference.aiga.org/" rel="noopener noreferrer">AIGA Design</a>
+                </p>
+                <p class="t-black t-typeweight details">31 March - 01&nbsp;April 2020</p>
+            </div>
+        </figure>
         <figure class="stamp--5@m stamp--5@l stamp--5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
             <div class="stamp-date stamp--btmright">
@@ -124,100 +115,31 @@ colorMode: dark
                 <p class="t-black t-typeweight details">12-14 June 2020 🗝🎵</p>
             </div>
         </figure>    
-        <!-- COMPLETED -->
 
-        
-        <figure class="stamp stamp--10@m stamp--10@l stamp--10@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-tor"/>
-                    <text>
-                        <textpath href="#stamp-tor" aria-label="Toronto, ON, Canada">
-                            Toronto, ON, Canada
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <p class="t-black details t-typeweight t-babyfont">October 2019</p>
-                <p>
-                    <a href="https://conf.a11yto.com/" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">a11yTO</a>
-                </p>
-                <p>
-                    <a class="details t-link-accent-blue" href="https://slides.com/tatianamac/systems-of-systems/fullscreen" rel="noopener noreferrer">Slides</a>
-                </p>
-            </div>
-        </figure>
-
-        <figure class="stamp stamp--neg5@m stamp--neg5@l stamp--neg5@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-roc"/>
-                    <text>
-                        <textpath href="#stamp-roc" aria-label="Rochester, New York">
-                            Rochester, New York
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <p class="t-black details t-typeweight t-babyfont">October 2019</p>
-                <p>
-                    <a href="https://www.thoughtatwork.org/" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">Thought at Work</a>
-                </p>
-                <p>
-                    <a class="details t-link-accent-blue" href="https://slides.com/tatianamac/how-privilege-defines-performance/fullscreen/" rel="noopener noreferrer">Slides</a>
-                </p>
-            </div>
-        </figure>
-
-        <figure class="stamp stamp--neg10@m stamp--neg10@l stamp--neg10@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-concatenate"/>
-                    <text>
-                        <textpath href="#stamp-concatenate" aria-label="Lagos, Nigeria and Nairobi, Kenya">
-                            Lagos, NG & Nairobi, KE
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <p class="t-black details t-typeweight t-babyfont">October 2019</p>
-                <p>
-                    <a href="https://www.concatenate.dev/" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">Concatenate</a>
-                </p>
-                <p>🇳🇬
-                    <a class="details t-link-accent-blue" href="https://www.youtube.com/watch?v=-Ez53J0vj9c">Video</a>&middot;
-                    <a class="details t-link-accent-blue" href="https://slides.com/tatianamac/systems-of-systems/fullscreen" rel="noopener noreferrer">Slides</a><br>🇰🇪
-                    <a class="details t-link-accent-blue" href="https://www.youtube.com/watch?v=sat_BG4xxMk">Video</a>
-                    &middot;
-                    <a class="details t-link-accent-blue" href="http://slides.com/tatianamac/technical-debt-for-us/fullscreen/" rel="noopener noreferrer">Slides</a>
-                </p>
-            </div>
-        </figure>
-
-        <figure class="stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-epicgc"/>
-                    <text>
-                        <textpath href="#stamp-epicgc" aria-label="Grand Canyon, AZ">
-                            Grand Canyon, AZ
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-                <p class="t-black details t-typeweight t-babyfont">October 2019</p>
-                <p>
-                    <a href="https://www.concatenate.dev/" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">Epicurrence</a>
-                </p>
-                <p class="details">Fireside Discussion</p>
-            </div>
-        </figure>
-
-    </div> #}
+        {% for post in collections.event | reverse %}
+            <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
+                <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
+                    <svg viewbox="0 0 100 100">
+                        <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
+                        <text>
+                            <textpath href="#stamp-{{ post.data.eventCityAbbr }}" aria-label="{{ post.data.eventCityName }}">
+                                {{ post.data.eventCityName }}
+                            </textpath>
+                        </text>
+                    </svg>
+                </div>
+                <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
+                    <p class="t-black details t-typeweight t-babyfont">{{ post.data.eventMonthYear }}</p>
+                    <p>
+                        <a href="{{ post.data.eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
+                    </p>
+                    <p>
+                        {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}{% if post.data.eventVideoURL %} · <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>{% endif %} {% if post.data.eventKeynote %}🗝🎵{% endif %}
+                    </p>
+                    {{ content | safe }}
+                </div>
+            </figure>
+        {% endfor %}
 
 <svg class="visually-hidden">
   <filter id="coloring-pink" color-interpolation-filters="sRGB"
