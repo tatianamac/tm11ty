@@ -1,10 +1,12 @@
+{% block content %}
+
 <figure class="stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
     <div class="stamp-date stamp--topright">
         <svg viewbox="0 0 100 100">
             <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-ams"/>
             <text>
-                <textpath href="#stamp-tor" aria-label="Amsterdam, Netherlands">
-                    Amsterdam, Netherlands
+                <textpath href="#stamp-tor" aria-label="{{ eventCityName }}">
+                    {{ eventCityName }}
                 </textpath>
             </text>
         </svg>
@@ -19,3 +21,5 @@
         </p>
     </div>
 </figure>
+
+{% endblock %}

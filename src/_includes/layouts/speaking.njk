@@ -5,42 +5,6 @@ colorMode: dark
 templateclass: content
 ---
 
-<section id="speaking" class="container">
-    <div class="wrapper">
-        <div class="grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl padding-thinn">
-            <h1 class="t-eyebrow t-height-loose">Speaking</h1>
-            <p class="t-black t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-dense t-space-strip">That's what she said.</p>
-            <p>I'm an international keynote speaker who focuses on accessibility, design systems, performance, and inclusion with a strong call to action for ethical practices.</p>
-
-            <p>As I believe speaking is an privilege, I wrote a
-                <a class="t-link-accent-blue t-height-tight" href="https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552" rel="noopener noreferrer">speaker rider</a>
-                to encourage a more accessible environment for tech's most marginalised and suppressed communities.</p>
-
-            <p>If you'd like me to speak at your event, please read the
-                <a class="t-link-accent-blue t-height-tight" href="https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552" rel="noopener noreferrer">rider</a>
-                to see if it might be a good fit and then
-                <a class="t-link-accent-blue t-height-tight" href="mailto:speaking@tatianamac.com">email me</a>
-                with the details.</p>
-
-            <p class="t-typeweight t-red">Currently booking for 2020</p>
-
-            <p>
-                <a class="download primary" download="tatiana-mac-speaker-kit.zip" href="../img/tatianamac-speakerkit.zip">Download Speaker Kit (198Kb)</a>
-            </p>
-
-        </div>
-        <div class="grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl padding-thinn">
-            <picture>
-                <img class="selfportrait-pink" src="../img/tmac-headshot.jpg" alt="Portrait of me looking over my shoulder">
-            </picture>
-        </div>
-
-        <div class="grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl padding-thinn">
-            <picture>
-                <img class="selfportrait-yellow" src="../img/tmac-headshot.jpg" alt="Portrait of me looking over my shoulder">
-            </picture>
-        </div>
-
 {% for post in collections.event-past | reverse %}
   {% if loop.first %}<ul>{% endif %}
     <li>
