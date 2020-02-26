@@ -1,6 +1,18 @@
-_site/
-node_modules/
 package-lock.json
 css/main.css.map
-.DS_Store
+
+# dependency directories
+node_modules/
+
+# config
+.env*
+
+# caches
+.cache
 .sass-cache/
+
+# eleventy gulp build
+/dist
+
+# OSX
+.DS_Store

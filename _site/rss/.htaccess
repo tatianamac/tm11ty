@@ -1,2 +1,0 @@
-# For Apache, to show `rss.xml` when browsing to directory /feed/ (hide the file!)
-DirectoryIndex rss.xml
