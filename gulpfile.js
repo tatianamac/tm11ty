@@ -30,21 +30,21 @@ var settings = {
       polyfills: '.polyfill.js',
       output: 'dist/js/'
     },
-    fonts: {
-      input: 'src/static/fonts/**/*',
-      output: 'dist/static/fonts/'
-    },
-    images: {
-      input: 'src/img/**/*.{jpg,jpeg,gif,webm,webp,png}',
-      output: 'dist/img/'
-    },
+    assets: {
+      input: 'src/assets/img/*.{jpg,jpeg,gif,webm,webp,png}',
+      output: 'dist/assets/img/'
+	},
+	fonts: {
+	  input: 'src/assets/fonts/*.{woff,woff2}',
+	  output: 'dist/assets/fonts/'
+	},
     styles: {
       input: 'src/scss/**/main.scss',
       output: 'dist/css/'
     },
     svgs: {
-      input: 'src/img/**/*.svg',
-      output: 'dist/img/'
+      input: 'src/assets/img/*.svg',
+      output: 'dist/assets/img/'
     },
     reload: './dist/'
   };
@@ -61,7 +61,6 @@ var settings = {
   
   // Scripts
   var jshint = require('gulp-jshint');
-  var stylish = require('jshint-stylish');
   var concat = require('gulp-concat');
   var uglify = require('gulp-uglify');
   var optimizejs = require('gulp-optimize-js');
@@ -204,16 +203,29 @@ var buildSVGs = function (done) {
     
 };
 
-// Copy static assets
+// Copy image assets
 var copyAssets = function (done) {
   // Make sure this feature is activated before running
   if (!settings.copy) return done();
 
-  // Copy fonts
-  return src(paths.fonts.input)
-    .pipe(dest(paths.fonts.output));
+  // Copy assets
+  return src(paths.assets.input)
+    .pipe(dest(paths.assets.output));
 
 };
+
+// Copy font assets
+var copyFonts = function (done) {
+	// Make sure this feature is activated before running
+	if (!settings.copy) return done();
+  
+	// Copy fonts
+	return src(paths.fonts.input)
+	  .pipe(dest(paths.fonts.output));
+  
+  };
+
+
 
 // Watch for changes to the src directory
 var startServer = function (done) {
@@ -259,7 +271,8 @@ exports.default = series(
 		lintScripts,
 		buildStyles,
     buildSVGs,
-    copyAssets
+	copyAssets,
+	copyFonts
     )
 );
 
