@@ -1,11 +1,11 @@
-module.experts = function compareDate(date) {
+module.exports = function isEventPast() {
  
-    date1 = new Date('{{ date }}'.value);
-    date2 = new Date();
+    dateEvent = new Date('date'.value);
+    dateToday = new Date();
      
-    if (date1 > date2)
+    if (dateEvent < dateToday)
     {
-    return false;
-    }
     return true;
+    }
+    return false;
     }

@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatiana Mac</title>
+    <meta name="Description" content="A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.">
+
+    <link rel="preload" href="/assets/fonts/05-brother1816-book-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/freigdisproboo-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/leaguegothic-condensed-regular-webfont.woff" as="font" type="font/woff" crossorigin>
+
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="alternate" href="/feed/rss.xml" type="application/atom+xml" title="Tatiana Mac">
+  </head>
+
+  <body>
+    <div id="skip">
+        <a href="#content">Skip Content</a>
+    </div>
+    <div class="bg-emerald-green container">
+    <header class="site-header wrapper">
+    <div class="logo grid-whole@xxs grid-whole@xs grid-half@s grid-third@m grid-third@l grid-third@xl">
+    <a href="/">
+        <svg version="1" id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 114">
+        <title>Tatiana Mac</title>
+        <desc>Geometric logo with two parallel lines on top and bottom, then a backwards 11 in the middle.</desc>
+            <path d="M0 0h117v10H0zM1 104h117v10H1zM28 20v75h9V41l27 22V50zM80 20v75h10V41l26 22V50z"/>
+        </svg>
+
+    </a>
+    </div>
+    <nav class="main-navigation grid-whole@xxs grid-whole@xs grid-half@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
+    <ul class="linklist"><li class="nav-item"><a class="light" href="/work/">Work</a></li><li class="nav-item"><a class="light" href="/about/">About</a></li><li class="nav-item"><a class="light" href="/media/">Media</a></li><li class="nav-item"><a class="light" href="/speaking/">Speaking</a></li><li class="nav-item"><a class="light" href="/writing/">Writing</a></li><li class="nav-item"><a class="light right-arrow" href="https://www.styledotcss.com/">shop </a></li>
+    </ul>
+    </nav>
+</header>
+    </div>
+    <main class="content  bg-emerald-green " id="content">
+        <section id="release-notes" class="container">
+    <div class="wrapper">
+        <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl t-white padding-thinn">
+            <h1 class="t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight">
+                Release Notes</h1>
+            <p class="t-white">Because without documentation, what even the fuck am I doing? A summary of bugs caught and released, accessibility and performance improvements, explorations and learnings in markup.</p>
+
+            <p class="t-white">Catch something?<br/>
+                <a class="t-link-accent-pink" href="https://github.com/tatianamac/tm11ty/issues/new" rel="noreferrer noopener">File an issue on Github</a>
+            </p>
+            </section>
+
+            <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl t-white padding-thinn">
+
+                <h2 id="1-2-7" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.8</h2>
+                <p class="t-white t-typeweight t-space-strip">2 February 2020</p>
+
+                <p class="t-white">I survived 2020—including giving my new talk—update.</p>
+
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Added Media page for podcasts, articles, and interviews.</li>
+                    <li>Updated About page, adding more helpful context for my work.</li>
+                    <li>Updated Speaking page with slides, added a few new events!</li>
+                    <li>Hiding Sponsors page as I assess its future.</li>
+                </ul>
+
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>Utilised Sass lists to condense and to clarify some verbose code, particularly around generating background colours for front-matter content.</li>
+                    <li>Fixed some broken <code>zigzag</code> components, which were affected by above editing.</li>
+                    <li>Included shop link in header, learning how to include a static link in with generated nav.</li>
+                    <li>Updated footer year lmao./li>
+                    <li>Deleted some unused code. WOOP!</li>
+                </ul>
+
+                <h2 id="1-2-7" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.7</h2>
+                <p class="t-white t-typeweight t-space-strip">23 November 2019</p>
+
+                <p class="t-white">I finished all my 2019 speaking engagements update.</p>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Wrote
+                        <a class="t-link-accent-pink" href="/posts/shitposts/">The Shitpost Showdown</a>.</li>
+                    <li>Updated Speaking page with slides for a few conferences.</li>
+                </ul>
+
+                <h2 id="1-2-6" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.6</h2>
+                <p class="t-white t-typeweight t-space-strip">3 November 2019</p>
+
+                <p class="t-white">Post-October conference gauntlet update.</p>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Updated speaking events: Moved Concatenate, Thought at Work, and a11yTO to past.</li>
+                    <li>Added JS Heroes.</li>
+                </ul>
+
+                <h2 id="1-2-5" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.5</h2>
+                <p class="t-white t-typeweight t-space-strip">7 September 2019</p>
+
+                <p class="t-white">First post-Reactgate updates. I'm now perpetually exhausted.</p>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Updated speaking events: moving Write/Speak/Code, Clarity, and Joint Futures to past.</li>
+                    <li>Added Concatenate, New Adventures, and UX in the City.</li>
+                    <li>Updated blog posts to writing section.</li>
+                    <li>Removed Patreon from sponsors page.</li>
+                </ul>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>Utilised nunjucks templating better, using includes for replicated sections. Excited to continue to expand upon the power of Eleventy to write less markdown manually and allow the SSG to take care of it.</li>
+                    <li>Emphasised use of
+                        <code>dark</code>
+                        and
+                        <code>light</code>
+                        within templating system.
+                </ul>
+                <p class="t-white t-typeweight t-space-strip">17 July 2019</p>
+                <h2 id="1-2-4" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.4</h2>
+                <p class="t-white">Post-CSSCamp updates. Feeling a lot of different feels, from complete highs of finishing my first keynote to complete exhaustion. A longer reflection is in order; for now, a quickie update.</p>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Changed CSSCamp to past event type, added slides.</li>
+                    <li>Fixed incorrect link for STL Design Week slides.</li>
+                </ul>
+
+                <p class="t-white t-typeweight t-space-strip">5 July 2019</p>
+                <h2 id="1-2-3" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.3</h2>
+                <p class="t-white">I am tired as all get out bc fireworks kept me up all night and I kicked off a new streaming collab called
+                    <a class="t-link-accent-pink" href="https://www.thediff.website/" rel="noopener noreferrer">The Diff</a>
+                    with the incredible
+                    <a class="t-link-accent-pink" href="https://www.henry.codes/" rel="noopener noreferrer">Henry Desroches
+                    </a>
+                    (aka @xdesro). But I'm determined to get myself disciplined again and release small things every Friday. Help hold me accountable? Today's release was focused around minor content updates.</p>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Added The Diff to the abridged work section.</li>
+                    <li>Added NEJS Conf, Design+Diversity, Write/Speak/Code to my 2019 conference lineup.</li>
+                    <li>Fixed a few fudged conference links thanks to an issue someone filed on my GitHub!</li>
+                    <li>Added Erik Riedel as Lovers level sponsor. Thank you, Erik!</li>
+                    <li>Added Amberley Romo, Debs, Henry Desroches, Oscar Braunert, Yura as Star sponsors! Thank you!</li>
+                    <li>Added my Codepen (freshly minted PRO user, woop!) to the footer.</li>
+                    <li>Added RSS feed (technically a few weeks ago). I hope I'm doing this right.</li>
+                </ul>
+
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>Broke out
+                        <code>_zigzag</code>
+                        into its own partial. Before, I kept it only in my
+                        <code>_home</code>
+                        partial, but as I start to create additional pages, feels like this allows it to be universally accessed and managed. It could use some
+                        <code>@mixin</code>
+                        usage to make it leaner and DRYer.</li>
+                </ul>
+
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    DesOps</h3>
+                <ul class="longform">
+                    <li>To improve my own workflow, I've started filing issues for myself on GitHub. My hope is this will hold me accountable.</li>
+                </ul>
+
+                <p class="t-white t-typeweight t-space-strip">17 May 2019</p>
+                <h2 id="1-2-2" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.2</h2>
+                <p class="t-white">Accepted a few conference gigs (!), broke my MBP2017 keyboard (after months of frustration with the hardware spacebar issue), and migrated to Netlify!</p>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Added JSConfEU, Mozilla, CSSCamp, and #a11yTO to my conference lineup. Cue upside-down-face emoji.
+                    </li>
+                    <li>Upgraded Webflow to Empress sponsorship (thanks, y'all!), which meant adding an Empress area. Not feeling resolved about the design solution here.</li>
+                    <li>Added Amanda Johnson, Heidi Olsen, and Vanessa Wang as Star sponsors! Thank you!</li>
+                </ul>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>Found that using a super-condensed font was hard to read for longer talk titles. Instead opted to use serif for my speaking section; feels cleaner and less dense.</li>
+                    <li>Took new linking strategy for talks, so I can share both videos and slides as separate links. Triggered by
+                        <a class="t-link-accent-pink" href="https://www.youtube.com/watch?v=nQq_gZiZ-jg/" target="_blank" rel="noopener noreferrer">PerfMatters talk</a>
+                        being added!</li>
+                    <li>Added a
+                        <code>span-row-three</code>
+                        for use at larger screen sizes (triggered by the Empress addition to sponsors section), though this time I remembered to write it for my full screen-size range, bc I will need it later.</li>
+                    <li>When validating my HTML, I realised a few SVG
+                        <code>textPaths</code>
+                        had duplicate
+                        <code>ids</code>
+                        and
+                        <code>hrefs</code>. Whoops.</li>
+                </ul>
+
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Performance</h3>
+                <ul class="longform">
+                    <li>Installed
+                        <a class="t-link-accent-pink" href="https://speedcurve.com/" target="_blank" rel="noreferrer noopener">Speedcurve</a>. I'm still very new to this whole performance bit, but I like the way it visualises the filmstrips and ties performance to user-engagement.</li>
+                </ul>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Accessibility</h3>
+                <ul class="longform">
+                    <li>Changed a few
+                        <code>divs</code>
+                        to more meaningful semantic tags here and there.</li>
+                </ul>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Backend</h3>
+                <ul class="longform">
+                    <li>Migrated to
+                        <a class="t-link-accent-pink" href="https://netlify.com/" target="_blank" rel="noreferrer noopener">Netlify</a>, which feels like it spoils developers compared to what we had to go through before. I'm still very new to it, but I love that SSL certificates are built in, that there's a compiler/minifier, and RIP FTP! All performance and developer experience wins all around.</li>
+                </ul>
+                <p class="t-white t-typeweight t-space-strip">26 April 2019</p>
+                <h2 id="1-2-1" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m  t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.2.1</h2>
+                <p class="t-white">Launched my
+                    <a class="t-link-accent-pink" href="https://www.patreon.com/tatianamac/" target="_blank" rel="noreferrer noopener">Patreon</a>, so this update was fueled by adding a sponsorship section to reflect that. Adding a section visually impacted flow, which gave me a chance to explore the extended colour palette.</p>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Content</h3>
+                <ul class="longform">
+                    <li>Added section for sponsorship to both encourage new patronage and to thank current ones.</li>
+                </ul>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Systems</h3>
+                <ul class="longform">
+                    <li>In some CSS explorations, I learned that
+                        <code>filter</code>
+                        can't be compounded. But, because it has overlap qualities with
+                        <code>box-shadow</code>, I doubled them up for this fun 8-bit effect to highlight top-level sponsors. It's a progressive enhancement, so I'm less concerned about the fact that its browser support isn't across the board.</li>
+                    <li>A friendly reminder to myself that I should always just write my full
+                        <code>@mixins</code>. Because I structured my CSS to media-query at the component level (in markup), I always end up needing that flexibility. I get lazy sometimes and always regret it. I really enjoyed refactoring my CSS this way.</li>
+                </ul>
+
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Performance</h3>
+                <ul class="longform">
+                    <li>Broke up with Typekit. It was too heavy. I purchased font licences and localised all my typography. I found this
+                        <a class="t-link-accent-pink" href="https://css-tricks.com/understanding-web-fonts-getting/" target="_blank" rel="noreferrer noopener">webfonts article by Thierry Blancpain</a>
+                        to be extra helpful.</li>
+                    <li>Applied
+                        <code>font-display: swap</code>
+                        to my
+                        <code>@font-face</code>
+                        declarations. What
+                        <code>font-display: swap</code>
+                        does is it tells the browser to use your fallback fonts while your custom fonts are being downloaded, so the user isn't waiting for fonts to load to read. Support is not ubiquitous yet, and hosted fonts like Typekit and Google Fonts don't support it, so you have to self host (see above).</li>
+                    <li>Added
+                        <code>prefetch</code>
+                        as a support for
+                        <code>font-display: swap</code>. Together, this the dynamic font-loading duo we need.</li>
+                    <li>Friend
+                        <a class="t-link-accent-pink" href="https://www.zachleat.com/web/comprehensive-webfonts/#font-display" target="_blank" rel="noreferrer noopener">Zach Leatherman's article on comprehensive webfonts</a>
+                        is one of the best resources. Zach is so good at explaining technical things in an accessible way.
+                    <li>Also, friend
+                        <a class="t-link-accent-pink" href="https://noti.st/mandy/AzhOpz/performance-benefits-of-variable-fonts" target="_blank" rel="noreferrer noopener">Mandy Michael's talk on variable fonts</a>
+                        inspires me as a next step.</li>
+                    <li>Oh, and because of these improvements, I kicked my PageSpeed score up from 98 to 100 for mobile. Now, I'm rocking double 100s! I'm super proud of this. Have you checked your
+                        <a class="t-link-accent-pink" href="https://developers.google.com/speed/pagespeed/insights/" target="_blank" rel="noreferrer noopener">PageSpeed Insights</a>?</li>
+                </ul>
+                <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                    Security</h3>
+                <ul class="longform">
+                    <li>Added
+                        <code>noreferrer</code>
+                        and
+                        <code>noopener</code>
+                        to all my external links. Lots of nuance here, but tl;dr is that in doing so, it does not allow browsing data to be passed forward to the site being opened and closes vulnerabilities of opening a new browser window when using
+                        <code>target="_blank"</code>, respectively. Because I don't care to invade my users' privacy, this has no impact on my analytics. People who want to steal information about their users by way of Google Analytics and other tracking should avoid this. Also, I learned that this doesn't have a negative SEO impact, which many misunderstand it to.</li>
+                </ul>
+
+                <p class="t-white t-typeweight t-space-strip">15 April 2019</p>
+                <h2 id="1-1-1" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m  t-thiccfont@l t-thiccfont@xl t-space-strip">
+                    Version 1.1.1</h2>
+                <p class="t-white">Tax day release (why should I pay taxes to a corrupt government with a president who doesn't pay taxes?) made some substantial improvements to accessibility and performance. Inspired what I learned at
+                    <a class="t-link-accent-pink" href="https://perfmattersconf.com/" target="_blank" rel="noreferrer noopener">PerfMatters</a>, I implemented some major performance improvements.
+                </p>
+                I also learned a lot about semantic HTML, which improved the site's accessibility.</p>
+            <p class="t-white">From a content strategy perspective, I reframed myself for job hunting and speaking events.</p>
+            <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                Content</h3>
+            <ul class="longform">
+                <li>Added Canary in a Coal Mine to writing section.</li>
+                <li>Built out speaking section into its own tier for past and future gigs! Very proud of the fun use of CSS
+                    <code>radial-gradients()</code>
+                    and
+                    <code>outline</code>
+                    to get the stamp effect. In unsupported browsers, it has more of a puzzle piece feel, which I dig.</li>
+                <li>Added city stamps to show first (!) international speaking gigs! First time experimenting with SVG
+                    <code>textPaths</code>. The semantics are odd to me; will need to read more. Also, when running standard accessibility tests, it can get confused about contrast checking, so I had to manually check.</li>
+                <li>Built out about section into its own tier. Rewrote it to be a more coherent bio.</li>
+
+            </ul>
+            <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+                Systems</h3>
+            <ul class="longform">
+                <li>Added third titling style typeface</li>
+                <li>Renamed zigzag dividers to be more intuitive and reusable (colours as opposed to arbitrary sequence numbers).</li>
+            </li>
+        </ul>
+        <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+            Performance</h3>
+        <ul class="longform">
+            <li>Changed all raster
+                <code>&lt;imgs&gt;</code>
+                from JPGs to WEBPs. In order to make sure browsers that don't support WEBP, I used to
+                <code>&lt;picture&gt;</code>
+                with
+                <code>&lt;source&gt;</code>
+                to build in appropriate fallbacks. Building all those image stacks was a bitch, but online image generators helped me out there.</li>
+            <li>Added
+                <code>srcsets</code>
+                so that the appropriate image size is served up.
+                <a class="t-link-accent-pink" href="https://css-tricks.com/responsive-images-css/" target="_blank" rel="noreferrer noopener">Chris Coyier's article on responsive images</a>
+                was so helpful!</li>
+            <li>Replaced the heavy-ass Taco Bell gif with a cute SVG. Ultimately from a content perspective, it wasn't offering its performance weight. Bye boi, bye.</li>
+            <li>Minified all my code: SVGs (using Jake Archibald's
+                <a class="t-link-accent-pink" href="https://jakearchibald.github.io/svgomg/" target="_blank" rel="noreferrer noopener">SVGOMG</a>) and CSS file using a VSCode extension.</li>
+            <li>Subsetted Typekit fonts to dispaly only Roman characters.</li>
+            <li>Implemented cachine. Holy hell was this hard to figure out. I presumed that I'd append it to my
+                <code>.htaccess</code>
+                file, but none of the tutorials explicitly mentioned this.</li>
+            <li>Started the day with PageSpeed scores of 91 (mobile) and 94 (desktop). Ended at 98 and 100, respectively!</li>
+        </ul>
+        <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
+            Accessibility</h3>
+        <ul class="longform">
+            <li>Created
+                <code>&lt;nav&gt;</code>
+                area with anchor links to help access information more fluidly. Reminder: If you are about to use an
+                <code>aria-label</code>, first ask yourself: Is there a semantic tag that intrinsically provides that landmark role? (The answer is almost always yes). I see a lot of navigations that are made with
+                <code>divs</code>
+                and this makes me cry a little bit.
+            </li>
+            <li>Replaced seasonless
+                <code>&lt;divs&gt;</code>
+                with semantic HTML. What a joy for screenreader users to know the sections! I also had a revelation that
+                <code>&lt;divs&gt;</code>
+                should only be used for things that have no content consequence. Said another way, if a section has meaning from an information architecture perspective, it likely has a relevant semantic HTML tag. Taking this approach, I think that
+                <code>&lt;divs&gt;</code>
+                should only have computational meaning; to aid in making something look a certain way.</li>
+            <li>Rearranged and removed h tags that didn't make sense. Thanks to my super-smart friend
+                <a href="https://www.twitter.com/MarcySutton" class="t-link-accent-pink" target="_blank" rel="noreferrer noopener">Marcy Sutton</a>
+                for pointing this out. Remember kids, h tag order is separate from your visual hierarchy. Don't use h tags to represent sizing; make that agnostic.</li>
+            <li>Added Skip to content link with the help of my brilliant friend
+                <a href="https://www.twitter.com/ZoeBijl" class="t-link-accent-pink" target="_blank" rel="noreferrer noopener">Zo&euml; Bijl</a>.</li>
+            <li>Rewrote
+                <code>alt</code>
+                tags to be more about the content, and less formal analysis. We have a tendency to overdescribe. Conciseness and clarity over comprehensiveness.</li>
+
+        </ul>
+    </section>
+</div>
+</section>
+     </main>
+
+    
+    <div class="container clearspace">
+        <div class="zigzag-emerald-green-green">
+        </div>
+        <div class="zigzag-green-black">
+        </div>
+    </div>
+
+  <footer id="contact" class="container">
+    <div class="wrapper">
+        <div class=" grid-whole@xs grid-whole@s grid-whole@m grid-whole@l grid-whole@xl">
+            <h2 class="t-eyebrow t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-white">Contact</h2>
+        </div>
+        <div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
+            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="mailto:inquiry@tatianamac.com">Email</a>
+        </div>
+        <div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
+            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="https://www.twitter.com/tatianatmac/"  rel="noopener noreferrer">Twitter</a>
+        </div>
+<div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
+            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="https://codepen.io/tatianamac/"  rel="noopener noreferrer">Codepen</a>
+        </div>
+
+        <div class="grid-half@xs grid-quarter@s grid-quarter@m grid-quarter@l grid-quarter@xl">
+            <a class="t-link-accent-green t-white t-chonkfont@xl t-chonkfont@l t-thiccfont@m t-normiefont@s t-normiefont@xs t-thinnfont@xxs t-serifweight t-height-tight" href="https://www.github.com/tatianamac/"  rel="noopener noreferrer">GitHub</a>
+        </div>
+        <div class="grid-whole@xs grid-whole@s grid-whole@m grid-whole@l grid-whole@xl">
+            <p class="t-white t-mini">Copyright 2020 &copy; Tatiana Mac. Built with HTML &amp; CSS with Sass and sass atop <a href="https://www.11ty.io" class="t-link-accent-green t-white">Eleventy</a>. Read my <a class="t-link-accent-green t-white" href="../release-notes">release notes</a>. Subscribe to my <a class="t-link-accent-green t-white" href=" /feed/feed.xml">RSS feed</a></p>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Current page: /release-notes/ -->
+  </body>
+</html>
