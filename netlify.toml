@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/"
+  publish = "dist"
   command = "eleventy build && gulp"
 
 [[redirects]]
