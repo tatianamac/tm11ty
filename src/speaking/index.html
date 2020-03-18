@@ -39,25 +39,7 @@ colorMode: dark
                 <img class="selfportrait-yellow" src="../assets/img/tmac-headshot.jpg" alt="Portrait of me looking over my shoulder">
             </picture>
         </div>
-        <figure class="stamp--neg5@m stamp--neg5@l stamp--neg5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-pgh"/>
-                    <text>
-                        <textpath href="#stamp-pgh" aria-label="Pittsburgh, PA, USA">
-                            Pittsburgh, PA, USA
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="stub-content">
-                <p>
-                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://designconference.aiga.org/" rel="noopener noreferrer">AIGA Design</a>
-                </p>
-                <p class="t-black t-typeweight details">31 March - 01&nbsp;April 2020</p>
-            </div>
-        </figure>
+        
         <figure class="stamp--5@m stamp--5@l stamp--5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
             <div class="stamp-date stamp--btmright">
@@ -77,25 +59,7 @@ colorMode: dark
                 <p class="t-black t-typeweight details">23-24 April 2020</p>
             </div>
         </figure>
-                       <figure class="stamp--neg5@m stamp--neg5@l stamp--neg5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-
-            <div class="stamp-date stamp--aboveright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-col"/>
-                    <text>
-                        <textpath href="#stamp-col" aria-label="Cologne, Germany">
-                            Cologne, Germany
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="stub-content">
-                <p>
-                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://think-about.io" rel="noopener noreferrer">ThinkAbout!</a>
-                </p>
-                <p class="t-black t-typeweight details">4-5 June 2020</p>
-            </div>
-        </figure>  
+                       
                <figure class=" stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
             <div class="stamp-date stamp--aboveright">
@@ -115,7 +79,25 @@ colorMode: dark
                 <p class="t-black t-typeweight details">12-14 June 2020 🗝🎵</p>
             </div>
         </figure>    
+        <figure class="stamp--neg5@m stamp--neg5@l stamp--neg5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
+            <div class="stamp-date stamp--topright">
+                <svg viewbox="0 0 100 100">
+                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-pgh"/>
+                    <text>
+                        <textpath href="#stamp-pgh" aria-label="Pittsburgh, PA, USA">
+                            Pittsburgh, PA, USA
+                        </textpath>
+                    </text>
+                </svg>
+            </div>
+            <div class="stub-content">
+                <p>
+                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://designconference.aiga.org/" rel="noopener noreferrer">AIGA Design</a>
+                </p>
+                <p class="t-black t-typeweight details">12 - 14&nbsp;November 2020</p>
+            </div>
+        </figure>
         {% for post in collections.event | reverse %}
 
             <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
