@@ -29,18 +29,6 @@ module.exports = function(eleventyConfig) {
  
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
-// /* Speaking Event Collection */
-//   eleventyConfig.addCollection("events", function(collection) {
-//     return collection.getFilteredByTag("event");
-//   });
-
-  //Alt method to try if above doesn't work
-//   eleventyConfig.addCollection("testCollection01" , function(collection) {
-//     var postCollection = collection.getFilteredByTag("post");
-//     return postCollection;
-// });
-		
-
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");

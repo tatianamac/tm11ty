@@ -110,10 +110,15 @@ describe('module-types', function() {
 
     it('detects es6 exports', function () {
       assert(check('export default 123;', types.isES6Export, true));
-      assert(check('export {foo, bar};', types.isES6Export, true));
-      assert(check('export { D as default };', types.isES6Export, true));
+      assert(check('export {foo, bar}; function foo() {} function bar() {}', types.isES6Export, true));
+      assert(check('export { D as default }; class D {}', types.isES6Export, true));
       assert(check('export function inc() { counter++; }', types.isES6Export, true));
       assert(check('export * from "mod";', types.isES6Export, true));
+    });
+
+    it('detects dynamic imports', function() {
+      assert(check('import("./bar");', types.isDynamicImport, true));
+      assert(check('function foo() { import("./bar"); }', types.isDynamicImport, true));
     });
   });
 });

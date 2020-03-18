@@ -202,3 +202,7 @@ module.exports.isES6Export = function (node) {
 
   return false;
 };
+
+module.exports.isDynamicImport = function(node) {
+ return node.callee && node.callee.type === 'Import' && node.arguments.length;
+};

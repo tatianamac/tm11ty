@@ -23,6 +23,7 @@ function fromSource(source) {
   let hasExports = false;
   let hasES6Import = false;
   let hasES6Export = false;
+  let hasDynamicImport = false;
 
   // Walker accepts as AST to avoid reparsing
   walker.walk(source, function(node) {
@@ -50,7 +51,7 @@ function fromSource(source) {
       hasES6Export = true;
     }
 
-    if (hasES6Import || hasES6Export) {
+    if (hasES6Import || hasES6Export || hasDynamicImport) {
       type = 'es6';
       walker.stopWalking();
       return;

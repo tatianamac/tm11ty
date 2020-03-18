@@ -99,9 +99,14 @@ data: events
                 <p class="t-black t-typeweight details">12 - 14&nbsp;November 2020</p>
             </div>
         </figure>
-        {% for post in collections.event | reverse %}
+        {%- for post in collections.event if isEventPast(true) -%}
+            {% include "{{ eventName }} s past!" %}
+        {%- elif -%}
+            {% include "{{ eventName }} s future!" %}
+        {%- endif -%}
+        {# {% for post in collections.event | reverse %} #}
 
-            <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
+            {# <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
                 <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
                     <svg viewbox="0 0 100 100">
                         <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
@@ -122,7 +127,7 @@ data: events
                     </p>
                     {{ content | safe }}
                 </div>
-            </figure>
+            </figure> #}
         {# {% endfor %} #}
 
 <svg class="visually-hidden">

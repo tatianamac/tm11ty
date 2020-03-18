@@ -1,4 +1,4 @@
-/*! Browser bundle of nunjucks 3.2.0  */
+/*! Browser bundle of nunjucks 3.2.1  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
@@ -487,9 +487,7 @@ function extendClass(cls, name, props) {
     props[k] = parentWrap(cls.prototype[k], props[k]);
   });
 
-  var subclass =
-  /*#__PURE__*/
-  function (_cls) {
+  var subclass = /*#__PURE__*/function (_cls) {
     _inheritsLoose(subclass, _cls);
 
     function subclass() {
@@ -511,9 +509,7 @@ function extendClass(cls, name, props) {
   return subclass;
 }
 
-var Obj =
-/*#__PURE__*/
-function () {
+var Obj = /*#__PURE__*/function () {
   function Obj() {
     // Unfortunately necessary for backwards compatibility
     this.init.apply(this, arguments);
@@ -542,9 +538,7 @@ function () {
   return Obj;
 }();
 
-var EmitterObj =
-/*#__PURE__*/
-function (_EventEmitter) {
+var EmitterObj = /*#__PURE__*/function (_EventEmitter) {
   _inheritsLoose(EmitterObj, _EventEmitter);
 
   function EmitterObj() {
@@ -601,9 +595,7 @@ var supportsIterators = typeof Symbol === 'function' && Symbol.iterator && typeo
 // we know how to access variables. Block tags can introduce special
 // variables, for example.
 
-var Frame =
-/*#__PURE__*/
-function () {
+var Frame = /*#__PURE__*/function () {
   function Frame(parent, isolateWrites) {
     this.variables = {};
     this.parent = parent;
@@ -1028,9 +1020,7 @@ function traverseAndCheck(obj, type, results) {
   }
 }
 
-var Node =
-/*#__PURE__*/
-function (_Obj) {
+var Node = /*#__PURE__*/function (_Obj) {
   _inheritsLoose(Node, _Obj);
 
   function Node() {
@@ -1040,8 +1030,8 @@ function (_Obj) {
   var _proto = Node.prototype;
 
   _proto.init = function init(lineno, colno) {
-    var _this = this,
-        _arguments = arguments;
+    var _arguments = arguments,
+        _this = this;
 
     for (var _len = arguments.length, args = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
       args[_key - 2] = arguments[_key];
@@ -1092,9 +1082,7 @@ function (_Obj) {
 }(Obj); // Abstract nodes
 
 
-var Value =
-/*#__PURE__*/
-function (_Node) {
+var Value = /*#__PURE__*/function (_Node) {
   _inheritsLoose(Value, _Node);
 
   function Value() {
@@ -1117,9 +1105,7 @@ function (_Node) {
 }(Node); // Concrete nodes
 
 
-var NodeList =
-/*#__PURE__*/
-function (_Node2) {
+var NodeList = /*#__PURE__*/function (_Node2) {
   _inheritsLoose(NodeList, _Node2);
 
   function NodeList() {
@@ -1183,9 +1169,7 @@ var Import = Node.extend('Import', {
   fields: ['template', 'target', 'withContext']
 });
 
-var FromImport =
-/*#__PURE__*/
-function (_Node3) {
+var FromImport = /*#__PURE__*/function (_Node3) {
   _inheritsLoose(FromImport, _Node3);
 
   function FromImport() {
@@ -1451,9 +1435,7 @@ var compareOps = {
   '>=': '>='
 };
 
-var Compiler =
-/*#__PURE__*/
-function (_Obj) {
+var Compiler = /*#__PURE__*/function (_Obj) {
   _inheritsLoose(Compiler, _Obj);
 
   function Compiler() {
@@ -2883,9 +2865,7 @@ var path = __webpack_require__(4);
 var _require = __webpack_require__(1),
     EmitterObj = _require.EmitterObj;
 
-module.exports =
-/*#__PURE__*/
-function (_EmitterObj) {
+module.exports = /*#__PURE__*/function (_EmitterObj) {
   _inheritsLoose(Loader, _EmitterObj);
 
   function Loader() {
@@ -2969,9 +2949,7 @@ var noopTmplSrc = {
   }
 };
 
-var Environment =
-/*#__PURE__*/
-function (_EmitterObj) {
+var Environment = /*#__PURE__*/function (_EmitterObj) {
   _inheritsLoose(Environment, _EmitterObj);
 
   function Environment() {
@@ -3299,9 +3277,7 @@ function (_EmitterObj) {
   return Environment;
 }(EmitterObj);
 
-var Context =
-/*#__PURE__*/
-function (_Obj) {
+var Context = /*#__PURE__*/function (_Obj) {
   _inheritsLoose(Context, _Obj);
 
   function Context() {
@@ -3385,9 +3361,7 @@ function (_Obj) {
   return Context;
 }(Obj);
 
-var Template =
-/*#__PURE__*/
-function (_Obj2) {
+var Template = /*#__PURE__*/function (_Obj2) {
   _inheritsLoose(Template, _Obj2);
 
   function Template() {
@@ -3591,9 +3565,7 @@ var Obj = __webpack_require__(1).Obj;
 
 var lib = __webpack_require__(0);
 
-var Parser =
-/*#__PURE__*/
-function (_Obj) {
+var Parser = /*#__PURE__*/function (_Obj) {
   _inheritsLoose(Parser, _Obj);
 
   function Parser() {
@@ -4901,9 +4873,7 @@ function token(type, value, lineno, colno) {
   };
 }
 
-var Tokenizer =
-/*#__PURE__*/
-function () {
+var Tokenizer = /*#__PURE__*/function () {
   function Tokenizer(str, opts) {
     this.str = str;
     this.index = 0;
@@ -5411,9 +5381,7 @@ var Loader = __webpack_require__(6);
 var _require = __webpack_require__(19),
     PrecompiledLoader = _require.PrecompiledLoader;
 
-var WebLoader =
-/*#__PURE__*/
-function (_Loader) {
+var WebLoader = /*#__PURE__*/function (_Loader) {
   _inheritsLoose(WebLoader, _Loader);
 
   function WebLoader(baseURL, opts) {
@@ -6116,6 +6084,12 @@ EventEmitter.prototype._maxListeners = undefined;
 // added to it. This is a useful default which helps finding memory leaks.
 var defaultMaxListeners = 10;
 
+function checkListener(listener) {
+  if (typeof listener !== 'function') {
+    throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
+  }
+}
+
 Object.defineProperty(EventEmitter, 'defaultMaxListeners', {
   enumerable: true,
   get: function() {
@@ -6150,14 +6124,14 @@ EventEmitter.prototype.setMaxListeners = function setMaxListeners(n) {
   return this;
 };
 
-function $getMaxListeners(that) {
+function _getMaxListeners(that) {
   if (that._maxListeners === undefined)
     return EventEmitter.defaultMaxListeners;
   return that._maxListeners;
 }
 
 EventEmitter.prototype.getMaxListeners = function getMaxListeners() {
-  return $getMaxListeners(this);
+  return _getMaxListeners(this);
 };
 
 EventEmitter.prototype.emit = function emit(type) {
@@ -6209,9 +6183,7 @@ function _addListener(target, type, listener, prepend) {
   var events;
   var existing;
 
-  if (typeof listener !== 'function') {
-    throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
-  }
+  checkListener(listener);
 
   events = target._events;
   if (events === undefined) {
@@ -6248,7 +6220,7 @@ function _addListener(target, type, listener, prepend) {
     }
 
     // Check for listener leak
-    m = $getMaxListeners(target);
+    m = _getMaxListeners(target);
     if (m > 0 && existing.length > m && !existing.warned) {
       existing.warned = true;
       // No error code for this since it is a Warning
@@ -6280,12 +6252,12 @@ EventEmitter.prototype.prependListener =
     };
 
 function onceWrapper() {
-  var args = [];
-  for (var i = 0; i < arguments.length; i++) args.push(arguments[i]);
   if (!this.fired) {
     this.target.removeListener(this.type, this.wrapFn);
     this.fired = true;
-    ReflectApply(this.listener, this.target, args);
+    if (arguments.length === 0)
+      return this.listener.call(this.target);
+    return this.listener.apply(this.target, arguments);
   }
 }
 
@@ -6298,18 +6270,14 @@ function _onceWrap(target, type, listener) {
 }
 
 EventEmitter.prototype.once = function once(type, listener) {
-  if (typeof listener !== 'function') {
-    throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
-  }
+  checkListener(listener);
   this.on(type, _onceWrap(this, type, listener));
   return this;
 };
 
 EventEmitter.prototype.prependOnceListener =
     function prependOnceListener(type, listener) {
-      if (typeof listener !== 'function') {
-        throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
-      }
+      checkListener(listener);
       this.prependListener(type, _onceWrap(this, type, listener));
       return this;
     };
@@ -6319,9 +6287,7 @@ EventEmitter.prototype.removeListener =
     function removeListener(type, listener) {
       var list, events, position, i, originalListener;
 
-      if (typeof listener !== 'function') {
-        throw new TypeError('The "listener" argument must be of type Function. Received type ' + typeof listener);
-      }
+      checkListener(listener);
 
       events = this._events;
       if (events === undefined)
@@ -7364,9 +7330,7 @@ function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.crea
 
 var Loader = __webpack_require__(6);
 
-var PrecompiledLoader =
-/*#__PURE__*/
-function (_Loader) {
+var PrecompiledLoader = /*#__PURE__*/function (_Loader) {
   _inheritsLoose(PrecompiledLoader, _Loader);
 
   function PrecompiledLoader(compiledTemplates) {
