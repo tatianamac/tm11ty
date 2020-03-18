@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "build"
+  command = "eleventy build"
 
 [[redirects]]
   from = "/perfmatters"
