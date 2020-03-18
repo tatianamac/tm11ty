@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "eleventy build && gulp"
+  command = "npx eleventy && gulp"
 
 [[redirects]]
   from = "/perfmatters"
