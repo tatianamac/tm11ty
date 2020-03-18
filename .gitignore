@@ -12,7 +12,7 @@ node_modules/
 .sass-cache/
 
 # eleventy gulp build
-/dist
+# /dist
 
 # OSX
 .DS_Store
