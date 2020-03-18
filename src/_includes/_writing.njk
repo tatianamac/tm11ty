@@ -10,63 +10,16 @@
 
       </div>
 
-
+{% for post in collections.posts | reverse %}
     <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-      <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">This week changed my life. I left this week without more than 1-2 hours of sleep a night, a voided career future, and far fewer friends. I feel tired in an existential way. It's like someone forgot to plug in my soul for three weeks, but I'm still forced to exist. I don't know how I'm going to deliver two more conference talks this week, but I know I will. Because if I got one thing out of this week, it's a strong sense of trust in self—that what doesn't kill me (makes me stronger).
-      </p>
-      <p><a class="t-link-accent-blue" href="/posts/friends/"  rel="noopener noreferrer">Friendship, though.</a></p>
-    </div> 
-
-    <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-      <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">I contain multitudes, but so many of them don't fit into that little LinkedIn quip that's either your Role at Company or your abstracted identities reduced to 2-3 words. Designer. Writer. Speaker. And if you're proud of where you work and/or if you're drinking the KoolAid you're the former, and if you're not or you're unemployed like me, you're the latter. And then once you've climbed the ladder at the former, you can then safely return to the latter.
-      </p>
-      <p><a class="t-link-accent-blue" href="/posts/checkmate/"  rel="noopener noreferrer">Check, m8. Tech, h8.</a></p>
-    </div> 
-
-
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-         <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">It was as though we were placed into the universe with the same gift to hold a light: We had been granted these gloves that made us capable of holding a scorching flame. And so we could revel in the pass; sharing war stories, but never granted the space and time needed to fall in love properly; at least not with each other.
-        </p>
-          <p><a class="t-link-accent-blue" href="/posts/twin-flames/"  rel="noopener noreferrer">Twin Flames</a></p>
-    </div> 
-      
-
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-         <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">The 40 continuous minutes of Mike Posner, 33 mental images of the Fauves, the 12 kind and loving text messages you sent—they can't protect me anymore. Like feathers to the wind, the earth reinherits them. I can pick them up when the leash loosens, when the neck heals, but I am more tired.
-        </p>
-          <p><a class="t-link-accent-blue" href="/posts/joy/"  rel="noopener noreferrer">Leave Me with My Hard-Earned Joy</a></p>
-    </div> 
-
-
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-         <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">Over the years, I've gathered some helpful communication tips that I found improved my efficiency and happiness. Balancing my email time for me is an exercise in automating the right things, while maintaining the humanness of communications.
-        </p>
-          <p><a class="t-link-accent-blue" href="/posts/monday-comms-tips/"  rel="noopener noreferrer">Monday Comms Tips</a></p>
-    </div>
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-         <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
-          It’s what I evolved to handle. My dual existence, or non-existence, is what gave me immense resilience. But it also made me acutely aware of everything around me. My heightened observational skills are survival mechanisms.
-          </p>
-          <p><a class="t-link-accent-blue" href="/posts/sunday/"  rel="noopener noreferrer">Sunday</a></p>
-         
-      </div>
-      
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-
       <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
-          But then it happens. The crack goes from its familiar shape to something far scarier, changing states from idle to aggressive. In that fractional moment, I remember why it's dangerous to drive with cracked windshields. It's dangerous because the crack never goes away. 
-          </p>
-          <p><a class="t-link-accent-blue" href="/posts/cracked/"  rel="noopener noreferrer">Cracked</a></p>
-
-        </div>
-        <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-    
-          <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
-
-        Because my existence doesn't work that way. I exist in a world of ands and withs, being multitudes and holding opinions that seem like contradictions where more than one truth can exist—it is a world of abundance, of not only resources, but of perspectives and of truths.
-        </p>
-          <p><a class="t-link-accent-blue" href="/posts/tired/"  rel="noopener noreferrer">I'm Tired</a></p>
-      </div>
+      {{ post.data.summary }}
+      </p>
+      <p><a class="t-link-accent-blue" href="/posts/friends/"  rel="noopener noreferrer">{{ post.data.title }}</a></p>
+    </div> 
+    {% endfor %}
+{# 
+TO DO: Add summary for external post
 
       <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
     
@@ -75,10 +28,6 @@
           </p>
           <p><a class="t-link-accent-blue" href="https://alistapart.com/article/canary-in-a-coal-mine-how-tech-provides-platforms-for-hate"  rel="noopener noreferrer">Canary in a Coal Mine: How Tech Provides Platforms for Hate</a></p>
       </div>
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-           <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
-              I think we can forget what we are capable of and what we deserve when we’re sad. We end up dodging failure instead of reaching for radical success.
-          </p>
-          <p><a class="t-link-accent-blue" href="/posts/trust-the-process/"  rel="noopener noreferrer">TRUST the Process: How to present your best, when you’re at your worst</a></p>
       </div>
+      #}
 </section>

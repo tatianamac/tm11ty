@@ -1,6 +1,7 @@
 ---
 title: TRUST the Process
 description: How to present your best, when you’re at your worst
+summary: I think we can forget what we are capable of and what we deserve when we’re sad. We end up dodging failure instead of reaching for radical success.
 date: 2019-02-05
 tags:
   - mental health

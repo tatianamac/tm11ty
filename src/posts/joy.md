@@ -1,6 +1,7 @@
 ---
 title: Leave Me To My Hard-Earned Joy
 description: Let people enjoy things
+summary: The 40 continuous minutes of Mike Posner, 33 mental images of the Fauves, the 12 kind and loving text messages you sent—they can't protect me anymore. Like feathers to the wind, the earth reinherits them. I can pick them up when the leash loosens, when the neck heals, but I am more tired.
 date: 2019-07-10
 tags:
   - communication

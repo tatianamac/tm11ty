@@ -1,6 +1,7 @@
 ---
 title: Why beginners should teach
 description: This is a post on My Blog about agile frameworks.
+summary: I think we can forget what we are capable of and what we deserve when we’re sad. We end up dodging failure instead of reaching for radical success.
 date: 2019-04-17
 tags:
   - personal

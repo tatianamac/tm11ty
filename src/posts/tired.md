@@ -1,6 +1,7 @@
 ---
 title: Tired
 description: I'm tired of not being seen.
+summary: Because my existence doesn't work that way. I exist in a world of ands and withs, being multitudes and holding opinions that seem like contradictions where more than one truth can exist—it is a world of abundance, of not only resources, but of perspectives and of truths.
 date: 2019-04-16
 tags:
   - personal

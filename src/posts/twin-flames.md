@@ -1,6 +1,7 @@
 ---
 title: Twin Flame
 description: Reflections on relations
+summary: It was as though we were placed into the universe with the same gift to hold a light. We had been granted these gloves that made us capable of holding a scorching flame. And so we could revel in the pass; sharing war stories, but never granted the space and time needed to fall in love properly; at least not with each other.
 date: 2019-07-25 06:41:23
 tags:
   - personal

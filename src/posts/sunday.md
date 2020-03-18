@@ -1,6 +1,7 @@
 ---
 title: Sunday
 description: Reflections with my calathea
+summary: It's what I evolved to handle. My dual existence, or non-existence, is what gave me immense resilience. But it also made me acutely aware of everything around me. My heightened observational skills are survival mechanisms.
 date: 2019-04-21
 tags:
   - personal

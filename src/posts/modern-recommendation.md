@@ -8,6 +8,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+eleventyExcludeFromCollections: true
 ---
 Today is a very important day for me personally as my very dear friend and colleague, [Henry Desroches](https://www.twitter.com/xdesro) aka xdesro [launched his new site](https://henry.codes). Look for yourself, but IMHO it is pure gorgeous thoughtfulness and so distinctly _Henry_.
 

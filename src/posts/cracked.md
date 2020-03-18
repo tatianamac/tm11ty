@@ -1,6 +1,7 @@
 ---
 title: Cracked
 description: This is a post on My Blog about agile frameworks.
+summary:  But then it happens. The crack goes from its familiar shape to something far scarier, changing states from idle to aggressive. In that fractional moment, I remember why it's dangerous to drive with cracked windshields. It's dangerous because the crack never goes away. 
 date: 2019-04-17
 tags:
   - personal
@@ -8,8 +9,6 @@ layout: layouts/post.njk
 bgColor: white
 colorMode: dark
 ---
-<!-- It's dangerous because the crack never goes away. You might look past it, forget it, but it was always there to remind you that it was always going to crack. It never hid its betrayal, you just stopped looking.
---- -->
 
 Driving with a cracked windshield feels dangerous at first, especially the moments after it happens. Your instinct says to pull over, stop driving until you get a new windshield. But you get distracted and end up driving with it for longer than you want. Then after awhile, you forget how you felt when it first happened and how close you are to a potentially scary fate. At some point, the last bits of tension fail and inevitably shatter when you least expect it.
             
