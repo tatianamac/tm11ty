@@ -1,0 +1,8 @@
+{% for post in collections.rhymes | reverse %}
+    <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
+      <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
+      {{ post.data.content }}
+      </p>
+      <p><a class="t-link-accent-blue" href="{{ post.url | url }}"  rel="noopener noreferrer">{{ post.data.title }}</a></p>
+    </div> 
+    {% endfor %}

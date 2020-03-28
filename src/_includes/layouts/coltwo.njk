@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+templateClass: content
+navClass: white
+colorMode: dark
+---
+<section {% if title %} id="{{ title }}{% endif %}" class="container">
+    <div class="wrapper">
+        <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl">
+            <img src="{{ heroImgURL }}" alt="{{ heroImgAltText }}"/>
+        </div>
+
+        <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
+            <h1 class="t-eyebrow t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl">{{ title }}</h1>
+
+            <p class="t-black t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight">{{ slogan }}</p>
+
+            <p>{{ content | safe }}</p>
+        </div>
+
+    </div>
+</section>
