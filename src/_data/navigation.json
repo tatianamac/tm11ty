@@ -6,11 +6,6 @@
       "external": false
     },
     {
-        "text": "Work",
-        "url": "/work",
-        "external": false
-      },
-    {
       "text": "Speaking",
       "url": "/speaking",
       "external": false
@@ -22,7 +17,7 @@
     },
     {
         "text": "About", 
-        "url": "/hire-me",
+        "url": "/about",
         "external": false
     },
     {

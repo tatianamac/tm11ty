@@ -231,34 +231,34 @@
 // BORDER
 
 @mixin bdr-thinn-blue() {
-  border-bottom: 2px solid $cobalt;
+  border-bottom: 1px solid $cobalt;
   @include txn-ease-in-quick;
 }
 
 @mixin bdr-thinn-white() {
-  border-bottom: 2px solid $white;
+  border-bottom: 1px solid $white;
 }
 
 @mixin bdr-thinn-black() {
-  border-bottom: 2px solid $black;
+  border-bottom: 1px solid $black;
 }
 
 @mixin bdr-thinn-green() {
-  border-bottom: 2px solid $green;
+  border-bottom: 1px solid $green;
 }
 
 @mixin bdr-thicc-green() {
-  border-bottom: 5px solid $green;
+  border-bottom: 1px solid $green;
   @include txn-ease-in-quick;
 }
 
 @mixin bdr-thicc-pink() {
-  border-bottom: 5px solid $pink;
+  border-bottom: 1px solid $pink;
   @include txn-ease-in-quick;
 }
 
 @mixin bdr-thinn-orange() {
-  border-bottom: 2px solid $orange;
+  border-bottom: 1px solid $orange;
   @include txn-ease-in-quick;
 }
 
