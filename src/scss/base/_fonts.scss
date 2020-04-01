@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'calibre-web-bold';
+    font-display: swap;
+    src: local('calibre-web-bold'), url('../assets/fonts/calibre-web-bold.woff2') format('woff2'),
+         url('../assets/fonts/calibre-web-bold.woff') format('woff');
+}
+
+@font-face {
     font-family: 'founders-grotesk-condensed-test-bold';
     font-display: swap;
     src: local('founders-grotesk-condensed-test-bold'), url('../assets/fonts/founders-grotesk-condensed-test-bold.woff2') format('woff2'),
@@ -15,7 +22,7 @@
 @font-face {
     font-family: 'domaine-text-test-light';
     font-display: swap;
-    src: local('domaine-text-test-light.woff'), url('../assets/fonts/domaine-text-test-light.woff.woff2') format('woff2'),
+    src: local('domaine-text-test-light'), url('../assets/fonts/domaine-text-test-light.woff2') format('woff2'),
          url('../assets/fonts/domaine-text-test-light.woff') format('woff');
 }
 

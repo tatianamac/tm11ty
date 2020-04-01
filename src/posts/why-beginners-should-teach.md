@@ -1,19 +1,17 @@
 ---
 title: Why beginners should teach
-description: This is a post on My Blog about agile frameworks.
-summary: I think we can forget what we are capable of and what we deserve when we’re sad. We end up dodging failure instead of reaching for radical success.
-date: 2019-04-17
+description: Beginners teaching will create more compassion, combat Imposter Syndrome, and diversify industry voices.
+summary: Here are 10 reasons why I'd like to see more beginners teach; for yourself, for your future students, for your peers, and for our industry as a whole.
+date: 2019-04-17 03:03:05
 tags:
-  - personal
+  - selected
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
 ---
-Beginners teaching will create more empathy, combat Imposter Syndrome, and diversify industry voices
-
 Beginners! I'd love to see more of you *teach.* You have tremendous value to offer. In our industry, we uphold and revere experts. I get it. Experts do sexy slick things in time lapses, have nice camera equipment, and great hair days.
 
-Here are 10 reasons to do it for yourself, your future students, and your peers, and our industry as a whole.
+Here are 10 reasons why I'd like to see more beginners teach; for yourself, for your future students, for your peers, and for our industry as a whole.
 
 1. While you may be intimidated by how many tutorials already exist, you have to remember your uniqueness. People like different teaching styles, voices, EDM BG music selection. And, I'm gonna guess a lot of those tutorials are taught by experts, which leads to:
 
@@ -35,5 +33,4 @@ Here are 10 reasons to do it for yourself, your future students, and your peers,
 
 9. Most importantly, more beginners will inherently diversify and amplify a broader group of voices who haven't been "at the table" and advanced to experts - WoC, trans, disabled folks. Ignored and repressed voices.
 
-I see you. You have value.
-Share with me your beginners teaching beginners channels and links! I'll save 'em and share. DM me on Twitter if you have questions on how to structure scripts, platforms to host, etc or just need to get out of your own head! You got this!!!
+I see you. You have value. Share with me your beginners teaching beginners channels and links! I'll save 'em and share. DM me on Twitter if you have questions on how to structure scripts, platforms to host, etc or just need to get out of your own head! You got this!!!

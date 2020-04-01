@@ -24,6 +24,12 @@
 
 }
 
+.tiled {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .padding-thinn {
   @include thinnpadding;
 }
@@ -358,4 +364,12 @@
   @include screen-xl {
     order: 5;
   }
+}
+
+article {
+  max-width: 1290px;
+}
+
+section {
+  max-width: 1290px;
 }

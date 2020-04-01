@@ -40,6 +40,7 @@ $blush-pink: #FFF3F3;
 $purple: #4A4FA5;
 $true-blue: #0531B2; 
 $royal-blue: #2159FE;
+$baby-blue: #DAE3FF;
 $gold: #FFBC0E;
 $orange: #ff5327;
 $rust: #942f00;
@@ -51,8 +52,11 @@ $green: #42ff0d;
 $leaf-green: #27B300;
 $teal-green: #037A5C;
 $emerald-green: #004328;
+
+//yellows
 $curry: #cbab00;
 $dark-curry: #a88d00;
+$ochre: #ece2ce;
 $dusty-rose: #cbab99;
 $pale-peach: #ffe0d1;
 
@@ -62,7 +66,7 @@ $secondary-color: $blush-pink;
 // TYPOGRAPHY //
 $sans-serif: 'calibre-web-regular', Helvetica, sans-serif;
 $serif: 'domaine-text-test-light', Georgia, 'Times New Roman', serif;
-$condensed: 'founders-grotesk-condensed-test-light', Impact, sans-serif;
+$condensed: 'calibre-web-bold', Impact, sans-serif;
 $mono: Courier, mono;
 
 $t-height-none: 0;
@@ -87,6 +91,7 @@ $normie: 1.5em;
 $full: 2em;
 $thicc: 2.25em;
 $chonk: 3em;
+$ultrachonk: 5em;
 $gigantic: 10em;
 $bg-repeat: repeat-x 5em 5em ;
 

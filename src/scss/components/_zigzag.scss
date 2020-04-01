@@ -119,6 +119,16 @@
   background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-baby-blue-green {
+  height: 5em;
+  background: 
+    linear-gradient(45deg, transparent 50%, $baby-blue 50%),
+    linear-gradient(90deg, transparent 50%, $green 50%),
+    linear-gradient(135deg, $baby-blue 50%, $leaf-green 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 .zigzag-blush-pink-green {
   height: 5em;
   background: 

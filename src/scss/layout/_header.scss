@@ -29,7 +29,7 @@
 }
 
 .outline-me {
-  outline: 5px solid $red;
+  outline: 1px solid $red;
 }
 
 .logo {
@@ -65,7 +65,7 @@
 
   a {
     @include t-uppercase;
-    @include bdr-thinn-white;
+    @include bdr--white;
     @include t-link-hover;
     text-decoration: none;
     font-size: .85rem;

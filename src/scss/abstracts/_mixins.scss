@@ -140,6 +140,10 @@
   font-size: $chonk;
 }
 
+@mixin ultrachonkfont() {
+  font-size: $ultrachonk;
+}
+
 @mixin giganticfont() {
   font-size: $gigantic;
 }
@@ -186,7 +190,7 @@
     @include babyfont;
     @include t-uppercase;
     @include t-ltr-spaceout-m;
-    font-weight: $light;
+    font-weight: $bold;
 }
 
 @mixin list-clear-style() {
@@ -230,48 +234,47 @@
 
 // BORDER
 
-@mixin bdr-thinn-blue() {
-  border-bottom: 2px solid $cobalt;
+@mixin bdr--blue() {
+  border-bottom: 1px solid $cobalt;
   @include txn-ease-in-quick;
 }
 
-@mixin bdr-thinn-white() {
-  border-bottom: 2px solid $white;
+@mixin bdr--white() {
+  border-bottom: 1px solid $white;
 }
 
-@mixin bdr-thinn-black() {
-  border-bottom: 2px solid $black;
+@mixin bdr--black() {
+  border-bottom: 1px solid $black;
 }
 
-@mixin bdr-thinn-green() {
-  border-bottom: 2px solid $green;
+@mixin bdr--green() {
+  border-bottom: 1px solid $green;
 }
 
-@mixin bdr-thicc-green() {
-  border-bottom: 5px solid $green;
+@mixin bdr--green() {
+  border-bottom: 1px solid $green;
   @include txn-ease-in-quick;
 }
 
-@mixin bdr-thicc-pink() {
-  border-bottom: 5px solid $pink;
+@mixin bdr--pink() {
+  border-bottom: 1px solid $pink;
   @include txn-ease-in-quick;
 }
 
-@mixin bdr-thinn-orange() {
-  border-bottom: 2px solid $orange;
+@mixin bdr--orange() {
+  border-bottom: 1px solid $orange;
   @include txn-ease-in-quick;
 }
 
-@mixin bdr-hover() {
-    &:hover {
-      @include bdr-thicc-pink;
-    }
-}
+// @mixin bdr-hover() {
+//     &:hover {
+//       @include bdr--black;
+//     }
+// }
 
 @mixin t-link-hover() {
     text-decoration: none;
     @include txn-ease-in-quick;
-    @include bdr-hover;
 }
 
 // this is accent t-bar border

@@ -8,10 +8,7 @@ navClass: bg-white
 bgColor: white
 colorMode: dark
 data: events
-eleventyNavigation:
-  order: 3
 ---
-
 <section id="speaking" class="container">
     <div class="wrapper">
         <div class="grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl padding-thinn">
@@ -101,8 +98,8 @@ eleventyNavigation:
                 <p class="t-black t-typeweight details">12 - 14&nbsp;November 2020</p>
             </div>
         </figure>
+        
         {% for post in collections.event | reverse %}
-
             <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
                 <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
                     <svg viewbox="0 0 100 100">
@@ -122,10 +119,10 @@ eleventyNavigation:
                     <p>
                         {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}{% if post.data.eventVideoURL %} · <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>{% endif %} {% if post.data.eventKeynote %}🗝🎵{% endif %}
                     </p>
-                    {{ content | safe }}
+                
                 </div>
             </figure>
-        {% endfor %}
+{% endfor %}
 
 <svg class="visually-hidden">
   <filter id="coloring-pink" color-interpolation-filters="sRGB"

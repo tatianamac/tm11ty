@@ -8,7 +8,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
-summary: This week changed my life. I left this week without more than 1-2 hours of sleep a night, a voided career future, and far fewer friends. I feel tired in an existential way. It's like someone forgot to plug in my soul for three weeks, but I'm still forced to exist. I don't know how I'm going to deliver two more conference talks this week, but I know I will. Because if I got one thing out of this week, it's a strong sense of trust in self—that what doesn't kill me (makes me stronger).
+summary: This week changed my life. I left this week without more than 1-2 hours of sleep a night, a voided career future, and far fewer friends. I feel tired in an existential way. It's like someone forgot to plug in my soul for three weeks, but I'm still forced to exist.
 ---
 This week changed my life. I left this week without more than 1-2 hours of sleep a night, a voided career future, and far fewer friends. I feel tired in an existential way. It's like someone forgot to plug in my soul for three weeks, but I'm still forced to exist. I don't know how I'm going to deliver two more conference talks this week, but I know I will. Because if I got one thing out of this week, it's a strong sense of trust in self—that what doesn't kill me (makes me stronger).
 
