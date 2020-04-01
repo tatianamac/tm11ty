@@ -13,6 +13,7 @@ $screen-l-max: 3000px;
 
 // COLORS //
 :root {
+    font-size: calc(24px + .05vw);
     --color--accent: #FF0DD1;
     --color--primary: #111111;
     --color--secondary: #0e4bff;
@@ -59,9 +60,9 @@ $primary-color: $cobalt;
 $secondary-color: $blush-pink;
 
 // TYPOGRAPHY //
-$sans-serif: '05-brother1816-book', Helvetica, sans-serif;
-$serif: 'freigdisproboo', Georgia, 'Times New Roman', serif;
-$condensed: 'League Gothic Condensed', Impact, sans-serif;
+$sans-serif: 'calibre-web-regular', Helvetica, sans-serif;
+$serif: 'domaine-text-test-light', Georgia, 'Times New Roman', serif;
+$condensed: 'founders-grotesk-condensed-test-light', Impact, sans-serif;
 $mono: Courier, mono;
 
 $t-height-none: 0;
@@ -81,12 +82,12 @@ $bold: 700;
 
 $baby: .8em;
 $thinn: 1em;
-$slimm: 1.5em;
-$normie: 2em;
-$full: 2.5em;
-$thicc: 3em;
-$chonk: 5em;
-$gigantic: 15em;
+$slimm: 1.25em;
+$normie: 1.5em;
+$full: 2em;
+$thicc: 2.25em;
+$chonk: 3em;
+$gigantic: 10em;
 $bg-repeat: repeat-x 5em 5em ;
 
 // BORDER STYLES //

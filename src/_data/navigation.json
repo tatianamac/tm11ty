@@ -1,0 +1,56 @@
+{
+  "header": [
+    {
+      "text": "Writing",
+      "url": "/writing",
+      "external": false
+    },
+    {
+        "text": "Work",
+        "url": "/work",
+        "external": false
+      },
+    {
+      "text": "Speaking",
+      "url": "/speaking",
+      "external": false
+    },
+    {
+      "text": "Media", 
+      "url": "/media",
+      "external": false
+    },
+    {
+        "text": "About", 
+        "url": "/hire-me",
+        "external": false
+    },
+    {
+        "text": "Shop", 
+        "url": "https://www.styledotcss.com",
+        "external": true
+    }
+  ],
+  "footer": [
+    {
+      "text": "Email",
+      "url": "mailto:inquiry@tatianamac.com",
+      "external": true
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/TatianaTMac",
+      "external": true
+    },
+    {
+      "text": "Codepen",
+      "url": "https://codepen.io/tatianamac/",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/tatianamac",
+      "external": true
+    }
+  ]
+}

@@ -29,6 +29,12 @@ module.exports = function(eleventyConfig) {
  
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
 
+  // Add navigation hierarchy
+  const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+  module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  };
+
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");

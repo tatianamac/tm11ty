@@ -1,8 +1,44 @@
 @font-face {
-    font-family: '05-brother1816-book';
+    font-family: 'calibre-web-regular';
     font-display: swap;
-    src: local('05-brother1816-book'), url('../assets/fonts/05-brother1816-book-webfont.woff2') format('woff2'),
-         url('../assets/fonts/05-brother1816-book-webfont.woff') format('woff');
+    src: local('calibre-web-regular'), url('../assets/fonts/calibre-web-regular.woff2') format('woff2'),
+         url('../assets/fonts/calibre-web-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'founders-grotesk-condensed-test-bold';
+    font-display: swap;
+    src: local('founders-grotesk-condensed-test-bold'), url('../assets/fonts/founders-grotesk-condensed-test-bold.woff2') format('woff2'),
+         url('../assets/fonts/founders-grotesk-condensed-test-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'domaine-text-test-light';
+    font-display: swap;
+    src: local('domaine-text-test-light.woff'), url('../assets/fonts/domaine-text-test-light.woff.woff2') format('woff2'),
+         url('../assets/fonts/domaine-text-test-light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'calibre-web-bold';
+    font-display: swap;
+    src: local('calibre-web-bold'), url('../assets/fonts/calibre-web-bold.woff2') format('woff2'),
+         url('../assets/fonts/calibre-web-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'calibre-web-regular-italic';
+    font-display: swap;
+    src: local('calibre-web-regular-italic'), url('../assets/fonts/calibre-web-regular-italic.woff2') format('woff2'),
+         url('../assets/fonts/calibre-web-regular-italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'calibre-web-bold-italic';
+    font-display: swap;
+    src: local('calibre-web-bold'), url('../assets/fonts/calibre-web-bold-italic.woff2') format('woff2'),
+         url('../assets/fonts/calibre-web-bold.woff') format('woff');
 }
 
 @font-face {

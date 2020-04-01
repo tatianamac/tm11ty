@@ -4,11 +4,10 @@
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
 
-    <link rel="preload" href="{{ '/assets/fonts/05-brother1816-book-webfont.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/calibre-web-regular.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/freigdisproboo-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ '/assets/fonts/leaguegothic-condensed-regular-webfont.woff' | url }}" as="font" type="font/woff" crossorigin>
 
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>

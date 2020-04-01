@@ -271,11 +271,11 @@
 
 body {
       font-family: $sans-serif;
-      font-size: 18px; //The smallest it should be!
-      line-height: 1.5;
+      font-size: 1rem;
+      line-height: 1.75;
   }
 
-  article h2 {
+article h2 {
     font-family: $serif;
   }
 
@@ -456,9 +456,12 @@ code {
 
   ul.linklist {
     @include list-clear-style;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
     li {
-    display: inline-block;
     margin: 0 2rem 0 0;
     }
 

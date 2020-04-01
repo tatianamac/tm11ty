@@ -21,10 +21,11 @@
   }
 
 .site-header {
-  padding: 1rem 0 .25rem 0;
-  width: 100%;
+  align-items: center;
   display: flex;
   flex-direction: row;
+  padding: .75rem 0 .25rem 0;
+  width: 100%;
 }
 
 .outline-me {
@@ -56,20 +57,19 @@
   align-items: flex-start;
   opacity: 1;
   transition: opacity 200ms ease-out;
-  padding: .125rem 0;
 
   li {
     text-align: center;
-    margin: .5rem auto;
+    margin: .35rem auto;
   }
 
   a {
-  @include t-uppercase;
-  @include bdr-thinn-white;
-  @include t-link-hover;
-  text-decoration: none;
-  font-size: .95rem;
-  padding: .35rem 0;
+    @include t-uppercase;
+    @include bdr-thinn-white;
+    @include t-link-hover;
+    text-decoration: none;
+    font-size: .85rem;
+    padding: .3rem 0;
   }
   
 }
