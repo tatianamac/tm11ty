@@ -1,246 +1,30 @@
-li.inline {
-  display: inline;    
+.flex--half {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+
+}
+
+.flex--half--child {
+  flex: 1;
+  min-width: 15em;
+}
+
+#floating-hands {
+  margin: 1em;
+}
+
+.animate--float {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .clearspace {
   @include clearspace;
 }
-
-// EXPERIENCE //
-
-  .clients {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    max-width: 800px;
-    margin: 0 auto 24px; 
-
-    img {
-      display: inline-block;
-      min-width: 150px;
-      max-height: 150px;
-      flex: 0 1;
-      padding: 1em;
-    }
-  }
-
-  // STAMPS
-
-  .stamp {
-    outline: 20px dotted $white;
-    outline-offset: -10px;
-    background: $light-grey;
-    margin: 1em;
-    position: relative;
-  }
-
-  .stub {
-    display: flex;
-    align-self: center;
-    position: relative;
-    width: 80%;
-    margin: 2rem 0;
-    max-height: 15rem;
-    min-width: 250px;
-    background:
-    radial-gradient(circle at 0 100%, transparent 30px, $neon-yellow 30px),
-    radial-gradient(circle at 100% 100%, transparent 30px, $neon-yellow 30px),
-    radial-gradient(circle at 100% 0, transparent 30px, $neon-yellow 30px),
-    radial-gradient(circle at 0 0, transparent 30px, $neon-yellow 30px);
-    background-position: bottom left, bottom right, top right, top left;
-    background-size: 51% 51%, 51% 51%, 51% 51%, 51% 51%;
-    background-repeat: no-repeat;
-  }
-
-  .stub:hover {
-    background: 
-    radial-gradient(circle at 0 100%, transparent 30px, $green 30px),
-    radial-gradient(circle at 100% 100%, transparent 30px, $green 30px),
-    radial-gradient(circle at 100% 0, transparent 30px, $green 30px),
-    radial-gradient(circle at 0 0, transparent 30px, $green 30px);
-    background-position: bottom left, bottom right, top right, top left;
-    background-size: 51% 51%, 51% 51%, 51% 51%, 51% 51%;
-    background-repeat: no-repeat;
-    // content: "tixx on sale";
-  }
-
-.stub-content {
-  display: flex;
-  text-align: left;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: .5rem 2.5rem;
-  vertical-align: baseline;
-  }
-
-  .calendar-item {
-    display: flex;
-    text-align:left;
-    justify-content: space-between;
-    flex-direction: column;
-    // border: 1px solid $light-grey;
-    padding: .25em 1.5em;
-    margin: 1.25em;
-    vertical-align: baseline;
-    background: $white;
-  }
-
-  .stamp-date {
-    width: 7em;
-    height: 7em;
-    position: absolute;
-  }
-
-  .stamp-date text {
-  text-transform: uppercase;
-  fill: $cobalt;
-  font-size: .65em;
-  font-family: Courier;
-}
-
-.stamp-date path {
-  fill: none;
-  border: 1px solid $red;}
-
-  .stamp-date svg {
-    display: block;
-    overflow: visible;
-   }
-
-   .stamp--neg10\@m {
-    @include screen-m {
-    transform: rotate(-10deg);
-    }
-   }
-
-   .stamp--neg10\@l {
-     @include screen-l {
-    transform: rotate(-10deg);
-  }
-   }
-
-   .stamp--neg10\@xl {
-    @include screen-xl {
-    transform: rotate(-10deg);
-    }
-   }
-
-   .stamp--neg5\@m {
-     @include screen-m {
-    transform: rotate(-5deg);
-  }
-   }
-
-   .stamp--neg5\@l {
-     @include screen-l {
-    transform: rotate(-5deg);
-  } 
-  }
-
-   .stamp--neg5\@xl {
-    @include screen-xl {
-    transform: rotate(-5deg);
-    }
-   }
-
-   .stamp--10\@m {
-    @include screen-m {
-      transform: rotate(10deg);
-    }
-  }
-
-  .stamp--10\@l {
-    @include screen-l {
-      transform: rotate(10deg);
-    }
-  }
-
-  .stamp--10\@xl {
-    @include screen-xl {
-      transform: rotate (10deg);
-    }
-  }
-
-  .stamp--5\@m {
-    @include screen-m {
-      transform: rotate(5deg);
-    }
-  }
-
-  .stamp--5\@l {
-    @include screen-l {
-      transform: rotate(5deg);
-    }
-  }
-
-  .stamp--5\@xl {
-    @include screen-xl {
-      transform: rotate (5deg);
-    }
-  }
-
-  .stamp--aboveleft {
-    top: -2rem;
-    right: -2rem;
-  }
-
-  .stamp--aboveright {
-    top: -3rem;
-    right: -2rem;
-   }
-
-   .stamp--topright {
-    top: 2rem;
-    right: -2rem;
-   }
-
-   .stamp--midleft {
-    top: 5rem;
-    right: -2rem;
-   }
-
-   .stamp--midright {
-    top: 5rem;
-    left: -2rem;
-   }
-
-   .stamp--btmright {
-    bottom: -2rem;
-    right: -2rem;
-  }
-
-  .calendar-item {
-    display: flex;
-    text-align:left;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: .1em 1.5em;
-    margin: 1.25em;
-    vertical-align: baseline;
-    background: $white;
-  }
-
-  // SPONSOR //
-  
-    @mixin triptych--tablet() {
-      .triptych {
-      grid-column: span 4;
-      }
-    }
-
-  .pixel-box {
-    display: inline-block;
-    margin: 2rem;
-    padding: 1rem;
-    width: 150px;
-    height: 150px;
-    background: $green;
-    border: 1px solid black;
-    box-shadow: 5px 5px 0px black;
-    filter: drop-shadow(10px 10px 0px black);
-  }
 
   #contact {
     background: $black;
@@ -258,11 +42,4 @@ li.inline {
     to {
       transform: translate(0, 0px);
   }
-}
-
-.floating {
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
 }

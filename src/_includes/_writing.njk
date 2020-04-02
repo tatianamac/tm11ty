@@ -1,18 +1,35 @@
 <section id="writing" class="container">
   <div class="wrapper">
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
-          <h2 class="t-eyebrow t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-black">Selected Writings</h2>
-          <h3 class="t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-tight t-serifweight t-black t-height-tight">Bah-hum-blog.</h3>
-
-        <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
+      <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
+          <h1 class="t-eyebrow t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-black t-space-strip">Selected Writings</h1>
+          <h2 class="t-thiccfont@xs t-thiccfont@s t-ultrachonkfont@m t-ultrachonkfont@l t-ultrachonkfont@xl t-height-tight t-serifweight t-black t-height-tight t-space-strip">Bah-hum-blog.</h2>
+      </div>
+      <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
           <img src="../assets/img/spilled-glasses.svg" alt="Spilled glasses in neon green puddle.">
       </div>
 
-      </div>
 
-{% for post in collections.posts | reverse %}
-    <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
+{# {% for post in collections.featured | reverse %}
+    <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
+      <p class="t-eyebrow">{{ post.data.description }}</p>
       <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
+      {{ post.data.summary }}
+      </p>
+      <p><a class="t-link-accent-{{ linkColour }}" href="{{ post.url | url }}"  rel="noopener noreferrer">{{ post.data.title }}</a></p>
+      {% for tag in post.data.tags %}
+        {%- if collections.tagList.indexOf(tag) != -1 -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      
+      <a class="t-tag tag" href="{{ tagUrl | url }}">{{ tag }}</a>
+      
+        {%- endif -%}
+      {% endfor %}
+    </div> 
+    {% endfor %} #}
+
+  {% for post in collections.selected | reverse %}
+    <div class="tiled grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
+      <p class="t-height-cozy t-black t-height-medium">
       {{ post.data.summary }}
       </p>
       <p><a class="t-link-accent-blue" href="{{ post.url | url }}"  rel="noopener noreferrer">{{ post.data.title }}</a></p>
@@ -21,7 +38,7 @@
 {# 
 TO DO: Add summary for external post
 
-      <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
+      <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
     
           <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
               The question to answer isn't, &ldquo;Have I made a place where people have the freedom to express themselves?&rdquo; Instead we have to ask, &ldquo;Have I made a place where everyone has the safety to exist?&rdquo;

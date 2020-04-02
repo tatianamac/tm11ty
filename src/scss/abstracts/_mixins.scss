@@ -28,7 +28,6 @@
   }
 }
 /// Background size helper
-
 @mixin background-size($width, $height: $width) {
     @include prefix(background-size, $width $height, 'webkit' 'moz');
 }
@@ -140,6 +139,10 @@
   font-size: $chonk;
 }
 
+@mixin ultrachonkfont() {
+  font-size: $ultrachonk;
+}
+
 @mixin giganticfont() {
   font-size: $gigantic;
 }
@@ -186,7 +189,7 @@
     @include babyfont;
     @include t-uppercase;
     @include t-ltr-spaceout-m;
-    font-weight: $light;
+    font-weight: $bold;
 }
 
 @mixin list-clear-style() {
@@ -230,102 +233,47 @@
 
 // BORDER
 
-@mixin bdr-thinn-blue() {
+@mixin bdr--blue() {
   border-bottom: 1px solid $cobalt;
   @include txn-ease-in-quick;
 }
 
-@mixin bdr-thinn-white() {
+@mixin bdr--white() {
   border-bottom: 1px solid $white;
 }
 
-@mixin bdr-thinn-black() {
+@mixin bdr--black() {
   border-bottom: 1px solid $black;
 }
 
-@mixin bdr-thinn-green() {
+@mixin bdr--green() {
   border-bottom: 1px solid $green;
 }
 
-@mixin bdr-thicc-green() {
+@mixin bdr--green() {
   border-bottom: 1px solid $green;
   @include txn-ease-in-quick;
 }
 
-@mixin bdr-thicc-pink() {
+@mixin bdr--pink() {
   border-bottom: 1px solid $pink;
   @include txn-ease-in-quick;
 }
 
-@mixin bdr-thinn-orange() {
+
+@mixin bdr--orange() {
   border-bottom: 1px solid $orange;
   @include txn-ease-in-quick;
-}
-
-@mixin bdr-hover() {
-    &:hover {
-      @include bdr-thicc-pink;
-    }
 }
 
 @mixin t-link-hover() {
     text-decoration: none;
     @include txn-ease-in-quick;
-    @include bdr-hover;
-}
-
-// this is accent t-bar border
-
-@mixin bdr-baby-grey-line() {
-  border-bottom: 1px solid $light-grey;
-}
-
-@mixin bdr-baby-grey-end() {
-  border-right: 1px solid $light-grey;
-}
-
-@mixin bdr-baby-pink-line() {
-  border-bottom: 1px solid $pink;
-}
-
-@mixin bdr-baby-pink-end() {
-  border-right: 1px solid $pink;
-}
-
-@mixin bdr-t-bar-r-grey() {
-&::after {
-  content: "";
-  @include bdr-baby-grey-line;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  margin-right: -100%;
-  vertical-align: middle;
-  }
-}
-
-@mixin bdr-t-bar-r-pink() {
-&::after {
-  content: "";
-  @include bdr-baby-pink-line;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  margin-right: -100%;
-  vertical-align: middle;
-  }
 }
 
 // TRANSITIONS
-
 @mixin txn-ease-in-quick() {
   transition: all .2s ease-in;
-}
-
-// DROP SHADOW
-
-@mixin dropshadow-grey() {
-  filter: drop-shadow(.5em .5em 0px $light-grey);
 }
 
 // ZIG ZAG BASE

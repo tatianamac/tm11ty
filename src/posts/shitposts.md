@@ -1,7 +1,7 @@
 ---
 title: The Shitpost Slowdown
 description: Introspection about humour
-summary: This week changed my life. I left this week without more than 1-2 hours of sleep a night, a voided career future, and far fewer friends. I feel tired in an existential way. It's like someone forgot to plug in my soul for three weeks, but I'm still forced to exist. I don't know how I'm going to deliver two more conference talks this week, but I know I will. Because if I got one thing out of this week, it's a strong sense of trust in self—that what doesn't kill me (makes me stronger).
+summary: I save a lot more drafts in my Twitter. I post less. I share some of the things I wanna say to close friends. I slow myself down. I take more time to consider the impact of my actions. I think about how wildly the fire can rage before I light the match.
 date: 2019-11-23 01:32:11 +8:00
 tags:
   - personal
