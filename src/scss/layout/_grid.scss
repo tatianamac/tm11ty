@@ -5,25 +5,6 @@
   grid-row-gap: 2vh;
 }
 
-.wrapperhero {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat (2);
-  grid-column-gap: 2em;
-  grid-row-gap: 2em;
-  grid-auto-flow: dense;
-
-  a::after {
-    content: none;
- }
-
- .wrapper-photogrid {
-  grid-row-gap: 1em;
-  grid-auto-rows: min-content;
- }
-
-}
-
 .tiled {
   display: flex;
   flex-direction: column;

@@ -351,8 +351,8 @@ article h2 {
 
   .details {
     text-transform: uppercase;
-    font-size: .8em;
-    color: $dark-grey;
+    font-size: .75em;
+    color: $black;
     letter-spacing: .025em;
     padding-top: .5em;
     min-width: 100px;
@@ -436,17 +436,6 @@ article h2 {
 
 .t-eyebrow {
   @include t-eyebrow;
-}
-
-.bdr-t-bar-r-grey {
-  @include bdr-t-bar-r-grey;
-}
-
-.t-eyebrow-line {
-  @include t-eyebrow;
-  @include bdr-t-bar-r-grey;
-  @include bdr-baby-grey-end;
-  overflow: hidden;
 }
 
 .t-titlingfont {

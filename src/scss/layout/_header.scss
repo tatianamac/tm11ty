@@ -4,15 +4,12 @@
   z-index: 9999;
   left: 1em;
   top: 1em;
-
   transform: translateY(calc(-100% - 1em));
-
   padding: 1em;
   color: $white;
   text-decoration: none;
   background: $black;
   border: 1px $pink;
-
 }
 
 #skip a:focus {
@@ -24,52 +21,57 @@
   align-items: center;
   display: flex;
   flex-direction: row;
-  padding: .75rem 0 .25rem 0;
-  width: 100%;
+  padding: 0 0 .25rem 0;
+  @include screen-xs {
+    align-items: flex-start;
+  }  
 }
+
 
 .outline-me {
   outline: 1px solid $red;
 }
 
 .logo {
-  fill: $pink;
   display: block;
   margin: 1em 2em 0 0;
   min-width: 40px;
   max-width: 50px;
+  @include screen-xs {
+    margin: 1em 1 0 0;
+  }  
+
+  #logo {
+    fill: $pink;
+  }
 
   a {
   border-bottom: none;
 	}
 }
 
+  @include screen-xs {
+    align-items: flex-start;
+  }  
+
 .main-navigation {
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  justify-content: flex-end;
+
 }
 
 .nav-item {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  opacity: 1;
-  transition: opacity 200ms ease-out;
-
-  li {
-    text-align: center;
-    margin: .35rem auto;
-  }
+  justify-content: space-between;
 
   a {
     @include t-uppercase;
     @include bdr--white;
-    @include t-link-hover;
     text-decoration: none;
     font-size: .85rem;
     padding: .3rem 0;
+    :hover {
+      @include bdr--pink;
+    }
   }
   
 }

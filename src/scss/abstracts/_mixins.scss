@@ -28,7 +28,6 @@
   }
 }
 /// Background size helper
-
 @mixin background-size($width, $height: $width) {
     @include prefix(background-size, $width $height, 'webkit' 'moz');
 }
@@ -266,69 +265,14 @@
   @include txn-ease-in-quick;
 }
 
-// @mixin bdr-hover() {
-//     &:hover {
-//       @include bdr--black;
-//     }
-// }
-
 @mixin t-link-hover() {
     text-decoration: none;
     @include txn-ease-in-quick;
 }
 
-// this is accent t-bar border
-
-@mixin bdr-baby-grey-line() {
-  border-bottom: 1px solid $light-grey;
-}
-
-@mixin bdr-baby-grey-end() {
-  border-right: 1px solid $light-grey;
-}
-
-@mixin bdr-baby-pink-line() {
-  border-bottom: 1px solid $pink;
-}
-
-@mixin bdr-baby-pink-end() {
-  border-right: 1px solid $pink;
-}
-
-@mixin bdr-t-bar-r-grey() {
-&::after {
-  content: "";
-  @include bdr-baby-grey-line;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  margin-right: -100%;
-  vertical-align: middle;
-  }
-}
-
-@mixin bdr-t-bar-r-pink() {
-&::after {
-  content: "";
-  @include bdr-baby-pink-line;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  margin-right: -100%;
-  vertical-align: middle;
-  }
-}
-
 // TRANSITIONS
-
 @mixin txn-ease-in-quick() {
   transition: all .2s ease-in;
-}
-
-// DROP SHADOW
-
-@mixin dropshadow-grey() {
-  filter: drop-shadow(.5em .5em 0px $light-grey);
 }
 
 // ZIG ZAG BASE

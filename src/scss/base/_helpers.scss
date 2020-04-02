@@ -16,17 +16,10 @@ h1 {
   line-height: 1.25em;
 }
 
-/**
- * Main content containers
- * 1. Make the container full-width with a maximum width
- * 2. Center it in the viewport
- * 3. Leave some space on the edges, especially valuable on small screens
- **/
-
 .container {
-  max-width: $screen-l-max; /* 1 */
-  margin: 0 auto; /* 2 */
-  width: 100%; /* 1 */
+  max-width: $screen-l-max;
+  margin: 0 auto; 
+  width: 100vw;
 
   @include screen-xs {
     @include thinnpadding;
