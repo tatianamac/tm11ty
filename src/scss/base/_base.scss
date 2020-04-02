@@ -285,10 +285,10 @@ img {
 // BACKGROUND THINGS
 
 .bg-primary {
-	background: $primary-color;
+	background: $cobalt;
 }
 
-$bg-color: ("black": #{$black}, "purple": #{$purple}, "teal-green": #{$teal-green}, "yellow": #{$yellow}, "blush-pink": #{$blush-pink}, "emerald-green": #{$emerald-green}, "light-grey": #{$light-grey}, "dusty-rose": #{$dusty-rose}, "pale-peach": #{$pale-peach}, "neon-yellow": #{$neon-yellow});
+$bg-color: ("black": #{$black}, "teal-green": #{$teal-green}, "yellow": #{$yellow}, "blush-pink": #{$blush-pink}, "emerald-green": #{$emerald-green}, "light-grey": #{$light-grey}, "dusty-rose": #{$dusty-rose}, "pale-peach": #{$pale-peach}, "neon-yellow": #{$neon-yellow});
 
 @each $name, $colour in $bg-color {
   .bg- {

@@ -281,7 +281,7 @@ article h2 {
 
   article a {
     @include t-link-hover;
-    color: $primary-color;
+    color: $cobalt;
   }
 
   h5 {
@@ -292,8 +292,10 @@ article h2 {
 
   p {
     color: $black;
+    font-size: calc(24px + .05vw);
+  }
 
-  &.comingsoon {
+  .comingsoon {
       color: $mid-grey;
       text-transform: uppercase;
       font-size: .8em;
@@ -303,7 +305,6 @@ article h2 {
       margin-right: 2em;
       transition: all .2s ease-in;
     }
-  }
 
   .details {
     text-transform: uppercase;
@@ -378,7 +379,7 @@ article h2 {
 .t-link-accent-blue {
     @include t-link-hover;
     @include bdr-thinn-blue;
-    color: $primary-color;
+    color: var(--color--primary);
     padding: 2px 0;
 }
 
@@ -416,14 +417,14 @@ article h2 {
   font-family: $condensed;
   text-transform: uppercase;
   font-weight: 100;
-  margin: .25rem;
+  margin: .25em;
 }
 
 code {
   background: $green;
-  padding:  .5rem;
+  padding:  .5em;
   color: $black;
-  margin: .25rem;
+  margin: .25em;
 }
 
 .postlist {
@@ -471,7 +472,7 @@ code {
     @include list-clear-style;
 
     li {
-      margin: .75rem 0 0 0;
+      margin: .75em 0 0 0;
     }
   }
 
@@ -479,16 +480,16 @@ code {
     @include list-clear-style;
 
     li {
-      margin: 1rem 0 0 0;
+      margin: 1em 0 0 0;
     }
   }
   
   ul.longform {
     list-style-type: square;
-    padding-bottom: .5rem;
+    padding-bottom: .5em;
 
     li {
-      margin:  0 0 1rem 0;
+      margin:  0 0 1em 0;
     }
   }
 
@@ -496,7 +497,7 @@ code {
     text-decoration: none;
     font-style: normal;
     margin-left: .1em;
-    color: var(--color--secondary);
+    color: $cobalt;
   }
 
   a[href].direct-link,
@@ -507,7 +508,7 @@ code {
   a[href].direct-link:focus:visited,
   :hover > a[href].direct-link,
   :hover > a[href].direct-link:visited {
-    color: var(--color--accent);
+    color: $cobalt;
   }
 
   //SYMBOLS

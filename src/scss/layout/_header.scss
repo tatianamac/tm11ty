@@ -21,11 +21,10 @@
   }
 
 .site-header {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  padding: .75rem 0 .25rem 0;
-  width: 100%;
+  // align-items: center;
+  // // display: flex;
+  // flex-direction: row;
+  background: pink;
 }
 
 .outline-me {
@@ -46,7 +45,6 @@
 
 .main-navigation {
   flex-direction: row;
-  justify-content: space-between;
   align-items: flex-start;
   justify-content: flex-end;
 }
@@ -60,7 +58,7 @@
 
   li {
     text-align: center;
-    margin: .35rem auto;
+    margin: .35em auto;
   }
 
   a {
@@ -68,16 +66,16 @@
     @include bdr-thinn-white;
     @include t-link-hover;
     text-decoration: none;
-    font-size: .85rem;
-    padding: .3rem 0;
+    font-size: .85em;
+    padding: .3em 0;
   }
   
 }
 
 .dark {
-  color: var(--color--primary);
+  color: $black;
 }
 
 .light {
-  color: var(--color--neutral);
+  color: $white;
 }

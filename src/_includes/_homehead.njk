@@ -1,55 +1,26 @@
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ renderData.title or title or metadata.title }}</title>
-    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+@font-face {
+  font-family: 'calibre-web-regular';
+  font-display: swap;
+  src: local("calibre-web-regular"), url("../assets/fonts/calibre-web-regular.woff2") format("woff2"), url("../assets/fonts/calibre-web-regular.woff") format("woff"); }
+  
+@font-face {
+  font-family: 'freigdisproboo';
+  font-display: swap;
+  src: local("freigdisproboo"), url("../assets/fonts/freigdisproboo-webfont.woff2") format("woff2"), url("../assets/fonts/freigdisproboo-webfont.woff") format("woff"); }
 
-    <link rel="preload" href="{{ '/assets/fonts/calibre-web-regular.woff2' | url }}" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/assets/fonts/freigdisproboo-webfont.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="{{ '/css/main.css' | url }}" media="print" onload="this.media='all'">
-    {# <noscript>
-        <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
-    </noscript>      #}
+  .light {
+    color: #f1f1f1; }
 
-    {# <style type="text/css">
-        @font-face {
-        font-family: 'calibre-web-regular';
-        font-display: swap;
-        src: local("calibre-web-regular"), url("../assets/fonts/calibre-web-regular.woff2") format("woff2"), url("../assets/fonts/calibre-web-regular.woff") format("woff"); }
-        
-        @font-face {
-        font-family: 'freigdisproboo';
-        font-display: swap;
-        src: local("freigdisproboo"), url("../assets/fonts/freigdisproboo-webfont.woff2") format("woff2"), url("../assets/fonts/freigdisproboo-webfont.woff") format("woff"); }
+.main-navigation {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-end; }
 
-
-        .light {
-            color: #f1f1f1; }
-
-        .main-navigation {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;}
-
-
-
-        body {
-            font-family: "calibre-web-regular", Helvetica, sans-serif;
-            font-size: calc(24px + .05vw);
-            line-height: 1.75;
-            margin: 0;
-            padding: 0;}
-
-
-                ul.linklist {
-            list-style: none outside;
-            padding: 0;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between; }
-            ul.linklist li {
-                margin: 0 2rem 0 0; }
+  body {
+    font-family: "calibre-web-regular", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.75; }
 
   .t-serifweight {
     font-family: "freigdisproboo", Georgia, "Times New Roman", serif;
@@ -77,7 +48,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    padding: .75em 0 .25em 0;
+    padding: .75rem 0 .25rem 0;
     width: 100%; }
 
 .nav-item {
@@ -204,42 +175,6 @@
                     background: #0e4bff; }
                     .padding-btm-none {
                         padding-bottom: 0; }
-
-                        @keyframes floating {
-  from {
-    transform: translate(0, 0px); }
-  50% {
-    transform: translate(0, -30px); }
-  to {
-    transform: translate(0, 0px); } }
-.floating {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out; }
-padding-thinn {
-  padding: 1em; }
-
-@media screen and (min-width: 200px) and (max-width: 599px) {
-  .padding-thinn\@xs {
-    padding: 1em; } }
-
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  .padding-thinn\@s {
-    padding: 1em; } }
-
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .padding-thinn\@m {
-    padding: 1em; } }
-
-@media screen and (min-width: 1440px) and (max-width: 3000px) {
-  .padding-thinn\@l {
-    padding: 1em; } }
-
-@media screen and (min-width: 1920px) {
-  .padding-thinn\@xl {
-    padding: 1em; } }
-
 .t-white {
     color: #ffffff; }
     .t-height-tight {
@@ -248,26 +183,6 @@ padding-thinn {
     .t-typeweight {
         font-family: Courier, monospace;
         font-display: swap; }
-
-@media screen and (min-width: 200px) and (max-width: 599px) {
-  .t-thiccfont\@xs {
-    font-size: 2.25em; } }
-
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  .t-thiccfont\@s {
-    font-size: 2.25em; } }
-
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .t-thiccfont\@m {
-    font-size: 2.25em; } }
-
-@media screen and (min-width: 1440px) and (max-width: 3000px) {
-  .t-thiccfont\@l {
-    font-size: 2.25em; } }
-
-@media screen and (min-width: 1440px) and (max-width: 3000px) {
-  .t-thiccfont\@xl {
-    font-size: 2.25em; } }
 
         @media screen and (min-width: 200px) and (max-width: 599px) {
             .t-thinnfont\@xs {
@@ -287,28 +202,4 @@ padding-thinn {
           
           @media screen and (min-width: 1920px) {
             .t-thinnfont\@xl {
-              font-size: 1em; } }}
-
-
-@media screen and (min-width: 200px) and (max-width: 599px) {
-  .padding-thicc\@xs {
-    padding: 2.25em; } }
-
-@media screen and (min-width: 600px) and (max-width: 1023px) {
-  .padding-thicc\@s {
-    padding: 2.25em; } }
-
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
-  .padding-thicc\@m {
-    padding: 2.25em; } }
-
-@media screen and (min-width: 1440px) and (max-width: 3000px) {
-  .padding-thicc\@l {
-    padding: 2.25em; } }
-
-@media screen and (min-width: 1920px) {
-  .padding-thicc\@xl {
-    padding: 2.25em; } } #}
-    </style>
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-  </head>
+              font-size: 1em; } }

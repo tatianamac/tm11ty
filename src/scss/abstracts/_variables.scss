@@ -12,16 +12,9 @@ $screen-m-max: 1439px;
 $screen-l-max: 3000px;
 
 // COLORS //
-:root {
-    font-size: calc(24px + .05vw);
-    --color--accent: #FF0DD1;
-    --color--primary: #111111;
-    --color--secondary: #0e4bff;
-    --color--neutral: #f1f1f1;
-}
+
 
 $cobalt: #0e4bff;
-$citron: #F3F315;
 
 $black: #222222;
 $white: #ffffff;
@@ -37,16 +30,12 @@ $yellow: #FFD926;
 $red: #FF5327;
 $pink: #FF0DD1;
 $blush-pink: #FFF3F3;
-$purple: #4A4FA5;
 $true-blue: #0531B2; 
 $royal-blue: #2159FE;
-$gold: #FFBC0E;
 $orange: #ff5327;
 $rust: #942f00;
 
 //greens
-$soft-mint: #eaffd1;
-$seafoam: #00B378;
 $green: #42ff0d;
 $leaf-green: #27B300;
 $teal-green: #037A5C;
@@ -55,9 +44,6 @@ $curry: #cbab00;
 $dark-curry: #a88d00;
 $dusty-rose: #cbab99;
 $pale-peach: #ffe0d1;
-
-$primary-color: $cobalt;
-$secondary-color: $blush-pink;
 
 // TYPOGRAPHY //
 $sans-serif: 'calibre-web-regular', Helvetica, sans-serif;
@@ -89,8 +75,6 @@ $thicc: 2.25em;
 $chonk: 3em;
 $gigantic: 10em;
 $bg-repeat: repeat-x 5em 5em ;
-
-// BORDER STYLES //
 
 // HTML ELEMENTS
 
