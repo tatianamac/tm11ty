@@ -1,21 +1,20 @@
 @font-face {
     font-family: 'domaine-text-web-light';
     font-display: swap;
-    src: local('domaine-text-web-light'), url('../assets/fonts/domaine-text-web-light.woff2') format('woff2'),
+    src: local('domaine-text-web-light'),
          url('../assets/fonts/domaine-text-web-light.woff') format('woff');
 }
 
 @font-face {
     font-family: 'calibre-web-regular';
     font-display: swap;
-    src: local('calibre-web-regular'), url('../assets/fonts/calibre-web-regular.woff2') format('woff2'),
-         url('../assets/fonts/calibre-web-regular.woff') format('woff');
+    src: local('calibre-web-regular'), url('../assets/fonts/calibre-web-regular.woff2') format('woff');
 }
 
 @font-face {
 font-family: 'calibre-web-bold';
     font-display: swap;
-    src: local('calibre-web-bold'), url('../assets/fonts/calibre-web-bold.woff2') format('woff2'),
+    src: local('calibre-web-bold'),
          url('../assets/fonts/calibre-web-bold.woff') format('woff');
 }
 
