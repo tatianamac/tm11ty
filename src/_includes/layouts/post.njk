@@ -7,12 +7,15 @@ templateclass: content
 ---
 
 <div class="wrapper container">
-    <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-quarter@m grid-quarter@l grid-quarter@xl ">
-        <p class="t-eyebrow t-typeweight">{{ date }}</p>
-    </section>
-
-    <article class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl padding-thicc@l padding-thicc@m padding-thicc@s">
+    <article class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl padding-thicc">
+    <p class="t-serif details">{{ description }}</p>
     <h1 class="t-serifweight t-ultrachonk t-height-dense">{{ title }}</h1>
+
     {{ content | safe }}
     </article>
+
+    <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thicc">
+        <p class="t-serifweight t-thinnfont">{{ summary }}</p>
+        <p class="t-eyebrow t-typeweight">{{ date }}</p>
+    </section>
 </div>
