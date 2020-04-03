@@ -57,10 +57,12 @@ SSG-generated sites are technically a subcategory of static sites, but they're a
 
 Static sites have static content. Static sites store the information (or assets) needed to serve the site (HTML, images, scripts) on a server (usually whomever is paid to "host" the site).
 
-1. When users access a site in their browser, the browser requests files from the web server. The web server gathers the files you need for the specific page you requested from a finite list of files that it has stored.
-2. The web server sends the files to your browser.
-Your browser renders the files and presents you with the website.
-3. Theoretically, everyone should receive the same information (even if it ends up looking slightly different).
+1. When users access a site in their browser, the browser requests files from the web server.
+2. The web server gathers the files you need for the specific page you requested from a finite list of files that it has stored.
+3. The web server sends the files to your browser.
+4. Your browser renders the files and presents you with the website.
+
+Theoretically, everyone should receive the same information (even if it ends up looking slightly different).
 
 ![Diagram of static sites where all elements are from Super Mario to illustrate how static sites are generated. Computer and browser (browser logo is Bowser's eye and eyebrow done in Firefox/Edge style) sends a request (Bullet Bill) to the web server (Thomp), which then sends back static files (Koopas dresed as HTML, CSS, and JS files).](../../assets/img/eleventy-i-static.jpg)
 
@@ -182,7 +184,7 @@ A. The person creating the site generates dynamic inputs, like markup language f
 
 B. The SSGs essentially take the actions that would happen on the server-side (like building a post into an HTML file) and perform them before the site is deployed. The SSG takes the dynamic inputs and compiles it into HTML, CSS, and JavaScript—these are the static files that get uploaded to the file server. Hence, the site becomes static.
 
-![Diagram of SSG sites where all elements are from Super Mario to illustrate how static sites are generated. Computer and browser (browser logo is Bowser's eye and eyebrow done in Firefox/Edge style) sends a request (Bullet Bill) to the web server (Thomp). Simultaneously, data/template files (Koopas as Markdown, JSON, and Nunjucks files) are sent to the static site generator (Magic Koopa) who sends generated static files (Koopas dresed as HTML, CSS, and JS files) back to the web server. The web server sends those files to the computer.](../../assets/img/eleventy-i-ssg.jpg)
+![Diagram of SSG sites where all elements are from Super Mario to illustrate how static sites are generated. Computer and browser (browser logo is Bowser's eye and eyebrow done in Firefox/Edge style) sends a request (Bullet Bill) to the web server (Thomp). Simultaneously, data/template files (Koopas as Markdown, JSON, and Nunjucks files) are sent to the static site generator (Magic Koopa) who sends generated static files (Koopas dressed as HTML, CSS, and JS files) back to the web server. The web server sends those files to the computer.](../../assets/img/eleventy-i-ssg.jpg)
 
 The benefit of this added step is that it adds some of the developer/creator benefits of dynamic sites (like, writing content in Markdown and reusing templates) without as many of the dynamic cons (like, usually having to load an entire framework) while maintaining the pros of static sites. A Best of Both Worlds™ (BOBW) if you ask me.
 
