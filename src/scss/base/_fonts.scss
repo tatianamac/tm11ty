@@ -8,7 +8,7 @@
 @font-face {
     font-family: 'calibre-web-regular';
     font-display: swap;
-    src: local('calibre-web-regular'), url('../assets/fonts/calibre-web-regular.woff2') format('woff');
+    src: local('calibre-web-regular'), url('../assets/fonts/calibre-web-regular.woff') format('woff');
 }
 
 @font-face {
@@ -17,11 +17,3 @@ font-family: 'calibre-web-bold';
     src: local('calibre-web-bold'),
          url('../assets/fonts/calibre-web-bold.woff') format('woff');
 }
-
-@font-face {
-    font-family: 'founders-grotesk-condensed-test-bold';
-    font-display: swap;
-    src: local('founders-grotesk-condensed-test-bold'), url('../assets/fonts/founders-grotesk-condensed-test-bold.woff2') format('woff2'),
-         url('../assets/fonts/founders-grotesk-condensed-test-bold.woff') format('woff');
-}
-

@@ -321,12 +321,23 @@ body {
 
 article h2 {
     font-family: $serif;
+    font-weight: $light;
   }
 
-  article a {
-    @include t-link-hover;
-    color: $primary-color;
+  article p a {
+    border-bottom: 1px solid $orange;
+    color: $rust;
+    text-decoration: none;
+    :hover {
+      border-bottom: 1px solid $pink;
+    }
   }
+
+  article li {
+    list-style-type: "\276F";
+    padding: 0 1em 0 0;
+    }
+  
 
   h5 {
     font-family: $serif;
