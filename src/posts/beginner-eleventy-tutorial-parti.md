@@ -84,7 +84,7 @@ I wanted to add a list here of static sites built by hand (without the assistanc
 
 #### Static Site Cons
 
-Note that there are workarounds for many of these cons. For scope of article and brevity, **I've left out the tools that address/serve some of these cons.** I know they exist. Some of them will be addressed in the SSG section, so hold your commenting horses (ya neigh-sayers), and note that I can't talk about everything in this one article.
+>Note that there are workarounds for many of these cons. For scope of article and brevity, **I've left out the tools that address/serve some of these cons.** I know they exist. Some of them will be addressed in the SSG section, so hold your commenting horses (ya neigh-sayers), and note that I can't talk about everything in this one article.
 
 - **Limited**: Static sites can't do more complex things that we take for granted, like buying things online, getting weather for our location, etc.
 - **Gatekept:** Static sites require knowledge of HTML/CSS/JS to create and to update, turning developers into either content overloads or servants (depending on your org structure 😂). If you don't have these skills in house, you'll have to source them. Hand-coding websites is time-consuming, and thus, can be costly.
