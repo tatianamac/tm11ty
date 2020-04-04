@@ -1,5 +1,5 @@
 {
-  "name": "@tatianamac/tm11ty",
+  "name": "tm11ty",
   "version": "1.2.8",
   "description": "A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.",
   "scripts": {
@@ -34,6 +34,7 @@
     "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
+    "clean-css": "^4.2.3",
     "gray-matter": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",

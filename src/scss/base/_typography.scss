@@ -7,6 +7,20 @@
 .bold {
     font-weight: $bold;
   }
+  
+.t-tag {
+  border: 1px solid black;
+  border-radius: 2em;
+  color: black;
+  font-size: .75em;
+  padding: .5em 1em;
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+  &:hover {
+    background: black;
+    color: white;
+  }
+}
 
 .t-mini {
   font-size: .75em;
@@ -53,6 +67,36 @@
 
 .t-height-loose {
   line-height: $t-height-loose;
+}
+
+.t-ultrachonkfont\@xs {
+  @include screen-xs {
+    @include ultrachonkfont;
+  }
+}
+
+.t-ultrachonkfont\@s {
+  @include screen-s {
+    @include ultrachonkfont;
+  }
+}
+
+.t-ultrachonkfont\@m {
+  @include screen-m {
+    @include ultrachonkfont;
+  }
+}
+
+.t-ultrachonkfont\@l {
+  @include screen-l {
+    @include ultrachonkfont;
+  }
+}
+
+.t-ultrachonkfont\@xl {
+  @include screen-l {
+    @include ultrachonkfont;
+  }
 }
 
 .t-chonkfont\@xs {
@@ -275,14 +319,48 @@ body {
       line-height: 1.75;
   }
 
-article h2 {
+article h2, h3, h4 {
     font-family: $serif;
+    font-weight: $light;
+    color: $dark-grey;
   }
 
-  article a {
-    @include t-link-hover;
-    color: $cobalt;
+  article blockquote {
+    background: $light-grey;
+    margin: 0;
+    border-left: 10px solid $pink;
+    padding: 1em;
+    p:first-of-type:before {
+      content: "Note";
+      color: $pink;
+      display: block;
+      font-family: $condensed;
+      font-size: 1em;
+      letter-spacing: .2em;
+      margin: 0; padding: 0;
+      text-transform: uppercase;
+    }
   }
+
+  article a:focus {
+    outline: 2px solid $pink;
+  }
+
+  article p a, article li a {
+    border-bottom: 1px solid $black;
+    color: $cobalt;
+    text-decoration: none;
+    transition: .2s border-bottom ease-in-out;
+    &:hover {
+      border-bottom: 1px solid $pink;
+    }
+
+  }
+
+  article ul {
+    list-style-type: square;
+    margin-left: 0 0 0 1.5em;
+  } 
 
   h5 {
     font-family: $serif;
@@ -308,8 +386,8 @@ article h2 {
 
   .details {
     text-transform: uppercase;
-    font-size: .8em;
-    color: $dark-grey;
+    font-size: .75em;
+    color: $black;
     letter-spacing: .025em;
     padding-top: .5em;
     min-width: 100px;
@@ -346,27 +424,27 @@ article h2 {
 
 .t-link-accent-white {
     @include t-link-hover;
-    @include bdr-thinn-white;
+    @include bdr--white;
     line-height: $t-height-extra-loose;
     padding: 10px 0;
 }
 
 .t-link-accent-black {
   @include t-link-hover;
-  @include bdr-thinn-black;
+  @include bdr--black;
   padding: 2px 0;
 }
 
 .t-link-accent-green {
   @include t-link-hover;
-  @include bdr-thinn-green;
+  @include bdr--green;
   line-height: $t-height-extra-loose;
   padding: 2px 0;
 }
 
 .t-link-accent-orange {
   @include t-link-hover;
-  @include bdr-thinn-orange;
+  @include bdr--orange;
   color: $rust;
   padding: 2px 0;
 }
@@ -378,15 +456,15 @@ article h2 {
 
 .t-link-accent-blue {
     @include t-link-hover;
-    @include bdr-thinn-blue;
-    color: var(--color--primary);
+    @include bdr--black;
+    color: $primary-color;
     padding: 2px 0;
 }
 
 .t-link-accent-pink {
     @include t-link-hover;
     line-height: $t-height-loose;
-    @include bdr-thinn-white;
+    @include bdr--white;
     color: $pink;
     padding: 2px 0;
 }
@@ -395,30 +473,13 @@ article h2 {
   @include t-eyebrow;
 }
 
-.bdr-t-bar-r-grey {
-  @include bdr-t-bar-r-grey;
-}
-
-.t-eyebrow-line {
-  @include t-eyebrow;
-  @include bdr-t-bar-r-grey;
-  @include bdr-baby-grey-end;
-  overflow: hidden;
-}
-
-.t-eyebrow-line-pink {
-  @include t-eyebrow;
-  @include bdr-t-bar-r-pink;
-  @include bdr-baby-pink-end;
-  overflow: hidden;
-}
-
 .t-titlingfont {
   font-family: $condensed;
+  font-size: 1.25em;
   text-transform: uppercase;
   font-weight: 100;
   margin: .25em;
-}
+
 
 code {
   background: $green;
@@ -443,7 +504,7 @@ code {
 }
 
 .postlist-date {
-  word-spacing: -0.5px;
+  word-spacing: -0.1px;
 }
 .postlist-link {
   display: inline-block;

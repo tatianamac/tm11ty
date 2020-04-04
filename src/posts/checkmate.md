@@ -1,10 +1,10 @@
 ---
 title: Check, m8. Tech, h8.
 description: She means well.
-summary: I contain multitudes, but so many of them don't fit into that little LinkedIn quip that's either your Role at Company or your abstracted identities reduced to 2-3 words. Designer. Writer. Speaker. And if you're proud of where you work and/or if you're drinking the KoolAid you're the former, and if you're not or you're unemployed like me, you're the latter. And then once you've climbed the ladder at the former, you can then safely return to the latter.
+summary: I contain multitudes, but so many of them don't fit into that little LinkedIn quip that's either your Role at Company or your abstracted identities reduced to 2-3 words. Designer. Writer. Speaker.
 date: 2019-08-11 09:16:32 +8:00
 tags:
-  - industry
+  - personal
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white

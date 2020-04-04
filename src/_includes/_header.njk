@@ -1,5 +1,5 @@
-<header class="site-header">
-    <div class="logo grid-whole@xxs grid-whole@xs grid-half@s grid-third@m grid-third@l grid-third@xl">
+<header class="site-header wrapper">
+    <div class="logo">
     <a href="{{ '/' | url }}">
         <svg version="1" id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 114">
         <title>Floating hands</title>
@@ -9,7 +9,8 @@
 
     </a>
     </div>
-    <nav class="main-navigation">
+
+    <nav>
         <ul class="linklist">
             {% set navigationItems = navigation.header %}
             {% for item in navigationItems %}

@@ -288,7 +288,24 @@ img {
 	background: $cobalt;
 }
 
+<<<<<<< HEAD
 $bg-color: ("black": #{$black}, "teal-green": #{$teal-green}, "yellow": #{$yellow}, "blush-pink": #{$blush-pink}, "emerald-green": #{$emerald-green}, "light-grey": #{$light-grey}, "dusty-rose": #{$dusty-rose}, "pale-peach": #{$pale-peach}, "neon-yellow": #{$neon-yellow});
+=======
+$bg-color: (
+	"black": #{$black},
+	"purple": #{$purple},
+	"teal-green": #{$teal-green},
+	"yellow": #{$yellow},
+	"blush-pink": #{$blush-pink},
+	"baby-blue": #{$baby-blue},
+	"emerald-green": #{$emerald-green},
+	"light-grey": #{$light-grey},
+	"dusty-rose": #{$dusty-rose},
+	"pale-peach": #{$pale-peach},
+	"neon-yellow": #{$neon-yellow},
+	"ochre": #{$ochre}
+	);
+>>>>>>> dca89e59e6a3ba90cf973263b647d7c5695d5e2e
 
 @each $name, $colour in $bg-color {
   .bg- {
@@ -296,10 +313,4 @@ $bg-color: ("black": #{$black}, "teal-green": #{$teal-green}, "yellow": #{$yello
       background: $colour;
     }
   }
-}
-
-// DROP SHADOW
-
-.dropshadow-grey {
-	@include dropshadow-grey;
 }
