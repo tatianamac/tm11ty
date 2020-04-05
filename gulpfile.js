@@ -70,9 +70,6 @@ var settings = {
   var prefix = require('autoprefixer');
   var minify = require('cssnano');
   var cleanCSS = require('gulp-clean-css');
-
-  // HTML
-  var htmlmin = require('gulp-htmlmin');
   
   // SVGs
   var svgmin = require('gulp-svgmin');
