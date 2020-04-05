@@ -4,8 +4,8 @@
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
 
-    <link rel="preload" href="{{ '/assets/fonts/domaine-text-web-light.woff' | url }}" as="font" type="font/woff" crossorigin>
-    <link rel="preload" href="/assets/fonts/calibre-web-regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/domaine-text-web-light-subset.woff' | url }}" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="/assets/fonts/calibre-web-regular-subset.woff" as="font" type="font/woff" crossorigin>
     {% set css %}
       {% include "main.min.css" %}
     {% endset %}
