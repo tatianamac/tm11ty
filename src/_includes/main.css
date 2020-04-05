@@ -2246,7 +2246,7 @@ section {
 }
 
 /* line 68, src/scss/layout/_header.scss */
-.nav-item a :hover {
+.nav-item a:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
