@@ -65,7 +65,7 @@
     text-decoration: none;
     font-size: .85rem;
     padding: .3rem 0;
-    :hover {
+    &:hover {
       @include bdr--pink;
     }
   }
