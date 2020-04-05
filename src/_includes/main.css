@@ -1,10 +1,6 @@
 /* line 15, src/scss/abstracts/_variables.scss */
 :root {
   font-size: calc(24px + .05vw);
-  --color--accent: #FF0DD1;
-  --color--primary: #111111;
-  --color--secondary: #0e4bff;
-  --color--neutral: #f1f1f1;
 }
 
 /* line 1, src/scss/abstracts/_gradients.scss */
@@ -854,82 +850,79 @@ img {
   background: #0e4bff;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-black {
   background: #222222;
 }
 
-/* line 308, src/scss/base/_base.scss */
-.bg-purple {
-  background: #4A4FA5;
-}
-
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-teal-green {
   background: #037A5C;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-yellow {
   background: #FFD926;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-blush-pink {
   background: #FFF3F3;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-baby-blue {
   background: #DAE3FF;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-emerald-green {
   background: #004328;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-light-grey {
   background: #eeeeee;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-dusty-rose {
   background: #cbab99;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-pale-peach {
   background: #ffe0d1;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-neon-yellow {
   background: #f3f315;
 }
 
-/* line 308, src/scss/base/_base.scss */
+/* line 307, src/scss/base/_base.scss */
 .bg-ochre {
   background: #ece2ce;
 }
 
 @font-face {
   font-family: 'domaine-text-web-light';
-  font-display: swap;
   src: local("domaine-text-web-light-subset"), url("../assets/fonts/domaine-text-web-light-subset.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'calibre-web-regular';
-  font-display: swap;
+  font-weight: 400;
   src: local("calibre-web-regular-subset"), url("../assets/fonts/calibre-web-regular-subset.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'calibre-web-bold';
+  font-weight: 700;
+  src: local("calibre-web-bold"), url("../assets/fonts/calibre-web-bold-subset.woff") format("woff");
   font-display: swap;
-  src: local("calibre-web-bold"), url("../assets/fonts/calibre-web-bold.woff") format("woff");
 }
 
 /**
@@ -1735,29 +1728,7 @@ ul.longform li {
   margin: 0 0 1rem 0;
 }
 
-/* line 563, src/scss/base/_typography.scss */
-.direct-link {
-  text-decoration: none;
-  font-style: normal;
-  margin-left: .1em;
-  color: var(--color--secondary);
-}
-
-/* line 570, src/scss/base/_typography.scss */
-a[href].direct-link,
-a[href].direct-link:visited {
-  color: transparent;
-}
-
-/* line 574, src/scss/base/_typography.scss */
-a[href].direct-link:focus,
-a[href].direct-link:focus:visited,
-:hover > a[href].direct-link,
-:hover > a[href].direct-link:visited {
-  color: var(--color--accent);
-}
-
-/* line 583, src/scss/base/_typography.scss */
+/* line 565, src/scss/base/_typography.scss */
 a.right-arrow:after {
   content: "\2197";
 }
@@ -2282,12 +2253,12 @@ section {
 
 /* line 75, src/scss/layout/_header.scss */
 .dark {
-  color: var(--color--primary);
+  color: #222222;
 }
 
 /* line 79, src/scss/layout/_header.scss */
 .light {
-  color: var(--color--neutral);
+  color: #ffffff;
 }
 
 /* line 1, src/scss/components/_button.scss */

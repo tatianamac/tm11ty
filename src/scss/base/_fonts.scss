@@ -7,13 +7,15 @@
 
 @font-face {
     font-family: 'calibre-web-regular';
+    font-weight: 400;
     src: local('calibre-web-regular-subset'), url('../assets/fonts/calibre-web-regular-subset.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
-font-family: 'calibre-web-bold';
-    src: local('calibre-web-bold'),
-         url('../assets/fonts/calibre-web-bold.woff') format('woff');
+    font-family: 'calibre-web-bold';
+    font-weight: 700;
+        src: local('calibre-web-bold'),
+            url('../assets/fonts/calibre-web-bold-subset.woff') format('woff');
     font-display: swap;
 }
