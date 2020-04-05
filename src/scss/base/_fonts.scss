@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'domaine-text-web-light';
-    font-display: swap;
     src: local('domaine-text-web-light-subset'),
          url('../assets/fonts/domaine-text-web-light-subset.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'calibre-web-regular';
-    font-display: swap;
     src: local('calibre-web-regular-subset'), url('../assets/fonts/calibre-web-regular-subset.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
 font-family: 'calibre-web-bold';
-    font-display: swap;
     src: local('calibre-web-bold'),
          url('../assets/fonts/calibre-web-bold.woff') format('woff');
+    font-display: swap;
 }
