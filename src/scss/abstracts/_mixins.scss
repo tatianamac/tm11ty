@@ -189,7 +189,7 @@
     @include babyfont;
     @include t-uppercase;
     @include t-ltr-spaceout-m;
-    font-weight: $bold;
+    font-family: $sans-serif-bold;
 }
 
 @mixin list-clear-style() {

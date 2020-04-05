@@ -1625,7 +1625,7 @@ p.comingsoon {
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: .15em;
-  font-weight: 700;
+  font-family: "calibre-web-bold", Arial Black, sans-serif;
 }
 
 /* line 483, src/scss/base/_typography.scss */
