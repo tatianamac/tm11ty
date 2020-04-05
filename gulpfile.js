@@ -40,7 +40,7 @@ var settings = {
 	},
     styles: {
       input: 'src/scss/**/main.scss',
-      output: 'dist/css/'
+      output: 'src/_includes/'
     },
     svgs: {
       input: 'src/assets/img/*.svg',
