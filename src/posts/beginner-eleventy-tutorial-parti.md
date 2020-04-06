@@ -165,9 +165,10 @@ Enter:
 
 ### Static Site Generator-generated Sites*
 
->It’s a little confusing because of naming, so please note the difference:
+>*It’s a little confusing because to be accurate means we have to be pedantic, hence the redundancy of Generator-generated. For purposes of clarity, this is how I differentiated the two; please note the difference:
 >**SSGs:** Static Site Generators. The thing that generates the site.
->**SSG sites:** The sites that are generated.
+>**SSG sites:** Static Site Generator-generated Sites. The sites that are generated.
+>Please know I thought very long and hard about this very trivial/non-trivial issue.
 
 Static site generator-generated sites (SSG sites) provide a happy medium between the static sites and dynamic sites. Technically speaking, a site built from an SSG is a still static site.
 
