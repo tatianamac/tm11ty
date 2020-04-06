@@ -41,12 +41,10 @@
 
 .t-serifweight {
   @include serifweight;
-  font-display: swap;
 }
 
 .t-typeweight {
   @include typewriter;
-  font-display: swap;
 }
 
 .t-height-none {
@@ -315,7 +313,6 @@
 
 body {
       font-family: $sans-serif;
-      font-size: 1rem;
       line-height: 1.75;
   }
 
