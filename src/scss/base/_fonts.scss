@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'domaine-text-web-light';
-    src: local('domaine-text-web-light-subset'),
+    src: local('domaine-text-web-light'),
          url('../assets/fonts/domaine-text-web-light-subset.woff') format('woff');
     font-display: swap;
 }
@@ -8,7 +8,7 @@
 @font-face {
     font-family: 'calibre-web-regular';
     font-weight: 400;
-    src: local('calibre-web-regular-subset'), url('../assets/fonts/calibre-web-regular-subset.woff') format('woff');
+    src: local('calibre-web-regular'), url('../assets/fonts/calibre-web-regular-subset.woff') format('woff');
     font-display: swap;
 }
 
