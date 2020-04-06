@@ -1532,67 +1532,98 @@ p.comingsoon {
 
 /* line 429, src/scss/base/_typography.scss */
 .t-link-accent-white {
-  text-decoration: none;
+  border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
   border-bottom: 1px solid #ffffff;
-  line-height: 3;
+  text-decoration: none;
   padding: 10px 0;
 }
 
-/* line 436, src/scss/base/_typography.scss */
-.t-link-accent-black {
-  text-decoration: none;
+/* line 434, src/scss/base/_typography.scss */
+.t-link-accent-white:hover {
+  border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
-  border-bottom: 1px solid #222222;
-  padding: 2px 0;
 }
 
-/* line 442, src/scss/base/_typography.scss */
-.t-link-accent-green {
+/* line 439, src/scss/base/_typography.scss */
+.t-link-accent-black {
+  border-bottom: 1px solid #222222;
+  padding: 2px 0;
   text-decoration: none;
+}
+
+/* line 443, src/scss/base/_typography.scss */
+.t-link-accent-black:hover {
+  border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
+}
+
+/* line 448, src/scss/base/_typography.scss */
+.t-link-accent-green {
   border-bottom: 1px solid #42ff0d;
   transition: all .2s ease-in;
   line-height: 3;
   padding: 2px 0;
+  text-decoration: none;
 }
 
-/* line 449, src/scss/base/_typography.scss */
-.t-link-accent-orange {
-  text-decoration: none;
+/* line 453, src/scss/base/_typography.scss */
+.t-link-accent-green:hover {
+  border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
+}
+
+/* line 458, src/scss/base/_typography.scss */
+.t-link-accent-orange {
   border-bottom: 1px solid #ff5327;
   transition: all .2s ease-in;
   color: #942f00;
   padding: 2px 0;
+  text-decoration: none;
 }
 
-/* line 456, src/scss/base/_typography.scss */
+/* line 463, src/scss/base/_typography.scss */
+.t-link-accent-orange:hover {
+  border-bottom: 1px solid #FF0DD1;
+  transition: all .2s ease-in;
+}
+
+/* line 468, src/scss/base/_typography.scss */
 .t-ltr-stretch {
   text-transform: uppercase;
   letter-spacing: .05em;
 }
 
-/* line 461, src/scss/base/_typography.scss */
+/* line 473, src/scss/base/_typography.scss */
 .t-link-accent-blue {
-  text-decoration: none;
-  transition: all .2s ease-in;
   border-bottom: 1px solid #222222;
   color: #0e4bff;
   padding: 2px 0;
+  text-decoration: none;
 }
 
-/* line 468, src/scss/base/_typography.scss */
-.t-link-accent-pink {
-  text-decoration: none;
+/* line 478, src/scss/base/_typography.scss */
+.t-link-accent-blue:hover {
+  border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
+}
+
+/* line 483, src/scss/base/_typography.scss */
+.t-link-accent-pink {
   line-height: 2;
   border-bottom: 1px solid #ffffff;
   color: #FF0DD1;
   padding: 2px 0;
+  text-decoration: none;
 }
 
-/* line 476, src/scss/base/_typography.scss */
+/* line 489, src/scss/base/_typography.scss */
+.t-link-accent-pink:hover {
+  border-bottom: 1px solid #FF0DD1;
+  transition: all .2s ease-in;
+}
+
+/* line 494, src/scss/base/_typography.scss */
 .t-eyebrow {
   font-size: 0.8em;
   text-transform: uppercase;
@@ -1600,7 +1631,7 @@ p.comingsoon {
   font-family: "calibre-web-bold", Arial Black, sans-serif;
 }
 
-/* line 480, src/scss/base/_typography.scss */
+/* line 498, src/scss/base/_typography.scss */
 .t-titlingfont {
   font-family: "calibre-web-bold", Impact, sans-serif;
   font-size: 1.25em;
@@ -1608,7 +1639,7 @@ p.comingsoon {
   margin: .25rem;
 }
 
-/* line 487, src/scss/base/_typography.scss */
+/* line 505, src/scss/base/_typography.scss */
 code {
   background: #42ff0d;
   padding: .5rem;
@@ -1616,18 +1647,18 @@ code {
   margin: .25rem;
 }
 
-/* line 494, src/scss/base/_typography.scss */
+/* line 512, src/scss/base/_typography.scss */
 .postlist {
   list-style: none;
   padding: 0;
 }
 
-/* line 498, src/scss/base/_typography.scss */
+/* line 516, src/scss/base/_typography.scss */
 .postlist-item {
   counter-increment: start-from -1;
 }
 
-/* line 501, src/scss/base/_typography.scss */
+/* line 519, src/scss/base/_typography.scss */
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
@@ -1635,24 +1666,24 @@ code {
   text-align: right;
 }
 
-/* line 509, src/scss/base/_typography.scss */
+/* line 527, src/scss/base/_typography.scss */
 .postlist-date {
   word-spacing: -0.1px;
 }
 
-/* line 512, src/scss/base/_typography.scss */
+/* line 530, src/scss/base/_typography.scss */
 .postlist-link {
   display: inline-block;
   padding: 0.25em 0.1875em;
   /* 4px 3px /16 */
 }
 
-/* line 516, src/scss/base/_typography.scss */
+/* line 534, src/scss/base/_typography.scss */
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
 
-/* line 522, src/scss/base/_typography.scss */
+/* line 540, src/scss/base/_typography.scss */
 ul.linklist {
   list-style: none outside;
   padding: 0;
@@ -1662,45 +1693,60 @@ ul.linklist {
   justify-content: space-between;
 }
 
-/* line 529, src/scss/base/_typography.scss */
+/* line 547, src/scss/base/_typography.scss */
 ul.linklist li {
   margin: 0 2rem 0 0;
 }
 
-/* line 535, src/scss/base/_typography.scss */
+/* line 553, src/scss/base/_typography.scss */
 ul.medialist--tight {
   list-style: none outside;
   padding: 0;
 }
 
-/* line 538, src/scss/base/_typography.scss */
+/* line 556, src/scss/base/_typography.scss */
 ul.medialist--tight li {
   margin: .75rem 0 0 0;
 }
 
-/* line 543, src/scss/base/_typography.scss */
+/* line 561, src/scss/base/_typography.scss */
 ul.medialist--loose {
   list-style: none outside;
   padding: 0;
 }
 
-/* line 546, src/scss/base/_typography.scss */
+/* line 564, src/scss/base/_typography.scss */
 ul.medialist--loose li {
   margin: 1rem 0 0 0;
 }
 
-/* line 551, src/scss/base/_typography.scss */
+/* line 569, src/scss/base/_typography.scss */
 ul.longform {
   list-style-type: square;
   padding-bottom: .5rem;
 }
 
-/* line 555, src/scss/base/_typography.scss */
+/* line 573, src/scss/base/_typography.scss */
 ul.longform li {
   margin: 0 0 1rem 0;
 }
 
-/* line 562, src/scss/base/_typography.scss */
+/* line 578, src/scss/base/_typography.scss */
+.direct-link {
+  text-decoration: none;
+  font-style: normal;
+  margin-left: .1em;
+}
+
+/* line 584, src/scss/base/_typography.scss */
+a[href].direct-link:focus,
+a[href].direct-link:focus:visited,
+:hover > a[href].direct-link,
+:hover > a[href].direct-link:visited {
+  outline: 2px solid #FF0DD1;
+}
+
+/* line 594, src/scss/base/_typography.scss */
 a.right-arrow:after {
   content: "\2197";
 }

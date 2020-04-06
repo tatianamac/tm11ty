@@ -267,7 +267,7 @@
 }
 
 @mixin t-link-hover() {
-    text-decoration: none;
+    border-bottom: 1px solid $pink;
     @include txn-ease-in-quick;
 }
 

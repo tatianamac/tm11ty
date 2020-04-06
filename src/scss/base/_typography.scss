@@ -429,28 +429,40 @@ article h2, h3, h4 {
 .t-link-accent-white {
     @include t-link-hover;
     @include bdr--white;
-    line-height: $t-height-extra-loose;
+    text-decoration: none;
     padding: 10px 0;
+    &:hover {
+      @include t-link-hover;
+    }
 }
 
 .t-link-accent-black {
-  @include t-link-hover;
   @include bdr--black;
   padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover;
+  }
 }
 
 .t-link-accent-green {
-  @include t-link-hover;
   @include bdr--green;
   line-height: $t-height-extra-loose;
   padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover;
+  }
 }
 
 .t-link-accent-orange {
-  @include t-link-hover;
   @include bdr--orange;
   color: $rust;
   padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover;
+  }
 }
 
 .t-ltr-stretch {
@@ -459,18 +471,24 @@ article h2, h3, h4 {
 }
 
 .t-link-accent-blue {
-    @include t-link-hover;
     @include bdr--black;
     color: $primary-color;
     padding: 2px 0;
+    text-decoration: none;
+    &:hover {
+      @include t-link-hover;
+    }
 }
 
 .t-link-accent-pink {
-    @include t-link-hover;
     line-height: $t-height-loose;
     @include bdr--white;
     color: $pink;
     padding: 2px 0;
+    text-decoration: none;
+    &:hover {
+      @include t-link-hover;
+    }
 }
 
 .t-eyebrow {
@@ -555,6 +573,20 @@ code {
     li {
       margin:  0 0 1rem 0;
     }
+  }
+
+  .direct-link {
+    text-decoration: none;
+    font-style: normal;
+    margin-left: .1em;
+  }
+
+  a[href].direct-link:focus,
+  a[href].direct-link:focus:visited,
+  :hover > a[href].direct-link,
+  :hover > a[href].direct-link:visited
+   {
+    outline: 2px solid $pink;
   }
 
   //SYMBOLS
