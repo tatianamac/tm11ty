@@ -7,6 +7,11 @@
 .bold {
     font-weight: $bold;
   }
+
+b, strong { 
+  font-weight: 700;
+  font-family: $sans-serif-bold;
+}
   
 .t-tag {
   border: 1px solid black;
@@ -578,15 +583,20 @@ code {
   .direct-link {
     text-decoration: none;
     font-style: normal;
+    display:none;
     margin-left: .1em;
   }
 
-  a[href].direct-link:focus,
-  a[href].direct-link:focus:visited,
   :hover > a[href].direct-link,
-  :hover > a[href].direct-link:visited
+  :hover > a[href].direct-link:visited {
+    display: inline-block;
+  }
+
+  a[href].direct-link:focus,
+  a[href].direct-link:focus:visited
    {
     outline: 2px solid $pink;
+    display: inline-block;
   }
 
   //SYMBOLS
