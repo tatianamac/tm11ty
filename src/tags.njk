@@ -13,12 +13,38 @@ pagination:
   addAllPagesToCollections: true
 layout: layouts/base.njk
 renderData:
-  title: Tagged “{{ tag }}”
+  title: Posts in “{{ tag }}”
 permalink: /tags/{{ tag }}/
+templateClass: content
+colorMode: dark
+navClass: bg-baby-blue
+bgColor: baby-blue
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<section id="tags" class="container">
+  <div class="wrapper">
+    <div class="grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
+    <h1 class="t-eyebrow">Tagged <span class="t-cobalt">{{ tag }}</a></h1>
 
-{% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
+    {% set postslist = collections[ tag ] %}
+    {% include "postslist.njk" %}
+    </div>
 
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+    <div class="grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl">
+    <h2 class="t-serifweight">Explore more posts</h2>
+    {% set tagBan = ['featured','selected','posts', 'event'] %}
+        {% for tag in collections.tagList %}
+            {% if tag not in tagBan %}
+
+            {% set tagUrl %}
+            /tags/{{ tag }}/
+
+            {% endset %}
+      <ul class="taglist">
+      <li class=><a href="{{ tagUrl | url }}" class="t-tag">{{ tag }}</a>
+      </li>
+      </ul>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</section>

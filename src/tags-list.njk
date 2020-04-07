@@ -1,10 +1,12 @@
 ---
-permalink: /tags/
 layout: layouts/base.njk
+permalink: /tags/
 ---
+<section id="tags" class="container">
 <h1>Tags</h1>
 
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+  <a href="{{ tagUrl | url }}" class="t-tag">{{ tag }}</a>
 {% endfor %}
+</section>

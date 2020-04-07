@@ -5,7 +5,6 @@ summary: I save a lot more drafts in my Twitter. I post less. I share some of th
 date: 2019-11-23 01:32:11 +8:00
 tags:
   - personal
-  - humour
 layout: layouts/post.njk
 bgColor: yellow
 navClass: bg-yellow

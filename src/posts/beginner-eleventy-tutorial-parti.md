@@ -1,10 +1,10 @@
 ---
 title: Beginner's Guide to Eleventy
-description: What is a static site generator? (Part I)
+description: "Part I: What is a static site generator?"
 summary: Static site generators (SSGs) are critical to modern tooling. When used thoughtfully, SSGs can facilitate sites that need something in the middle—in the vast expanse between static, hand-coded sites and dynamic behemoths. In a multi-part guide, I'll show you how to use Eleventy.
 date: 2020-04-02 16:09:03
 tags:
-  - tutorial
+  - tutorials
   - Eleventy
   - featured
 layout: layouts/post.njk

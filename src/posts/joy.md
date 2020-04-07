@@ -5,7 +5,6 @@ summary: When you tell me to be more positive, it demonstrates that you cannot p
 date: 2019-07-10
 tags:
   - selected
-  - communication
   - personal
 layout: layouts/post.njk
 bgColor: blush-pink

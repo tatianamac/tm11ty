@@ -961,362 +961,369 @@ b, strong {
   color: white;
 }
 
-/* line 30, src/scss/base/_typography.scss */
+/* line 28, src/scss/base/_typography.scss */
+.t-tag:focus {
+  border: 1px solid #FF0DD1;
+  background: #222222;
+  color: #ffffff;
+}
+
+/* line 35, src/scss/base/_typography.scss */
 .t-mini {
   font-size: .75em;
 }
 
-/* line 34, src/scss/base/_typography.scss */
+/* line 39, src/scss/base/_typography.scss */
 .t-jumbo {
   font-size: 5em;
 }
 
-/* line 38, src/scss/base/_typography.scss */
+/* line 43, src/scss/base/_typography.scss */
 .t-extrajumbo {
   font-size: 10em;
   padding: 0;
 }
 
-/* line 43, src/scss/base/_typography.scss */
+/* line 48, src/scss/base/_typography.scss */
 .t-center {
   text-align: center;
 }
 
-/* line 47, src/scss/base/_typography.scss */
+/* line 52, src/scss/base/_typography.scss */
 .t-serifweight {
   font-family: "domaine-text-web-light", Georgia, "Times New Roman", serif;
   font-weight: 300;
 }
 
-/* line 51, src/scss/base/_typography.scss */
+/* line 56, src/scss/base/_typography.scss */
 .t-typeweight {
   font-family: Courier, monospace;
 }
 
-/* line 55, src/scss/base/_typography.scss */
+/* line 60, src/scss/base/_typography.scss */
 .t-height-none {
   line-height: 0;
 }
 
-/* line 59, src/scss/base/_typography.scss */
+/* line 64, src/scss/base/_typography.scss */
 .t-height-dense {
   line-height: 0.9;
 }
 
-/* line 63, src/scss/base/_typography.scss */
+/* line 68, src/scss/base/_typography.scss */
 .t-height-tight {
   line-height: 1.1;
 }
 
-/* line 67, src/scss/base/_typography.scss */
+/* line 72, src/scss/base/_typography.scss */
 .t-height-cozy {
   line-height: 1.25;
 }
 
-/* line 71, src/scss/base/_typography.scss */
+/* line 76, src/scss/base/_typography.scss */
 .t-height-loose {
   line-height: 2;
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 75, src/scss/base/_typography.scss */
+  /* line 80, src/scss/base/_typography.scss */
   .t-ultrachonkfont\@xs {
     font-size: 5em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 81, src/scss/base/_typography.scss */
+  /* line 86, src/scss/base/_typography.scss */
   .t-ultrachonkfont\@s {
     font-size: 5em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 87, src/scss/base/_typography.scss */
+  /* line 92, src/scss/base/_typography.scss */
   .t-ultrachonkfont\@m {
     font-size: 5em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 93, src/scss/base/_typography.scss */
+  /* line 98, src/scss/base/_typography.scss */
   .t-ultrachonkfont\@l {
     font-size: 5em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 99, src/scss/base/_typography.scss */
+  /* line 104, src/scss/base/_typography.scss */
   .t-ultrachonkfont\@xl {
     font-size: 5em;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 105, src/scss/base/_typography.scss */
+  /* line 110, src/scss/base/_typography.scss */
   .t-chonkfont\@xs {
     font-size: 3em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 111, src/scss/base/_typography.scss */
+  /* line 116, src/scss/base/_typography.scss */
   .t-chonkfont\@s {
     font-size: 3em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 117, src/scss/base/_typography.scss */
+  /* line 122, src/scss/base/_typography.scss */
   .t-chonkfont\@m {
     font-size: 3em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 123, src/scss/base/_typography.scss */
+  /* line 128, src/scss/base/_typography.scss */
   .t-chonkfont\@l {
     font-size: 3em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 129, src/scss/base/_typography.scss */
+  /* line 134, src/scss/base/_typography.scss */
   .t-chonkfont\@xl {
     font-size: 3em;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 135, src/scss/base/_typography.scss */
+  /* line 140, src/scss/base/_typography.scss */
   .t-thiccfont\@xs {
     font-size: 2.25em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 141, src/scss/base/_typography.scss */
+  /* line 146, src/scss/base/_typography.scss */
   .t-thiccfont\@s {
     font-size: 2.25em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 147, src/scss/base/_typography.scss */
+  /* line 152, src/scss/base/_typography.scss */
   .t-thiccfont\@m {
     font-size: 2.25em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 153, src/scss/base/_typography.scss */
+  /* line 158, src/scss/base/_typography.scss */
   .t-thiccfont\@l {
     font-size: 2.25em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 159, src/scss/base/_typography.scss */
+  /* line 164, src/scss/base/_typography.scss */
   .t-thiccfont\@xl {
     font-size: 2.25em;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 165, src/scss/base/_typography.scss */
+  /* line 170, src/scss/base/_typography.scss */
   .t-fullfont\@xs {
     font-size: 2em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 171, src/scss/base/_typography.scss */
+  /* line 176, src/scss/base/_typography.scss */
   .t-fullfont\@s {
     font-size: 2em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 177, src/scss/base/_typography.scss */
+  /* line 182, src/scss/base/_typography.scss */
   .t-fullfont\@m {
     font-size: 2em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 183, src/scss/base/_typography.scss */
+  /* line 188, src/scss/base/_typography.scss */
   .t-fullfont\@l {
     font-size: 2em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 189, src/scss/base/_typography.scss */
+  /* line 194, src/scss/base/_typography.scss */
   .t-fullfont\@xl {
     font-size: 2em;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 195, src/scss/base/_typography.scss */
+  /* line 200, src/scss/base/_typography.scss */
   .t-normiefont\@xs {
     font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 201, src/scss/base/_typography.scss */
+  /* line 206, src/scss/base/_typography.scss */
   .t-normiefont\@s {
     font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 207, src/scss/base/_typography.scss */
+  /* line 212, src/scss/base/_typography.scss */
   .t-normiefont\@m {
     font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 213, src/scss/base/_typography.scss */
+  /* line 218, src/scss/base/_typography.scss */
   .t-normiefont\@l {
     font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  /* line 219, src/scss/base/_typography.scss */
+  /* line 224, src/scss/base/_typography.scss */
   .t-normiefont\@xl {
     font-size: 1.5em;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 225, src/scss/base/_typography.scss */
+  /* line 230, src/scss/base/_typography.scss */
   .t-slimmfont\@xs {
     font-size: 1.25em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 231, src/scss/base/_typography.scss */
+  /* line 236, src/scss/base/_typography.scss */
   .t-slimmfont\@s {
     font-size: 1.25em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 237, src/scss/base/_typography.scss */
+  /* line 242, src/scss/base/_typography.scss */
   .t-slimmfont\@m {
     font-size: 1.25em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 243, src/scss/base/_typography.scss */
+  /* line 248, src/scss/base/_typography.scss */
   .t-slimmfont\@l {
     font-size: 1.25em;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  /* line 249, src/scss/base/_typography.scss */
+  /* line 254, src/scss/base/_typography.scss */
   .t-slimmfont\@xl {
     font-size: 1.25em;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 255, src/scss/base/_typography.scss */
+  /* line 260, src/scss/base/_typography.scss */
   .t-thinnfont\@xs {
     font-size: 1em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 261, src/scss/base/_typography.scss */
+  /* line 266, src/scss/base/_typography.scss */
   .t-thinnfont\@s {
     font-size: 1em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 267, src/scss/base/_typography.scss */
+  /* line 272, src/scss/base/_typography.scss */
   .t-thinnfont\@m {
     font-size: 1em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 273, src/scss/base/_typography.scss */
+  /* line 278, src/scss/base/_typography.scss */
   .t-thinnfont\@l {
     font-size: 1em;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  /* line 279, src/scss/base/_typography.scss */
+  /* line 284, src/scss/base/_typography.scss */
   .t-thinnfont\@xl {
     font-size: 1em;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 599px) {
-  /* line 285, src/scss/base/_typography.scss */
+  /* line 290, src/scss/base/_typography.scss */
   .t-giganticfont\@xs {
     font-size: 10em;
   }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
-  /* line 291, src/scss/base/_typography.scss */
+  /* line 296, src/scss/base/_typography.scss */
   .t-giganticfont\@s {
     font-size: 10em;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px) {
-  /* line 297, src/scss/base/_typography.scss */
+  /* line 302, src/scss/base/_typography.scss */
   .t-giganticfont\@m {
     font-size: 10em;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 3000px) {
-  /* line 303, src/scss/base/_typography.scss */
+  /* line 308, src/scss/base/_typography.scss */
   .t-giganticfont\@l {
     font-size: 10em;
   }
 }
 
 @media screen and (min-width: 1920px) {
-  /* line 309, src/scss/base/_typography.scss */
+  /* line 314, src/scss/base/_typography.scss */
   .t-giganticfont\@xl {
     font-size: 10em;
   }
 }
 
-/* line 315, src/scss/base/_typography.scss */
+/* line 320, src/scss/base/_typography.scss */
 .t-babyfont {
   font-size: 0.8em;
 }
 
-/* line 319, src/scss/base/_typography.scss */
+/* line 324, src/scss/base/_typography.scss */
 body {
   font-family: "calibre-web-regular", Helvetica, sans-serif;
   line-height: 1.75;
 }
 
-/* line 324, src/scss/base/_typography.scss */
+/* line 329, src/scss/base/_typography.scss */
 article h2, h3, h4 {
   font-family: "domaine-text-web-light", Georgia, "Times New Roman", serif;
   font-weight: 300;
   color: #4F4F4F;
 }
 
-/* line 330, src/scss/base/_typography.scss */
+/* line 335, src/scss/base/_typography.scss */
 article blockquote {
   background: #eeeeee;
   margin: 0;
@@ -1324,7 +1331,7 @@ article blockquote {
   padding: 1em;
 }
 
-/* line 335, src/scss/base/_typography.scss */
+/* line 340, src/scss/base/_typography.scss */
 article blockquote p:first-of-type:before {
   content: "Note";
   color: #FF0DD1;
@@ -1337,12 +1344,12 @@ article blockquote p:first-of-type:before {
   text-transform: uppercase;
 }
 
-/* line 347, src/scss/base/_typography.scss */
+/* line 352, src/scss/base/_typography.scss */
 article a:focus {
   outline: 2px solid #FF0DD1;
 }
 
-/* line 351, src/scss/base/_typography.scss */
+/* line 356, src/scss/base/_typography.scss */
 article p a, article li a {
   border-bottom: 1px solid #222222;
   color: #0e4bff;
@@ -1350,30 +1357,30 @@ article p a, article li a {
   transition: .2s border-bottom ease-in-out;
 }
 
-/* line 356, src/scss/base/_typography.scss */
+/* line 361, src/scss/base/_typography.scss */
 article p a:hover, article li a:hover {
   border-bottom: 1px solid #FF0DD1;
 }
 
-/* line 362, src/scss/base/_typography.scss */
+/* line 367, src/scss/base/_typography.scss */
 article ul {
   list-style-type: square;
   margin-left: 0 0 0 1.5em;
 }
 
-/* line 375, src/scss/base/_typography.scss */
+/* line 380, src/scss/base/_typography.scss */
 h5 {
   font-family: "domaine-text-web-light", Georgia, "Times New Roman", serif;
   font-weight: 400;
   font-size: 1.25em;
 }
 
-/* line 381, src/scss/base/_typography.scss */
+/* line 386, src/scss/base/_typography.scss */
 p {
   color: #222222;
 }
 
-/* line 384, src/scss/base/_typography.scss */
+/* line 389, src/scss/base/_typography.scss */
 p.comingsoon {
   color: #767676;
   text-transform: uppercase;
@@ -1385,7 +1392,7 @@ p.comingsoon {
   transition: all .2s ease-in;
 }
 
-/* line 396, src/scss/base/_typography.scss */
+/* line 401, src/scss/base/_typography.scss */
 .details {
   text-transform: uppercase;
   font-size: .75em;
@@ -1395,43 +1402,53 @@ p.comingsoon {
   min-width: 100px;
 }
 
-/* line 405, src/scss/base/_typography.scss */
+/* line 410, src/scss/base/_typography.scss */
 .wip {
   font-style: italic;
   color: #767676;
 }
 
-/* line 410, src/scss/base/_typography.scss */
+/* line 415, src/scss/base/_typography.scss */
 .t-white {
   color: #ffffff;
 }
 
-/* line 414, src/scss/base/_typography.scss */
+/* line 419, src/scss/base/_typography.scss */
 .t-red {
   color: #E60073;
 }
 
-/* line 418, src/scss/base/_typography.scss */
+/* line 423, src/scss/base/_typography.scss */
+.t-dark-grey {
+  color: #4F4F4F;
+}
+
+/* line 427, src/scss/base/_typography.scss */
+.t-cobalt {
+  color: #0e4bff;
+}
+
+/* line 431, src/scss/base/_typography.scss */
 .t-black {
   color: #222222;
 }
 
-/* line 422, src/scss/base/_typography.scss */
+/* line 435, src/scss/base/_typography.scss */
 .t-light-grey {
   color: #eeeeee;
 }
 
-/* line 426, src/scss/base/_typography.scss */
+/* line 439, src/scss/base/_typography.scss */
 .t-light-green {
   color: #bdf5bd;
 }
 
-/* line 430, src/scss/base/_typography.scss */
+/* line 443, src/scss/base/_typography.scss */
 .t-blush-pink {
   color: #FFF3F3;
 }
 
-/* line 434, src/scss/base/_typography.scss */
+/* line 447, src/scss/base/_typography.scss */
 .t-link-accent-white {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
@@ -1440,26 +1457,26 @@ p.comingsoon {
   padding: 10px 0;
 }
 
-/* line 439, src/scss/base/_typography.scss */
+/* line 452, src/scss/base/_typography.scss */
 .t-link-accent-white:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
 
-/* line 444, src/scss/base/_typography.scss */
+/* line 457, src/scss/base/_typography.scss */
 .t-link-accent-black {
   border-bottom: 1px solid #222222;
   padding: 2px 0;
   text-decoration: none;
 }
 
-/* line 448, src/scss/base/_typography.scss */
+/* line 461, src/scss/base/_typography.scss */
 .t-link-accent-black:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
 
-/* line 453, src/scss/base/_typography.scss */
+/* line 466, src/scss/base/_typography.scss */
 .t-link-accent-green {
   border-bottom: 1px solid #42ff0d;
   transition: all .2s ease-in;
@@ -1468,13 +1485,13 @@ p.comingsoon {
   text-decoration: none;
 }
 
-/* line 458, src/scss/base/_typography.scss */
+/* line 471, src/scss/base/_typography.scss */
 .t-link-accent-green:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
 
-/* line 463, src/scss/base/_typography.scss */
+/* line 476, src/scss/base/_typography.scss */
 .t-link-accent-orange {
   border-bottom: 1px solid #ff5327;
   transition: all .2s ease-in;
@@ -1483,19 +1500,19 @@ p.comingsoon {
   text-decoration: none;
 }
 
-/* line 468, src/scss/base/_typography.scss */
+/* line 481, src/scss/base/_typography.scss */
 .t-link-accent-orange:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
 
-/* line 473, src/scss/base/_typography.scss */
+/* line 486, src/scss/base/_typography.scss */
 .t-ltr-stretch {
   text-transform: uppercase;
   letter-spacing: .05em;
 }
 
-/* line 478, src/scss/base/_typography.scss */
+/* line 491, src/scss/base/_typography.scss */
 .t-link-accent-blue {
   border-bottom: 1px solid #222222;
   color: #0e4bff;
@@ -1503,13 +1520,13 @@ p.comingsoon {
   text-decoration: none;
 }
 
-/* line 483, src/scss/base/_typography.scss */
+/* line 496, src/scss/base/_typography.scss */
 .t-link-accent-blue:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
 
-/* line 488, src/scss/base/_typography.scss */
+/* line 501, src/scss/base/_typography.scss */
 .t-link-accent-pink {
   line-height: 2;
   border-bottom: 1px solid #ffffff;
@@ -1518,13 +1535,13 @@ p.comingsoon {
   text-decoration: none;
 }
 
-/* line 494, src/scss/base/_typography.scss */
+/* line 507, src/scss/base/_typography.scss */
 .t-link-accent-pink:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
 
-/* line 499, src/scss/base/_typography.scss */
+/* line 512, src/scss/base/_typography.scss */
 .t-eyebrow {
   font-size: 0.8em;
   text-transform: uppercase;
@@ -1532,7 +1549,7 @@ p.comingsoon {
   font-family: "calibre-web-bold", "Arial Black", sans-serif;
 }
 
-/* line 503, src/scss/base/_typography.scss */
+/* line 516, src/scss/base/_typography.scss */
 .t-titlingfont {
   font-family: "calibre-web-bold", Impact, sans-serif;
   font-size: 1.25em;
@@ -1540,7 +1557,7 @@ p.comingsoon {
   margin: .25rem;
 }
 
-/* line 510, src/scss/base/_typography.scss */
+/* line 523, src/scss/base/_typography.scss */
 code {
   background: #42ff0d;
   padding: .5rem;
@@ -1548,18 +1565,18 @@ code {
   margin: .25rem;
 }
 
-/* line 517, src/scss/base/_typography.scss */
+/* line 530, src/scss/base/_typography.scss */
 .postlist {
   list-style: none;
   padding: 0;
 }
 
-/* line 521, src/scss/base/_typography.scss */
+/* line 534, src/scss/base/_typography.scss */
 .postlist-item {
   counter-increment: start-from -1;
 }
 
-/* line 524, src/scss/base/_typography.scss */
+/* line 537, src/scss/base/_typography.scss */
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
@@ -1567,24 +1584,24 @@ code {
   text-align: right;
 }
 
-/* line 532, src/scss/base/_typography.scss */
+/* line 545, src/scss/base/_typography.scss */
 .postlist-date {
   word-spacing: -0.1px;
 }
 
-/* line 535, src/scss/base/_typography.scss */
+/* line 548, src/scss/base/_typography.scss */
 .postlist-link {
   display: inline-block;
   padding: 0.25em 0.1875em;
   /* 4px 3px /16 */
 }
 
-/* line 539, src/scss/base/_typography.scss */
+/* line 552, src/scss/base/_typography.scss */
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
 
-/* line 545, src/scss/base/_typography.scss */
+/* line 558, src/scss/base/_typography.scss */
 ul.linklist {
   list-style: none outside;
   padding: 0;
@@ -1594,45 +1611,57 @@ ul.linklist {
   justify-content: space-between;
 }
 
-/* line 552, src/scss/base/_typography.scss */
+/* line 565, src/scss/base/_typography.scss */
 ul.linklist li {
   margin: 0 2rem 0 0;
 }
 
-/* line 558, src/scss/base/_typography.scss */
+/* line 571, src/scss/base/_typography.scss */
+ul.taglist {
+  list-style: none outside;
+  padding: 0;
+  display: inline-block;
+}
+
+/* line 575, src/scss/base/_typography.scss */
+ul.taglist li {
+  margin: 0 .25em .25em 0;
+}
+
+/* line 581, src/scss/base/_typography.scss */
 ul.medialist--tight {
   list-style: none outside;
   padding: 0;
 }
 
-/* line 561, src/scss/base/_typography.scss */
+/* line 584, src/scss/base/_typography.scss */
 ul.medialist--tight li {
   margin: .75rem 0 0 0;
 }
 
-/* line 566, src/scss/base/_typography.scss */
+/* line 589, src/scss/base/_typography.scss */
 ul.medialist--loose {
   list-style: none outside;
   padding: 0;
 }
 
-/* line 569, src/scss/base/_typography.scss */
+/* line 592, src/scss/base/_typography.scss */
 ul.medialist--loose li {
   margin: 1rem 0 0 0;
 }
 
-/* line 574, src/scss/base/_typography.scss */
+/* line 597, src/scss/base/_typography.scss */
 ul.longform {
   list-style-type: square;
   padding-bottom: .5rem;
 }
 
-/* line 578, src/scss/base/_typography.scss */
+/* line 601, src/scss/base/_typography.scss */
 ul.longform li {
   margin: 0 0 1rem 0;
 }
 
-/* line 583, src/scss/base/_typography.scss */
+/* line 606, src/scss/base/_typography.scss */
 .direct-link {
   text-decoration: none;
   font-style: normal;
@@ -1640,20 +1669,20 @@ ul.longform li {
   margin-left: .1em;
 }
 
-/* line 590, src/scss/base/_typography.scss */
+/* line 613, src/scss/base/_typography.scss */
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   display: inline-block;
 }
 
-/* line 595, src/scss/base/_typography.scss */
+/* line 618, src/scss/base/_typography.scss */
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited {
   outline: 2px solid #FF0DD1;
   display: inline-block;
 }
 
-/* line 604, src/scss/base/_typography.scss */
+/* line 627, src/scss/base/_typography.scss */
 a.right-arrow:after {
   content: "\2197";
 }
@@ -2071,15 +2100,16 @@ a.right-arrow:after {
 /* line 350, src/scss/layout/_grid.scss */
 article {
   max-width: 1290px;
+  padding: 0 2em;
 }
 
-/* line 354, src/scss/layout/_grid.scss */
+/* line 356, src/scss/layout/_grid.scss */
 .flex--row-reverse {
   display: flex;
   flex-direction: column-reverse;
 }
 
-/* line 359, src/scss/layout/_grid.scss */
+/* line 361, src/scss/layout/_grid.scss */
 section {
   max-width: 1290px;
 }
@@ -2150,18 +2180,14 @@ section {
   border-bottom: none;
 }
 
-@media screen and (min-width: 200px) and (max-width: 599px) {
-  align-items: flex-start;
-}
-
-/* line 57, src/scss/layout/_header.scss */
+/* line 53, src/scss/layout/_header.scss */
 .nav-item {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-/* line 62, src/scss/layout/_header.scss */
+/* line 58, src/scss/layout/_header.scss */
 .nav-item a {
   text-transform: uppercase;
   border-bottom: 1px solid #ffffff;
@@ -2170,18 +2196,18 @@ section {
   padding: .3rem 0;
 }
 
-/* line 68, src/scss/layout/_header.scss */
+/* line 64, src/scss/layout/_header.scss */
 .nav-item a:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: all .2s ease-in;
 }
 
-/* line 75, src/scss/layout/_header.scss */
+/* line 71, src/scss/layout/_header.scss */
 .dark {
   color: #222222;
 }
 
-/* line 79, src/scss/layout/_header.scss */
+/* line 75, src/scss/layout/_header.scss */
 .light {
   color: #ffffff;
 }

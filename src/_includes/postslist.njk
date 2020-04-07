@@ -1,9 +1,9 @@
 <ul reversed class="postlist">
 {% for post in postslist | reverse %}
-  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ post.url | url }}" class="t-serifweight t-black t-thiccfont@l t-link-accent-green">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    
+  <li class="padding-normie postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+    <a href="{{ post.url | url }}" class="t-serifweight t-black t-thinnfont@xs t-normiefont@m t-normiefont@l t-thiccfont@xl t-link-accent-green ">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+    <p>{{ post.data.summary }}</p>
+    <time class="t-typeweight details" datetime="{{ post.date | htmlDateString }}">{{ post.date }}</time>
   </li>
 {% endfor %}
 </ol>

@@ -25,6 +25,11 @@ b, strong {
     background: black;
     color: white;
   }
+  &:focus {
+    border: 1px solid $pink;
+    background: $black;
+    color: $white;
+  }
 }
 
 .t-mini {
@@ -415,6 +420,14 @@ article h2, h3, h4 {
   color: #E60073;
 }
 
+.t-dark-grey {
+  color: $dark-grey;
+}
+
+.t-cobalt {
+  color: $cobalt;
+}
+
 .t-black {
     @include t-black;
 }
@@ -551,6 +564,16 @@ code {
 
     li {
     margin: 0 2rem 0 0;
+    }
+
+  }
+
+  ul.taglist {
+    @include list-clear-style;
+    display: inline-block;
+
+    li {
+    margin: 0 .25em .25em 0;
     }
 
   }

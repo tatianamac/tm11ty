@@ -5,7 +5,7 @@ summary: Balancing my email time for me is an exercise in automating the right t
 date: 2019-04-29
 tags:
 - selected
-- communication
+- tips
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark

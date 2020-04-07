@@ -16,23 +16,33 @@
       {{ post.data.summary }}
       </p>
       <p><a class="t-link-accent-blue" href="{{ post.url | url }}">{{ post.data.title }}</a></p>
-      {# TODO: Design linked pages. {% for tag in post.data.tags %}
+      {% for tag in post.data.tags %}
         {%- if collections.tagList.indexOf(tag) != -1 -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
       
       <a class="t-tag tag" href="{{ tagUrl | url }}">{{ tag }}</a>
       
         {%- endif -%}
-      {% endfor %} #}
+      {% endfor %}
     </div> 
     {% endfor %}
 
   {% for post in collections.selected | reverse %}
+  
     <div class="tiled grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
       <p class="t-height-cozy t-black t-height-medium">
       {{ post.data.summary }}
       </p>
       <p><a class="t-link-accent-blue" href="{{ post.url | url }}"  rel="noopener noreferrer">{{ post.data.title }}</a></p>
+      <ul class="taglist">
+      {% set tagBan = ['featured','selected','posts', 'event'] %}
+        {% for tag in post.data.tags %}
+            {% if tag not in tagBan %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <li><a class="t-tag tag" href="{{ tagUrl | url }}">{{ tag }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul>
     </div> 
     {% endfor %}
 {# 

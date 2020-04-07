@@ -7,7 +7,7 @@ templateclass: content
 ---
 
 <div class="wrapper container">
-    <article class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl padding-thicc@m padding-thicc@l padding-thicc@xl">
+    <article class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl">
     <p class="t-serif details">{{ description }}</p>
     <h1 class="t-serifweight t-ultrachonk t-height-dense">{{ title }}</h1>
 
@@ -17,5 +17,14 @@ templateclass: content
     <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl">
         <p class="t-serifweight t-thinnfont">{{ summary }}</p>
         <p class="t-eyebrow t-typeweight">{{ date }}</p>
+        {% set tagBan = ['featured','selected','posts', 'event'] %}
+        {% for tag in tags %}
+            {% if tag not in tagBan %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      
+        <a class="t-tag tag" href="{{ tagUrl | url }}">{{ tag }}</a>
+      
+        {% endif %}
+      {% endfor %}
     </section>
 </div>

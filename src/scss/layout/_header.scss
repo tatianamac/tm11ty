@@ -50,10 +50,6 @@
 	}
 }
 
-  @include screen-xs {
-    align-items: flex-start;
-  }  
-
 .nav-item {
   display: flex;
   flex-direction: row;
