@@ -5,6 +5,7 @@ templateClass: content
 navClass: bg-emerald-green
 bgColor: emerald-green
 colorMode: light
+data: releasenotes
 ---
 <section id="release-notes" class="container">
     <div class="wrapper">
@@ -20,31 +21,17 @@ colorMode: light
 
     <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl t-white padding-thinn">
 
-        <h2 id="1-2-8" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">1.2.8</h2>
-        <p class="t-white t-typeweight t-space-strip">2 February 2020</p>
+    {% for post in collections.releasenotes | reverse %}
+        <h2 id="{{ post.data.version }}" class="t-serifweight t-chonkfont t-space-strip">{{ post.data.version }}</h2>
+        <p class="t-white t-typeweight t-space-strip">{{ post.data.date }}</p>
 
-        <p class="t-white">I survived 2020—including giving my new talk—update.</p>
+        <p class="t-white">{{ post.data.summary }}</p>
 
-        <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
-            Content</h3>
-        <ul class="longform">
-            <li>Added Media page for podcasts, articles, and interviews.</li>
-            <li>Updated About page, adding more helpful context for my work.</li>
-            <li>Updated Speaking page with slides, added a few new events!</li>
-            <li>Hiding Sponsors page as I assess its future.</li>
-        </ul>
+        {{ content | safe }}
+    {% endfor %}
 
-        <h3 class="t-serifweight t-normiefont@xs t-normiefont@s t-normiefont@m t-normiefont@l t-normiefont@xl t-space-strip t-light-green">
-            Systems</h3>
-        <ul class="longform">
-            <li>Utilised Sass lists to condense and to clarify some verbose code, particularly around generating background colours for front-matter content.</li>
-            <li>Fixed some broken <code>zigzag</code> components, which were affected by above editing.</li>
-            <li>Included shop link in header, learning how to include a static link in with generated nav.</li>
-            <li>Updated footer year lmao./li>
-            <li>Deleted some unused code. WOOP!</li>
-        </ul>
-
-        <h2 id="1-2-7" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
+{#
+<h2 id="1-2-7" class="t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-space-strip">
             Version 1.2.7</h2>
         <p class="t-white t-typeweight t-space-strip">23 November 2019</p>
 
@@ -328,7 +315,7 @@ colorMode: light
         <code>alt</code>
         tags to be more about the content, and less formal analysis. We have a tendency to overdescribe. Conciseness and clarity over comprehensiveness.</li>
 
-</ul>
+</ul>#}
         </section> 
     </div>
 </section>
