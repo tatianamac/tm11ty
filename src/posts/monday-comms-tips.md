@@ -4,7 +4,6 @@ description: Tips for efficiency and happiness
 summary: Balancing my email time for me is an exercise in automating the right things, while maintaining the humanness of communications.
 date: 2019-04-29
 tags:
-- selected
 - tips
 layout: layouts/post.njk
 bgColor: white
