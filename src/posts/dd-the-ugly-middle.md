@@ -46,7 +46,7 @@ I dare those people to show me something that's perfect.
 
 Perfection, I humbly think, is nothing more than a standard set by whomever is in power. The entity in power might just be social structurally set (like, Western standards for beauty or cleanliness, as one example), but it's always there. Perfection for me is not the same as perfection for you. We're chasing the impossible.
 
-If we accept things at their Ugly Middle, and build in a mechanism for feedback and ways to improve, we're shifting our focus from the ethereal in the distance, to the step immediately before us. I'd like to think the more we do that, the less imposter syndrome that we would have.
+If we accept things at their Ugly Middle, and build in a mechanism for feedback and ways to improve, we're shifting our focus from the ethereal in the distance to the step immediately before us. I'd like to think the more we do that, the less imposter syndrome that we would have.
 
 ## My Ugly Middle
 
