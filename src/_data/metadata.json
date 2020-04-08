@@ -4,9 +4,9 @@
   "description": "A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.",
   "feed": {
     "subtitle": "Work, writing, speaking.",
-    "filename": "rss.xml",
-    "path": "/feed/feed/rss.xml",
-    "url": "https://tatianamac.com/feed/feed/rss.xml",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://tatianamac.com/feed/feed.xml",
     "id": "https://tatianamac.com/"
   },
   "author": {
