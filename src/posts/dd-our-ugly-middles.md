@@ -29,7 +29,7 @@ I think that chasing the high of completion is a fallable hunt. When is somethin
 
 ## Perfection Kills Progress
 
-The longer we spend in The Ugly Middle, the more time we can iterate and improve. Searching for perfection does one of two things:
+The longer we spend in the Ugly Middle, the more time we can iterate and improve. Searching for perfection does one of two things:
 
 1. We stop ourselves in our tracks from imposter syndrome, and never finish; or,
 2. We put out what we think is perfect and think we're done.
@@ -40,19 +40,19 @@ What if, we instead, recognised that failure is inevitability and one we can emb
 
 Embracing this cycle allows us to constantly improve and move forward. The increments they may be small, until we realise that incremental progress is better than none. Slow and steady wins the race, the tortoise reminds us.
 
-Stop letting your fear of The Ugly Middle, driven by your impossible search for perfection, stop you from starting or continuing. To allow ourselves this, we must allow ourselves to ship things that we recognise will not be perfect. I recognise that some people will find this unacceptable.
+Stop letting your fear of the ugly middle, driven by your impossible search for perfection, stop you from starting or continuing. To allow ourselves this, we must allow ourselves to ship things that we recognise will not be perfect. I recognise that some people will find this unacceptable.
 
 I dare those people to show me something that's perfect.
 
 Perfection, I humbly think, is nothing more than a standard set by whomever is in power. The entity in power might just be social structurally set (like, Western standards for beauty or cleanliness, as one example), but it's always there. Perfection for me is not the same as perfection for you. We're chasing the impossible.
 
-If we accept things at *their* Ugly Middle, and build in a mechanism for feedback and ways to improve, we're shifting our focus from the ethereal in the distance to the step immediately before us. I'd like to think the more we do that, the less imposter syndrome that we would have.
+If we accept things at their Ugly Middle, and build in a mechanism for feedback and ways to improve, we're shifting our focus from the ethereal in the distance to the step immediately before us. I'd like to think the more we do that, the less imposter syndrome that we would have.
 
 ## My Ugly Middle
 
-To eat my own dog food or whatever (aside: I find that to be the most disgusting analogy—why are people at startups eating dog food?), I want you to know that as much as I love this here personal website of mine, I know that there's a dumpster fire about to burn a house of cards down. The things I'd like to fix (which I should remember to migrate to GitHub issues, but I digress):
+To eat my own dogfood or whatever (aside: I find that to be the most disgusting analogy—why are startups eating dogfood?), I want you to know that as much as I love this here personal website of mine, I know that there's a dumpster fire about to burn a house of cards down. The things I'd like to fix (which I should remember to migrate to GitHub issues, I digress):
 
-- The accessibility of my site isn't perfect. I know that accessibility wonks will run the same audits I run for clients on my site and be like "gotcha!" And yes, you gotme! I know of plenty of fixes that I want to make, and there are plenty more that I'll eventually learn.
+- The accessibility isn't perfect. I know that accessibility wonks will run the same audits I run for clients on my site and be like "gotcha!" And yes, you gotme! I know of plenty of fixes that I want to make, and there are plenty more that I'll eventually learn.
 - The code is messy, both figuratively and literally. I see this somewhat as a sandbox, and as much as I believe in validated code and ensuring things are to standard, I miss things sometimes.
 - The design system broke down when [Performance Tatiana](https://twitter.com/TatianaTMac/status/1245486932684992512?s=20) went ham on the code and Designer Tatiana tried to add some new fonts without really considering all the design impacts. It pains her that the padding is inconsistent across pages and modules.
 - There is a LOT of unused code, which I'm reminded of everytime I run Lighthouse and look at all the unused CSS.
