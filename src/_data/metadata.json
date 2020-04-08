@@ -5,8 +5,8 @@
   "feed": {
     "subtitle": "Work, writing, speaking.",
     "filename": "rss.xml",
-    "path": "/feed/rss.xml",
-    "url": "https://tatianamac.com/feed/rss.xml",
+    "path": "/feed/feed/rss.xml",
+    "url": "https://tatianamac.com/feed/feed/rss.xml",
     "id": "https://tatianamac.com/"
   },
   "author": {
