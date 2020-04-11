@@ -1644,7 +1644,8 @@ button, .download {
   min-width: 15em; }
 
 #floating-hands {
-  margin: 1em; }
+  margin: 1em;
+  max-width: 30em; }
 
 #spilled-glasses {
   margin: 1em auto;
