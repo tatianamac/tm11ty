@@ -451,6 +451,9 @@ article h2, h3, h4 {
     &:hover {
       @include t-link-hover;
     }
+    &:focus {
+      @include out--green;
+    }
 }
 
 .t-link-accent-black {
@@ -459,6 +462,9 @@ article h2, h3, h4 {
   text-decoration: none;
   &:hover {
     @include t-link-hover;
+  }
+  &:focus {
+    @include out--green;
   }
 }
 
@@ -483,6 +489,9 @@ article h2, h3, h4 {
   &:hover {
     @include t-link-hover;
   }
+  &:focus {
+    @include out--rust;
+  }
 }
 
 .t-ltr-stretch {
@@ -506,18 +515,20 @@ article h2, h3, h4 {
 
     &--block {
       @extend .t-link-accent-blue;
-      display: block;
+      display: inline-block;
     }
 }
 
 .t-link-accent-pink {
-    line-height: $t-height-loose;
     @include bdr--white;
     color: $pink;
     padding: 2px 0;
     text-decoration: none;
     &:hover {
       @include t-link-hover;
+    }
+    &:focus {
+      @include out--green;
     }
 }
 

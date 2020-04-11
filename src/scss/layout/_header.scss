@@ -15,6 +15,7 @@
 #skip a:focus {
   transform: translateY(0);
   transition: all .2s ease-in-out;
+  outline: 1px solid $pink;
   }
 
 .site-header {
@@ -52,9 +53,29 @@
 .nav-item {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between;  
+}
 
-  a {
+.dark {
+  color: $black;
+
+    @include t-uppercase;
+    @include bdr--pink;
+    text-decoration: none;
+    font-size: .85rem;
+    padding: .3rem 0;
+    &:hover {
+      @include bdr--pink;
+    }
+
+    &:focus {
+      @include out--blue;
+    }
+
+}
+
+.light {
+  color: $white;
     @include t-uppercase;
     @include bdr--pink;
     text-decoration: none;
@@ -68,19 +89,3 @@
       @include out--yellow;
     }
   }
-  
-}
-
-.dark {
-  color: $black;
-  a {
-  @include bdr--black;
-  }
-}
-
-.light {
-  color: $white;
-  a {
-  @include bdr--white;
-  }
-}

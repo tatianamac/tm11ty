@@ -990,6 +990,8 @@ p {
   .t-link-accent-white:hover {
     border-bottom: 1px solid #FF0DD1;
     transition: border .2s ease-in; }
+  .t-link-accent-white:focus {
+    outline: 0.25em ridge #42ff0d; }
 
 .t-link-accent-black {
   border-bottom: 1px solid #222222;
@@ -999,6 +1001,8 @@ p {
   .t-link-accent-black:hover {
     border-bottom: 1px solid #FF0DD1;
     transition: border .2s ease-in; }
+  .t-link-accent-black:focus {
+    outline: 0.25em ridge #42ff0d; }
 
 .t-link-accent-green {
   border-bottom: 1px solid #42ff0d;
@@ -1021,6 +1025,8 @@ p {
   .t-link-accent-orange:hover {
     border-bottom: 1px solid #FF0DD1;
     transition: border .2s ease-in; }
+  .t-link-accent-orange:focus {
+    outline: 0.25em ridge #942f00; }
 
 .t-ltr-stretch {
   text-transform: uppercase;
@@ -1039,10 +1045,9 @@ p {
   .t-link-accent-blue:focus, .t-link-accent-blue--block:focus {
     outline: 0.5em ridge #0e4bff; }
   .t-link-accent-blue--block {
-    display: block; }
+    display: inline-block; }
 
 .t-link-accent-pink {
-  line-height: 2;
   border-bottom: 1px solid #ffffff;
   color: #FF0DD1;
   padding: 2px 0;
@@ -1050,6 +1055,8 @@ p {
   .t-link-accent-pink:hover {
     border-bottom: 1px solid #FF0DD1;
     transition: border .2s ease-in; }
+  .t-link-accent-pink:focus {
+    outline: 0.25em ridge #42ff0d; }
 
 .t-eyebrow {
   font-size: 0.8em;
@@ -1409,7 +1416,8 @@ section {
 
 #skip a:focus {
   transform: translateY(0);
-  transition: all .2s ease-in-out; }
+  transition: all .2s ease-in-out;
+  outline: 1px solid #FF0DD1; }
 
 .site-header {
   align-items: center;
@@ -1440,29 +1448,34 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
-  .nav-item a {
-    text-transform: uppercase;
-    border-bottom: 1px solid #FF0DD1;
-    transition: border .2s ease-in;
-    text-decoration: none;
-    font-size: .85rem;
-    padding: .3rem 0; }
-    .nav-item a:hover {
-      border-bottom: 1px solid #FF0DD1;
-      transition: border .2s ease-in; }
-    .nav-item a:focus {
-      outline: 0.5em ridge #FFD926; }
 
 .dark {
-  color: #222222; }
-  .dark a {
-    border-bottom: 1px solid #222222;
+  color: #222222;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FF0DD1;
+  transition: border .2s ease-in;
+  text-decoration: none;
+  font-size: .85rem;
+  padding: .3rem 0; }
+  .dark:hover {
+    border-bottom: 1px solid #FF0DD1;
     transition: border .2s ease-in; }
+  .dark:focus {
+    outline: 0.5em ridge #0e4bff; }
 
 .light {
-  color: #ffffff; }
-  .light a {
-    border-bottom: 1px solid #ffffff; }
+  color: #ffffff;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FF0DD1;
+  transition: border .2s ease-in;
+  text-decoration: none;
+  font-size: .85rem;
+  padding: .3rem 0; }
+  .light:hover {
+    border-bottom: 1px solid #FF0DD1;
+    transition: border .2s ease-in; }
+  .light:focus {
+    outline: 0.5em ridge #FFD926; }
 
 button, .download {
   text-transform: uppercase;
@@ -1478,7 +1491,7 @@ button, .download {
     border: 1px solid #0e4bff;
     background: #ffffff;
     color: #0e4bff; }
-  button:hover, .download:hover {
+  button:hover, button:focus, .download:hover, .download:focus {
     background: #FF0DD1;
     transition: border .2s ease-in; }
 

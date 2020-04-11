@@ -20,7 +20,11 @@
 
         </div>
         <div class="grid-whole@xs grid-whole@s grid-whole@m grid-whole@l grid-whole@xl">
-            <p class="t-white t-mini">Copyright 2020 &copy; Tatiana Mac. Built with HTML &amp; CSS with Sass and sass atop <a href="https://www.11ty.io" class="t-link-accent-green t-white">Eleventy</a>. Read my <a class="t-link-accent-green t-white" href="{{ '/release-notes' | url }}">release notes</a>. Subscribe to my <a class="t-link-accent-green t-white" href="{{ metadata.feed.path | url }}">RSS feed</a></p>
+            <p class="t-white t-mini">Copyright <span id="year"></span> &copy; Tatiana Mac. Built with HTML &amp; CSS with Sass and sass atop <a href="https://www.11ty.io" class="t-link-accent-green t-white">Eleventy</a>. Read my <a class="t-link-accent-green t-white" href="{{ '/release-notes' | url }}">release notes</a>. Subscribe to my <a class="t-link-accent-green t-white" href="{{ metadata.feed.path | url }}">RSS feed</a></p>
         </div>
     </div>
 </footer>
+
+<script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+</script>

@@ -266,8 +266,16 @@
   outline: .25em ridge $pink;
 }
 
+@mixin out--rust() {
+  outline: .25em ridge $rust;
+}
+
 @mixin out--yellow() {
   outline: .5em ridge $yellow;
+}
+
+@mixin out--black() {
+  outline: .5em ridge $black;
 }
 
 @mixin out--blue() {
@@ -275,7 +283,7 @@
 }
 
 @mixin out--green() {
-  outline: .5em ridge $green;
+  outline: .25em ridge $green;
 }
 
 
