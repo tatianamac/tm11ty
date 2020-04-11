@@ -493,7 +493,6 @@ article h2, h3, h4 {
 .t-link-accent-blue {
     @include bdr--black;
     color: $primary-color;
-    display: block;
     line-height: 1.25em;
     padding: 2px 0;
     text-decoration: none;
@@ -503,6 +502,11 @@ article h2, h3, h4 {
 
     &:focus {
       @include out--blue;
+    }
+
+    &--block {
+      @extend .t-link-accent-blue;
+      display: block;
     }
 }
 

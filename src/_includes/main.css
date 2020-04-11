@@ -1025,18 +1025,19 @@ p {
   text-transform: uppercase;
   letter-spacing: .05em; }
 
-.t-link-accent-blue {
+.t-link-accent-blue, .t-link-accent-blue--block {
   border-bottom: 1px solid #222222;
   color: #0e4bff;
-  display: block;
   line-height: 1.25em;
   padding: 2px 0;
   text-decoration: none; }
-  .t-link-accent-blue:hover {
+  .t-link-accent-blue:hover, .t-link-accent-blue--block:hover {
     border-bottom: 1px solid #FF0DD1;
     transition: border .2s ease-in; }
-  .t-link-accent-blue:focus {
+  .t-link-accent-blue:focus, .t-link-accent-blue--block:focus {
     outline: 0.5em ridge #0e4bff; }
+  .t-link-accent-blue--block {
+    display: block; }
 
 .t-link-accent-pink {
   line-height: 2;
