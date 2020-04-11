@@ -904,7 +904,7 @@ article blockquote {
   padding: 1em; }
   article blockquote p:first-of-type:before {
     content: "Note";
-    color: #FF0DD1;
+    color: #B2098B;
     display: block;
     font-family: "calibre-web-bold", Impact, sans-serif;
     font-size: 1em;
@@ -993,6 +993,7 @@ p {
 
 .t-link-accent-black {
   border-bottom: 1px solid #222222;
+  transition: border .2s ease-in;
   padding: 2px 0;
   text-decoration: none; }
   .t-link-accent-black:hover {
@@ -1027,6 +1028,7 @@ p {
 
 .t-link-accent-blue, .t-link-accent-blue--block {
   border-bottom: 1px solid #222222;
+  transition: border .2s ease-in;
   color: #0e4bff;
   line-height: 1.25em;
   padding: 2px 0;
@@ -1058,8 +1060,7 @@ p {
 .t-titlingfont {
   font-family: "calibre-web-bold", Impact, sans-serif;
   font-size: 1.25em;
-  text-transform: uppercase;
-  margin: .25rem; }
+  text-transform: uppercase; }
 
 code {
   background: #42ff0d;
@@ -1441,7 +1442,8 @@ section {
   justify-content: space-between; }
   .nav-item a {
     text-transform: uppercase;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #FF0DD1;
+    transition: border .2s ease-in;
     text-decoration: none;
     font-size: .85rem;
     padding: .3rem 0; }
@@ -1453,9 +1455,14 @@ section {
 
 .dark {
   color: #222222; }
+  .dark a {
+    border-bottom: 1px solid #222222;
+    transition: border .2s ease-in; }
 
 .light {
   color: #ffffff; }
+  .light a {
+    border-bottom: 1px solid #ffffff; }
 
 button, .download {
   text-transform: uppercase;
@@ -1660,7 +1667,7 @@ button, .download {
   outline: 20px dotted #ffffff;
   outline-offset: -10px;
   background: #eeeeee;
-  margin: 1em;
+  margin: .75em;
   position: relative; }
 
 .stub {

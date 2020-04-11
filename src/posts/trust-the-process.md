@@ -79,11 +79,8 @@ When I’m feeling this low, I do what people tell you not to do: I fish for com
 It might feel awkward to ask, but you can always start with first telling that person something nice about them as a prompt. Doing so will encourage you to be in a positive mindset and help to focus on someone else for a moment.
 
 > "What are some positive qualities that are unique to me?"
-
 > "How do I make your life better?"
-
 > "What’s your fondest memory of me?"
-
 > "Tell me something you like about me."
 
 The answers to these questions may or may not relate directly to characteristics that are pertinent to your employability proper, but at the very least, it will remind you that you are a worthy person who has people who are rooting for you.

@@ -333,7 +333,7 @@ article h2, h3, h4 {
     padding: 1em;
     p:first-of-type:before {
       content: "Note";
-      color: $pink;
+      color: $fuschia;
       display: block;
       font-family: $condensed;
       font-size: 1em;
@@ -529,7 +529,6 @@ article h2, h3, h4 {
   font-family: $condensed;
   font-size: 1.25em;
   text-transform: uppercase;
-  margin: .25rem;
 }
 
 code {

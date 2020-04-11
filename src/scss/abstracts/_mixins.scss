@@ -244,10 +244,12 @@
 
 @mixin bdr--black() {
   border-bottom: 1px solid $black;
+  @include txn-ease-in-quick;
 }
 
 @mixin bdr--green() {
   border-bottom: 1px solid $green;
+  @include txn-ease-in-quick;
 }
 
 @mixin bdr--green() {

@@ -32,46 +32,7 @@ data: events
                 <img class="selfportrait-pink" src="../assets/img/tmac-headshot.jpg" alt="Portrait of me looking over my shoulder">
             </picture>
         </div>
-        
-        <figure class="stamp--5@m stamp--5@l stamp--5@xl stub grid-whole@xs grid-half@s grid-third@m grid-third@l grid-third@xl">
-
-            <div class="stamp-date stamp--btmright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-cluj"/>
-                    <text>
-                        <textpath href="#stamp-cluj" aria-label="Cluj-Napoca, Romania">
-                            Cluj-Napoca, Romania
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="stub-content">
-                <p>
-                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://jsheroes.io/" rel="noopener noreferrer">JS Heroes</a>
-                </p>
-                <p class="t-black t-typeweight details">23-24 April 2020</p>
-            </div>
-        </figure>
-                       
-               <figure class=" stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-
-            <div class="stamp-date stamp--aboveright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-edinburgh"/>
-                    <text>
-                        <textpath href="#stamp-edinburgh" aria-label="edinburgh">
-                            Edinburgh, Scotland
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="stub-content">
-                <p>
-                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://uxscotland.net/2019/" rel="noopener noreferrer">UX Scotland</a>
-                </p>
-                <p class="t-black t-typeweight details">12-14 June 2020 🗝🎵</p>
-            </div>
-        </figure>    
+               
         <figure class="stamp--neg5@m stamp--neg5@l stamp--neg5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
             <div class="stamp-date stamp--topright">
@@ -93,7 +54,7 @@ data: events
         </figure>
         
         {% for post in collections.event | reverse %}
-            <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
+            <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-qaurter@l grid-quarter@xl">
                 <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
                     <svg viewbox="0 0 100 100">
                         <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
