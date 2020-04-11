@@ -1,6 +1,6 @@
 ---
 tag: event
-eventName: Design+Diversity
+eventName: "Design + Diversity"
 eventCityName: Chicago, Illinois, USA
 eventCityAbbr: chi
 date: 2019-08-03
