@@ -21,14 +21,9 @@ b, strong {
   padding: .5em 1em;
   text-decoration: none;
   transition: all .4s ease-in-out;
-  &:hover {
+  &:hover, &:focus {
     background: black;
     color: white;
-  }
-  &:focus {
-    border: 1px solid $pink;
-    background: $black;
-    color: $white;
   }
 }
 
@@ -348,8 +343,14 @@ article h2, h3, h4 {
     }
   }
 
-  article a:focus {
-    outline: 2px solid $pink;
+  article a {
+    &:focus {
+      outline: .25em ridge $pink;
+    }
+
+    &:hover {
+      border-bottom: 1px solid $pink;
+    }
   }
 
   article p a, article li a {
@@ -444,7 +445,6 @@ article h2, h3, h4 {
 }
 
 .t-link-accent-white {
-    @include t-link-hover;
     @include bdr--white;
     text-decoration: none;
     padding: 10px 0;
@@ -470,6 +470,9 @@ article h2, h3, h4 {
   &:hover {
     @include t-link-hover;
   }
+  &:focus {
+    @include out--pink;
+  }
 }
 
 .t-link-accent-orange {
@@ -490,10 +493,16 @@ article h2, h3, h4 {
 .t-link-accent-blue {
     @include bdr--black;
     color: $primary-color;
+    display: block;
+    line-height: 1.25em;
     padding: 2px 0;
     text-decoration: none;
     &:hover {
       @include t-link-hover;
+    }
+
+    &:focus {
+      @include out--blue;
     }
 }
 

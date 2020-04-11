@@ -260,6 +260,22 @@
   @include txn-ease-in-quick;
 }
 
+@mixin out--pink() {
+  outline: .25em ridge $pink;
+}
+
+@mixin out--yellow() {
+  outline: .5em ridge $yellow;
+}
+
+@mixin out--blue() {
+  outline: .5em ridge $cobalt;
+}
+
+@mixin out--green() {
+  outline: .5em ridge $green;
+}
+
 
 @mixin bdr--orange() {
   border-bottom: 1px solid $orange;
@@ -273,7 +289,7 @@
 
 // TRANSITIONS
 @mixin txn-ease-in-quick() {
-  transition: all .2s ease-in;
+  transition: border .2s ease-in;
 }
 
 // ZIG ZAG BASE
