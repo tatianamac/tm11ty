@@ -41,7 +41,7 @@ I will tell you a well-kept secret: Every single major tech company has severe s
 
 So, when some dude who works at one company is throwing rocks about something he cares about (his argument might even be valid!), the first thing the people and community who he attacks is going to do is go digging through his code and find where it fails too.
 
-What I'd like to remind everyone here, is that we have an accessibility and performance problem at large. And, the problem with this method is that we've centred the egos of Foo and Bar (one peacocking and one on the defence), when we should be talking about how this impacts the real lives of people who are actual victims of poorly-conceived and -maintained technology.
+I'd like to remind everyone here is that we have an accessibility and performance problem at large. The problem with this method is that we've centred the egos of Developers Foo and Bar (one peacocking and one on the defence), when we should be talking about how this impacts the real lives of people who are actual victims of poorly-conceived and -maintained technology.
 
 People oppressed by the failures of accessibility and performance—disabled people, systemically poor people, those not centred in Western civ—**have a right to be mad for how we have failed them.** They don’t need to sugar coat what they say to make us feel better. Yet! When  theseminoritised and underserved people speak truth to power, they get extreme vitriol, hate, and death threats for sharing their lived experiences.
 
