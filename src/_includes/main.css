@@ -1,6 +1,6 @@
 /* line 15, src/scss/abstracts/_variables.scss */
 :root {
-  font-size: calc(24px + .05vw);
+  font-size: calc(20px + .05vw);
 }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
