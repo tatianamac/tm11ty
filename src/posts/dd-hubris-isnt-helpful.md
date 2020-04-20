@@ -15,7 +15,7 @@ colorMode: dark
 
 Dear Developer Foo,
 
-Your "hot take" about performance or accessibility isn't helping, it's hurting the very people that you purportedly are helping and defending. I'm not convinced your goal is to help as you say. Bsaed on the inflammatory hyperbole, it often seems like your goal is to just dunk on someone who is equally as privileged as you in another glass house atop Silicon Valley to gain a few internet points while the harm on the actual people affected by this perpetuates.
+Your "hot take" about performance or accessibility isn't helping, it's hurting the very people that you purportedly are helping and defending. I'm not convinced your goal is to help as you say. Based on the inflammatory hyperbole, it often seems like your goal is to just dunk on someone who is equally as privileged as you in another glass house atop Silicon Valley to gain a few internet points while the harm on the actual people affected by this perpetuates.
 
 You're making your peers hate those people and the very ideas you're trying to evangalise. Does that seem unfair? Well, yes, but welcome to the unfair world of standing up for systemically engrained issues.
 
@@ -25,7 +25,7 @@ Your clapback also isn't helping. You dunking on the core concepts of performanc
 
 I get it. The thing you build is being attacked, as is the community you stand for, and it's hard to just stand around and take a verbal beating.
 
-But consider that by responding with things that make fun of old Android devices or what not doesn't actually hurt Developer Foo, who you know has a ~~iPhone 11~~ Google Pixel 4. You're hurting the people who admire you who live in places and in contexts where that low-end Android is their ownly option.
+But consider that by responding with things that make fun of old Android devices or what not doesn't actually hurt Developer Foo, who you know has a ~~iPhone 11~~ Google Pixel 4. You're hurting the people who admire you who live in places and in contexts where that low-end Android is their only option.
 
 Dear Hashtag All Developers,
 
@@ -37,19 +37,19 @@ As somebody who has to manage very delicate and difficult conversations on the r
 
 What's gotten lost in these discussions is the stories from people who are negatively impacted by products that are not performant and overbloated.
 
-I will tell you a well-kept secret: Every single major tech company has severe shortcomings when it comes to principles of accesssiblity, performance, and inclusion (The Real API though). As someone who has worked on many projects for many of these companies, I've had to fight (and sadly often lose) fights to make things more performance or accessible. So, while many of these places tout these things loudly, behind "closed doors," they're not as perfect as they'd like you to believe.
+I will tell you a well-kept secret: Every single major tech company has severe shortcomings when it comes to principles of accessiblity, performance, and inclusion (The Real API though). As someone who has worked on many projects for many of these companies, I've had to fight (and sadly often lose) fights to make things more performance or accessible. So, while many of these places tout these things loudly, behind "closed doors," they're not as perfect as they'd like you to believe.
 
 So, when some dude who works at one company is throwing rocks about something he cares about (his argument might even be valid!), the first thing the people and community who he attacks is going to do is go digging through his code and find where it fails too.
 
 I'd like to remind everyone here is that we have an accessibility and performance problem at large. The problem with this method is that we've centred the egos of Developers Foo and Bar (one peacocking and one on the defence), when we should be talking about how this impacts the real lives of people who are actual victims of poorly-conceived and -maintained technology.
 
-People oppressed by the failures of accessibility and performance—disabled people, systemically poor people, those not centred in Western civ—**have a right to be mad for how we have failed them.** They don’t need to sugar coat what they say to make us feel better. Yet! When  theseminoritised and underserved people speak truth to power, they get extreme vitriol, hate, and death threats for sharing their lived experiences.
+People oppressed by the failures of accessibility and performance—disabled people, systemically poor people, those not centred in Western civ—**have a right to be mad for how we have failed them.** They don’t need to sugar coat what they say to make us feel better. Yet! When  these minoritised and underserved people speak truth to power, they get extreme vitriol, hate, and death threats for sharing their lived experiences.
 
 They are told to be nicer about their pain, to find gentler ways to not rattle majoritised fragility. To educate.
 
 That is where we, with our tech privileges, must come in.
 
-As stewards of accessibility and performance, we must be aware of our own privileges and possess the patience to educate each other. We are often *also* on high-end devices and high-speed internet and let's be honest, not really affected by poor performance. So, to lash out in outrage when we aren't even the ones this affects most, is a little disingenuine.
+As stewards of accessibility and performance, we must be aware of our own privileges and possess the patience to educate each other. We are often *also* on high-end devices and high-speed internet and let's be honest, not really affected by poor performance. So, to lash out in outrage when we aren't even the ones this affects most, is a little disingenuous.
 
 Don't get me wrong. It is absolutely annoying AF to continue to have to tell people the same five basic principles of accessibility over and over—that really, the majority of accessibility problems could be fixed by changing a few colours and writing alt text. On the performance side, learning the differences between preload and prefetch and being more mindful of when we use what packages when, and doing a bit of code splitting, we can make our sites far more accessible to far more people and deplete fewer environmental resources.
 
@@ -97,7 +97,7 @@ It's just going to overwhelm us given how many unsolvable problems appear before
 
 ## Stop worshipping industry and subject heroes
 
-I thought long about why this sort of discussion keeps happening over and over in the same sorts of ways, and it's because we keep centring the same people in these niche subject areas. We know what we're getting into; some peoples' brands is to be "That Guy" on the internet, and they're quite successful at it becuase we all (myself not excluded) feed into their bullshit.
+I thought long about why this sort of discussion keeps happening over and over in the same sorts of ways, and it's because we keep centring the same people in these niche subject areas. We know what we're getting into; some peoples' brands is to be "That Guy" on the internet, and they're quite successful at it because we all (myself not excluded) feed into their bullshit.
 
 The hero worship in this industry means that we have four dudes (one for each topic focus) who fight about the same 12 things every fortnight. The lockdown schedule got a little confusing, so it was quite for a minute but I see we're back.
 
