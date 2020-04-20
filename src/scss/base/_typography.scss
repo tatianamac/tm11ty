@@ -582,7 +582,7 @@ code {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     li {
     margin: 0 2rem 0 0;
