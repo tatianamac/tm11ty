@@ -67,7 +67,7 @@ In particular, when we (royal we inducted here) are both white cis tech bros who
 
 Instead, it makes them hate performance and accessibility, and thus, the people who are most negatively impacted by it, are caught in the cross-hairs. Why? Because that's how capitalism works. It forces us to hate systemically poor people, disabled people, basically anyone who the system exploits is blamed for their own exploitation. Watch Parasite for a primer on how it all works.
 
-What we need to do is to invite people to do better. Praise people when they do things right. When they don't get things right, invite a conversation and ask questions. Come curious. Come aware of your own messes in your own glass houses. Deescalate flame wars.
+What we need to do is to invite people to do better. Praise people when they do things right. When they don't get things right, invite a conversation and ask questions. Come curious. Come aware of your own messes in your own glass houses. De-escalate flame wars.
 
 ## Corporations are not people, but the people who work for them are
 
