@@ -37,7 +37,7 @@ As somebody who has to manage very delicate and difficult conversations on the r
 
 What's gotten lost in these discussions is the stories from people who are negatively impacted by products that are not performant and overbloated.
 
-I will tell you a well-kept secret: Every single major tech company has severe shortcomings when it comes to principles of accessiblity, performance, and inclusion (The Real API though). As someone who has worked on many projects for many of these companies, I've had to fight (and sadly often lose) fights to make things more performance or accessible. So, while many of these places tout these things loudly, behind "closed doors," they're not as perfect as they'd like you to believe.
+I will tell you a well-kept secret: Every single major tech company has severe shortcomings when it comes to principles of accessibility, performance, and inclusion (The Real API though). As someone who has worked on many projects for many of these companies, I've had to fight (and sadly often lose) fights to make things more performance or accessible. So, while many of these places tout these things loudly, behind "closed doors," they're not as perfect as they'd like you to believe.
 
 So, when some dude who works at one company is throwing rocks about something he cares about (his argument might even be valid!), the first thing the people and community who he attacks is going to do is go digging through his code and find where it fails too.
 
