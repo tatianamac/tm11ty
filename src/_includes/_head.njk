@@ -9,7 +9,7 @@
     <link rel="preload" href="{{ 'assets/fonts/calibre-web-bold-subset.woff2' | url }}" as="font" type="font/woff2" crossorigin="crossorigin">
 
     {% set css %}
-      {% include "main.css" %}
+      {% include "main.min.css" %}
     {% endset %}
     <style type="text/css">
     {{ css | cssmin | safe }}
