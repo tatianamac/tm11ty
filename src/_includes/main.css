@@ -1,6 +1,6 @@
 /* line 15, src/scss/abstracts/_variables.scss */
 :root {
-  font-size: calc(20px + .05vw);
+  font-size: calc(22px + .05vw);
 }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -777,21 +777,21 @@ img {
 
 @font-face {
   font-family: 'domaine-text-web-light';
-  src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-text-web-light-subset.woff") format("woff");
+  src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-text-web-light-subset.woff2") format("woff"), url("../../assets/fonts/calibre-web-regular-subset.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: 'calibre-web-regular';
   font-weight: 400;
-  src: local("calibre-web-regular"), url("../../assets/fonts/calibre-web-regular-subset.woff") format("woff");
+  src: local("calibre-web-regular"), url("../../assets/fonts/calibre-web-regular-subset.woff2") format("woff2"), url("../../assets/fonts/calibre-web-regular-subset.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: 'calibre-web-bold';
   font-weight: 700;
-  src: local("calibre-web-bold"), url("../../assets/fonts/calibre-web-bold-subset.woff") format("woff");
+  src: local("calibre-web-bold"), url("../../assets/fonts/calibre-web-bold-subset.woff2") format("woff2"), url("../../assets/fonts/calibre-web-bold-subset.woff") format("woff");
   font-display: swap;
 }
 
@@ -1640,7 +1640,7 @@ ul.linklist {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 /* line 587, src/scss/base/_typography.scss */
@@ -2215,13 +2215,6 @@ section {
 }
 
 /* line 53, src/scss/layout/_header.scss */
-.nav-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-/* line 59, src/scss/layout/_header.scss */
 .dark {
   color: #222222;
   text-transform: uppercase;
@@ -2232,18 +2225,18 @@ section {
   padding: .3rem 0;
 }
 
-/* line 67, src/scss/layout/_header.scss */
+/* line 61, src/scss/layout/_header.scss */
 .dark:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: border .2s ease-in;
 }
 
-/* line 71, src/scss/layout/_header.scss */
+/* line 65, src/scss/layout/_header.scss */
 .dark:focus {
   outline: 0.5em ridge #0e4bff;
 }
 
-/* line 77, src/scss/layout/_header.scss */
+/* line 71, src/scss/layout/_header.scss */
 .light {
   color: #ffffff;
   text-transform: uppercase;
@@ -2254,13 +2247,13 @@ section {
   padding: .3rem 0;
 }
 
-/* line 84, src/scss/layout/_header.scss */
+/* line 78, src/scss/layout/_header.scss */
 .light:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: border .2s ease-in;
 }
 
-/* line 88, src/scss/layout/_header.scss */
+/* line 82, src/scss/layout/_header.scss */
 .light:focus {
   outline: 0.5em ridge #FFD926;
 }
