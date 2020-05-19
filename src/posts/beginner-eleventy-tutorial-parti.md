@@ -1,5 +1,5 @@
 ---
-title: Beginner's Guide to Eleventy
+title: Beginner's Guide to Eleventy [Part I]
 description: "Part I: What is a static site generator?"
 summary: Static site generators (SSGs) are critical to modern tooling. When used thoughtfully, SSGs can facilitate sites that need something in the middle—in the vast expanse between static, hand-coded sites and dynamic behemoths. In a multi-part guide, I'll show you how to use Eleventy.
 date: 2020-04-02 16:09:03
@@ -31,9 +31,9 @@ My hope with this guide is to remove barriers, particularly for designers/develo
 
 To remove barriers to entry, we must provide adequate context. I will break this guide into a multi-part series:
 
-- **Part I:** What is a static site generator?
-- **Part II:** Installation/Structure (coming soon)
-- **Part III:** Basic Customisation (coming soon)
+- **Part I:** What is a static site generator? 👈🏽 You are here
+- **Part II:** [Installation](../beginner-eleventy-tutorial-partii/)
+- **Part III:** Structure/Basic Customisation (coming soon)
 - **Part IV**: Advanced Customisation  (coming soon)
 
 In general, I think our industry fears overexplaining concepts. We tend to presume people have skills that they don't always have and leave a lot of helpful context or explanation unsaid. After "hello world" examples, we tend to optimise our content for superusers. Beginners are sent into the world with a very limited foundation and asked to make a fairly large leap to intermediate on their own. By writing more beginner-through-intermediate tutorials like this, I hope to provide a solid foundation by answering unanswered questions and escalating examples as we go.
@@ -259,7 +259,7 @@ Eleventy's mission seems to possess some similar biases to me. In the end, this 
 
 To me, the pros outweigh the cons. Developers who work in and support Eleventy can help to improve the two cons. This is why I'm writing this series.
 
->Next Time (Part II): I will teach you how to install Eleventy (and, all the things you need to to install in order to install Eleventy).
+>Next (Part II): Learn how to install Eleventy (and, all the things you need to to install in order to install Eleventy). [Read Part II](../beginner-eleventy-tutorial-partii/)
 
 #### Thank You
 

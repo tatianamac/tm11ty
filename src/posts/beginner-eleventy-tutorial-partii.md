@@ -17,8 +17,8 @@ colorMode: dark
 
 >You are reading Part II of a IV part series.
 >**Part I:** [What is a static site generator?](../beginner-eleventy-tutorial-parti/)
->**Part II:** **Installation/Structure** 👈🏽 You are here
->**Part III:** Basic Customisation (coming soon)
+>**Part II:** **Installation** 👈🏽 You are here
+>**Part III:** Structure/Basic Customisation (coming soon)
 >**Part IV:** Advanced Customisation (coming soon)
 >If you are confused or in need of context, please go [read Part I](../beginner-eleventy-tutorial-parti/)—it is where I establish all the context of what static site generators are.
 
