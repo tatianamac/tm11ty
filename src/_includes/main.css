@@ -1591,24 +1591,25 @@ p.comingsoon {
 
 /* line 545, src/scss/base/_typography.scss */
 code {
-  background: #42ff0d;
-  padding: .5rem;
+  background: #DAE3FF;
+  border-radius: .25em;
+  padding: .25rem;
   color: #222222;
   margin: .25rem;
 }
 
-/* line 552, src/scss/base/_typography.scss */
+/* line 553, src/scss/base/_typography.scss */
 .postlist {
   list-style: none;
   padding: 0;
 }
 
-/* line 556, src/scss/base/_typography.scss */
+/* line 557, src/scss/base/_typography.scss */
 .postlist-item {
   counter-increment: start-from -1;
 }
 
-/* line 559, src/scss/base/_typography.scss */
+/* line 560, src/scss/base/_typography.scss */
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
@@ -1616,24 +1617,24 @@ code {
   text-align: right;
 }
 
-/* line 567, src/scss/base/_typography.scss */
+/* line 568, src/scss/base/_typography.scss */
 .postlist-date {
   word-spacing: -0.1px;
 }
 
-/* line 570, src/scss/base/_typography.scss */
+/* line 571, src/scss/base/_typography.scss */
 .postlist-link {
   display: inline-block;
   padding: 0.25em 0.1875em;
   /* 4px 3px /16 */
 }
 
-/* line 574, src/scss/base/_typography.scss */
+/* line 575, src/scss/base/_typography.scss */
 .postlist-item-active .postlist-link {
   font-weight: bold;
 }
 
-/* line 580, src/scss/base/_typography.scss */
+/* line 581, src/scss/base/_typography.scss */
 ul.linklist {
   list-style: none outside;
   padding: 0;
@@ -1643,57 +1644,57 @@ ul.linklist {
   justify-content: flex-start;
 }
 
-/* line 587, src/scss/base/_typography.scss */
+/* line 588, src/scss/base/_typography.scss */
 ul.linklist li {
   margin: 0 2rem 0 0;
 }
 
-/* line 593, src/scss/base/_typography.scss */
+/* line 594, src/scss/base/_typography.scss */
 ul.taglist {
   list-style: none outside;
   padding: 0;
   display: inline-block;
 }
 
-/* line 597, src/scss/base/_typography.scss */
+/* line 598, src/scss/base/_typography.scss */
 ul.taglist li {
   margin: 0 .25em .25em 0;
 }
 
-/* line 603, src/scss/base/_typography.scss */
+/* line 604, src/scss/base/_typography.scss */
 ul.medialist--tight {
   list-style: none outside;
   padding: 0;
 }
 
-/* line 606, src/scss/base/_typography.scss */
+/* line 607, src/scss/base/_typography.scss */
 ul.medialist--tight li {
   margin: .75rem 0 0 0;
 }
 
-/* line 611, src/scss/base/_typography.scss */
+/* line 612, src/scss/base/_typography.scss */
 ul.medialist--loose {
   list-style: none outside;
   padding: 0;
 }
 
-/* line 614, src/scss/base/_typography.scss */
+/* line 615, src/scss/base/_typography.scss */
 ul.medialist--loose li {
   margin: 1rem 0 0 0;
 }
 
-/* line 619, src/scss/base/_typography.scss */
+/* line 620, src/scss/base/_typography.scss */
 ul.longform {
   list-style-type: square;
   padding-bottom: .5rem;
 }
 
-/* line 623, src/scss/base/_typography.scss */
+/* line 624, src/scss/base/_typography.scss */
 ul.longform li {
   margin: 0 0 1rem 0;
 }
 
-/* line 628, src/scss/base/_typography.scss */
+/* line 629, src/scss/base/_typography.scss */
 .direct-link {
   text-decoration: none;
   font-style: normal;
@@ -1701,20 +1702,20 @@ ul.longform li {
   margin-left: .1em;
 }
 
-/* line 635, src/scss/base/_typography.scss */
+/* line 636, src/scss/base/_typography.scss */
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   display: inline-block;
 }
 
-/* line 640, src/scss/base/_typography.scss */
+/* line 641, src/scss/base/_typography.scss */
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited {
   outline: 2px solid #FF0DD1;
   display: inline-block;
 }
 
-/* line 649, src/scss/base/_typography.scss */
+/* line 650, src/scss/base/_typography.scss */
 a.right-arrow:after {
   content: "\2197";
 }
