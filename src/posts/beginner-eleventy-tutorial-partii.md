@@ -214,6 +214,16 @@ As we learned about in the last post, this step is where Eleventy takes all of t
 
 11. Feel boss! You have gotten your environment up, and have a fresh new website to play with! You are totally a developer who served up your first static site (Or maybe 30th! It’s still exciting!).
 
-### Resources
+## Thank You
+
+Thank you to [Dia Trahman](https://twitter.com/dia_trahman), [Eddie Pearson](https://www.twitter.com/eddiepearson), [Jennifer Davis](https://www.twitter.com/sigje), [Melissa Em](https://www.twitter.com/meowwwls), [Sunil Pai](https://www.twitter.com/threepointone) for their attention to detail, in particular, for the beginner readers who bravely went through my imperfect instructions!
+
+## References
 
 [Wikipedia: Usage share of web browsers](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers)
+
+## Questions and Corrections
+
+For questions, please [reach out on Twitter](https://www.twitter.com/TatianaTMac)! I can't promise to answer all your questions, but I'll try my best!
+
+For corrections (typos, factual inaccuracies), please file a [GitHub issue](https://github.com/tatianamac/tm11ty/issues).
