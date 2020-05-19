@@ -31,7 +31,7 @@ var settings = {
       output: 'dist/js/'
     },
     assets: {
-      input: 'src/assets/img/*.{jpg,jpeg,gif,webm,webp,png}',
+      input: 'src/assets/img/*.{jpg,jpeg,gif,webm,webp,png,zip}',
       output: 'dist/assets/img/'
 	},
 	fonts: {
