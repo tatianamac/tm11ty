@@ -75,7 +75,7 @@ It should _return_ (send you back) something like this below:
 
 The command `ps` is telling the command line to show all the processes that are running. The `-p` flag tells it inform more about the process, and the `$$` tells it to narrow this down to the current process.
 
-If you see `zsh`, `bash`, `tcsh`, `ksh` (anything ending in sh), that's your shell language. (If that didn't work for you, [try some of other commands](https://linuxhandbook.com/shell-using/).)
+If you see `zsh`, `bash`, `tcsh`, `ksh` (anything ending in sh), that's your shell language. (If that didn't work for you, [try some of the other commands](https://linuxhandbook.com/shell-using/).)
 
 ### 1c. **Installing Node.js and npm**
 
@@ -84,7 +84,7 @@ Node is a **environment** you need to install onto your computer in order to run
 To check if you already have node on your machine, run the following command in your terminal emulator:
     `node -v` or `node --version`. (If one doesn't work, try the other).
 
->You may have noticed that sometimes flags have one hyphen and other times they have two. One hyphen flags (`-g`) are the short-name version of the command, and two-hyphen flags (`--save-dev`) are the long-name version of the command. I find that when I'm starting out, I like to write out the long-name/two-hyphen version so I can talk myself through what I'm doing.
+>You may have noticed that sometimes flags have one hyphen and other times they have two. One hyphen flags (`-v`) are the short-name version of the command, and two-hyphen flags (`--version`) are the long-name version of the command. I find that when I'm starting out, I like to write out the long-name/two-hyphen version so I can talk myself through what I'm doing.
 
 If it returns `v` followed by numbers, something like `v12.13.1`, that means you have Node installed. Eleventy requires any version of Node newer than 8, so if you've got that, you're set! Woohoo!
 
@@ -114,15 +114,15 @@ A source-code editor (or just code editor if you're friends) is where you edit c
 
 Choosing a code editor can be really daunting, as everyone who has a four-letter name has a strong opinion about which is the best and is willing to go to great lengths to convince you.
 
-If you're starting out with code, my recommendation would be to pick the one that stresses you out the least. Look at the screenshots and read reviews. Consider what customisations are for your needs, say, like if [you rely on a screen reader](https://www.reddit.com/r/Blind/comments/fjn9d9/code_editor/). See what seems appealing to spend hours crying in front of. For many years, I wrote in Coda (RIP), Sublime Text, Atom, then now I'm in Microsoft’s Visual Studio Code (VSCode). However, I think if I started in VSCode, I would have been overwhelmed with all the bells and whistles.
+If you're starting out with code, my recommendation would be to pick the one that stresses you out the least. Look at the screenshots and read reviews. Consider what customisations are for your needs, say, like if [you rely on a screen reader](https://www.reddit.com/r/Blind/comments/fjn9d9/code_editor/). See what seems appealing to spend hours crying in front of. For many years, I wrote in Coda (RIP), Sublime Text, Atom, then now I'm in Microsoft Visual Studio Code (VSCode). However, I think if I started in VSCode, I would have been overwhelmed with all the bells and whistles.
 
-**Examples**: GitHub's [Atom](https://www.sublimetext.com/), Adobe's [Brackets](http://brackets.io/), [Notepad++](https://notepad-plus-plus.org/), [Sublime](https://www.sublimetext.com/), [Vim](https://vim.org/) if you hate yourself and wear purist badges proud (jk! No tool shaming), Microsoft [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
+**Examples**: GitHub's [Atom](https://www.sublimetext.com/), Adobe's [Brackets](http://brackets.io/), [Notepad++](https://notepad-plus-plus.org/), [Sublime](https://www.sublimetext.com/), [Vim](https://vim.org/) if you hate yourself and wear purist badges proud (jk! No tool shaming), Microsoft's [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
 
 **Cues**: If you see longer blocks of code, you're going to likely edit that in your code editor.
 
 >You might hear someone refer to their **Integrated Development Environment (IDE)**. People sometimes use IDE interchangeably with code editor, when they are not, in fact, interchangeable. By definition, IDEs comprise a code editor, build automation tool, and debugger. Sometimes they have GUIs integrated into them as well.
 >Most tools you hear about are code editors, including Microsoft's Visual Studio Code (VSCode or just Code if you're good friends), which, while robust and very full-featured with the help of extensions, is not an IDE. Microsoft's Visual Studio is their IDE, as it is a fully-integrated environment. Naming, am I right?
->Also, because people tend to get their panties wound up in sailors' knots about this, you're not any "less" of a developer for using either a code editor or an IDE—use what you like and change it up if you change your mind. Neither is intrinsically better than the other; they're both valid for different developers in different contexts. Some IDEs and code editors have better support for certain languages, for instance. That's the sort of thing you should note for how you decide, not what some Chadwick tells you to decide. I've articulated the difference here for the pure purpose of education. And, as someone who writes and runs a dictionaries, I think nuance is important. 🙂
+>Also, because people tend to get their panties wound up in sailors' knots about this, you're not any "less" of a developer for using either a code editor or an IDE—use what you like and change it up if you change your mind. Neither is intrinsically better than the other; they're both valid for different developers in different contexts. Some IDEs and code editors have better support for certain languages, for instance. That's the sort of thing you should note for how you decide, not what some Chadwick tells you to decide. I've articulated the difference here for the pure purpose of education. And, as someone who writes and runs a dictionary, I think nuance is important. 🙂
 
 For the purposes of what we're doing, I'd recommend that you get a **code editor** as it will suffice for this project.
 
