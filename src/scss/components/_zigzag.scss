@@ -67,14 +67,14 @@
     background: 
                 linear-gradient(45deg, transparent 50%, $black 50%),
                 linear-gradient(90deg, transparent 50%, $pink 50%),
-                linear-gradient(135deg, $black 50%, $fuschia 50%), 0 50%;
+                linear-gradient(135deg, $black 50%, $fuchsia 50%), 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-pink-white {
     height: 5em;
-    background: linear-gradient(-45deg, transparent 74%, $fuschia 75%),
+    background: linear-gradient(-45deg, transparent 74%, $fuchsia 75%),
                 linear-gradient(45deg, $white 74%, $pink 75%) 0 50%;
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
