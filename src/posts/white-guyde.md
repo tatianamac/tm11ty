@@ -29,7 +29,6 @@ I curated this collection just for you. 😘
 If you want to understand how tech is complicit in perpetuating systems of oppression:
 
 - Algorithms of Oppression, Safiya Noble
-- Invisible Women, Caroline Criado Pérez
 - Rage Inside The Machine, Rob Smith
 - Technically Wrong, Sara Watchter-Boettcher
 
