@@ -57,7 +57,7 @@ For the times you do talk, ask yourself:
 🔹 Am I adding something of value?
 🔹 Are these my words to say?
 
-5️⃣ Spend time connecting with your thoughts, then emotions.
+## 5️⃣ Spend time connecting with your thoughts, then emotions.
 
 Write down your observations in this new version of you. What do you notice?
 
