@@ -4,14 +4,14 @@ description: "How to make meaningful change"
 summary: Times are Not Good, to say the least. I've compiled a list of suggestions on how to take action beyond donating (which you should also do if you can).
 date: 2020-04-02 16:09:03
 tags:
-  - tutorials
-  - Eleventy
   - featured
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
 ---
+If you are a white guy and you don't know what to do beyond donate and being quiet, I made you a list.
+
 ## 1️⃣ Buy and read some anti-racist texts. And sit with the discomfort. Maybe invite a few other dudes to be in a book club with you
 
 I curated this collection just for you. 😘
