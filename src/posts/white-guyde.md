@@ -19,7 +19,7 @@ I curated this collection just for you. 😘
 - An Indigenous People's History of the United States, Roxanne Dunbar-Ortiz
 - How To Be Antiracist, Ibram X Kendi
 - How To Be Less Stupid About Race, Crystal M Fleming
-- So You Wanna Talk About Race, Ijeoma Oluo
+- So You Want To Talk About Race, Ijeoma Oluo
 - The New Jim Crow, Michelle Alexander
 - They Were Her Property, Stephanie E. Jones-Rogers
 - White Fragility, Robin Diangelo
