@@ -1,7 +1,7 @@
 ---
 title: "Save the Tears: White Woman's Guide"
 description: "How to make meaningful change"
-summary: Times are Not Good, to say the least. I've compiled a list of suggestions on how to take action beyond donating (which you should also do if you can).
+summary: Black and brown people are protesting for their survival, and you're a white woman who isn't sure how to help. What now? I've written you a guide.
 date: 2020-04-02 16:09:03
 tags:
   - featured
@@ -75,3 +75,5 @@ White men can be called out by everyone because they possess the most power with
 If you see a white woman friend or colleague engaging in weaponised behaviour (see above), do something about it. You are in the highest position of privilege to speak up without ramifications, particularly as far as the police state is concerned. (Consider how white women are taught to cry their way out of police engagements.)
 
 Never allow yourself to stay comfortable. Comfort is complicity. Discomfort means change. Sit with it.
+
+For the white dudes in your life: Don't worry, [wrote a white guyde too](/posts/white-guyde)!

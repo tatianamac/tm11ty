@@ -1,7 +1,7 @@
 ---
 title: "White Guyde To The Galaxy"
 description: "How to make meaningful change"
-summary: Times are Not Good, to say the least. I've compiled a list of suggestions on how to take action beyond donating (which you should also do if you can).
+summary: Black and brown people are protesting for their survival, and you're a white dude who isn't sure how to help. What now? I've written you a guide.
 date: 2020-04-02 16:09:03
 tags:
   - featured
@@ -64,3 +64,5 @@ Seek therapy/counseling if you have the means. If you don't think you need thera
 [Read this comic on how you shift that load](https://english.emmaclit.com/2017/05/20/you-shouldve-asked/comment-page-9/) (not THAT kind of load).
 
 Never allow yourself to stay comfortable. Comfort is complicity. Discomfort means change. Sit with it.
+
+For the white women in your life: Don't worry, [wrote white women's guide too](/posts/save-the-tears)!
