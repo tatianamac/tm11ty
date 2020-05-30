@@ -62,6 +62,7 @@ Resist the urge to:
 - Ask us if it's our race or our gender. It's both, we can't necessarily parse out which parts are affected by what.
 - Centre yourself. Society already forces us to centre everything around your feelings.
 - Erase us from the narrative; if you're speaking about reproductive health and you don't mention how Black women are at much higher risk or issues, or when you speak about the gender pay wage gap, don't ignore the fact that Latinx and Black women make far less than white and Asian women; if you're speaking about assault, don't forget to mention that Indigenous women and girls are at the highest risk.
+- Step over us on the way to the top. Employing traditionally masculine behaviours will intrinsically mean employing white supremacist behaviours; using your power over us is aligning with the privilege of your whiteness, not the soliarity of our womanness.
 - Participate in all white women panels/events/publications/etc. If you do, then at least insist on getting it called White Women in Tech or STEM because it is a falsehood to call it a Women's Event. Not All Women, Karen.
 - Be a nasty TERF and deny the womanhood of trans women. Trans women are real women.
 
