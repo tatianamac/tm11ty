@@ -65,4 +65,4 @@ Seek therapy/counseling if you have the means. If you don't think you need thera
 
 Never allow yourself to stay comfortable. Comfort is complicity. Discomfort means change. Sit with it.
 
-For the white women in your life: Don't worry, [wrote white women's guide too](/posts/save-the-tears)!
+For the white women in your life: Don't worry, I [wrote a white women's guide too](/posts/save-the-tears)!
