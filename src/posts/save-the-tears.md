@@ -46,6 +46,8 @@ You'll notice I didn't link them. I encourage you to do some work to support som
 
 ## 3️⃣ Consider your weapons
 
+White women's weapons are microaggressions and a direct line to the police murder hotline.
+
 - Compliments: When you complimented another woman, what is your expectation? How have your compliments been racialised? Have you complimented a Black woman's hair and asked to touch it? Have you complimented an Asian woman's youthful skin? Have you referred to a Black/brown woman friend as exotic? Have you started or ended your compliments with "OMG I hate you." Have your compliments toward disabled women been infantilising? Have you perpetuated Westernised white beauty standards?
 - Tears: Have you ever cried to get your way? Who paid for it?
 - The Police: You have a nation state that will murder for your tears and your fear, real or not. Do you consider the weight of this power?
