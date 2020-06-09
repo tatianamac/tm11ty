@@ -61,7 +61,7 @@ When it comes to employment, conferences and speaking events, contributing as a 
 
 As someone with immense speaking privileges, I crafted a [speaker rider](https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552) to ensure I could use share that privilege with marginalised peers in my industry. My friend Timothy Goodman writes excellent [letters deferring his participation](https://twitter.com/timothyogoodman/status/990980251667791872?s=20) to ensure equity and representation.
 
-Build a broader network for recommendations. In tech, we have ample resources for this:
+Build a broader network for recommendations. In creative and tech fields, we have ample resources for this:
 
 - [writersofcolor.org](https://writersofcolor.org)
 - [peopleofcraft.com](https://www.peopleofcraft.com)
