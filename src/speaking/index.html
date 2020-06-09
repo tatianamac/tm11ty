@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 tags:
-  - nav
+ - nav
 navtitle: Speaking
 templateClass: content
 navClass: bg-white
@@ -11,50 +11,37 @@ data: events
 ---
 <section id="speaking" class="container">
     <div class="wrapper">
-        <div class="grid-whole@xs grid-whole@s grid-half@m grid-half@l grid-half@xl padding-thinn">
-            <h1 class="t-eyebrow t-height-loose">Speaking</h1>
-            <p class="t-black t-serifweight t-thiccfont@xs t-thiccfont@s t-chonkfont@m t-chonkfont@l t-chonkfont@xl t-height-dense t-space-strip">That's what she said.</p>
+   
+        <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
+            <h1 class="t-eyebrow">Speaking</h1>
+            <p class="t-black t-serifweight t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">That's what she said.</p>
             <p>I'm an international keynote speaker who focuses on accessibility, design systems, performance, and inclusion with a strong call to action for ethical practices.</p>
 
             <p>As I believe speaking is an privilege, I wrote a
                 <a class="t-link-accent-blue t-height-tight" href="https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552" rel="noopener noreferrer">speaker rider</a>
                 to encourage a more accessible environment for tech's most marginalised and suppressed communities.</p>
 
-            <p>If you'd like me to speak at your event, please read the <a class="t-link-accent-blue t-height-tight" href="https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552" rel="noopener noreferrer">rider</a> to see if it might be a good fit and then <a class="t-link-accent-blue t-height-tight" href="mailto:speaking@tatianamac.com">email me</a> with the details.</p>
+            <p>If you'd like me to speak at your event, please read the
+                <a class="t-link-accent-blue t-height-tight" href="https://gist.github.com/tatianamac/493ca668ee7f7c07a5b282f6d9132552" rel="noopener noreferrer">rider</a>
+                to see if it might be a good fit and then
+                <a class="t-link-accent-blue t-height-tight" href="mailto:speaking@tatianamac.com">email me</a>
+                with the details.</p>
 
             <p class="t-typeweight t-red">Currently booking for 2020</p>
 
-            <p><a class="download primary" download="tatiana-mac-speaker-kit.zip" href="../assets/img/tatianamac-speakerkit.zip">Download Speaker Kit (196Kb)</a></p>
-            
+            <p>
+                <a class="download primary" download="tatiana-mac-speaker-kit.zip" href="../assets/img/tatianamac-speakerkit.zip">Download Speaker Kit (196Kb)</a>
+            </p>
+
         </div>
         <div class="grid-whole@xs grid-whole@s grid-half@m grid-half@l grid-third@xl padding-thinn">
             <picture>
-                <img class="selfportrait-pink" src="../assets/img/tmac-headshot.jpg" alt="Portrait of me looking over my shoulder">
+                <img class="selfportrait-pink" src="../assets/img/tmac-headshot.jpg" alt="Me looking over my shoulder">
             </picture>
         </div>
-               
-        <figure class="stamp--neg5@m stamp--neg5@l stamp--neg5@xl stub grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
 
-            <div class="stamp-date stamp--topright">
-                <svg viewbox="0 0 100 100">
-                    <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-pgh"/>
-                    <text>
-                        <textpath href="#stamp-pgh" aria-label="Pittsburgh, PA, USA">
-                            Pittsburgh, PA, USA
-                        </textpath>
-                    </text>
-                </svg>
-            </div>
-            <div class="stub-content">
-                <p>
-                    <a class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight" href="https://designconference.aiga.org/" rel="noopener noreferrer">AIGA Design</a>
-                </p>
-                <p class="t-black t-typeweight details">12 - 14&nbsp;November 2020</p>
-            </div>
-        </figure>
-        
         {% for post in collections.event | reverse %}
-            <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-qaurter@l grid-quarter@xl">
+            <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
                 <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
                     <svg viewbox="0 0 100 100">
                         <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
@@ -71,30 +58,32 @@ data: events
                         <a href="{{ post.data.eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
                     </p>
                     <p>
-                        {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}{% if post.data.eventVideoURL %} · <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>{% endif %} {% if post.data.eventKeynote %}🗝🎵{% endif %}
+                        {% if post.data.eventSlidesURL %}
+                            <a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>
+                        {% endif %}
+                        {% if post.data.eventVideoURL %}
+                            ·
+                            <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>
+                        {% endif %}
+                        {% if post.data.eventKeynote %}🗝🎵{% endif %}
                     </p>
-                
+
                 </div>
             </figure>
-{% endfor %}
-
-<svg class="visually-hidden">
-  <filter id="coloring-pink" color-interpolation-filters="sRGB"
-          x="0" y="0" height="100%" width="100%">
-    <feColorMatrix type="matrix"
-      values="0.8 0.5 0.4 0.1 0 
-              0.4 0.2 0 0 0  
-              0.2 0.3 1 1 0 
-              1 0 0 0.2 0.7" />
-  </filter>
-  <filter id="coloring-yellow" color-interpolation-filters="sRGB"
-          x="0" y="0" height="100%" width="100%">
-    <feColorMatrix type="matrix"
-      values="0.5 0.3 0 0 0.05
+        {% endfor %}
+        <svg class="visually-hidden">
+            <filter id="coloring-pink" color-interpolation-filters="sRGB" x="0" y="0" height="100%" width="100%">
+                <fecolormatrix type="matrix" values="0.8 0.5 0.4 0.1 0
+              0.4 0.2 0 0 0
+              0.2 0.3 1 1 0
+              1 0 0 0.2 0.7"/>
+            </filter>
+            <filter id="coloring-yellow" color-interpolation-filters="sRGB" x="0" y="0" height="100%" width="100%">
+                <fecolormatrix type="matrix" values="0.5 0.3 0 0 0.05
               0.4 1 1 0.5 0.85
               0.5 .4 1 0 0.15
-              0.5 0 0 1 0" />
-  </filter>
-</svg>
-
-</section>
+              0.5 0 0 1 0"/>
+            </filter>
+        </svg>
+</div>
+    </section>

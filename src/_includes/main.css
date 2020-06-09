@@ -857,43 +857,48 @@ h1 {
   }
 }
 
-/* line 45, src/scss/base/_helpers.scss */
+/* line 44, src/scss/base/_helpers.scss */
 .t-space-strip {
   padding: 0;
   margin: 0;
 }
 
-/* line 50, src/scss/base/_helpers.scss */
+/* line 49, src/scss/base/_helpers.scss */
 .center-objects {
   vertical-align: middle;
 }
 
-/* line 54, src/scss/base/_helpers.scss */
+/* line 53, src/scss/base/_helpers.scss */
 .align-self-center {
   align-self: center;
 }
 
-/* line 58, src/scss/base/_helpers.scss */
+/* line 57, src/scss/base/_helpers.scss */
 .height-full {
   height: 100%;
 }
 
-/* line 62, src/scss/base/_helpers.scss */
+/* line 61, src/scss/base/_helpers.scss */
 .padding-btm-none {
   padding-bottom: 0;
 }
 
-/* line 66, src/scss/base/_helpers.scss */
+/* line 65, src/scss/base/_helpers.scss */
 .clearspace {
   margin: 0;
   padding: 0;
 }
 
-/* line 70, src/scss/base/_helpers.scss */
+/* line 69, src/scss/base/_helpers.scss */
 .display-flex {
   display: flex;
   flex-direction: column;
   align-content: space-around;
+}
+
+/* line 75, src/scss/base/_helpers.scss */
+.overflow-hidden {
+  overflow-y: hidden;
 }
 
 /**
@@ -901,7 +906,7 @@ h1 {
  * 1. Needed in WebKit-based browsers because of an implementation bug;
  *    See: https://code.google.com/p/chromium/issues/detail?id=457146
  */
-/* line 80, src/scss/base/_helpers.scss */
+/* line 83, src/scss/base/_helpers.scss */
 .hide-text {
   overflow: hidden;
   padding: 0;
@@ -915,7 +920,7 @@ h1 {
  * Shamelessly borrowed from HTML5Boilerplate:
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
-/* line 92, src/scss/base/_helpers.scss */
+/* line 95, src/scss/base/_helpers.scss */
 .visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
