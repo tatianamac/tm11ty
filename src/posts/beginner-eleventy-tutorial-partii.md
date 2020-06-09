@@ -1,7 +1,7 @@
 ---
 title: Beginner's Guide to Eleventy [Part II]
 description: "Part II: Installation and Structure"
-summary: In the second installment of a four part guide, I show you how to install Eleventy—except I walk through each grueling step.
+summary: In the second instalment of a four part guide, I show you how to install Eleventy—except I walk through each gruelling step.
 date: 2020-05-19 12:49:13
 tags:
   - tutorials
@@ -47,6 +47,7 @@ A developer's tools can be personal. To some degree, if you choose well _for you
 Some developers have strange infatuations with tools and will insist some are better than others—10x developers might even make fun of you if you use the wrong tools. I think it's more personal than that. Picking out dev tools is like picking out a sports bra. Try out a bunch. See what sucks the least for you that you can get in and out of without breaking your arms. Learn how to customise them so you're less likely to have a uniboob. Abandon them in the back of a drawer if they don't work.
 
 ### 1a. **Terminal Emulator**
+
 Terminal emulators (or Terminal or Term, if you're friends) are the bare bones text tools that make you look most like a hacker. If you've ever opened up Windows Terminal on Windows or Terminal.app on MacOS, you were in the terminal emulator. Terminal emulators are essentially stripped-down programs without much of a visual interface that can give you access to your own computer and connect you to other computers.
 
 Inside of the terminal emulator, you are using the **Command Line Interface (CLI)**. When people talk about running something in command line, this is what they’re usually referring to. By comparison, most programs that we use day to day, like Microsoft PowerPoint, Adobe Illustrator, Sketch, Microsoft Paint, are all considered **Graphical User Interfaces (GUIs)**. In GUIs, you can see a visualisation of what you're doing. When working in a CLI, you are using text commands and relying on text output, which can be harder for many to visualise. We’ll talk more about this later, but as with all things, your preference for CLI versus GUI (when both exist) is up to you.
@@ -62,6 +63,7 @@ Terminal emulators can do a lot, but for the purposes of this tutorial, you'll m
 You're going to paste that in your Terminal and hit return/enter to _run_ it.
 
 ### 1b. **Shell Language**
+
 When you run scripts and commands in your terminal emulator, you do in a shell or command language. The default language for Linux and older MacOS (pre-Mojave) is Bash and newer MacOS is zsh. The differences in the language usually result in the commands differing slightly.
 
 I mention this here because this is a future potential "gotcha" where you can get slipped up because an installation guide for a package manager can presume you are using one or the other. While they are very similar, there are slight differences that can cause headaches. It's important to know which you're using and [general differences](https://linuxhint.com/differences_between_bash_zsh/).
@@ -98,6 +100,7 @@ For [Windows](https://nodesource.com/blog/installing-nodejs-tutorial-windows/).
 Once you have Node.js installed, you can now install npm.
 
 ### 1d. **Installing npm**
+
 npm is the main package manager for Node.js; they have a registry of all the packages and modules which is accessed by a command line interface. Think of it as the central library of code snippets that everyone can "borrow" at once. npm makes it so that you can search for specific features you need to add, like a React image carousel or a static site generator, like Eleventy!
 
 > Packages can rely on other packages, which is called a dependency. You will come across that word _a lot_. A dependency means that a package (let's call it House Package) uses another package (let's call it Room Package). Sometimes, when Room Package makes an update, it can break House Package. Sometimes the maker of Room Package decides to remove it from the registry or make a change that isn't compatible with House Package. That means House Package can break. Now imagine this incepted from House, into Street, Neighbourhood, into City, into State, into Country, into Continent! One small change can impact many pieces of software, and frankly, take an entire sector of software down. So, it's important to be mindful when you're engineering of all the dependencies you invite in, and to monitor them.
@@ -131,7 +134,7 @@ For the purposes of what we're doing, I'd recommend that you get a **code editor
 You probably already use a browser regularly. In fact, I would be willing to bet you're accessing this post from a browser. However, the browser that you use day to day to surf might be different than the one you choose to use when developing.
 
 While we should all test our sites across multiple browsers, I think most of us will conduct the majority of our build within the browser we feel most comfortable with initially. To me, the choice of what main browser to use to do the majority of my development comes down to what the audience is most likely to use (this is one of many areas where user research is critical!). If no compelling user-driven decision exists here, like if it's for my personal site, where I don't collect user data, it typically comes down to the Developer Tools and Extensions I care most about.
-   
+
 Personally, I use Firefox equipped with DuckDuckGo as my search engine for most of my browsing (because security and privacy are very important to me for personal browsing), but I recognise that's a small user share. I sometimes use Firefox Nightly so I can take advantage of cutting-edge features. (Firefox Nightly is not stable, though, so it's only used for this purpose). I develop primarily in Firefox and Chrome. (I prefer Firefox's DevTools and Chrome performance tooling [Lighthouse]. Play around with the Developer Tools of multiple browsers. See which one's interface makes the most sense to you.
 
 **Examples**: __Desktop__: Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, Apple Safari, UCBrowser, etc. __Mobile__ Google Chrome, Opera, Opera Mini, Apple Safari, Samsung Internet.
@@ -165,16 +168,16 @@ Once you have your terminal emulator, code editor, git installed, and an account
 The last step is installing Eleventy.
 
 1. In your terminal emulator, run `pwd` (present working directory) (if that doesn’t work for you, try `cd`) to figure out where you are. Once you are where you think you need to be, run `ls` (shortened form of “list”) to _list_ out all the items in the folder you are in (or `dir` for Windows).
-2. Navigate to the folder you want (use `cd` to go into a folder; use `cd ..` to back out of a folder). (Note that depending on your operating system, the back slashes (\\) could be forward slashes instead (/).
-3. Once you are in the folder you want to house your project, run `mkdir \eleventy-project-name\`. (You can call your `eleventy-project-name` whatever you want. It’s not permanent, and we can change it later.) `mkdir` creates a new directory with that name.
-4. Navigate into that folder using `cd \eleventy-project-name\`
-5. Run `npm init -y`. This command creates what's called a `package.json` file; they are like a recipe of all the ingredients (or packages) used from npm. `Package.json` files can also keep track of other on-going tasks that your project needs. When someone clones your project, the `package.json` file tells npm all of the packages that are necessary to make that project run. The `init` initialises npm. The `-y` here is saying "yes" to all the questions that `npm` asks, and sets them to defaults.
+1. Navigate to the folder you want (use `cd` to go into a folder; use `cd ..` to back out of a folder). (Note that depending on your operating system, the back slashes (\\) could be forward slashes instead (/).
+1. Once you are in the folder you want to house your project, run `mkdir \eleventy-project-name\`. (You can call your `eleventy-project-name` whatever you want. It’s not permanent, and we can change it later.) `mkdir` creates a new directory with that name.
+1. Navigate into that folder using `cd \eleventy-project-name\`
+1. Run `npm init -y`. This command creates what's called a `package.json` file; they are like a recipe of all the ingredients (or packages) used from npm. `Package.json` files can also keep track of other on-going tasks that your project needs. When someone clones your project, the `package.json` file tells npm all of the packages that are necessary to make that project run. The `init` initialises npm. The `-y` here is saying "yes" to all the questions that `npm` asks, and sets them to defaults.
 
 The command line should return a confirmation that starts with "Wrote to [directory]/package.json: ...more code".
 
-6. Run `npm install --save-dev @11ty/eleventy`.
+1. Run `npm install --save-dev @11ty/eleventy`.
 
-`install` goes to the npm registry and asks it to look for `@11ty/eleventy`. `--save-dev` tells `npm` to save this package (`@11ty/eleventy`) into what's called your `devDependencies`. All of this is happening locally, which means that this Eleventy install will only work for things inside of this directory. 
+`install` goes to the npm registry and asks it to look for `@11ty/eleventy`. `--save-dev` tells `npm` to save this package (`@11ty/eleventy`) into what's called your `devDependencies`. All of this is happening locally, which means that this Eleventy install will only work for things inside of this directory.
 
 Unpacking that further:
 `devDependencies` are what are required to _develop_ your package and are installed automatically when someone downloads your package. `Dependencies` are what is required to _run_ the project, so for example, a user of a package needs its `dependencies`, but not necessarily its `devDependencies`. Your `package.json` is what keeps track of all these packages you use.
@@ -185,7 +188,7 @@ While you read all that, you may notice that npm is still running. You should se
 
 >Whenever you see a `-g` flag appended to an npm command, that means that it’s going to be installed globally. The upside is you’re only going to install it once, but you might run into issues down the line. Most folks work locally, as it prevents what are called “interoperability” issues. For example, you might encounter a project that is running on an older version of Eleventy than the global one you have installed, which will cause infuriating errors. Therefore, it’s best to treat each project independently. You might notice that most devs prefer to install things locally for this reason.
 
-7. To check that Eleventy installed properly, run `npx @11ty/eleventy`.
+1. To check that Eleventy installed properly, run `npx @11ty/eleventy`.
 
 `npx` is a helper tool for `npm`. If you were to run `npm @11ty/eleventy`, it would not work. The reason for this is a bit complex (Kat Marchán, who authored `npx`, [explains npx in this Medium article](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b).), The general reason is that `npx` will check your global folder to see if the package you want to install already exists. If it doesn’t, it will go ahead and download that package locally and run it for you, which saves a few steps and prevents you from future headaches. (Read more about why local installations are preferred above.)
 
@@ -194,7 +197,8 @@ The command line should confirm that Eleventy is installed by returning somethin
 Wrote `0 files in 0.03 seconds (v.0.11.0)`.
 
 Because you haven’t written any files yet, it makes sense that there are 0 files to write. The `v…` indicates what version of Eleventy you are running. At time of writing, it is `v.0.11.0`
-8. Now, we are going to create an index.html page so you can see Eleventy in action! 
+
+1. Now, we are going to create an index.html page so you can see Eleventy in action
 
 Run `echo 'You are officially a developer!' > index.html`
 
@@ -204,15 +208,15 @@ The second part of the initial command, `> index.html`, includes what is called 
 
 The command line won’t confirm that it successfully created the file. It will just start a new line and await the next command.
 
-9. To view your work, you will now run Eleventy again by typing `npx @11ty/eleventy`. OR, you can push the up arrow on your keyboard until you see that line again and hit enter.
+1. To view your work, you will now run Eleventy again by typing `npx @11ty/eleventy`. OR, you can push the up arrow on your keyboard until you see that line again and hit enter.
 
-10. Now we want Eleventy to show us the work we did in the browser by running `npx @11ty/eleventy --serve`. You’ll see it run a few commands and end with “Access URLs.” Copy and paste the http://localhost:8080 into your browser. You should see your site that says “I forking did it!!!” because you did!
+1. Now we want Eleventy to show us the work we did in the browser by running `npx @11ty/eleventy --serve`. You’ll see it run a few commands and end with “Access URLs.” Copy and paste the [http://localhost:8080](http://localhost:8080) into your browser. You should see your site that says “I forking did it!!!” because you did!
 
 The `--serve` flag takes your files and opens them in your browser.
 
-As we learned about in the last post, this step is where Eleventy takes all of the static files in all their different languages, and _generates_ the site into languages that the browser can render. We'll talk more in the next installment of the structure of Eleventy and how this all comes together. For now, know that this is the part where the Generator part of Static Site Generator comes from.
+As we learned about in the last post, this step is where Eleventy takes all of the static files in all their different languages, and _generates_ the site into languages that the browser can render. We'll talk more in the next instalment of the structure of Eleventy and how this all comes together. For now, know that this is the part where the Generator part of Static Site Generator comes from.
 
-11. Feel boss! You have gotten your environment up, and have a fresh new website to play with! You are totally a developer who served up your first static site (Or maybe 30th! It’s still exciting!).
+1. Feel boss! You have gotten your environment up, and have a fresh new website to play with! You are totally a developer who served up your first static site (Or maybe 30th! It’s still exciting!).
 
 ## Thank You
 
