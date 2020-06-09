@@ -1,10 +1,11 @@
 ---
 title: "Save the Tears: White Woman's Guide"
 description: "How to make meaningful change"
-summary: Black and brown people are protesting for their survival, and you're a white woman who isn't sure how to help. What now? I've written you a guide.
+summary: Black people are protesting for their survival, and you're a white woman who isn't sure how to help. What now? I've written you a guide.
 date: 2020-04-02 16:09:03
 tags:
   - featured
+  - the work
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
@@ -82,3 +83,4 @@ If you see a white woman friend or colleague engaging in weaponised behaviour (s
 Never allow yourself to stay comfortable. Comfort is complicity. Discomfort means change. Sit with it.
 
 For the white dudes in your life: Don't worry, [wrote a white guyde too](/posts/white-guyde)!
+Also, if you're feeling burnout, I have strategies for [systemic change](/posts/beware-of-burnout).

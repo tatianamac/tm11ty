@@ -1,10 +1,11 @@
 ---
 title: "White Guyde To The Galaxy"
 description: "How to make meaningful change"
-summary: Black and brown people are protesting for their survival, and you're a white dude who isn't sure how to help. What now? I've written you a guide.
+summary: Black people are protesting for their survival, and you're a white dude who isn't sure how to help. What now? I've written you a guide.
 date: 2020-04-02 16:09:03
 tags:
   - featured
+  - the work
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
@@ -63,7 +64,7 @@ For the times you do talk, ask yourself:
 🔹 Am I adding something of value?
 🔹 Are these my words to say?
 
-## 5️⃣ Spend time connecting with your thoughts, then emotions.
+## 5️⃣ Spend time connecting with your thoughts, then emotions
 
 Write down your observations in this new version of you. What do you notice?
 
@@ -73,3 +74,4 @@ Seek therapy/counseling if you have the means. If you don't think you need thera
 Never allow yourself to stay comfortable. Comfort is complicity. Discomfort means change. Sit with it.
 
 For the white women in your life: Don't worry, I [wrote a white women's guide too](/posts/save-the-tears)!
+Also, if you're feeling burnout, I have strategies for [systemic change](/posts/beware-of-burnout).
