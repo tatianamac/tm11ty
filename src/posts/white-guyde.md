@@ -1,7 +1,7 @@
 ---
 title: "White Guyde To The Galaxy"
 description: "How to make meaningful change"
-summary: Black people are protesting for their survival, and you're a white dude who isn't sure how to help. What now? I've written you a guide.
+summary: Black folks are protesting for their survival, and you're a white dude who isn't sure how to help. What now? I've written you a guide.
 date: 2020-04-02 16:09:03
 tags:
   - featured
