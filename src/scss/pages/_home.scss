@@ -1,51 +1,50 @@
 .flex--half {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100vw;
-
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
 .flex--half--child {
-  flex: 1;
-  min-width: 15em;
+	flex: 1;
+	min-width: 15em;
 }
 
 #floating-hands {
-  margin: 1em;
-  max-width: 30em;
+	margin: 1em;
+	max-width: 30em;
 }
 
 #spilled-glasses {
-  margin: 1em auto;
-  max-width: 20em;
+	margin: 1em auto;
+	max-width: 20em;
 }
 
 .animate--float {
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 }
 
 .clearspace {
-  @include clearspace;
+	@include clearspace;
 }
 
-  #contact {
-    background: $black;
-  }
-  
+#contact {
+	background: $black;
+}
+
 // ANIMATION //
 
 @keyframes floating {
-    from {
-      transform:translate(0, 0px);
-  }
-    50% {
-      transform:translate(0, -30px);
-  }
-    to {
-      transform: translate(0, 0px);
-  }
+	from {
+		transform: translate(0, 0px);
+	}
+	50% {
+		transform: translate(0, -30px);
+	}
+	to {
+		transform: translate(0, 0px);
+	}
 }
