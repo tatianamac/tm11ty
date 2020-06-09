@@ -83,3 +83,4 @@ If you see a white woman friend or colleague engaging in weaponised behaviour (s
 Never allow yourself to stay comfortable. Comfort is complicity. Discomfort means change. Sit with it.
 
 For the white dudes in your life: Don't worry, [wrote a white guyde too](/posts/white-guyde)!
+Also, if you're feeling burnout, I have strategies for [systemic change](/posts/beware-of-burnout).

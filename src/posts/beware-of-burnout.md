@@ -16,7 +16,7 @@ We gotta talk about burn out. You aren’t conditioned to be thinking about race
 
 Let’s talk about ways to focus on current & systemic change.
 
-## 0️⃣ You’re asking a lot of questions and receiving a lot of answers and being overloaded.
+## 0️⃣ You’re asking a lot of questions and receiving a lot of answers and being overloaded
 
 Systemic: You can’t learn everything rn. Make a list. Learn to find the answers yourself before asking. Take the time to actually look it up. Read multiple sources. Sit with it.
 
@@ -26,33 +26,39 @@ Consider how much you can give. Can you give more? If you gave 5K in one swoop, 
 
 Systemic: Ask your bosses about recurring matches for donations long-term. Do you have a secondary source of income (like royalties or a side-business) whose profits could go direct to donations?
 
-## 2️⃣ You’re in 3 book clubs with loved ones cramming for the anti-racist test now. Set monthly recurring reminders to write short reflections; mistakes made, lessons learned. See your own progress.
+## 2️⃣ You’re in 3 book clubs with loved ones cramming for the anti-racist test now. Set monthly recurring reminders to write short reflections; mistakes made, lessons learned. See your own progress
 
 Systemic: Build Black authors into your life, fiction, non-race-based non-fiction. Extend that to film, news, art, cooking (*stares in Alison Roman caucasity*).
 
-## 3️⃣ Examine where you’re money goes long-term. Are you still buying from Amazon?
+## 3️⃣ Examine where you’re money goes long-term
 
-It’s going to take time and patience but research Black-owned businesses to support instead. 
+Are you still buying from Amazon?
+
+It’s going to take time and patience but research Black-owned businesses to support instead.
 
 Systemic: Boycott massively complicit companies. Commit to researching companies before purchasing, particularly when you're setting up subscription or automated-pay services. Establish a strategy for when you learn new information about a company you were supporting. Remember that it's not about perfection (we all must live under capitalism), but doing the most and best you can long-term.
 
-## 4️⃣ You’re confronting people now. You’re fired up. Will you still do it in a few months when fewer peers still are?
+## 4️⃣ You’re confronting people now. You’re fired up
+
+Will you still do it in a few months when fewer peers still are?
 
 Systemic: Evaluate what your long-term commitments to this work are. Build vocab to address racism. Figure out your “if they do this, I will do this.”
 
-## 5️⃣ You’re making a lot of mistakes right now. You’re learning a lot of lessons, sit with it.
+## 5️⃣ You’re making a lot of mistakes right now. You’re learning a lot of lessons, sit with it
 
 Systemic: Teach it to all the people around you, especially the ones who look like you.
 
-## 6️⃣ You’re talking to everyone from Twitter trolls to parents, expending energy everywhere, much of it, wasted.
+## 6️⃣ You’re talking to everyone from Twitter trolls to parents, expending energy everywhere, much of it, wasted
 
 Systemic: Write scripts about how to confront racism with colleagues, friends, family. Figure out your boundaries, like when you’ll walk away. Prepare to lose people.
 
-## 7️⃣ National politics tend to be the focus. Do you know much about your mayor? City commissioner? Local zoning laws?
+## 7️⃣ National politics tend to be the focus
+
+Do you know much about your mayor? City commissioner? Local zoning laws?
 
 Systemic: Figure out what role you want to play in local politics. Read local news. You have a lot more sway with [politics at this level](https://www.brookings.edu/blog/up-front/2020/06/02/mayor-and-governors-this-is-how-you-tackle-racism/).
 
-## 8️⃣ You're amplifying Black voices and stepping aside for events now, when it's top of mind.
+## 8️⃣ You're amplifying Black voices and stepping aside for events now, when it's top of mind
 
 When the intensity of the movement changes, will you still do this?
 
@@ -69,4 +75,4 @@ Build a broader network for recommendations. In creative and tech fields, we hav
 
 Find those lists for your own industry. Trust me, they exist. If they truly don't, perhaps you can lend the support to build one. But also, do the work of meeting and getting to know peers beyond your network who don't look like you.
 
->Originally posted on Twitter, I have since extended this list and will likely keep adding to it as I see fit. Subscribe to my RSS feed if you'd like to stay updated.
+>Originally posted on Twitter, I have since extended this list and will likely keep adding to it as I see opportunities.

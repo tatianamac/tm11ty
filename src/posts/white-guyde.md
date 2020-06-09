@@ -64,7 +64,7 @@ For the times you do talk, ask yourself:
 🔹 Am I adding something of value?
 🔹 Are these my words to say?
 
-## 5️⃣ Spend time connecting with your thoughts, then emotions.
+## 5️⃣ Spend time connecting with your thoughts, then emotions
 
 Write down your observations in this new version of you. What do you notice?
 
@@ -74,3 +74,4 @@ Seek therapy/counseling if you have the means. If you don't think you need thera
 Never allow yourself to stay comfortable. Comfort is complicity. Discomfort means change. Sit with it.
 
 For the white women in your life: Don't worry, I [wrote a white women's guide too](/posts/save-the-tears)!
+Also, if you're feeling burnout, I have strategies for [systemic change](/posts/beware-of-burnout).
