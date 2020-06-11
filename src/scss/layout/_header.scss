@@ -44,7 +44,6 @@
   a {
   border-bottom: none;
   &:focus { 
-    fill: 1px $white;
     @include out--yellow;
   }
 	}
