@@ -7,3 +7,9 @@
     background-repeat: repeat-x;
     background-size: 5em 5em, 5em 5em;
   }
+
+.post-blob {
+  background: $blush-pink;
+  border-radius: 30% 25% / 20% 30%;
+  padding: 3em;
+}

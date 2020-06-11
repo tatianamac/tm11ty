@@ -4,7 +4,7 @@ description: "Dear Developer, a series"
 summary: As stewards of performance and accessibility, at the cusp of privilege, we must be the ones to have the conversations tactfully and thoughtfully.
 date: 2020-04-19 10:28:03
 tags:
-  - Dear Developer
+  - Dear-Developer
   - selected
 layout: layouts/post.njk
 bgColor: blush-pink

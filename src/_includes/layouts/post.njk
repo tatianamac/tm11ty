@@ -15,6 +15,7 @@ templateclass: content
     </article>
 
     <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl">
+    <div class="post-blob">
         <p class="t-serifweight t-thinnfont">{{ summary }}</p>
         <p class="t-eyebrow t-typeweight">{{ date }}</p>
         {% set tagBan = ['featured','selected','posts', 'event'] %}
@@ -26,5 +27,6 @@ templateclass: content
       
         {% endif %}
       {% endfor %}
+    </div>
     </section>
 </div>

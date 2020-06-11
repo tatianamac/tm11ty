@@ -5,7 +5,7 @@ summary: Black folks are protesting for their survival, and you're a white woman
 date: 2020-04-02 16:09:03
 tags:
   - featured
-  - the work
+  - the-work
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white

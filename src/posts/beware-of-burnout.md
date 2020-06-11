@@ -5,7 +5,7 @@ summary: "Activism is not a sprint to a finish; there is no finish, but rather a
 date: 2020-06-08 18:27:11
 tags:
   - featured
-  - the work
+  - the-work
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white

@@ -4,7 +4,7 @@ description: "Dear Developer, a series"
 summary: The Ugly Middle is that part after the high of the Shiny New Thing has worn off and before the excitement of The End hits. While The Ugly Middle is decidedly Not Fun, it can provide us with valuable lessons.
 date: 2020-04-02 16:09:03
 tags:
-  - Dear Developer
+  - Dear-Developer
   - selected
 layout: layouts/post.njk
 bgColor: pale-peach
