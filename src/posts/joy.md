@@ -4,7 +4,6 @@ description: Let people enjoy things
 summary: When you tell me to be more positive, it demonstrates that you cannot perceive the metric tonnes of positivity it took me to get exactly where I am. 
 date: 2019-07-10
 tags:
-  - selected
   - personal
 layout: layouts/post.njk
 bgColor: blush-pink

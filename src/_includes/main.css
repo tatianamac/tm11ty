@@ -2217,11 +2217,10 @@ section {
 
 /* line 46, src/scss/layout/_header.scss */
 .logo a:focus {
-  fill: 1px #ffffff;
   outline: 0.5em ridge #FFD926;
 }
 
-/* line 53, src/scss/layout/_header.scss */
+/* line 52, src/scss/layout/_header.scss */
 .dark {
   color: #222222;
   text-transform: uppercase;
@@ -2232,18 +2231,18 @@ section {
   padding: .3rem 0;
 }
 
-/* line 61, src/scss/layout/_header.scss */
+/* line 60, src/scss/layout/_header.scss */
 .dark:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: border .2s ease-in;
 }
 
-/* line 65, src/scss/layout/_header.scss */
+/* line 64, src/scss/layout/_header.scss */
 .dark:focus {
   outline: 0.5em ridge #0e4bff;
 }
 
-/* line 71, src/scss/layout/_header.scss */
+/* line 70, src/scss/layout/_header.scss */
 .light {
   color: #ffffff;
   text-transform: uppercase;
@@ -2254,13 +2253,13 @@ section {
   padding: .3rem 0;
 }
 
-/* line 78, src/scss/layout/_header.scss */
+/* line 77, src/scss/layout/_header.scss */
 .light:hover {
   border-bottom: 1px solid #FF0DD1;
   transition: border .2s ease-in;
 }
 
-/* line 82, src/scss/layout/_header.scss */
+/* line 81, src/scss/layout/_header.scss */
 .light:focus {
   outline: 0.5em ridge #FFD926;
 }
@@ -2691,7 +2690,7 @@ button:hover, button:focus, .download:hover, .download:focus {
 @media screen and (min-width: 1920px) {
   /* line 130, src/scss/pages/_speaking.scss */
   .stamp--10\@xl {
-    transform: rotate 10deg;
+    transform: rotate(10deg);
   }
 }
 
@@ -2712,7 +2711,7 @@ button:hover, button:focus, .download:hover, .download:focus {
 @media screen and (min-width: 1920px) {
   /* line 148, src/scss/pages/_speaking.scss */
   .stamp--5\@xl {
-    transform: rotate 5deg;
+    transform: rotate(5deg);
   }
 }
 

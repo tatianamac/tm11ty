@@ -5,7 +5,6 @@ summary: The Ugly Middle is that part after the high of the Shiny New Thing has 
 date: 2020-04-02 16:09:03
 tags:
   - Dear-Developer
-  - selected
 layout: layouts/post.njk
 bgColor: pale-peach
 navClass: bg-pale-peach
