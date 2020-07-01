@@ -204,7 +204,7 @@ Run `echo 'You are officially a developer!' > index.html`
 
 Breaking this command down, `echo` says to the command line “read me back all this stuff.”  Everything within the single quotes (‘) is what you’re asking the command line to read back.
 
-The second part of the initial command, `> index.html`, includes what is called an append symbol (>). While you might know this as the greater than symbol, in this context, it tells the command line to instead place the stuff inside the single quotes into a file called `index.html`, instead of returning it, like the statement it did above.
+The second part of the initial command, `> index.html`, includes what is called an append symbol (>). While you might know this as the greater than symbol, in this context, it tells the command line to instead place the stuff inside the single quotes into a file called `index.html`, instead of returning it (with `echo`), like the statement it did above.
 
 The command line won’t confirm that it successfully created the file. It will just start a new line and await the next command.
 
