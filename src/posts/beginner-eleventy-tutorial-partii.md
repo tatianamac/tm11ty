@@ -204,13 +204,13 @@ Run `echo 'You are officially a developer!' > index.html`
 
 Breaking this command down, `echo` says to the command line “read me back all this stuff.”  Everything within the single quotes (‘) is what you’re asking the command line to read back.
 
-The second part of the initial command, `> index.html`, includes what is called an append symbol (>). While you might know this as the greater than symbol, in this context, it tells the command line to instead place (or append) the stuff inside the single quotes into a file called `index.html`, instead of returning it, like the compliment it did above.
+The second part of the initial command, `> index.html`, includes what is called an append symbol (>). While you might know this as the greater than symbol, in this context, it tells the command line to instead place the stuff inside the single quotes into a file called `index.html`, instead of returning it (with `echo`), like the statement it did above.
 
 The command line won’t confirm that it successfully created the file. It will just start a new line and await the next command.
 
 1. To view your work, you will now run Eleventy again by typing `npx @11ty/eleventy`. OR, you can push the up arrow on your keyboard until you see that line again and hit enter.
 
-1. Now we want Eleventy to show us the work we did in the browser by running `npx @11ty/eleventy --serve`. You’ll see it run a few commands and end with “Access URLs.” Copy and paste the [http://localhost:8080](http://localhost:8080) into your browser. You should see your site that says “I forking did it!!!” because you did!
+1. Now we want Eleventy to show us the work we did in the browser by running `npx @11ty/eleventy --serve`. You’ll see it run a few commands and end with “Access URLs.” Copy and paste the [http://localhost:8080](http://localhost:8080) into your browser. You should see your site that says “You are officially a developer!” because you are!
 
 The `--serve` flag takes your files and opens them in your browser.
 
