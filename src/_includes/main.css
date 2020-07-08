@@ -2550,6 +2550,14 @@ button:hover, button:focus, .download:hover, .download:focus {
   padding: 3em;
 }
 
+/* line 17, src/scss/pages/_writing.scss */
+#ephemera-hands {
+  max-height: 30em;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 /* line 1, src/scss/pages/_speaking.scss */
 .stamp {
   outline: 20px dotted #FFF3F3;
