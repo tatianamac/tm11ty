@@ -26,6 +26,19 @@ b, strong {
     color: white;
   }
 }
+.t-tag-white {
+  border: 1px solid white;
+  border-radius: 2em;
+  color: white;
+  font-size: .75em;
+  padding: .5em 1em;
+  text-decoration: none;
+  transition: all .4s ease-in-out;
+  &:hover, &:focus {
+    background: white;
+    color: black;
+  }
+}
 
 .t-mini {
   font-size: .75em;

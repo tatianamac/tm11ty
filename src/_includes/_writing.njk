@@ -72,4 +72,16 @@ TO DO: Add summary for external post
       </div>
       #}
       </div>
+  
+       
+  
+    <div class="grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thicc rhyme-blob-big t-white">
+    <p class="t-height-cozy t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-white t-serifweight t-height-medium">
+      #RhymesForTryingTimes
+      </p>
+    {% for post in collections.rhymes | reverse %}
+      <a class="t-white t-height-loose t-link-accent-white" href="{{ post.url | url }}"> {{ post.data.title }}</a> &middot;
+          {% endfor %}
+      </div>
+    
 </section>

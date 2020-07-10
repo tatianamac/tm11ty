@@ -1,0 +1,48 @@
+<section id="rhymes" class="container">
+  <div class="wrapper">
+      <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
+          <h1 class="t-eyebrow t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-black t-space-strip">Rhymes for Trying Times</h1>
+          <h2 class="t-thiccfont@xs t-thiccfont@s t-ultrachonkfont@m t-ultrachonkfont@l t-ultrachonkfont@xl t-height-tight t-serifweight t-black t-height-tight t-space-strip">Iambic Pentanger.</h2>
+           </div>
+
+  {% for post in collections.featured | reverse %}
+     <div class="grid-whole@xs grid-half@s grid-half@m grid-half@l grid-half@xl padding-thinn">
+        <p class="t-eyebrow">{{ post.data.description }}</p>
+        <p class="t-serifweight t-height-cozy t-black t-height-medium t-slimmfont@xs t-slimmfont@s t-slimmfont@m t-slimmfont@l t-slimmfont@xl">
+        {{ post.data.summary }}
+        </p>
+        <p><a class="t-link-accent-blue" href="{{ post.url | url }}">{{ post.data.title }}</a></p>
+        {% for tag in post.data.tags %}
+          {% set tagBan = ['featured','selected','posts','event'] %}
+
+            {% if tag not in tagBan %}
+            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      
+            <a class="t-tag tag" href="{{ tagUrl | url }}">{{ tag }}</a>
+      
+          {% endif %}
+        {% endfor %}
+      </div> 
+  {% endfor %}
+
+  {% for post in collections.selected | reverse %}
+  
+    <div class="tiled grid-whole@xs grid-half@s grid-quarter@m grid-quarter@l grid-quarter@xl padding-thinn">
+      <p class="t-height-cozy t-black t-height-medium">
+      {{ post.data.summary }}
+      </p>
+      <p><a class="t-link-accent-blue--block" href="{{ post.url | url }}">{{ post.data.title }}</a></p>
+      {# <ul class="taglist">
+      {% set tagBan = ['featured','selected','posts', 'event'] %}
+        {% for tag in post.data.tags %}
+            {% if tag not in tagBan %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <li><a class="t-tag tag" href="{{ tagUrl | url }}">{{ tag }}</a></li>
+        {% endif %}
+      {% endfor %}
+      </ul> #}
+    </div> 
+    {% endfor %}
+
+      </div>
+</section>

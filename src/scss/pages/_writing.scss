@@ -14,6 +14,20 @@
   padding: 3em;
 }
 
+.rhyme-blob {
+  background: $cobalt;
+  border-radius: 35% 33% / 23% 34%;
+  color: $white;
+  padding: 3em;
+}
+
+.rhyme-blob-big {
+  background: $cobalt;
+  border-radius: 15% 14% / 13% 24%;
+  color: $white;
+  padding: 3em;
+}
+
 #ephemera-hands {
   max-height: 30em;
   display: flex;

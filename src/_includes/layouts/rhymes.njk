@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+templateClass: content
+navClass: white
+colorMode: dark
+templateclass: content
+---
+
+<div class="wrapper container">
+    <article class="grid-whole@xxs grid-whole@xs grid-whole@s grid-twothirds@m grid-twothirds@l grid-twothirds@xl padding-thinn@xs padding-thinn@s">
+    <p class="t-serif details">{{ description }}</p>
+    <h1 class="t-serifweight t-ultrachonk t-height-tight">{{ title }}</h1>
+
+    {{ content | safe }}
+    </article>
+
+    <section class="grid-whole@xxs grid-whole@xs grid-whole@s grid-third@m grid-third@l grid-third@xl">
+    <div class="rhyme-blob">
+        <p class="t-serifweight t-thinnfont t-white">Part of the #RhymesForTryingTimes collection</p>
+        <p class="t-eyebrow t-typeweight t-white">{{ date }}</p>
+        {% set tagBan = ['featured','selected','posts', 'event'] %}
+        {% for tag in tags %}
+            {% if tag not in tagBan %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      
+        <a class="t-tag-white tag" href="{{ tagUrl | url }}">{{ tag }}</a>
+      
+        {% endif %}
+      {% endfor %}
+    </div>
+    </section>
+</div>
