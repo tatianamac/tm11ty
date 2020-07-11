@@ -656,3 +656,10 @@ code {
   a.right-arrow:after {
     content: "\2197";
   }
+
+  .shitpost {
+    background: $white;
+    border-radius: 1em;
+    margin: 0 0 2em;
+    padding: 1em 3em;
+  }

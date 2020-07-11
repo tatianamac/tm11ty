@@ -1743,6 +1743,14 @@ a.right-arrow:after {
   content: "\2197";
 }
 
+/* line 660, src/scss/base/_typography.scss */
+.shitpost {
+  background: #ffffff;
+  border-radius: 1em;
+  margin: 0 0 2em;
+  padding: 1em 3em;
+}
+
 /* line 1, src/scss/layout/_grid.scss */
 .wrapper {
   display: grid;
