@@ -58,7 +58,7 @@ Amplify groups that are building something outside of this disableist, anti-tran
 
 ### Be honest with myself when and why I am being judgmental
 
-**What value do I feel this has compromised? How would *I* like to behave to honour my own value? Would *I* join Facebook's team? How would *I* like to operate? **
+**What value do I feel this has compromised? How would *I* like to behave to honour my own value? Would *I* join Facebook's team? How would *I* like to operate?**
 
 If I feel the need to interrogate someone else's decisions: **Do I have enough mutual trust with this person to ask them more about their decision? Am I willing to offend them in the process? What is the impact I want to have in having this conversation?**
 
