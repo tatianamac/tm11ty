@@ -39,6 +39,7 @@ I don't know about you, but I do a lot of shit that I'm sure someone judges me f
 - I use GitHub, Twitter, Instagram, etc, knowing how they impact ICE, democracy, harm mental health and social movements.
 - I love Karen Walker understanding how her character often said racist, anti-queer, anti-fat, and disableist things.
 - I use Caviar/DoorDash/Lyft knowing how they exploit gig labourers and public transportation infrastructure.
+- I regularly go get coffee in the morning because I'm too depressed to make it, which is an unnecessary exposure during a global pandemic.
 
 I feel some guilt over all these things, which might be banal to some and offensive to others. I'm sure I do a bunch of things I don't even realise are "problematic" yet. The saying, "there is no ethical consumption under capitalism" exists for a reason. I see many people quoting it, but I still see people trying to parse out what is ethical consumption for each other. I know I've done it.
 
