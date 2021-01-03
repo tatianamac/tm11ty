@@ -26,7 +26,7 @@ I imagine that a large career decision like this isn't one that she took lightly
 
 ## On judgment
 
-Seeing this judgment of Kristy and others made me think about the nature of judgment and morality. Who are these people to judge her? What authority do they have on her life? Are they themselves living morally perfect lives (spoiler: a cursory look at their histories would show that they are not morally perfectly beings according to my moral system!)? Are their moral standards hers? Where do they draw the line for partaking in capitalism? Is it just Facebook? Would they work at Palantir? Would they work at PayPal? GitHub? Stripe? Shopify? Which kind of harm are we okay with? What do they think being loud about her decision on the internet accomplishes?
+Seeing this judgment of Kristy and others made me think about the nature of judgment and morality. **Who are these people to judge her? What authority do they have on her life? Are they themselves living morally perfect lives (spoiler: a cursory look at their histories would show that they are not morally perfectly beings according to my moral system!)? Are their moral standards hers? Where do they draw the line for partaking in capitalism? Is it just Facebook? Would they work at Palantir? Would they work at PayPal? GitHub? Stripe? Shopify? Which kind of harm are we okay with? What do they think being loud about her decision on the internet accomplishes?**
 
 It wouldn't be right if I didn't assess the way that I fall into this trap too. I'm definitely guilty of judging people I don't know for their decisions. Every time I see someone unmasked or at a large gathering on IG or getting on a plane I usually mutter something unkind. I feel a moderate amount of judgment for all the Amazon packages in my mailroom. I am not proud of the judgment I have for others.
 
@@ -40,6 +40,7 @@ I don't know about you, but I do a lot of shit that I'm sure someone judges me f
 - I love Karen Walker understanding how her character often said racist, anti-queer, anti-fat, and disableist things.
 - I use Caviar/DoorDash/Lyft knowing how they exploit gig labourers and public transportation infrastructure.
 - I regularly go get coffee in the morning because I'm too depressed to make it, which is an unnecessary exposure during a global pandemic.
+- I've done work for Google, Shopify, and numerous other big tech companies with some pretty bad track records.
 
 I feel some guilt over all these things, which might be banal to some and offensive to others. I'm sure I do a bunch of things I don't even realise are "problematic" yet. The saying, "there is no ethical consumption under capitalism" exists for a reason. I see many people quoting it, but I still see people trying to parse out what is ethical consumption for each other. I know I've done it.
 
@@ -57,9 +58,15 @@ Amplify groups that are building something outside of this disableist, anti-tran
 
 ### Be honest with myself when and why I am being judgmental
 
-What value do I feel this has compromised? How would *I* like to behave to honour my own value? Would *I* join Facebook's team? How would *I* like to operate? 
+**What value do I feel this has compromised? How would *I* like to behave to honour my own value? Would *I* join Facebook's team? How would *I* like to operate? **
 
-If I feel the need to interrogate someone else's decisions: Do I have enough mutual trust with this person to ask them more about their decision? Am I willing to offend them in the process? What is the impact I want to have in having this conversation?
+If I feel the need to interrogate someone else's decisions: **Do I have enough mutual trust with this person to ask them more about their decision? Am I willing to offend them in the process? What is the impact I want to have in having this conversation?**
+
+### Invite curiosity instead
+
+Judgment implies that I have enough information to form a decision about a situation. But we are often missing so much critical context about other people's lives and are working off of incomplete information. Instead, I can use this opportunity to learn more:
+
+**__**What information could I be missing? What biases are at play? Why do I feel so strongly about this? Where might I be able to direct this energy more productively instead?**
 
 ### Remember that the universe is grey and to live in 'and' not 'or'
 
