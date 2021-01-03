@@ -12,7 +12,7 @@ navClass: bg-white
 colorMode: dark
 ---
 
-This week, I saw a lot of judgment over people joining Facebook's team. In case you missed it, Facebook [subverts democracy](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), [mistreats its human moderators](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), and if those aren't enough, there is an entire [Wikipedia page dedicated to the harm it conducts](https://en.wikipedia.org/wiki/Criticism_of_Facebook).
+This week, I saw a lot of judgment over people joining Facebook's team. In case you missed it, Facebook [subverts democracy](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), [mistreats its human moderators](https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona), and if those aren't enough, there is an entire [Wikipedia page dedicated to the harm it conducts](https://en.wikipedia.org/wiki/Criticism_of_Facebook).
 
 A lot of the judgment I saw was for Black women, specifically Kristy Tillman, whom I admire very much. A lot of the judgment I saw was by white men and women. I don't know Kristy personally, and I imagine many of these people don't either. So why do they feel the authority to judge a stranger's major life decision?
 
