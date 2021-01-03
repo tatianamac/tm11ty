@@ -216,7 +216,7 @@ The `--serve` flag takes your files and opens them in your browser.
 
 As we learned about in the last post, this step is where Eleventy takes all of the static files in all their different languages, and _generates_ the site into languages that the browser can render. We'll talk more in the next instalment of the structure of Eleventy and how this all comes together. For now, know that this is the part where the Generator part of Static Site Generator comes from.
 
-1. Feel boss! You have gotten your environment up, and have a fresh new website to play with! You are totally a developer who served up your first static site (Or maybe 30th! It’s still exciting!).
+Feel boss! You have gotten your environment up, and have a fresh new website to play with! You are totally a developer who served up your first static site (Or maybe 30th! It’s still exciting!).
 
 ## Thank You
 
