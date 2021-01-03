@@ -12,7 +12,7 @@ navClass: bg-white
 colorMode: dark
 ---
 
-This week, I saw a lot of judgment over people joining Facebook's team. In case you missed it, Facebook has [subverts democracy](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), [mistreats its human moderators](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), and if those aren't enough, there is an entire [Wikipedia page dedicated to the harm it conducts](https://en.wikipedia.org/wiki/Criticism_of_Facebook).
+This week, I saw a lot of judgment over people joining Facebook's team. In case you missed it, Facebook [subverts democracy](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), [mistreats its human moderators](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), and if those aren't enough, there is an entire [Wikipedia page dedicated to the harm it conducts](https://en.wikipedia.org/wiki/Criticism_of_Facebook).
 
 A lot of the judgment I saw was for Black women, specifically Kristy Tillman, whom I admire very much. A lot of the judgment I saw was by white men and women. I don't know Kristy personally, and I imagine many of these people don't either. So why do they feel the authority to judge a stranger's major life decision?
 
@@ -20,7 +20,7 @@ A lot of the judgment I saw was for Black women, specifically Kristy Tillman, wh
 
 I imagine many people felt disappointed by seeing an idol or hero do something they didn't morally agree with. I imagine some pedestals fell. I think this is a danger of hero worship. We expect our heroes to be better than us in all ways and in a sense, we dehumanise them in the process. We don't allow them to be complete humans. We expect a monolith not a person.
 
-Power also comes into play here: We're far more forgiving of majoritised heroes than we are minoritised ones. I see this even within our own communities. We expect better from each other and don't allow each other the richness of being 100 percent flawed.
+Power also comes into play here: We're far more forgiving of majoritised heroes than we are minoritised ones. I see this even within our own communities. We expect better from each other and don't allow each other the richness of being 100 percent flawed. The power becomes further something to examine as to who is criticising whom: A white man criticising a Black woman needs to be understood as a power differential.
 
 I imagine that a large career decision like this isn't one that she took lightly. I imagine she considered Facebook's past and present. I imagine I lack all the context that only Kristy has to have made this decision, one that is her right to make. Only she has enough context to judge this decision.
 
