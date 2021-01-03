@@ -44,7 +44,7 @@ I don't know about you, but I do a lot of shit that I'm sure someone judges me f
 
 I feel some guilt over all these things, which might be banal to some and offensive to others. I'm sure I do a bunch of things I don't even realise are "problematic" yet. The saying, "there is no ethical consumption under capitalism" exists for a reason. I see many people quoting it, but I still see people trying to parse out what is ethical consumption for each other. I know I've done it.
 
-Judgment isn't particularly helpful because we're all forced to partake in a bunch of really [shitty systems that then inform other systems](https://www.youtube.com/watch?v=TzGfBV67Tac). How do we extract ourselves from society for long enough to justify ...living?
+Judgment isn't particularly helpful because we're all forced to partake in a bunch of really [shitty systems that then inform other systems](https://www.youtube.com/watch?v=TzGfBV67Tac). How do we extract ourselves from society for long enough to justify ...living? What mental gymnastics do we have to do to justify some decisions over others, when the reality is that most of tech is contributing to majorly problematic systems?
 
 The reality is that while we build something better, we still have to live and hopefully derive some joy in the process. How would I like to proceed, then, is what I have to ask myself?
 
@@ -62,11 +62,11 @@ Amplify groups that are building something outside of this disableist, anti-tran
 
 If I feel the need to interrogate someone else's decisions: **Do I have enough mutual trust with this person to ask them more about their decision? Am I willing to offend them in the process? What is the impact I want to have in having this conversation?**
 
-### Invite curiosity instead
+### Invite curiosity and leave room for missing information
 
 Judgment implies that I have enough information to form a decision about a situation. But we are often missing so much critical context about other people's lives and are working off of incomplete information. Instead, I can use this opportunity to learn more:
 
-**__**What information could I be missing? What biases are at play? Why do I feel so strongly about this? Where might I be able to direct this energy more productively instead?**
+**What information could I be missing? What biases are at play? Why do I feel so strongly about this? Where might I be able to direct this energy more productively instead?**
 
 ### Remember that the universe is grey and to live in 'and' not 'or'
 
