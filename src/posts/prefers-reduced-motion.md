@@ -32,7 +32,7 @@ A core accessibility approach of mine is to let the user determine what's best f
 
 <!-- (../../assets/img/os-accessibility-reduce.png) -->
 
-The setting has been exposed now to most modern browsers using a media feature called `prefers-reduced-motion`. `prefers-reduced-motion` media query acts as any other media query with two posible options:
+The setting has been exposed now to most modern browsers using a media feature called `prefers-reduced-motion`. `prefers-reduced-motion` media query acts as any other media query with two possible options:
 
 1. `no-preference` (the default): the user has not indicated to "Reduce motion" in their OS and will be served all animations and animations designated explicitly as `prefers-reduced-motion: no-preference`. [I want to make a critical note here that this is operating on a no-consent model. Ew. The user hasn't necessarily *opted into* animations. They just haven't checked "Reduce motion." That could be because they like and can tolerate animations, or, it's equally possible the user *doesn't know about this setting.* So, I want us to make sure we're not assuming that these users necessarily *want* animations.]
 2. `reduce`: the user has "Reduce motion" checked in their operating system's Accessibility settings and will be served whatever is in the media query for `prefers-reduced-motion: reduce`.
@@ -124,7 +124,7 @@ Framer Motion sets a good tone for accessibilty in documentation with their [Gui
 
 Since we've all agreed that our animations aren't critical to perceiving our page (winky face), we can take that one step further and _only_ serve our users CSS if they are cool with `prefers-reduced-motion: no-preference`.
 
-Here's what you might include in your HTML file in the <head> tag:
+Here's what you might include in your HTML file in the `<head>` tag:
 
 ```html
 <link
@@ -150,10 +150,9 @@ Sometimes this conversation between the person who conceived the animation and t
 
 I also ranked these questions in level of spiciness for ~~no other reason than my entertainment~~ to cater your communication to the context of your conversation.
 
-- Why is this animation critical? :hot_pepper:
-
-- What other ways can we serve up the critical animation? (e.g., through written text, through a static diagram, etc) :hot_pepper::hot_pepper:I
-- If the animation can't load for someone or they can't see it, what was your plan? :hot_pepper::hot_pepper::hot_pepper:
+- Why is this animation critical? 🌶
+- What other ways can we serve up the critical animation? (e.g., through written text, through a static diagram, etc) 🌶🌶
+- If the animation can't load for someone or they can't see it, what was your plan? 🌶🌶🌶
 
 Most of the time, I'm negotiating a way to get information to be served in _more_ ways. Changing the answer from "yes, this animation is critical to understanding" to "no, this animation is not critical but an enhancement." Remember, accessibility means giving the users as many, diversified options as possible, not determining which option works best for them.
 
@@ -186,7 +185,7 @@ Code snippets with brief rundown on adding a toggle to your page and using `loca
 [Josh Comeau: Accessible Animations in React](https://www.joshwcomeau.com/react/prefers-reduced-motion/)
 React Code snippets
 
-#### Questions and Corrections
+## Questions and Corrections
 
 For questions, please [reach out on Twitter](https://www.twitter.com/TatianaTMac)! I can't promise to answer all your questions, but I'll try my best!
 
