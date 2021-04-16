@@ -182,7 +182,7 @@ The command line should return a confirmation that starts with "Wrote to [direct
 Unpacking that further:
 `devDependencies` are what are required to _develop_ your package and are installed automatically when someone downloads your package. `Dependencies` are what is required to _run_ the project, so for example, a user of a package needs its `dependencies`, but not necessarily its `devDependencies`. Your `package.json` is what keeps track of all these packages you use.
 
-The `--save-dev` command is what tells the command line to store this into your devDependencies in your package.json file. The two dashes that precede the words `save-dev` command into a flag. So, when someone says “add a `save-dev` flag,” this is what they’re referring to.
+The `--save-dev` command is what tells the command line to store this into your devDependencies in your package.json file. The two dashes that precede the words `save-dev` make a command into a flag. So, when someone says “add a `save-dev` flag,” this is what they’re referring to.
 
 While you read all that, you may notice that npm is still running. You should see a sort of progress bar to let you know how much more it has to go. You may see a series of warnings about things that have been deprecated. For now, you can ignore all that. (Most developers continue to ignore all that.)
 
