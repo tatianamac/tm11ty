@@ -169,8 +169,8 @@ The last step is installing Eleventy.
 
 1. In your terminal emulator, run `pwd` (present working directory) (if that doesn’t work for you, try `cd`) to figure out where you are. Once you are where you think you need to be, run `ls` (shortened form of “list”) to _list_ out all the items in the folder you are in (or `dir` for Windows).
 1. Navigate to the folder you want (use `cd` to go into a folder; use `cd ..` to back out of a folder). (Note that depending on your operating system, the back slashes (\\) could be forward slashes instead (/).
-1. Once you are in the folder you want to house your project, run `mkdir \eleventy-project-name\`. (You can call your `eleventy-project-name` whatever you want. It’s not permanent, and we can change it later.) `mkdir` creates a new directory with that name.
-1. Navigate into that folder using `cd \eleventy-project-name\`
+1. Once you are in the folder you want to house your project, run `mkdir eleventy-project-name`. (You can call your `eleventy-project-name` whatever you want. It’s not permanent, and we can change it later.) `mkdir` creates a new directory with that name.
+1. Navigate into that folder using `cd eleventy-project-name`
 1. Run `npm init -y`. This command creates what's called a `package.json` file; they are like a recipe of all the ingredients (or packages) used from npm. `Package.json` files can also keep track of other on-going tasks that your project needs. When someone clones your project, the `package.json` file tells npm all of the packages that are necessary to make that project run. The `init` initialises npm. The `-y` here is saying "yes" to all the questions that `npm` asks, and sets them to defaults.
 
 The command line should return a confirmation that starts with "Wrote to [directory]/package.json: ...more code".
