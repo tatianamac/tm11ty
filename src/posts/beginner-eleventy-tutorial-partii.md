@@ -188,7 +188,7 @@ While you read all that, you may notice that npm is still running. You should se
 
 >Whenever you see a `-g` flag appended to an npm command, that means that it’s going to be installed globally. The upside is you’re only going to install it once, but you might run into issues down the line. Most folks work locally, as it prevents what are called “interoperability” issues. For example, you might encounter a project that is running on an older version of Eleventy than the global one you have installed, which will cause infuriating errors. Therefore, it’s best to treat each project independently. You might notice that most devs prefer to install things locally for this reason.
 
-1. To check that Eleventy installed properly, run `npx @11ty/eleventy`.
+2. To check that Eleventy installed properly, run `npx @11ty/eleventy`.
 
 `npx` is a helper tool for `npm`. If you were to run `npm @11ty/eleventy`, it would not work. The reason for this is a bit complex (Kat Marchán, who authored `npx`, [explains npx in this Medium article](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b).), The general reason is that `npx` will check your global folder to see if the package you want to install already exists. If it doesn’t, it will go ahead and download that package locally and run it for you, which saves a few steps and prevents you from future headaches. (Read more about why local installations are preferred above.)
 
@@ -198,7 +198,7 @@ Wrote `0 files in 0.03 seconds (v.0.11.0)`.
 
 Because you haven’t written any files yet, it makes sense that there are 0 files to write. The `v…` indicates what version of Eleventy you are running. At time of writing, it is `v.0.11.0`
 
-1. Now, we are going to create an index.html page so you can see Eleventy in action
+3. Now, we are going to create an index.html page so you can see Eleventy in action
 
 Run `echo 'You are officially a developer!' > index.html`
 
