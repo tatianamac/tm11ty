@@ -2,74 +2,74 @@
  * Clear inner floats
  */
 .clearfix::after {
-	clear: both;
-	content: '';
-	display: table;
+  clear: both;
+  content: "";
+  display: table;
 }
 
 img {
-	display: block;
+  display: block;
 }
 
 h1 {
-	margin: .25em 0;
-	line-height: 1.25em;
+  margin: 0.25em 0;
+  line-height: 1.25em;
 }
 
 .container {
-	max-width: $screen-l-max;
+  max-width: $screen-l-max;
   margin: 0 auto;
 
-	@include screen-xs {
-		@include thinnpadding;
-	}
+  @include screen-xs {
+    @include thinnpadding;
+  }
 
-	@include screen-s {
-		@include normiepadding;
-	}
+  @include screen-s {
+    @include normiepadding;
+  }
 
-	@include screen-m {
-		@include thiccpadding;
-	}
+  @include screen-m {
+    @include thiccpadding;
+  }
 
-	@include screen-l {
-		@include thiccpadding;
-	}
+  @include screen-l {
+    @include thiccpadding;
+  }
 
-	@include screen-xl {
-		@include thiccpadding;
-	}
+  @include screen-xl {
+    @include thiccpadding;
+  }
 }
 
 .t-space-strip {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .center-objects {
-	vertical-align: middle;
+  vertical-align: middle;
 }
 
 .align-self-center {
-	@include align-self-center;
+  @include align-self-center;
 }
 
 .height-full {
-	@include height-full;
+  @include height-full;
 }
 
 .padding-btm-none {
-	@include padding-btm-none;
+  @include padding-btm-none;
 }
 
 .clearspace {
-	@include clearspace;
+  @include clearspace;
 }
 
 .display-flex {
-	display: flex;
-	flex-direction: column;
-	align-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
 }
 
 .overflow-hidden {
@@ -81,10 +81,10 @@ h1 {
  *    See: https://code.google.com/p/chromium/issues/detail?id=457146
  */
 .hide-text {
-	overflow: hidden;
-	padding: 0; /* 1 */
-	text-indent: 101%;
-	white-space: nowrap;
+  overflow: hidden;
+  padding: 0; /* 1 */
+  text-indent: 101%;
+  white-space: nowrap;
 }
 
 /**
@@ -93,12 +93,12 @@ h1 {
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
 .visually-hidden {
-	border: 0;
-	clip: rect(0 0 0 0);
-	height: 1px;
-	margin: -1px;
-	overflow: hidden;
-	padding: 0;
-	position: absolute;
-	width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }

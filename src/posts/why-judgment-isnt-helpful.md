@@ -5,7 +5,7 @@ summary: "We're quick to judge everyone by our own moral compass. Our north star
 date: 2021-01-02 18:55:02
 tags:
   - featured
-  - the-work
+  - humans
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
@@ -35,6 +35,7 @@ If I'm honest with myself, whenever I judge someone for something, it's more oft
 The thing is: None of us are entirely moral beings. The premise, moral absolution, or the idea that all actions are morally good or bad, is a bit ridiculous to maintain. Whose moral system are we using to judge people? If we're just as flawed, what authority do we have to judge others? Do we have enough context to be effective judges? What is considered good and bad and for whom? (If you're curious about my feelings about the good-bad binary, may I suggest my talk, [Our Banal Binary](https://www.youtube.com/watch?v=s3C88R-WIro)?)?
 
 I don't know about you, but I do a lot of shit that I'm sure someone judges me for:
+
 - I live in a "gentrified" neighbourhood in Portland that pushed out Black Portlanders for white-placed Black Lives Matter signs.
 - I use GitHub, Twitter, Instagram, etc, knowing how they impact ICE, democracy, harm mental health and social movements.
 - I love Karen Walker understanding how her character often said racist, anti-queer, anti-fat, and disableist things.
@@ -58,7 +59,7 @@ Amplify groups that are building something outside of this disableist, anti-tran
 
 ### Be honest with myself when and why I am being judgmental
 
-**What value do I feel this has compromised? How would *I* like to behave to honour my own value? Would *I* join Facebook's team? How would *I* like to operate?**
+**What value do I feel this has compromised? How would _I_ like to behave to honour my own value? Would _I_ join Facebook's team? How would _I_ like to operate?**
 
 If I feel the need to interrogate someone else's decisions: **Do I have enough mutual trust with this person to ask them more about their decision? Am I willing to offend them in the process? What is the impact I want to have in having this conversation?**
 
@@ -78,7 +79,7 @@ The systems force us to fight against each other for finite resources. Meanwhile
 
 I think with lines like "there is no ethical consumption under capitalism," it can be easy to become nihilistic and give up altogether. I think that we have to both accept that we can only do so much and that we can also always do more.
 
-Only I have all the context of my own life to recognise where these blurry lines lie and assess them as they shift. Morality is a currency we love to spend for others. The key, I think, is in focusing what *I* can do better, not what *they* can do better.
+Only I have all the context of my own life to recognise where these blurry lines lie and assess them as they shift. Morality is a currency we love to spend for others. The key, I think, is in focusing what _I_ can do better, not what _they_ can do better.
 
 ### Live by my own moral compass, nobody else's
 
@@ -89,6 +90,3 @@ I have 30 plus years of trauma, memories, education that all inform where my own
 Colonisation and capitalism (and before that, mercantilism) have hundreds of years on us. Activists who are far more effective, knowledgable, and practised than myself have come and gone and not been able to dismantle these oppressive systems. I won't use that as an excuse to quit, but I will use it as a humbling reminder that living a pristinely moral life is nearly impossible so long as these systems dominate.
 
 I will continue to work to reduce the harm of the most vulnerable people and of the planet and its sentient inhabitants. I forgive myself and you for doing what we need to do to survive in these difficult systems—I forgive us for the jobs we take, the products we buy, the media we consume—and hope you will forgive us too.
-
-
-

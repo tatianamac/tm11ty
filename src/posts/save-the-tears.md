@@ -5,12 +5,13 @@ summary: Black folks are protesting for their survival, and you're a white woman
 date: 2020-04-02 16:09:03
 tags:
   - featured
-  - the-work
+  - humans
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
 ---
+
 If you're a white woman who is watching the world burn because of police murder against Black people, and you don't know what to do, I wrote you a guide.
 
 ## 1️⃣ Buy and read some anti-racist texts. And sit with the discomfort. Maybe invite a few other white women to be in a book club with you
@@ -35,10 +36,10 @@ If you want to understand how tech is complicit in perpetuating systems of oppre
 
 You'll notice I didn't link them. I encourage you to do some work to support someone other than the world's first trillionaire. Find a local bookstore that might still be able to deliver/do curbside pickup. Look on [IndieBound](https://www.indiebound.org/) or [Bookshop](https://www.bookshop.org) if you truly don't have local options or are stuck. Part of doing this work is not always taking the first, most convenient option.
 
->I previously had included texts White Fragility (Robin DiAngelo) and Invisible Women (Caroline Criado-Pérez). Both of those texts have been shown to do harm to the communities they purport to support. If you'd like to read more why, here are a couple of perspectives:
-[What’s Missing From “White Fragility”](https://slate.com/human-interest/2019/09/white-fragility-robin-diangelo-workshop.html)
-[Caroline Criado-Perez is a TERF](https://medium.com/@Siltha1.0/caroline-criado-perez-is-a-terf-35c489e59ad9)
->I regret that I included them to begin with but I don't want to erase the mistake and perpetuate harm. I apologise for any harm that I caused Black folks and trans (and especially Black trans folks) by including them in these lists. I ask that if you choose to read these texts anyway, to examine them critically through an anti-racist, pro-Black, pro-trans perspective.
+> I previously had included texts White Fragility (Robin DiAngelo) and Invisible Women (Caroline Criado-Pérez). Both of those texts have been shown to do harm to the communities they purport to support. If you'd like to read more why, here are a couple of perspectives:
+> [What’s Missing From “White Fragility”](https://slate.com/human-interest/2019/09/white-fragility-robin-diangelo-workshop.html)
+> [Caroline Criado-Perez is a TERF](https://medium.com/@Siltha1.0/caroline-criado-perez-is-a-terf-35c489e59ad9)
+> I regret that I included them to begin with but I don't want to erase the mistake and perpetuate harm. I apologise for any harm that I caused Black folks and trans (and especially Black trans folks) by including them in these lists. I ask that if you choose to read these texts anyway, to examine them critically through an anti-racist, pro-Black, pro-trans perspective.
 
 ## 2️⃣ Reflect upon all of the women in your life
 
@@ -64,6 +65,7 @@ White women's weapons are microaggressions and a direct line to the police murde
 White women experience oppression from the patriarchical aspects of the kyriarchy. But you simultaneously benefit from the white supremacist aspects of it. If you're abled, cis, and straight, you experience those benefits as well. Throughout history, every white feminist movement has explicitly excluded Black and brown women. Your idols like Susan B Anthony and Elizabeth Cady Stanton were racists.
 
 Resist the urge to:
+
 - Question/deny our lived experiences. Listen.
 - Ask us if it's our race or our gender. It's both, we can't necessarily parse out which parts are affected by what.
 - Centre yourself. Society already forces us to centre everything around your feelings.

@@ -5,7 +5,7 @@ summary: "Empathy gets thrown around a lot as the solution to the world's proble
 date: 2020-06-09 12:57:02
 tags:
   - featured
-  - the-work
+  - humans
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
@@ -20,13 +20,13 @@ I think it’s a problem.
 
 Empathy is feeling what someone else is feeling. It is attempting to crawl into their minds and hearts and experience what they’re experiencing.
 
-This is impossible. We cannot feel what it is to be anyone but ourselves.  A non-Black person cannot feel what it means to be Black.
+This is impossible. We cannot feel what it is to be anyone but ourselves. A non-Black person cannot feel what it means to be Black.
 
 Empathy validates another’s emotion by our understanding and feeling. It’s why you see people self-flagellating at protests and hurting themselves to “feel” the pain. It’s performative and self-centring. And awkward AF. You’ve made a protest about Black lives about white guilt.
 
-Empathy takes someone else’s lived experiences and limits their emotional depth and range to our own.We crawl into the perceived intensity  of their sadness, but really, through this process, we adapt or appropriate it as our own, centring our own feelings in the process.
+Empathy takes someone else’s lived experiences and limits their emotional depth and range to our own.We crawl into the perceived intensity of their sadness, but really, through this process, we adapt or appropriate it as our own, centring our own feelings in the process.
 
-Instead of trying to feel something we can’t truly know to validate it, we should *trust* others’ experiences.
+Instead of trying to feel something we can’t truly know to validate it, we should _trust_ others’ experiences.
 
 We can offer _compassion_, which doesn’t require our own understanding in order to validate it as being real and worthy of attention. Meditation often focuses on this.
 
@@ -40,7 +40,7 @@ If we stay in this state of empathy, we stay in a state of self-loathing and ina
 
 It’s not helpful for us or anyone else.
 
-When we superimpose that layer atop it all, no Black feelings or experiences are validated until felt by  whiteness. The focus has always been on whiteness. It’s why white tears are so effective.
+When we superimpose that layer atop it all, no Black feelings or experiences are validated until felt by whiteness. The focus has always been on whiteness. It’s why white tears are so effective.
 
 The focus needs to shift; the centres majority needs to learn to decentre itself.
 

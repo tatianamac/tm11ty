@@ -7,6 +7,7 @@ tags:
   - tutorials
   - Eleventy
   - featured
+  - engineering
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
@@ -15,12 +16,11 @@ colorMode: dark
 
 ## Welcome to Part II
 
->You are reading Part II of a IV part series.
->**Part I:** [What is a static site generator?](../beginner-eleventy-tutorial-parti/)
->**Part II:** **Installation** 👈🏽 You are here
->**Part III:** Structure/Basic Customisation (coming soon)
->**Part IV:** Advanced Customisation (coming soon)
->If you are confused or in need of context, please go [read Part I](../beginner-eleventy-tutorial-parti/)—it is where I establish all the context of what static site generators are.
+> You are reading Part II of a IV part series.
+> **Part I:** [What is a static site generator?](../beginner-eleventy-tutorial-parti/) >**Part II:** **Installation** 👈🏽 You are here
+> **Part III:** Structure/Basic Customisation (coming soon)
+> **Part IV:** Advanced Customisation (coming soon)
+> If you are confused or in need of context, please go [read Part I](../beginner-eleventy-tutorial-parti/)—it is where I establish all the context of what static site generators are.
 
 As much as possible, I'm going to treat this part of the tutorial like a cookbook, except I won't make you read seven paragraphs about that one summer I spent in Emilia Romagna rolling the perfect tortellini as I had a torrid tryst with Paolo (sorry, reading too many romance novels).
 
@@ -28,13 +28,13 @@ I will, however, tell you all of the "ingredients" you need, dirty my hands with
 
 Let's collectively admit something: We are not great at giving robust and clear installation instructions. More often than not, our package installation instructions look something like this:
 
-*Installation:*
+_Installation:_
 `npm i luigis-castle`
-*You're set!*
+_You're set!_
 
-*I'm sorry, what? Where do I... put that? Then, what?* Even if I know where to put that, I now have this cyborg telling me that I'm missing __several trillion dependencies__? I'm sorry, are you telling me to go to therapy? I already do, and therapy is awesome, sucker.
+_I'm sorry, what? Where do I... put that? Then, what?_ Even if I know where to put that, I now have this cyborg telling me that I'm missing **several trillion dependencies**? I'm sorry, are you telling me to go to therapy? I already do, and therapy is awesome, sucker.
 
-I want to prevent *that*.
+I want to prevent _that_.
 
 So, you might find that this guide is `--verbose`. It is intentionally so because most of the time we're overly concise and people give up at the very beginning. I've partitioned explanations into notes where I can, so you can choose to skip over them if you already know everything. Cool? Oh, you want a cookie. Here. 🍪
 
@@ -84,9 +84,9 @@ If you see `zsh`, `bash`, `tcsh`, `ksh` (anything ending in sh), that's your she
 Node is a **environment** you need to install onto your computer in order to run Node Package Manager (npm). (You need npm to install Eleventy—the whole point of this post. Did you forget? I sorta did!).
 
 To check if you already have node on your machine, run the following command in your terminal emulator:
-    `node -v` or `node --version`. (If one doesn't work, try the other).
+`node -v` or `node --version`. (If one doesn't work, try the other).
 
->You may have noticed that sometimes flags have one hyphen and other times they have two. One hyphen flags (`-v`) are the short-name version of the command, and two-hyphen flags (`--version`) are the long-name version of the command. I find that when I'm starting out, I like to write out the long-name/two-hyphen version so I can talk myself through what I'm doing.
+> You may have noticed that sometimes flags have one hyphen and other times they have two. One hyphen flags (`-v`) are the short-name version of the command, and two-hyphen flags (`--version`) are the long-name version of the command. I find that when I'm starting out, I like to write out the long-name/two-hyphen version so I can talk myself through what I'm doing.
 
 If it returns `v` followed by numbers, something like `v12.13.1`, that means you have Node installed. Eleventy requires any version of Node newer than 8, so if you've got that, you're set! Woohoo!
 
@@ -106,14 +106,14 @@ npm is the main package manager for Node.js; they have a registry of all the pac
 > Packages can rely on other packages, which is called a dependency. You will come across that word _a lot_. A dependency means that a package (let's call it House Package) uses another package (let's call it Room Package). Sometimes, when Room Package makes an update, it can break House Package. Sometimes the maker of Room Package decides to remove it from the registry or make a change that isn't compatible with House Package. That means House Package can break. Now imagine this incepted from House, into Street, Neighbourhood, into City, into State, into Country, into Continent! One small change can impact many pieces of software, and frankly, take an entire sector of software down. So, it's important to be mindful when you're engineering of all the dependencies you invite in, and to monitor them.
 
 If you installed Node.js, then you should have npm installed. To check which version, in your terminal emulator, run:
-    `npm -v` or `npm --version`. (If one doesn't work, try the other).
+`npm -v` or `npm --version`. (If one doesn't work, try the other).
 
->At time of writing, the current version of npm was 6.14.5. If you have something older, update your npm by running the following command:
-`npm install npm@latest -g`
+> At time of writing, the current version of npm was 6.14.5. If you have something older, update your npm by running the following command:
+> `npm install npm@latest -g`
 
 ### 2. **Source-Code Editor**
 
-A source-code editor (or just code editor if you're friends) is where you edit code or *make the magic happen* as I like to say. The code editor is also where you can look like a hacker.
+A source-code editor (or just code editor if you're friends) is where you edit code or _make the magic happen_ as I like to say. The code editor is also where you can look like a hacker.
 
 Choosing a code editor can be really daunting, as everyone who has a four-letter name has a strong opinion about which is the best and is willing to go to great lengths to convince you.
 
@@ -123,9 +123,9 @@ If you're starting out with code, my recommendation would be to pick the one tha
 
 **Cues**: If you see longer blocks of code, you're going to likely edit that in your code editor.
 
->You might hear someone refer to their **Integrated Development Environment (IDE)**. People sometimes use IDE interchangeably with code editor, when they are not, in fact, interchangeable. By definition, IDEs comprise a code editor, build automation tool, and debugger. Sometimes they have GUIs integrated into them as well.
->Most tools you hear about are code editors, including Microsoft's Visual Studio Code (VSCode or just Code if you're good friends), which, while robust and very full-featured with the help of extensions, is not an IDE. Microsoft's Visual Studio is their IDE, as it is a fully-integrated environment. Naming, am I right?
->Also, because people tend to get their panties wound up in sailors' knots about this, you're not any "less" of a developer for using either a code editor or an IDE—use what you like and change it up if you change your mind. Neither is intrinsically better than the other; they're both valid for different developers in different contexts. Some IDEs and code editors have better support for certain languages, for instance. That's the sort of thing you should note for how you decide, not what some Chadwick tells you to decide. I've articulated the difference here for the pure purpose of education. And, as someone who writes and runs a dictionary, I think nuance is important. 🙂
+> You might hear someone refer to their **Integrated Development Environment (IDE)**. People sometimes use IDE interchangeably with code editor, when they are not, in fact, interchangeable. By definition, IDEs comprise a code editor, build automation tool, and debugger. Sometimes they have GUIs integrated into them as well.
+> Most tools you hear about are code editors, including Microsoft's Visual Studio Code (VSCode or just Code if you're good friends), which, while robust and very full-featured with the help of extensions, is not an IDE. Microsoft's Visual Studio is their IDE, as it is a fully-integrated environment. Naming, am I right?
+> Also, because people tend to get their panties wound up in sailors' knots about this, you're not any "less" of a developer for using either a code editor or an IDE—use what you like and change it up if you change your mind. Neither is intrinsically better than the other; they're both valid for different developers in different contexts. Some IDEs and code editors have better support for certain languages, for instance. That's the sort of thing you should note for how you decide, not what some Chadwick tells you to decide. I've articulated the difference here for the pure purpose of education. And, as someone who writes and runs a dictionary, I think nuance is important. 🙂
 
 For the purposes of what we're doing, I'd recommend that you get a **code editor** as it will suffice for this project.
 
@@ -137,7 +137,7 @@ While we should all test our sites across multiple browsers, I think most of us 
 
 Personally, I use Firefox equipped with DuckDuckGo as my search engine for most of my browsing (because security and privacy are very important to me for personal browsing), but I recognise that's a small user share. I sometimes use Firefox Nightly so I can take advantage of cutting-edge features. (Firefox Nightly is not stable, though, so it's only used for this purpose). I develop primarily in Firefox and Chrome. (I prefer Firefox's DevTools and Chrome performance tooling [Lighthouse]. Play around with the Developer Tools of multiple browsers. See which one's interface makes the most sense to you.
 
-**Examples**: __Desktop__: Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, Apple Safari, UCBrowser, etc. __Mobile__ Google Chrome, Opera, Opera Mini, Apple Safari, Samsung Internet.
+**Examples**: **Desktop**: Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, Apple Safari, UCBrowser, etc. **Mobile** Google Chrome, Opera, Opera Mini, Apple Safari, Samsung Internet.
 
 ### 4. **Git**
 
@@ -155,7 +155,7 @@ And, though practice helps, know that even the most seasoned developers _royally
 
 For the purposes of this project, you need to have git installed onto your machine and an account with a git host.
 
->Installing git can become complicated and frustrating very quickly. If you encounter roadblocks, know that you're not alone. While I'd love to explain exactly how to install git, several key factors will change the exact instructions, including the operating system you use (MacOS, Windows, Ubuntu, etc), what command line interface you use, etc. [Atlassian’s guide is a good place to start](https://www.atlassian.com/git/tutorials/install-git).
+> Installing git can become complicated and frustrating very quickly. If you encounter roadblocks, know that you're not alone. While I'd love to explain exactly how to install git, several key factors will change the exact instructions, including the operating system you use (MacOS, Windows, Ubuntu, etc), what command line interface you use, etc. [Atlassian’s guide is a good place to start](https://www.atlassian.com/git/tutorials/install-git).
 
 **Examples of Git Hosts**: [Atlassian BitBucket](https://www.atlassian.com/git), [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [SourceForge](https://sourceforge.net/).
 
@@ -186,7 +186,7 @@ The `--save-dev` command is what tells the command line to store this into your 
 
 While you read all that, you may notice that npm is still running. You should see a sort of progress bar to let you know how much more it has to go. You may see a series of warnings about things that have been deprecated. For now, you can ignore all that. (Most developers continue to ignore all that.)
 
->Whenever you see a `-g` flag appended to an npm command, that means that it’s going to be installed globally. The upside is you’re only going to install it once, but you might run into issues down the line. Most folks work locally, as it prevents what are called “interoperability” issues. For example, you might encounter a project that is running on an older version of Eleventy than the global one you have installed, which will cause infuriating errors. Therefore, it’s best to treat each project independently. You might notice that most devs prefer to install things locally for this reason.
+> Whenever you see a `-g` flag appended to an npm command, that means that it’s going to be installed globally. The upside is you’re only going to install it once, but you might run into issues down the line. Most folks work locally, as it prevents what are called “interoperability” issues. For example, you might encounter a project that is running on an older version of Eleventy than the global one you have installed, which will cause infuriating errors. Therefore, it’s best to treat each project independently. You might notice that most devs prefer to install things locally for this reason.
 
 1. To check that Eleventy installed properly, run `npx @11ty/eleventy`.
 
@@ -202,7 +202,7 @@ Because you haven’t written any files yet, it makes sense that there are 0 fil
 
 Run `echo 'You are officially a developer!' > index.html`
 
-Breaking this command down, `echo` says to the command line “read me back all this stuff.”  Everything within the single quotes (‘) is what you’re asking the command line to read back.
+Breaking this command down, `echo` says to the command line “read me back all this stuff.” Everything within the single quotes (‘) is what you’re asking the command line to read back.
 
 The second part of the initial command, `> index.html`, includes what is called an append symbol (>). While you might know this as the greater than symbol, in this context, it tells the command line to instead place the stuff inside the single quotes into a file called `index.html`, instead of returning it (with `echo`), like the statement it did above.
 

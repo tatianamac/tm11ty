@@ -7,11 +7,13 @@ tags:
   - tutorials
   - Eleventy
   - featured
+  - engineering
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
 ---
+
 ## Intro to the Series
 
 I won't lie. When I first installed a static site generator (SSG), I was pleased with how quickly it installed. However, my immediate success was short lived. Something something, beginner's luck.
@@ -26,7 +28,7 @@ My hope with this guide is to remove barriers, particularly for designers/develo
 
 - are limited by What-You-See-Is-What-You-Get (WYSIWYG) tools like Squarespace;
 - want the efficiencies of a content management system (CMS);
-- possess *some* competency in front-end languages (HTML, CSS, JS); and/or
+- possess _some_ competency in front-end languages (HTML, CSS, JS); and/or
 - don't understand the basic setup and infrastructure of SSGs.
 
 To remove barriers to entry, we must provide adequate context. I will break this guide into a multi-part series:
@@ -34,7 +36,7 @@ To remove barriers to entry, we must provide adequate context. I will break this
 - **Part I:** What is a static site generator? 👈🏽 You are here
 - **Part II:** [Installation](../beginner-eleventy-tutorial-partii/)
 - **Part III:** Structure/Basic Customisation (coming soon)
-- **Part IV**: Advanced Customisation  (coming soon)
+- **Part IV**: Advanced Customisation (coming soon)
 
 In general, I think our industry fears overexplaining concepts. We tend to presume people have skills that they don't always have and leave a lot of helpful context or explanation unsaid. After "hello world" examples, we tend to optimise our content for superusers. Beginners are sent into the world with a very limited foundation and asked to make a fairly large leap to intermediate on their own. By writing more beginner-through-intermediate tutorials like this, I hope to provide a solid foundation by answering unanswered questions and escalating examples as we go.
 
@@ -51,7 +53,7 @@ Generally speaking, there are two types of sites:
 - static sites and
 - dynamic sites.
 
-SSG-generated sites are technically a subcategory of static sites, but they're a *special* type. More on that later. Dynamic sites include sites built atop a framework, like WordPress, Drupal, Joomla.
+SSG-generated sites are technically a subcategory of static sites, but they're a _special_ type. More on that later. Dynamic sites include sites built atop a framework, like WordPress, Drupal, Joomla.
 
 ### Static Sites
 
@@ -84,7 +86,7 @@ I wanted to add a list here of static sites built by hand (without the assistanc
 
 #### Static Site Cons
 
->Note that there are workarounds for many of these cons. For scope of article and brevity, **I've left out the tools that address/serve some of these cons.** I know they exist. Some of them will be addressed in the SSG section, so hold your commenting horses (ya neigh-sayers), and note that I can't talk about everything in this one article.
+> Note that there are workarounds for many of these cons. For scope of article and brevity, **I've left out the tools that address/serve some of these cons.** I know they exist. Some of them will be addressed in the SSG section, so hold your commenting horses (ya neigh-sayers), and note that I can't talk about everything in this one article.
 
 - **Limited**: Static sites can't do more complex things that we take for granted, like buying things online, getting weather for our location, etc.
 - **Gatekept:** Static sites require knowledge of HTML/CSS/JS to create and to update, turning developers into either content overlords or servants (depending on your org structure 😂). If you don't have these skills in house, you'll have to source them. Hand-coding websites is time-consuming, and thus, can be costly.
@@ -100,9 +102,9 @@ While making a bunch of static sites accessible to thousands of users was a huge
 
 Dynamic sites were introduced in 1993 with the advent of the Common Gateway Interface (CGI). The CGI is a set of standards to define how information is exchanged between servers.
 
-(CGI also, not to be confused with the other, more well-known Computer Generated Imagery, which is what makes Michael Bay movies *pop*. Fun fact: CGI's logo resembles the album cover for Pink Floyd's *Dark Side of the Moon*. But I disambiguate.)
+(CGI also, not to be confused with the other, more well-known Computer Generated Imagery, which is what makes Michael Bay movies _pop_. Fun fact: CGI's logo resembles the album cover for Pink Floyd's _Dark Side of the Moon_. But I disambiguate.)
 
-In the barest terms, CGI allowed for servers to do more than just receive requests and respond to requests as input/output. CGIs allowed the server __to process__ the request, which adds a layer of complexity to how websites are served to you via browser.
+In the barest terms, CGI allowed for servers to do more than just receive requests and respond to requests as input/output. CGIs allowed the server **to process** the request, which adds a layer of complexity to how websites are served to you via browser.
 
 In a dynamic site:
 
@@ -116,11 +118,11 @@ In a dynamic site:
 
 Dynamic sites opened up a whole world of the internet that was not possible before, customising the experience, introducing inextricable complexity in the process.
 
->One could argue that applications and programs like Dreamweaver and FrontPage were the first static site generators that used a WYSIWYG editor. For brevity, I'm leaving that part of the history out.
+> One could argue that applications and programs like Dreamweaver and FrontPage were the first static site generators that used a WYSIWYG editor. For brevity, I'm leaving that part of the history out.
 
 #### Dynamic Site Examples
 
-Dynamic sites are *everything else*. Any site that serves you a website from a database, an Application Programming Interface (API), or an experience based on input is a dynamic site. Common features on dynamic sites include shopping carts, search or content queries, location data, user data, and so on. Most "complex" sites tend to be dynamic; think Amazon, Facebook, Pinterest. (Most websites that are also a product also tend to be dynamic.)
+Dynamic sites are _everything else_. Any site that serves you a website from a database, an Application Programming Interface (API), or an experience based on input is a dynamic site. Common features on dynamic sites include shopping carts, search or content queries, location data, user data, and so on. Most "complex" sites tend to be dynamic; think Amazon, Facebook, Pinterest. (Most websites that are also a product also tend to be dynamic.)
 
 Sites that are generated by CMSes like WordPress, Squarespace, and Shopify are also dynamic.
 
@@ -137,16 +139,16 @@ Sites that are generated by CMSes like WordPress, Squarespace, and Shopify are a
 
 #### Dynamic Site Cons
 
->Workarounds exist for all of these cons (and where appropriate, I've noted them) and some of them will be addressed in the SSG section, so hold your commenting horses.
+> Workarounds exist for all of these cons (and where appropriate, I've noted them) and some of them will be addressed in the SSG section, so hold your commenting horses.
 
 - **Costly**: Convenience comes at a price. While WordPress itself is free, themes and other add-ons can start to add up. Monthly paid services like Squarespace and Shopify can be cost-prohibitive to many people, and become exponentially costly as you want to add features for growth. Developers who specialise in these frameworks can also charge a premium as their skills tend to be niche.
 - **Resource-Intensive:** Every time a WordPress site is loaded, it has to call the server and ask for any scripts, plug-in libraries, etc. The time it takes to load these scripts can be long and require a lot of bandwidth.
 - **Server Requirements**: To run WordPress, special servers like Apache or NGINX are required. As with all things, there is a cost associated with this, which typically gets passed down the chain. To locally run a WordPress site (so that you're not making the edits live on the web), you need to do some manipulation to your machine, which can be confusing.
 - **Slow**: All of the inputs and dynamic calls result in having to wait for the server to do its job. We all know what that's like; when you're waiting for a colleague to finish their task before you can finish yours. Any delays in speed result in disengaged/unhappy users and thus, negatively impacted SEO measurements.
-- **Cache-Difficult:** Caching provides major benefits to sites. Caching basically stores a copy of the site somewhere else (whether that be on your computer in a temporary file) or on another server (like a content delivery network (CDN)). Doing so takes one load off of the main server you're accessing. However, caching becomes very complex when the server isn't __quite__ sure even which HTML or images it should serve you because the variables are too vast (Are you logged in? Did you change a setting? Is there something in your cart? Did someone comment since you last logged in? Are you cute? *How* cute?)
+- **Cache-Difficult:** Caching provides major benefits to sites. Caching basically stores a copy of the site somewhere else (whether that be on your computer in a temporary file) or on another server (like a content delivery network (CDN)). Doing so takes one load off of the main server you're accessing. However, caching becomes very complex when the server isn't **quite** sure even which HTML or images it should serve you because the variables are too vast (Are you logged in? Did you change a setting? Is there something in your cart? Did someone comment since you last logged in? Are you cute? _How_ cute?)
 - **Inaccessible:**
   - Heavy sites mean that users who rely on phone data (and pay per megabyte) are being economically taxed for accessing your site. In regions and contexts with systematically slower internet speeds, your users will likely bounce if your site is too slow. Remember, this is your fault for building a site maximised for 5G internet, not your user's inability to purchase an iPhone 14S.
-  - While a static site does not guarantee accessibility and you *can* make dynamic sites accessible, dynamic sites make out-of-box accessibility far more complex. A few static HTML pages will likely be fairly accessible as there's not much to them and HTML is fairly generous. However, the accessibility of a dynamic site becomes reliant on the accessibility of a platform on which it's built. The tools used to build the site (like the dash) need to be accessible as does the site itself. Any layer of complication increases the dimension of accessibility exponentially.
+  - While a static site does not guarantee accessibility and you _can_ make dynamic sites accessible, dynamic sites make out-of-box accessibility far more complex. A few static HTML pages will likely be fairly accessible as there's not much to them and HTML is fairly generous. However, the accessibility of a dynamic site becomes reliant on the accessibility of a platform on which it's built. The tools used to build the site (like the dash) need to be accessible as does the site itself. Any layer of complication increases the dimension of accessibility exponentially.
 - **Insecure:** Dynamic sites have to allow for input, which means that they open the doors for bugs and viruses. [Something like 70-90% of WordPress sites](https://www.wpwhitesecurity.com/statistics-70-percent-wordpress-installations-vulnerable/) are vulnerable to attacks. So, while they boast the statistic of being 2/3 of the web (why not just call it 69% tho), that means that over half of the web is insecure—like a middle school.
 - **Instable**: Unexpected spikes in traffic can overload the server with requests and break the site. We've seen this with news sites, high-heat commerce drops (think sneakerhead or video games), intensive retail periods like Black Friday/Cyber Monday, and other windows of extreme traffic.
 - **Monotonous**: Many sites can start to look the same (for example in Portland, there are at least a dozen coffee roasters who use the same Squarespace theme—those nuanced beans deserve better, dammit) as the out-of-box options tend to be limited.
@@ -163,12 +165,12 @@ Or, what about a brochure site for a restaurant who wants to update their menu t
 
 Enter:
 
-### Static Site Generator-generated Sites*
+### Static Site Generator-generated Sites\*
 
->*It’s a little confusing because to be accurate means we have to be pedantic, hence the redundancy of Generator-generated. For purposes of clarity, this is how I differentiated the two; please note the difference:
->**SSGs:** Static Site Generators. The thing that generates the site.
->**SSG sites:** Static Site Generator-generated Sites. The sites that are generated.
->Please know I thought very long and hard about this very trivial/non-trivial issue.
+> \*It’s a little confusing because to be accurate means we have to be pedantic, hence the redundancy of Generator-generated. For purposes of clarity, this is how I differentiated the two; please note the difference:
+> **SSGs:** Static Site Generators. The thing that generates the site.
+> **SSG sites:** Static Site Generator-generated Sites. The sites that are generated.
+> Please know I thought very long and hard about this very trivial/non-trivial issue.
 
 Static site generator-generated sites (SSG sites) provide a happy medium between the static sites and dynamic sites. Technically speaking, a site built from an SSG is a still static site.
 
@@ -177,7 +179,7 @@ SSG sites follow the same build process as static sites from above.
 1. When users access a site in their browser, the browser requests files from the web server.
 2. The web server gathers the files you need for the specific page you requested from a finite list of files that it has stored.
 3. The web server sends the files to your browser.
-Your browser renders the files and presents you with the website.
+   Your browser renders the files and presents you with the website.
 
 Here there’s an added step that happens somewhat separately:
 
@@ -189,7 +191,7 @@ B. The SSGs essentially take the actions that would happen on the server-side (l
 
 The benefit of this added step is that it adds some of the developer/creator benefits of dynamic sites (like, writing content in Markdown and reusing templates) without as many of the dynamic cons (like, usually having to load an entire framework) while maintaining the pros of static sites. A Best of Both Worlds™ (BOBW) if you ask me.
 
-**To be explicit:** Neither the user nor the server perceives, typically, the difference between a hard-coded static site and a SSG-generated site. To them, they're both static sites. SSGs improve the *developer* experience. I would even argue it's *optimised* to a certain niche of developer experience.
+**To be explicit:** Neither the user nor the server perceives, typically, the difference between a hard-coded static site and a SSG-generated site. To them, they're both static sites. SSGs improve the _developer_ experience. I would even argue it's _optimised_ to a certain niche of developer experience.
 
 We have to admit that part of the rise of SSGs is that as developers, we are community-focused and want to be in-line with our peers. It would be dishonest, I think, to say that all of our motivation for anything (especially this) is ever purely user-motivated.
 
@@ -197,7 +199,7 @@ We have to admit that part of the rise of SSGs is that as developers, we are com
 
 New SSGs are popping up every day as this modern approach to tooling becomes more widely adopted. Popular static site generators (and their frameworks/languages) include: [Hugo](https://gohugo.io/) (Go), [Gatsby](https://www.gatsbyjs.org/), [Next.js](https://nextjs.org/), [React Static](https://github.com/react-static/react-static/tree/master/) (React); [NuxtJS](https://nuxtjs.org/) (Vue.js); [Middleman](https://middlemanapp.com/), [Jekyll](https://jekyllrb.com/) (Ruby); [Sapper](https://sapper.svelte.dev/) (Svelte); and my personal favourite, [Eleventy](https://11ty.io) (Node.js).
 
-Examples of *sites* made on these *SSGs* on these can be found on each of those links. (See how the naming convention is confusing?!)
+Examples of _sites_ made on these _SSGs_ on these can be found on each of those links. (See how the naming convention is confusing?!)
 
 #### Aside: On JAMstack and Humans
 
@@ -207,14 +209,14 @@ How I like to think of the JAMstack approach is that everything in the world exi
 
 Simultaneously, for us humans of the web, that means that the line between front-end and back-end development becomes less clear. Certain aspects of back-end development that were once inaccessible to front-end developers are becoming surfaced with movements like JAMstack and the tools they inspire.
 
->Not all SSGs are part of the JAMstack. The JAMstack is not just about SSGs. (Read more on [JAMstackWTF](https://jamstack.wtf).)
+> Not all SSGs are part of the JAMstack. The JAMstack is not just about SSGs. (Read more on [JAMstackWTF](https://jamstack.wtf).)
 
 #### SSG Site Pros
 
 - **Developer-Focused:** Hand-coding websites is a pain in the Lance Bass. It's fun to be artisanal for a second, but once you get into dozens (hundreds, thousands) of pages, it becomes frustrating and confusing. On the dynamic side, manipulating WordPress and Squarespace to do all you know is possible can be frustrating (I know that the folks who work on these teams work very hard to improve dev experience as it's a weak spot in most dynamic site generators).
 - **Separation of Concerns**: SSG sites maintain the separation of visual presentation and content. You can continue to write new content as Markdown files without manually applying styling to it as you would with a hand-coded static site.
 - **Reusable**: Global changes to templates (e.g., blog post template) and components (e.g., navigation) are made by editing one file instead of many.
-- **Metadata**: One of the most powerful aspects of SSGs is that it surfaces the metadata: the title of the page, published date, site taxonomy, hero image, etc, can be defined and changed without touching the templates themselves, reinforcing the separation of concerns. Metadata is surfaced in something called front matter, which allows the content maintainer to add and customised data to the literal __front__ of their file. (I'll talk more about this and show examples when we dive into Eleventy's structure in part II.)
+- **Metadata**: One of the most powerful aspects of SSGs is that it surfaces the metadata: the title of the page, published date, site taxonomy, hero image, etc, can be defined and changed without touching the templates themselves, reinforcing the separation of concerns. Metadata is surfaced in something called front matter, which allows the content maintainer to add and customised data to the literal **front** of their file. (I'll talk more about this and show examples when we dive into Eleventy's structure in part II.)
 - **Lean**: As with a static site, the delivered files are what they are. It takes up less room on the internet, which is minimalist and aligns with our designer ways (rerolls turtleneck collar).
 - **Fast:** Lessening the number of server requests means your site will be faster, which improves your SEO and user experience, providing better access to more users.
 - **Economic**: Most SSGs are free to set up.
@@ -236,11 +238,11 @@ In addition to the cons from static sites, here are a few more SSG-specific limi
 
 ### Why Eleventy
 
-~~As a developer advocate for Eleventy**,~~ I favour Eleventy for most smaller projects because the way it was built aligns with my personal developer ethos. I do not like serving the user a bunch of unnecessary JavaScript to serve what will inevitably be static content.
+~~As a developer advocate for Eleventy\*\*,~~ I favour Eleventy for most smaller projects because the way it was built aligns with my personal developer ethos. I do not like serving the user a bunch of unnecessary JavaScript to serve what will inevitably be static content.
 
 Eleventy's mission seems to possess some similar biases to me. In the end, this is a huge factor in what we look for as developers, whether we admit it or not.
 
-(**Also so the creator, Zach, doesn't get mad at me, Eleventy doesn't actually have developer advocates and is a community-contributed and -funded project. If you find Eleventy helpful and can, [throw a few bucks at them](https://opencollective.com/11ty)!
+(\*\*Also so the creator, Zach, doesn't get mad at me, Eleventy doesn't actually have developer advocates and is a community-contributed and -funded project. If you find Eleventy helpful and can, [throw a few bucks at them](https://opencollective.com/11ty)!
 
 #### Pros
 
@@ -259,7 +261,7 @@ Eleventy's mission seems to possess some similar biases to me. In the end, this 
 
 To me, the pros outweigh the cons. Developers who work in and support Eleventy can help to improve the two cons. This is why I'm writing this series.
 
->Next (Part II): Learn how to install Eleventy (and, all the things you need to to install in order to install Eleventy). [Read Part II](../beginner-eleventy-tutorial-partii/)
+> Next (Part II): Learn how to install Eleventy (and, all the things you need to to install in order to install Eleventy). [Read Part II](../beginner-eleventy-tutorial-partii/)
 
 #### Thank You
 

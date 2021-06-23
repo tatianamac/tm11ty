@@ -5,12 +5,13 @@ summary: "Activism is not a sprint to a finish; there is no finish, but rather a
 date: 2020-06-08 18:27:11
 tags:
   - featured
-  - the-work
+  - humans
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
 ---
+
 White people (and non-Black brown folks):
 We gotta talk about burn out. You aren’t conditioned to be thinking about race this much because of your privilege. We need you to do all you’re doing today, tomorrow, and until the end of time.
 
@@ -20,7 +21,7 @@ Let’s talk about ways to focus on current & systemic change.
 
 Systemic: You can’t learn everything rn. Make a list. Learn to find the answers yourself before asking. Take the time to actually look it up. Read multiple sources. Sit with it.
 
-## 1️⃣ Big donations now is great to fuel the movement. Budget and set up *recurring donations.*
+## 1️⃣ Big donations now is great to fuel the movement. Budget and set up _recurring donations._
 
 Consider how much you can give. Can you give more? If you gave 5K in one swoop, can you give 400/month?
 
@@ -28,7 +29,7 @@ Systemic: Ask your bosses about recurring matches for donations long-term. Do yo
 
 ## 2️⃣ You’re in 3 book clubs with loved ones cramming for the anti-racist test now. Set monthly recurring reminders to write short reflections; mistakes made, lessons learned. See your own progress
 
-Systemic: Build Black authors into your life, fiction, non-race-based non-fiction. Extend that to film, news, art, cooking (*stares in Alison Roman caucasity*).
+Systemic: Build Black authors into your life, fiction, non-race-based non-fiction. Extend that to film, news, art, cooking (_stares in Alison Roman caucasity_).
 
 ## 3️⃣ Examine where you’re money goes long-term
 
@@ -75,4 +76,4 @@ Build a broader network for recommendations. In creative and tech fields, we hav
 
 Find those lists for your own industry. Trust me, they exist. If they truly don't, perhaps you can lend the support to build one. But also, do the work of meeting and getting to know peers beyond your network who don't look like you.
 
->Originally posted on Twitter, I have since extended this list and will likely keep adding to it as I see opportunities.
+> Originally posted on Twitter, I have since extended this list and will likely keep adding to it as I see opportunities.

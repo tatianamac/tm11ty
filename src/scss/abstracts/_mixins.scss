@@ -29,7 +29,7 @@
 }
 /// Background size helper
 @mixin background-size($width, $height: $width) {
-    @include prefix(background-size, $width $height, 'webkit' 'moz');
+  @include prefix(background-size, $width $height, "webkit" "moz");
 }
 
 //DEVICES
@@ -79,15 +79,15 @@
 //SPACING
 
 @mixin clearspace() {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 @mixin thiccpadding() {
   padding: $thicc;
 }
 
-@mixin thinnpadding(){
+@mixin thinnpadding() {
   padding: $thinn;
 }
 
@@ -97,6 +97,10 @@
 
 @mixin padding-btm-none() {
   padding-bottom: 0;
+}
+
+@mixin margin-bottom-thinn() {
+  margin-bottom: $thinn;
 }
 
 @mixin align-self-center() {
@@ -178,27 +182,27 @@
 }
 
 @mixin t-ltr-spaceout-s() {
-    letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 
 @mixin t-ltr-spaceout-m() {
-    letter-spacing: .15em;
+  letter-spacing: 0.15em;
 }
 
 @mixin t-eyebrow {
-    @include babyfont;
-    @include t-uppercase;
-    @include t-ltr-spaceout-m;
-    font-family: $sans-serif-bold;
+  @include babyfont;
+  @include t-uppercase;
+  @include t-ltr-spaceout-m;
+  font-family: $sans-serif-bold;
 }
 
 @mixin list-clear-style() {
-    list-style: none outside;
-    padding: 0;
+  list-style: none outside;
+  padding: 0;
 }
 
 @mixin inline-style() {
-    display: inline;
+  display: inline;
 }
 
 //GRID based on a 12-col
@@ -263,29 +267,28 @@
 }
 
 @mixin out--pink() {
-  outline: .25em ridge $pink;
+  outline: 0.25em ridge $pink;
 }
 
 @mixin out--rust() {
-  outline: .25em ridge $rust;
+  outline: 0.25em ridge $rust;
 }
 
 @mixin out--yellow() {
-  outline: .5em ridge $yellow;
+  outline: 0.5em ridge $yellow;
 }
 
 @mixin out--black() {
-  outline: .5em ridge $black;
+  outline: 0.5em ridge $black;
 }
 
 @mixin out--blue() {
-  outline: .5em ridge $cobalt;
+  outline: 0.5em ridge $cobalt;
 }
 
 @mixin out--green() {
-  outline: .25em ridge $green;
+  outline: 0.25em ridge $green;
 }
-
 
 @mixin bdr--orange() {
   border-bottom: 1px solid $orange;
@@ -293,13 +296,13 @@
 }
 
 @mixin t-link-hover() {
-    border-bottom: 1px solid $pink;
-    @include txn-ease-in-quick;
+  border-bottom: 1px solid $pink;
+  @include txn-ease-in-quick;
 }
 
 // TRANSITIONS
 @mixin txn-ease-in-quick() {
-  transition: border .2s ease-in;
+  transition: border 0.2s ease-in;
 }
 
 // ZIG ZAG BASE
