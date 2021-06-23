@@ -5,12 +5,13 @@ summary: Black folks are protesting for their survival, and you're a white dude 
 date: 2020-04-02 16:09:03
 tags:
   - featured
-  - the-work
+  - humans
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
 ---
+
 If you are a white guy and you don't know what to do beyond donate and being quiet, I made you a list.
 
 ## 1️⃣ Buy and read some anti-racist texts. And sit with the discomfort. Maybe invite a few other dudes to be in a book club with you
@@ -35,18 +36,18 @@ If you want to understand how tech is complicit in perpetuating systems of oppre
 
 You'll notice I didn't link them. I encourage you to do some work to support someone other than the world's first trillionaire. Find a local bookstore that might still be able to deliver/do curbside pickup. Look on [IndieBound](https://www.indiebound.org/) or [Bookshop](https://www.bookshop.org) if you truly don't have local options or are stuck. Part of doing this work is not always taking the first, most convenient option.
 
->I previously had included texts White Fragility (Robin DiAngelo) and Invisible Women (Caroline Criado-Pérez). Both of those texts have been shown to do harm to the communities they purport to support. If you'd like to read more why, here are a couple of perspectives:
-[What’s Missing From “White Fragility”](https://slate.com/human-interest/2019/09/white-fragility-robin-diangelo-workshop.html)
-[Caroline Criado-Perez is a TERF](https://medium.com/@Siltha1.0/caroline-criado-perez-is-a-terf-35c489e59ad9)
->I regret that I included them to begin with but I don't want to erase the mistake and perpetuate harm. I apologise for any harm that I caused Black folks and trans (and especially Black trans folks) by including them in these lists. I ask that if you choose to read these texts anyway, to examine them critically through an anti-racist, pro-Black, pro-trans perspective.
+> I previously had included texts White Fragility (Robin DiAngelo) and Invisible Women (Caroline Criado-Pérez). Both of those texts have been shown to do harm to the communities they purport to support. If you'd like to read more why, here are a couple of perspectives:
+> [What’s Missing From “White Fragility”](https://slate.com/human-interest/2019/09/white-fragility-robin-diangelo-workshop.html)
+> [Caroline Criado-Perez is a TERF](https://medium.com/@Siltha1.0/caroline-criado-perez-is-a-terf-35c489e59ad9)
+> I regret that I included them to begin with but I don't want to erase the mistake and perpetuate harm. I apologise for any harm that I caused Black folks and trans (and especially Black trans folks) by including them in these lists. I ask that if you choose to read these texts anyway, to examine them critically through an anti-racist, pro-Black, pro-trans perspective.
 
-## 2️⃣ Unfollow everyone on social media and start over. Try to follow NO people who look like you*
+## 2️⃣ Unfollow everyone on social media and start over. Try to follow NO people who look like you\*
 
 Follow a spread of race, gender (expression, identity), orientation, physical ability, neurodiversity, nationality, socioeconomic status. Use [Tokimeki Unfollow](https://tokimeki-unfollow.glitch.me/) to mindfully assess who you follow.
 
 Note about who you follow: Follows are endorsements, even if you don't see it that way. To protect our safety, many marginalised folks will often look to see who you're following. You can continue of course to follow whomever you want. And we can continue to protect ourselves by using this as a barometer.
 
-*I know you still will. I said try.
+\*I know you still will. I said try.
 
 ## 3️⃣ Spend a year only recommending and/or consuming media by people who don't look like you
 

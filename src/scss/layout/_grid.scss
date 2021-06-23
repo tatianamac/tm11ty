@@ -105,6 +105,10 @@
   }
 }
 
+.margin-bottom-thinn {
+  @include margin-bottom-thinn;
+}
+
 .order-one {
   order: 1;
 }
@@ -350,7 +354,6 @@
 article {
   max-width: 1290px;
   padding: 0 2em;
-
 }
 
 .flex--row-reverse {

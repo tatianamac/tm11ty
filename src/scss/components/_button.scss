@@ -1,25 +1,29 @@
-  button, .download {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: .75rem;
-    padding: 1rem;
-    margin: 1rem 1rem 0 0;
+button,
+.download {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.75rem;
+  padding: 1rem;
+  margin: 1rem 1rem 0 0;
 
-    &.primary {
+  &.primary {
     border: 1px solid $white;
     background: $cobalt;
     color: $white;
+  }
 
-    }
-
-    &.secondary {
+  &.secondary {
     border: 1px solid $cobalt;
     background: $white;
     color: $cobalt;
-    }
-
-    &:hover, &:focus {
-      background: $pink;
-      @include txn-ease-in-quick;
-    }
   }
+
+  &:hover {
+    background: $pink;
+    @include txn-ease-in-quick;
+  }
+
+  &:focus {
+    @include out--pink;
+  }
+}

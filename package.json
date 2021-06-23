@@ -3,7 +3,7 @@
   "version": "1.2.8",
   "description": "A personal site for Tatiana Mac, an American designer who builds inclusive, accessible, and ethical products with thoughtful practices.",
   "scripts": {
-    "build": "npx eleventy && gulp && eleventy --watch",
+    "build": "npx eleventy && gulp && npx eleventy --watch",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy"
   },

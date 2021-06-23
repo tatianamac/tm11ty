@@ -5,43 +5,52 @@
 }
 
 .bold {
-    font-weight: $bold;
-  }
+  font-weight: $bold;
+}
 
-b, strong { 
+b,
+strong {
   font-weight: 700;
   font-family: $sans-serif-bold;
 }
-  
+
 .t-tag {
   border: 1px solid black;
   border-radius: 2em;
   color: black;
-  font-size: .75em;
-  padding: .5em 1em;
+  font-size: 0.75em;
+  padding: 0.5em 1em;
   text-decoration: none;
-  transition: all .4s ease-in-out;
-  &:hover, &:focus {
+  transition: all 0.4s ease-in-out;
+  &:hover {
     background: black;
     color: white;
+  }
+
+  &:focus {
+    background: black;
+    color: white;
+    outline: 0 solid transparent;
+    box-shadow: 0 0 0 0.25em $true-blue, 0 0 0 0.5em $royal-blue;
   }
 }
 .t-tag-white {
   border: 1px solid white;
   border-radius: 2em;
   color: white;
-  font-size: .75em;
-  padding: .5em 1em;
+  font-size: 0.75em;
+  padding: 0.5em 1em;
   text-decoration: none;
-  transition: all .4s ease-in-out;
-  &:hover, &:focus {
+  transition: all 0.4s ease-in-out;
+  &:hover,
+  &:focus {
     background: white;
     color: black;
   }
 }
 
 .t-mini {
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .t-jumbo {
@@ -213,25 +222,25 @@ b, strong {
 
 .t-normiefont\@s {
   @include screen-s {
-  @include normiefont;
+    @include normiefont;
   }
 }
 
 .t-normiefont\@m {
   @include screen-m {
-  @include normiefont;
+    @include normiefont;
   }
 }
 
 .t-normiefont\@l {
   @include screen-l {
-  @include normiefont;
+    @include normiefont;
   }
 }
 
 .t-normiefont\@xl {
   @include screen-xl {
-  @include normiefont;
+    @include normiefont;
   }
 }
 
@@ -243,49 +252,49 @@ b, strong {
 
 .t-slimmfont\@s {
   @include screen-s {
-  @include slimmfont;
+    @include slimmfont;
   }
 }
 
 .t-slimmfont\@m {
   @include screen-m {
-  @include slimmfont;
+    @include slimmfont;
   }
 }
 
 .t-slimmfont\@l {
   @include screen-l {
-  @include slimmfont;
+    @include slimmfont;
   }
 }
 
 .t-slimmfont\@xl {
   @include screen-xl {
-  @include slimmfont;
+    @include slimmfont;
   }
 }
 
 .t-thinnfont\@xs {
   @include screen-xs {
-  @include thinnfont;
+    @include thinnfont;
   }
 }
 
 .t-thinnfont\@s {
   @include screen-s {
-  @include thinnfont;
+    @include thinnfont;
   }
 }
 
 .t-thinnfont\@m {
   @include screen-m {
-  @include thinnfont;
+    @include thinnfont;
   }
 }
 
 .t-thinnfont\@l {
   @include screen-l {
-  @include thinnfont;
+    @include thinnfont;
   }
 }
 
@@ -297,25 +306,25 @@ b, strong {
 
 .t-giganticfont\@xs {
   @include screen-xs {
-  @include giganticfont;
+    @include giganticfont;
   }
 }
 
 .t-giganticfont\@s {
   @include screen-s {
-  @include giganticfont;
+    @include giganticfont;
   }
 }
 
 .t-giganticfont\@m {
   @include screen-m {
-  @include giganticfont;
+    @include giganticfont;
   }
 }
 
 .t-giganticfont\@l {
   @include screen-l {
-  @include giganticfont;
+    @include giganticfont;
   }
 }
 
@@ -330,100 +339,103 @@ b, strong {
 }
 
 body {
-      font-family: $sans-serif;
-      line-height: 1.75;
-  }
+  font-family: $sans-serif;
+  line-height: 1.75;
+}
 
-article h2, h3, h4 {
-    font-family: $serif;
-    font-weight: $light;
-    line-height: 1.25;
-  }
+article h2,
+h3,
+h4 {
+  font-family: $serif;
+  font-weight: $light;
+  line-height: 1.25;
+}
 
-  article blockquote {
-    background: $light-grey;
+article blockquote {
+  background: $light-grey;
+  margin: 0;
+  border-left: 10px solid $pink;
+  padding: 1em;
+  p:first-of-type:before {
+    content: "Note";
+    color: $fuchsia;
+    display: block;
+    font-family: $condensed;
+    font-size: 1em;
+    letter-spacing: 0.2em;
     margin: 0;
-    border-left: 10px solid $pink;
-    padding: 1em;
-    p:first-of-type:before {
-      content: "Note";
-      color: $fuchsia;
-      display: block;
-      font-family: $condensed;
-      font-size: 1em;
-      letter-spacing: .2em;
-      margin: 0; padding: 0;
-      text-transform: uppercase;
-    }
+    padding: 0;
+    text-transform: uppercase;
+  }
+}
+
+article a {
+  &:focus {
+    outline: 0.25em ridge $pink;
   }
 
-  article a {
-    &:focus {
-      outline: .25em ridge $pink;
-    }
-
-    &:hover {
-      border-bottom: 1px solid $pink;
-    }
+  &:hover {
+    border-bottom: 1px solid $pink;
   }
+}
 
-  article p a, article li a {
-    border-bottom: 1px solid $black;
-    color: $cobalt;
-    text-decoration: none;
-    transition: .2s border-bottom ease-in-out;
-    &:hover {
-      border-bottom: 1px solid $pink;
-    }
-
+article p a,
+article li a {
+  border-bottom: 1px solid $black;
+  color: $cobalt;
+  text-decoration: none;
+  transition: 0.2s border-bottom ease-in-out;
+  &:hover {
+    border-bottom: 1px solid $pink;
   }
+}
 
-  article ul {
-    list-style-type: square;
-    margin: 0 0 0 1.5em;
-  } 
+article ul {
+  list-style-type: square;
+  margin: 0 0 0 1.5em;
+}
 
-  h5 {
-    font-family: $serif;
-    font-weight: $regular;
-    font-size:1.25em;
-  }
+h5 {
+  font-family: $serif;
+  font-weight: $regular;
+  font-size: 1.25em;
+}
 
-  p {
-    color: $black;
+p {
+  color: $black;
 
   &.comingsoon {
-      color: $mid-grey;
-      text-transform: uppercase;
-      font-size: .8em;
-      letter-spacing: .05em;
-      text-decoration: none;
-      padding: 10px 0;
-      margin-right: 2em;
-      transition: all .2s ease-in;
-    }
-  }
-
-  .details {
+    color: $mid-grey;
     text-transform: uppercase;
-    font-size: .75em;
-    color: $black;
-    letter-spacing: .025em;
-    padding-top: .5em;
-    min-width: 100px;
+    font-size: 0.8em;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-right: 2em;
+    transition: all 0.2s ease-in;
   }
+}
 
-  .wip {
-     font-style: italic;
-     color: $mid-grey;
-   }
+.details {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  color: $black;
+  letter-spacing: 0.025em;
+  padding-top: 0.5em;
+  min-width: 100px;
+}
+
+.wip {
+  font-style: italic;
+  color: $mid-grey;
+}
 
 .t-white {
-    @include t-white;
+  @include t-white;
 }
 
 .t-red {
-  color: #E60073;
+  color: #e60073;
 }
 
 .t-dark-grey {
@@ -435,7 +447,7 @@ article h2, h3, h4 {
 }
 
 .t-black {
-    @include t-black;
+  @include t-black;
 }
 
 .t-light-grey {
@@ -451,15 +463,19 @@ article h2, h3, h4 {
 }
 
 .t-link-accent-white {
-    @include bdr--white;
-    text-decoration: none;
-    padding: 10px 0;
-    &:hover {
-      @include t-link-hover;
-    }
-    &:focus {
-      @include out--green;
-    }
+  @include bdr--white;
+  text-decoration: none;
+  padding: 10px 0;
+  &:hover {
+    @include t-link-hover;
+  }
+  &:focus {
+    @include out--green;
+  }
+  &--block {
+    @extend .t-link-accent-orange;
+    display: inline-block;
+  }
 }
 
 .t-link-accent-black {
@@ -498,44 +514,49 @@ article h2, h3, h4 {
   &:focus {
     @include out--rust;
   }
+
+  &--block {
+    @extend .t-link-accent-orange;
+    display: inline-block;
+  }
 }
 
 .t-ltr-stretch {
-    @include t-uppercase;
-    @include t-ltr-spaceout-s;
+  @include t-uppercase;
+  @include t-ltr-spaceout-s;
 }
 
 .t-link-accent-blue {
-    @include bdr--black;
-    color: $primary-color;
-    line-height: 1.25em;
-    padding: 2px 0;
-    text-decoration: none;
-    &:hover {
-      @include t-link-hover;
-    }
+  @include bdr--black;
+  color: $primary-color;
+  line-height: 1.25em;
+  padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover;
+  }
 
-    &:focus {
-      @include out--blue;
-    }
+  &:focus {
+    @include out--blue;
+  }
 
-    &--block {
-      @extend .t-link-accent-blue;
-      display: inline-block;
-    }
+  &--block {
+    @extend .t-link-accent-blue;
+    display: inline-block;
+  }
 }
 
 .t-link-accent-pink {
-    @include bdr--white;
-    color: $pink;
-    padding: 2px 0;
-    text-decoration: none;
-    &:hover {
-      @include t-link-hover;
-    }
-    &:focus {
-      @include out--green;
-    }
+  @include bdr--white;
+  color: $pink;
+  padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover;
+  }
+  &:focus {
+    @include out--green;
+  }
 }
 
 .t-eyebrow {
@@ -550,10 +571,10 @@ article h2, h3, h4 {
 
 code {
   background: $baby-blue;
-  border-radius: .25em;
-  padding:  .25rem;
+  border-radius: 0.25em;
+  padding: 0.25rem;
   color: $black;
-  margin: .25rem;
+  margin: 0.25rem;
 }
 
 .postlist {
@@ -584,82 +605,79 @@ code {
 
 // LISTS
 
-  ul.linklist {
-    @include list-clear-style;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+ul.linklist {
+  @include list-clear-style;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-start;
 
-    li {
+  li {
     margin: 0 2rem 0 0;
-    }
-
   }
+}
 
-  ul.taglist {
-    @include list-clear-style;
-    display: inline-block;
+ul.taglist {
+  @include list-clear-style;
+  display: inline-block;
 
-    li {
-    margin: 0 .25em .25em 0;
-    }
-
+  li {
+    margin: 0 0.25em 0.25em 0;
   }
+}
 
-  ul.medialist--tight {
-    @include list-clear-style;
+ul.medialist--tight {
+  @include list-clear-style;
 
-    li {
-      margin: .75rem 0 0 0;
-    }
+  li {
+    margin: 0.75rem 0 0 0;
   }
+}
 
-  ul.medialist--loose {
-    @include list-clear-style;
+ul.medialist--loose {
+  @include list-clear-style;
 
-    li {
-      margin: 1rem 0 0 0;
-    }
+  li {
+    margin: 1rem 0 0 0;
   }
-  
-  ul.longform {
-    list-style-type: square;
-    padding-bottom: .5rem;
+}
 
-    li {
-      margin:  0 0 1rem 0;
-    }
+ul.longform {
+  list-style-type: square;
+  padding-bottom: 0.5rem;
+
+  li {
+    margin: 0 0 1rem 0;
   }
+}
 
-  .direct-link {
-    text-decoration: none;
-    font-style: normal;
-    display:none;
-    margin-left: .1em;
-  }
+.direct-link {
+  text-decoration: none;
+  font-style: normal;
+  display: none;
+  margin-left: 0.1em;
+}
 
-  :hover > a[href].direct-link,
-  :hover > a[href].direct-link:visited {
-    display: inline-block;
-  }
+:hover > a[href].direct-link,
+:hover > a[href].direct-link:visited {
+  display: inline-block;
+}
 
-  a[href].direct-link:focus,
-  a[href].direct-link:focus:visited
-   {
-    outline: 2px solid $pink;
-    display: inline-block;
-  }
+a[href].direct-link:focus,
+a[href].direct-link:focus:visited {
+  outline: 2px solid $pink;
+  display: inline-block;
+}
 
-  //SYMBOLS
+//SYMBOLS
 
-  a.right-arrow:after {
-    content: "\2197";
-  }
+a.right-arrow:after {
+  content: "\2197";
+}
 
-  .shitpost {
-    background: $white;
-    border-radius: 1em;
-    margin: 0 0 2em;
-    padding: 1em 3em;
-  }
+.shitpost {
+  background: $white;
+  border-radius: 1em;
+  margin: 0 0 2em;
+  padding: 1em 3em;
+}
