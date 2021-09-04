@@ -1,6 +1,6 @@
 ---
 title: "Why'd you park like such an a-hole?: Inviting curiosity, context into engineering, our lives"
-description: We rarely have enough context to know why decisions were made (in parking and engineering), so why do we make so many assumptions and judge upon them?
+description: Rarely the context to warrant the critique—in parking and engineering so why the judgement?
 summary: Being more curious and less critical in engineering
 date: 2021-09-03 17:50:33
 tags:
@@ -19,7 +19,7 @@ If you're even-tempered, you drove around the block and found another spot. If y
 
 Cursed as a deeply analytical person, whenever I encounter a bad park job, my first question is, "why _would_ they have parked that way?" I try to ask it without as much snark as possible (I have my days, still).
 
-It's very to assume that that person actively chose to park like an a-hole and decided to ruin a few other people's day for shits and giggles.
+It's very easy for us to assume that that person actively chose to park like an a-hole and decided to ruin a few other people's day for shits and giggles.
 
 Most of the time we'll never know. Equally likely to assume stranger sociopathy, we can write a more likely story, too: They didn't _choose_ to park that way. Relatably: Intent does not erase impact, even in parking. So yeah, they probably didn't actively seek to ruin your life in this minor way, but instead, did it unaware, thinking about the global pandemic, in a rush, or even equally likely, they _inherited_ that spot.
 
