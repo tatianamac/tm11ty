@@ -2,7 +2,7 @@
 title: "Why'd you park like such an a-hole?: Inviting curiosity, context into engineering, our lives"
 description: We rarely have enough context to know why decisions were made (in parking and engineering), so why do we make so many assumptions and judge upon them?
 summary: Being more curious and less critical in engineering
-date: 2021-03-18 12:56:13
+date: 2021-09-03 17:50:33
 tags:
   - featured
   - culture
@@ -12,8 +12,6 @@ bgColor: white
 navClass: bg-white
 colorMode: dark
 ---
-
-> I recognise that my `pre` code needs a lot of work, so the code samples are difficult to read and ugly right now. I plan to update that code. Apologies in the meantime; hopefully the message is still understandable!
 
 If you drive and have had to parallel park, you might have encountered a situation where you _could have_ parked somewhere if that Prius just had _pulled up a bit_ or split the difference _better_.
 
