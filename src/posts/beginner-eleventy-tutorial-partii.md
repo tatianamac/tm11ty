@@ -135,7 +135,7 @@ You probably already use a browser regularly. In fact, I would be willing to bet
 
 While we should all test our sites across multiple browsers, I think most of us will conduct the majority of our build within the browser we feel most comfortable with initially. To me, the choice of what main browser to use to do the majority of my development comes down to what the audience is most likely to use (this is one of many areas where user research is critical!). If no compelling user-driven decision exists here, like if it's for my personal site, where I don't collect user data, it typically comes down to the Developer Tools and Extensions I care most about.
 
-Personally, I use Firefox equipped with DuckDuckGo as my search engine for most of my browsing (because security and privacy are very important to me for personal browsing), but I recognise that's a small user share. I sometimes use Firefox Nightly so I can take advantage of cutting-edge features. (Firefox Nightly is not stable, though, so it's only used for this purpose). I develop primarily in Firefox and Chrome. (I prefer Firefox's DevTools and Chrome performance tooling [Lighthouse]. Play around with the Developer Tools of multiple browsers. See which one's interface makes the most sense to you.
+Personally, I use Firefox equipped with DuckDuckGo as my search engine for most of my browsing (because security and privacy are very important to me for personal browsing), but I recognise that's a small user share. I sometimes use Firefox Nightly so I can take advantage of cutting-edge features. (Firefox Nightly is not stable, though, so it's only used for this purpose). I develop primarily in Firefox and Chrome. (I prefer Firefox's DevTools and Chrome performance tooling [Lighthouse]). Play around with the Developer Tools of multiple browsers. See which one's interface makes the most sense to you.
 
 **Examples**: **Desktop**: Brave, Google Chrome, Microsoft Edge, Mozilla Firefox, Apple Safari, UCBrowser, etc. **Mobile** Google Chrome, Opera, Opera Mini, Apple Safari, Samsung Internet.
 
@@ -143,9 +143,9 @@ Personally, I use Firefox equipped with DuckDuckGo as my search engine for most 
 
 Git is an open-source, free distributed version control system. Git enables you to take snapshots of your code, so that if you break it, you can revert to when your code was functioning. It's like the Delorean for code. It also allows you to share your code for collaboration, for multiple people to work on the same code without saving over each other’s work. It also allows for you to share your work, for someone else to download a copy, and to play around with it.
 
-When you think of Git, you might think of BitBucket, GitHub, or GitLab. Technically, all those products offer **Git hosting as a service;** providing storage to the code somewhere where many people can access—this is the underpinnings of what it means for the version controlling to be distributed. Git hosts also often provide a whole _host_ of other benefits, like helper tools (a desktop GUI or web interface that visualises what’s happening in the command line, for instance), allow you to create profiles, and find new projects and collaborators.
+When you think of Git, you might think of BitBucket, GitHub, or GitLab. Technically, all those products offer **Git hosting as a service;** providing storage to the code somewhere where many people can access—this is the underpinnings of what it means for the version controlling to be distributed. Git hosts also often provide a whole _slew_ of other benefits, like helper tools (a desktop GUI or web interface that visualises what’s happening in the command line, for instance), allow you to create profiles, and find new projects and collaborators.
 
-Git can be accessed from a emulator, a desktop GUI, a web app, and is integrated into some code editors/IDEs (and a combination of four three). Most developers primarily rely on accessing it through their terminal emulator, as GUIs can be limiting (and not all Git hosts offer them), but I highly recommend you try them all and see what works best for you.
+Git can be accessed from an emulator, a desktop GUI, a web app, and is integrated into some code editors/IDEs (and a combination of all four). Most developers primarily rely on accessing it through their terminal emulator, as GUIs can be limiting (and not all Git hosts offer them), but I highly recommend you try them all and see what works best for you.
 
 Git is without a doubt one of the most intimidating parts of being a developer. For visual folks, it can be hard to understand what is going on under the hood. Git commands are sometimes obtuse. Working on massive code bases with large teams can exacerbate these fears.
 
@@ -169,9 +169,9 @@ The last step is installing Eleventy.
 
 1. In your terminal emulator, run `pwd` (present working directory) (if that doesn’t work for you, try `cd`) to figure out where you are. Once you are where you think you need to be, run `ls` (shortened form of “list”) to _list_ out all the items in the folder you are in (or `dir` for Windows).
 1. Navigate to the folder you want (use `cd` to go into a folder; use `cd ..` to back out of a folder). (Note that depending on your operating system, the back slashes (\\) could be forward slashes instead (/).
-1. Once you are in the folder you want to house your project, run `mkdir \eleventy-project-name\`. (You can call your `eleventy-project-name` whatever you want. It’s not permanent, and we can change it later.) `mkdir` creates a new directory with that name.
-1. Navigate into that folder using `cd \eleventy-project-name\`
-1. Run `npm init -y`. This command creates what's called a `package.json` file; they are like a recipe of all the ingredients (or packages) used from npm. `Package.json` files can also keep track of other on-going tasks that your project needs. When someone clones your project, the `package.json` file tells npm all of the packages that are necessary to make that project run. The `init` initialises npm. The `-y` here is saying "yes" to all the questions that `npm` asks, and sets them to defaults.
+1. Once you are in the folder you want to house your project, run `mkdir eleventy-project-name`. (You can call your `eleventy-project-name` whatever you want. It’s not permanent, and we can change it later.) `mkdir` creates a new directory with that name.
+1. Navigate into that folder using `cd eleventy-project-name`
+1. Run `npm init -y`. This command creates what's called a `package.json` file; they are like a recipe of all the ingredients (or packages) used from npm. `package.json` files can also keep track of other on-going tasks that your project needs. When someone clones your project, the `package.json` file tells npm all of the packages that are necessary to make that project run. The `init` initialises npm. The `-y` here is saying "yes" to all the questions that `npm` asks, and sets them to defaults.
 
 The command line should return a confirmation that starts with "Wrote to [directory]/package.json: ...more code".
 
@@ -182,13 +182,13 @@ The command line should return a confirmation that starts with "Wrote to [direct
 Unpacking that further:
 `devDependencies` are what are required to _develop_ your package and are installed automatically when someone downloads your package. `Dependencies` are what is required to _run_ the project, so for example, a user of a package needs its `dependencies`, but not necessarily its `devDependencies`. Your `package.json` is what keeps track of all these packages you use.
 
-The `--save-dev` command is what tells the command line to store this into your devDependencies in your package.json file. The two dashes that precede the words `save-dev` command into a flag. So, when someone says “add a `save-dev` flag,” this is what they’re referring to.
+The `--save-dev` command is what tells the command line to store this into your devDependencies in your package.json file. The two dashes that precede the words `save-dev` make a command into a flag. So, when someone says “add a `save-dev` flag,” this is what they’re referring to.
 
 While you read all that, you may notice that npm is still running. You should see a sort of progress bar to let you know how much more it has to go. You may see a series of warnings about things that have been deprecated. For now, you can ignore all that. (Most developers continue to ignore all that.)
 
 > Whenever you see a `-g` flag appended to an npm command, that means that it’s going to be installed globally. The upside is you’re only going to install it once, but you might run into issues down the line. Most folks work locally, as it prevents what are called “interoperability” issues. For example, you might encounter a project that is running on an older version of Eleventy than the global one you have installed, which will cause infuriating errors. Therefore, it’s best to treat each project independently. You might notice that most devs prefer to install things locally for this reason.
 
-1. To check that Eleventy installed properly, run `npx @11ty/eleventy`.
+2. To check that Eleventy installed properly, run `npx @11ty/eleventy`.
 
 `npx` is a helper tool for `npm`. If you were to run `npm @11ty/eleventy`, it would not work. The reason for this is a bit complex (Kat Marchán, who authored `npx`, [explains npx in this Medium article](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b).), The general reason is that `npx` will check your global folder to see if the package you want to install already exists. If it doesn’t, it will go ahead and download that package locally and run it for you, which saves a few steps and prevents you from future headaches. (Read more about why local installations are preferred above.)
 
@@ -198,7 +198,7 @@ Wrote `0 files in 0.03 seconds (v.0.11.0)`.
 
 Because you haven’t written any files yet, it makes sense that there are 0 files to write. The `v…` indicates what version of Eleventy you are running. At time of writing, it is `v.0.11.0`
 
-1. Now, we are going to create an index.html page so you can see Eleventy in action
+3. Now, we are going to create an index.html page so you can see Eleventy in action
 
 Run `echo 'You are officially a developer!' > index.html`
 
