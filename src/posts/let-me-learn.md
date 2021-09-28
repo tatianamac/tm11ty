@@ -37,7 +37,7 @@ I read fast and I retain what I read. This is my comfort zone and my learning st
 
 Unfortunately, so many of our tutorials (and media in general) only comes in one form. When our teachings are only provided in one media, in one language, in one _form_, it is inherently inaccessible to some subset of our students.
 
-I imagine most of us teach to provide opportunities and access. Creating access requires us yo provide more than one ways to take in our content. I've broken down each base medium with some of its benefits, tips, and opportunities to make your content more accessible.
+I imagine most of us teach to provide opportunities and access. Creating access requires us to provide more than one way to take in our content. I've broken down each base medium with some of its benefits, tips, and opportunities to make your content more accessible.
 
 ## Long-form written content
 
@@ -64,7 +64,7 @@ I imagine most of us teach to provide opportunities and access. Creating access 
 - **Build in a way for people to translate your posts.**
   Many people have generously offered to translate my writing into languages cooler than English and I always want to take them up on it. I don't currently have a great mechanism on my site to share them. Don't be like me. Build in a language feature!
 
-  (While people can rely on automated translations services, ther eis something much better about having a human interpret your post into another language. I also love the community building feels. Google Translate is mostly just rude to me.)
+  (While people can rely on automated translations services, there is something much better about having a human interpret your post into another language. I also love the community building feels. Google Translate is mostly just rude to me.)
 
 ## Video content
 
@@ -90,7 +90,7 @@ I imagine most of us teach to provide opportunities and access. Creating access 
 
 - **Transcripts** allows people who prefer reading/not able to watch a video to read/skim all the content. Transcripts are also more translatable and searchable and lightweight. If someone can't load your massive video due to a slow connection, they can still benefit.
 
-- **Videos, tutorials and talks, can be converted into engaging long-form written content** beyond just a transcript. Something Ethan Marcotte does that I really admire (well, perhaps second to his impressive meme database) is that he translates his talks into webpages (see [The World-Wide Work](https://ethanmarcotte.com/wrote/the-world-wide-work/).
+- **Videos, tutorials and talks, can be converted into engaging long-form written content** beyond just a transcript. Something Ethan Marcotte does that I really admire (well, perhaps second to his impressive meme database) is that he translates his talks into webpages (see [The World-Wide Work](https://ethanmarcotte.com/wrote/the-world-wide-work/)).
 
 Note that I didn't break out audio into its own separate category. Much of the principles above apply for audio (such as transcripts, preventing audio play, etc).
 
