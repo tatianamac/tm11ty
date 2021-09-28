@@ -88,7 +88,7 @@ To check if you already have node on your machine, run the following command in 
 
 > You may have noticed that sometimes flags have one hyphen and other times they have two. One hyphen flags (`-v`) are the short-name version of the command, and two-hyphen flags (`--version`) are the long-name version of the command. I find that when I'm starting out, I like to write out the long-name/two-hyphen version so I can talk myself through what I'm doing.
 
-If it returns `v` followed by numbers, something like `v12.13.1`, that means you have Node installed. Eleventy requires any version of Node newer than 8, so if you've got that, you're set! Woohoo!
+If it returns `v` followed by numbers, something like `v12.13.1`, that means you have Node installed. Eleventy requires any version of Node newer than 10 (at time of writing, please check [Eleventy Docs](https://www.11ty.dev/docs/getting-started/) to confirm), so if you've got that, you're set! Woohoo!
 
 If you get anything other than that, that means that you either don't have it on your computer and will need to install it or need to update it.
 
