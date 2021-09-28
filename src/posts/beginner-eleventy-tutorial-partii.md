@@ -88,7 +88,7 @@ To check if you already have node on your machine, run the following command in 
 
 > You may have noticed that sometimes flags have one hyphen and other times they have two. One hyphen flags (`-v`) are the short-name version of the command, and two-hyphen flags (`--version`) are the long-name version of the command. I find that when I'm starting out, I like to write out the long-name/two-hyphen version so I can talk myself through what I'm doing.
 
-If it returns `v` followed by numbers, something like `v12.13.1`, that means you have Node installed. Eleventy requires any version of Node newer than 8, so if you've got that, you're set! Woohoo!
+If it returns `v` followed by numbers, something like `v12.13.1`, that means you have Node installed. Eleventy requires any version of Node newer than 10 (at time of writing, please check [Eleventy Docs](https://www.11ty.dev/docs/getting-started/) to confirm), so if you've got that, you're set! Woohoo!
 
 If you get anything other than that, that means that you either don't have it on your computer and will need to install it or need to update it.
 
@@ -182,7 +182,7 @@ The command line should return a confirmation that starts with "Wrote to [direct
 Unpacking that further:
 `devDependencies` are what are required to _develop_ your package and are installed automatically when someone downloads your package. `Dependencies` are what is required to _run_ the project, so for example, a user of a package needs its `dependencies`, but not necessarily its `devDependencies`. Your `package.json` is what keeps track of all these packages you use.
 
-The `--save-dev` command is what tells the command line to store this into your devDependencies in your package.json file. The two dashes that precede the words `save-dev` make a command into a flag. So, when someone says “add a `save-dev` flag,” this is what they’re referring to.
+The `--save-dev` command is what tells the command line to store this into your devDependencies in your package.json file. The two dashes that precede the words `save-dev` make the command a flag. So, when someone says “add a `save-dev` flag,” this is likely what they mean. Flags are essentially arguments that add extra conditions to the initial command.
 
 While you read all that, you may notice that npm is still running. You should see a sort of progress bar to let you know how much more it has to go. You may see a series of warnings about things that have been deprecated. For now, you can ignore all that. (Most developers continue to ignore all that.)
 
