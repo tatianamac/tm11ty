@@ -4,7 +4,7 @@
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="description" content="{{ renderData.description or description or metadata.description }}">
     <meta property="og:title" content="{{ title or renderData.title or metadata.title }}"/>
-    <meta property="og:url" content="{{ canonical | }}" />
+    <meta property="og:url" content="{{ canonical }}" />
     <meta property="og:description" content="{{ renderData.description or description or metadata.description }}" />
     <meta property="og:image" content="https://www.tatianamac.com/assets/img/social-card.jpg" />
     <meta property="og:type" content="website">
