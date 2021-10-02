@@ -1,12 +1,13 @@
 ---
 title: Cat's dead
-date: '2019-11-19'
+date: "2019-11-19"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/cats-dead
 ---
 
 I must open

@@ -1,12 +1,13 @@
 ---
-title: 'Over'
-date: '2019-05-23'
+title: "Over"
+date: "2019-05-23"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/over
 ---
 
 Curiosity over contempt.

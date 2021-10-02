@@ -1,12 +1,13 @@
 ---
 title: Though
-date: '2019-12-19'
+date: "2019-12-19"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/ill-go
 ---
 
 Called crushes

@@ -1,12 +1,13 @@
 ---
 title: When, next
-date: '2020-03-22'
+date: "2020-03-22"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/when-next
 ---
 
 Stand at a coffee bar

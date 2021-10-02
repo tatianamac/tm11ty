@@ -1,12 +1,13 @@
 ---
-title: 'Our SVP'
-date: '2019-12-17'
+title: "Our SVP"
+date: "2019-12-17"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/our-svg
 ---
 
 Neither an intent

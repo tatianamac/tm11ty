@@ -1,12 +1,13 @@
 ---
-title: 'Ally’s Cry'
-date: '2020-02-19'
+title: "Ally’s Cry"
+date: "2020-02-19"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/ally-cry
 ---
 
 Treat my heart like glass
