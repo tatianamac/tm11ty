@@ -9,12 +9,14 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/checkmate
 ---
+
 I have been unemployed since September 2017. I don't call it that, you see, because it would worry my mom and I weirdly feel guilty about filing for unemployment, even though I fit the criteria.
 
 And while I am technically unemployed, I have managed to work a lot. I've contributed to open source projects, launched two of my own, and become a sponsored developer. I have helped massive Fortune 100 companies make more money, by improving and building upon their design systems and by concepting coherent campaigns from abstract technical concepts. Basically I can show you the stuff I don't get paid for, and can't show you the stuff I did. Neither can my bank account.
 
-I've applied for hundreds of jobs, interviewed at dozens of companies, and shortlisted for onsites at all your favourite darlings in the Bay. I've been rejected for all your "Formerly @company" before you launched your own, which you won't interview me for because you haven't hit your quota of first-five white dudes with four-letter names. I want to be sorry about that sarcastic and sardonic soliloquy.  But is it still sarcasm when you follow through?
+I've applied for hundreds of jobs, interviewed at dozens of companies, and shortlisted for onsites at all your favourite darlings in the Bay. I've been rejected for all your "Formerly @company" before you launched your own, which you won't interview me for because you haven't hit your quota of first-five white dudes with four-letter names. I want to be sorry about that sarcastic and sardonic soliloquy. But is it still sarcasm when you follow through?
 
 I told you your interview process was abusive, and yet, you responded with requests for me to interview. While I love a well-crafted irony, I'm afraid that I must break the fourth wall to tell you that I'm officially no longer starting new interviews anymore. Not for roles, at least. I love being on podcasts, though, so I can work on perfecting my nuanced pronunciations, rasps.
 

@@ -10,7 +10,9 @@ layout: layouts/post.njk
 bgColor: blush-pink
 navClass: bg-blush-pink
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/dd-hubris-isnt-helpful
 ---
+
 (Adapted from [a Twitter thread I wrote](https://twitter.com/TatianaTMac/status/1251741880775139329?s=20) )
 
 Dear Developer Foo,
@@ -43,23 +45,23 @@ So, when some dude who works at one company is throwing rocks about something he
 
 I'd like to remind everyone here is that we have an accessibility and performance problem at large. The problem with this method is that we've centred the egos of Developers Foo and Bar (one peacocking and one on the defence), when we should be talking about how this impacts the real lives of people who are actual victims of poorly-conceived and -maintained technology.
 
-People oppressed by the failures of accessibility and performance—disabled people, systemically poor people, those not centred in Western civ—**have a right to be mad for how we have failed them.** They don’t need to sugar coat what they say to make us feel better. Yet! When  these minoritised and underserved people speak truth to power, they get extreme vitriol, hate, and death threats for sharing their lived experiences.
+People oppressed by the failures of accessibility and performance—disabled people, systemically poor people, those not centred in Western civ—**have a right to be mad for how we have failed them.** They don’t need to sugar coat what they say to make us feel better. Yet! When these minoritised and underserved people speak truth to power, they get extreme vitriol, hate, and death threats for sharing their lived experiences.
 
 They are told to be nicer about their pain, to find gentler ways to not rattle majoritised fragility. To educate.
 
 That is where we, with our tech privileges, must come in.
 
-As stewards of accessibility and performance, we must be aware of our own privileges and possess the patience to educate each other. We are often *also* on high-end devices and high-speed internet and let's be honest, not really affected by poor performance. So, to lash out in outrage when we aren't even the ones this affects most, is a little disingenuous.
+As stewards of accessibility and performance, we must be aware of our own privileges and possess the patience to educate each other. We are often _also_ on high-end devices and high-speed internet and let's be honest, not really affected by poor performance. So, to lash out in outrage when we aren't even the ones this affects most, is a little disingenuous.
 
 Don't get me wrong. It is absolutely annoying AF to continue to have to tell people the same five basic principles of accessibility over and over—that really, the majority of accessibility problems could be fixed by changing a few colours and writing alt text. On the performance side, learning the differences between preload and prefetch and being more mindful of when we use what packages when, and doing a bit of code splitting, we can make our sites far more accessible to far more people and deplete fewer environmental resources.
 
-But my dudes, if this annoys you, imagine how *annoying* it is to constantly be misgendered or to not be able to access your healthcare information when you're dying or that you're child has been stripped away from you using tracking technology.
+But my dudes, if this annoys you, imagine how _annoying_ it is to constantly be misgendered or to not be able to access your healthcare information when you're dying or that you're child has been stripped away from you using tracking technology.
 
-I'm not saying you don't get to be mad, but in this case, it's not your mad to carry. When you make it about your mad, you're centring your own ego over the valid stories of people who are actually hurt by the technology we *all* make.
+I'm not saying you don't get to be mad, but in this case, it's not your mad to carry. When you make it about your mad, you're centring your own ego over the valid stories of people who are actually hurt by the technology we _all_ make.
 
 ## Attacks are less effective than invitations
 
-We *all* have a responsibility to do more where we have the most systemic privilege. For those of us at these Big Tech companies, that means fighting for these principles within our own products. As I mentioned before, every tech company that all these techbros work for creates some majorly problematic tech. So getting into a Twitter war about who is worse is pretty futile.
+We _all_ have a responsibility to do more where we have the most systemic privilege. For those of us at these Big Tech companies, that means fighting for these principles within our own products. As I mentioned before, every tech company that all these techbros work for creates some majorly problematic tech. So getting into a Twitter war about who is worse is pretty futile.
 
 We must be the ones who have patience to invite each other to do better. It's not fair to ask for patience from people who are systemically at the bottom of every list, who don't have their basic needs met. But from each other? From our glass houses in Silicon Valley? Absolutely.
 
@@ -71,7 +73,7 @@ What we need to do is to invite people to do better. Praise people when they do 
 
 ## Corporations are not people, but the people who work for them are
 
-Often when I see the people who take dunks, they are often the most fragile when others have taken dunks on them. Weird how that works, right? It's almost though *none of us* likes our work to get attacked by somebody, particularly somebody who works somewhere where Problematic Shit Goes Down.
+Often when I see the people who take dunks, they are often the most fragile when others have taken dunks on them. Weird how that works, right? It's almost though _none of us_ likes our work to get attacked by somebody, particularly somebody who works somewhere where Problematic Shit Goes Down.
 
 If you are out here in tech and somehow are standing up for the integrity of your corporation, I want to remind you that your corporation is not your family. Corporations are empty shells used to exploit people. In capitalism, companies are generally going to be maleficent. Why? Because success in capitalism means more money (for an elite few at the top, generally people that hate anything justice-orientated as that means the degradation of their limitless wealth and power). So, if someone attacks a company for its policies, maybe don't get butt-hurt over that. Because that company doesn't have feelings. And it only helps to perpetuate this idea that companies "make decisions." They don't. A few select powerful men named Jeff, Mark, Jack and other Four Letter White Guys do.
 

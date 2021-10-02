@@ -11,6 +11,7 @@ tags:
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/let-me-learn
 ---
 
 Hyperaware of how annoying it is when you want a recipe and have to read a 20-paragraph story about someone's great gran (and feeling bad you don't care), I have provided a [skip link](#the-one-format-problem) if you don't care about my back story to this post.

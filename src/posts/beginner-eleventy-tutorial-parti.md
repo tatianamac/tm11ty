@@ -12,6 +12,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/beginner-eleventy-tutorial-parti
 ---
 
 ## Intro to the Series

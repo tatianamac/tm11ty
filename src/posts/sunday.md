@@ -8,6 +8,7 @@ tags:
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/sunday
 ---
 
 On the surface, today was a good day. I usually tend to all my plants on Sunday; it’s a ritual I look forward to. It’s finally spring so I can fertilise and up-pot. A good friend and I usually get our nails done every couple of months on Sunday.

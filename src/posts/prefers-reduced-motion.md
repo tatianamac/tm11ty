@@ -13,6 +13,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/prefers-reduced-motion
 ---
 
 > I recognise that my `pre` code needs a lot of work, so the code samples are difficult to read and ugly right now. I plan to update that code. Apologies in the meantime; hopefully the message is still understandable!

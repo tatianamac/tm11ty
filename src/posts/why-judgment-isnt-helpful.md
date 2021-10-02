@@ -10,6 +10,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/why-judgment-isnt-helpful
 ---
 
 This week, I saw a lot of judgment over people joining Facebook's team. In case you missed it, Facebook [subverts democracy](https://www.theatlantic.com/technology/archive/2017/10/what-facebook-did/542502/), [mistreats its human moderators](https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona), and if those aren't enough, there is an entire [Wikipedia page dedicated to the harm it conducts](https://en.wikipedia.org/wiki/Criticism_of_Facebook).

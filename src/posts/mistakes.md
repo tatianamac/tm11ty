@@ -10,6 +10,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/mistakes
 ---
 
 To be effective accomplices, we need to move beyond the state of feeling into the state of doing.
