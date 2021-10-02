@@ -9,7 +9,9 @@ bgColor: white
 navClass: bg-white
 colorMode: dark
 summary: This week changed my life. I left this week without more than 1-2 hours of sleep a night, a voided career future, and far fewer friends. I feel tired in an existential way. It's like someone forgot to plug in my soul for three weeks, but I'm still forced to exist.
+canonical: https://www.tatianamac.com/posts/friends
 ---
+
 This week changed my life. I left this week without more than 1-2 hours of sleep a night, a voided career future, and far fewer friends. I feel tired in an existential way. It's like someone forgot to plug in my soul for three weeks, but I'm still forced to exist. I don't know how I'm going to deliver two more conference talks this week, but I know I will. Because if I got one thing out of this week, it's a strong sense of trust in self—that what doesn't kill me (makes me stronger).
 
 Being me this week felt approximately like walking through hundreds of people who each had different coloured forks and the only thing they could agree on is that they would stab me if I did something they didn't like. Except forks are words and people don't believe the scars. When you're walking through rows and rows of being forked (poor repos) you just want to get through it. And that's all I wanted. I wanted to get through this week with a modicum of my sense of self.
@@ -30,6 +32,6 @@ I don't expect any kindness at this level like this from people anymore. Of cour
 
 And I think that I'm most upset at myself for not seeing warning signs that friendships were no longer working for me. And as much as I want to stand firm by my ethos, that part of my existence resistance is _tired_ after a week like this. I'm weak and grieving the loss of people who I cared for immensely. It's hard to say goodbye to all the good. But I have to. I cannot stand by people who don't believe my lived experiences, who actively gaslight my feelings, and who choose nice people who will maintain civil status quo. And the most fucked up part is that I feel some remorse for not having taught them better. Even though that's not my fucking job. You're not my friends, not my social justice students. And besides, you don't even want to learn. Teach you once, fool on you. Teach you twice, fool on me.
 
-And during this grieving, I'm learning to (very carefully, cautiously) celebrate the birth of new ones. I'm so, so, so  grateful for people who have—through actions—proven to me that they will Show Up and that in doing so, I can still be my authentic self in **all spaces** and be completely serious and silly and allow this fiercely independent girl to let someone help her, even if it's just getting water, picking food,  carrying her bags, or just making her feel safe to cry for a minute.
+And during this grieving, I'm learning to (very carefully, cautiously) celebrate the birth of new ones. I'm so, so, so grateful for people who have—through actions—proven to me that they will Show Up and that in doing so, I can still be my authentic self in **all spaces** and be completely serious and silly and allow this fiercely independent girl to let someone help her, even if it's just getting water, picking food, carrying her bags, or just making her feel safe to cry for a minute.
 
 I wasn't sure I was going to be able to finish this week. I mean that in the way I mean it. And that African proverb really is true: If you want to go fast, go alone. If you want to go far, go together. I didn't have a choice, it seemed before this week, to go together. At least now I do.

@@ -4,10 +4,11 @@ description: Tips for efficiency and happiness
 summary: Balancing my email time for me is an exercise in automating the right things, while maintaining the humanness of communications.
 date: 2019-04-29
 tags:
-- tips
+  - tips
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/monday-comms-tips
 ---
 
 I spent a lot of time in my inbox&mdash;I imagine many of you can relate. Over the years, I've gathered some helpful communication tips that I found improved my efficiency and happiness. Balancing my email time for me is an exercise in automating the right things, while maintaining the humanness of communications.
@@ -35,12 +36,12 @@ I spent a lot of time in my inbox&mdash;I imagine many of you can relate. Over t
 - Provide context (websites/LinkedIn) and personal connection to encourage they do a bit of research and a clear reason you intro'd them.
 
 - Move the introducer to bcc: (with a note). Saves their inbox and lets them know you responded. As the introducer, remind folks "You can move me to bcc: when you respond.
-Include your pronouns when introducing yourself. "Nice to meet you all. I'm Tatiana (I use she/they pronouns)." Set a precedence.
+  Include your pronouns when introducing yourself. "Nice to meet you all. I'm Tatiana (I use she/they pronouns)." Set a precedence.
 
 ## Scheduling
 
 - Offer times early in an email thread that will end there. I find that preemptively offering times avoids the empty back and forth of "when are you available?"
-- *Include timezones.* Use a tool like Spacetime to help you find amenable times without tying your brain into a knot.
+- _Include timezones._ Use a tool like Spacetime to help you find amenable times without tying your brain into a knot.
 
 - To confirm a time, send a calendar invite. (I also frame language in earlier comms, so it's not an unexpected invite, which is jarring. Include time zones and make sure your calendar time zone is set.
 
@@ -54,7 +55,7 @@ Include your pronouns when introducing yourself. "Nice to meet you all. I'm Tati
 
 - Before asking a question, see if you can find it somewhere else, then confirm. For example, if you're about to ask someone their Twitter handle, try to do a preliminary search first.
 
-- *Protect your expertise.* Many people will reach out to ask for free advice and not immediately offer budget, even when they have it. I am always here to support mentorship and provide free advice to community members, especially newer and underrepresented folks. However, where I draw the line if if someone is making money off of my expertise. Phrasing I've found success with is, "I'm so flattered by this request! While I am happy to offer help to not-for-profit, community-focused events, I do ask for a fee when working with for-profit organisations like yours. The fee is..."
+- _Protect your expertise._ Many people will reach out to ask for free advice and not immediately offer budget, even when they have it. I am always here to support mentorship and provide free advice to community members, especially newer and underrepresented folks. However, where I draw the line if if someone is making money off of my expertise. Phrasing I've found success with is, "I'm so flattered by this request! While I am happy to offer help to not-for-profit, community-focused events, I do ask for a fee when working with for-profit organisations like yours. The fee is..."
 
 - Maintain a spreadsheet with all your speaking events, with dates, honoraria, speaker bios, talk abstracts, and slide links. I promise it'll come in handy.
 

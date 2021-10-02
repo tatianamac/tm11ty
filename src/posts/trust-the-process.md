@@ -4,11 +4,13 @@ description: How to present your best, when you’re at your worst
 summary: I think we can forget what we are capable of and what we deserve when we’re sad. We end up dodging failure instead of reaching for radical success.
 date: 2019-02-05
 tags:
- - Dear-Developer
+  - Dear-Developer
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/trust-the-process
 ---
+
 Between the forced interactions, uncertainty, and pressure placed upon success (often our health depends upon successfully acquiring a job), job hunting is a veritable hotbed for anxiety and depression.
 
 I think it’s safe to say that many of us enter the job hunt during difficult times, where we’re not presenting our best selves. The circumstances for our current employment/unemployment, like recent termination or forced resignation or feeling stuck in a job we hate, might contribute.
@@ -22,7 +24,8 @@ So what do we do? As someone who has continually suffered from severe anxiety, d
 At this juncture, I want to acknowledge that this process is. not. easy. It is perfectly normal to have “productive, good days,” and to have “wasted, bad days.” Or weeks. Or months. You are worth more than the sum of your productivity. As with coping and surviving depression, the process is far from linear.
 
 The secret is that you have to T.R.U.S.T. the process.
-## [T]ry not to compare yourself to anyone, except your past and future selves.
+
+## [T]ry not to compare yourself to anyone, except your past and future selves
 
 It is very easy to fall into a trap where you’re six pages deep into Dribbble for portfolio inspiration, instead wondering why your UIs aren’t as crisp, illustrations not as dynamic, and animations not as clever as everybody else’s.
 
@@ -42,7 +45,7 @@ Now as for comparing yourself to your future self, without turning this into a C
 
 Start now with your present self. Respect exactly where you are, here, right now. Accept this self in all of its imperfections. Because for every imperfection you’re accepting, you’re also accepting a whole host of accomplishments and battle wounds that are worth celebration.
 
-## [R]elinquish control.
+## [R]elinquish control
 
 For those who love control, this is a difficult one. I find that a part of what causes me to feel depressed is that I feel out of control of everything (financial wellbeing, freedom, etc), so I seek to control everything at once (at which I inevitably fail). The dichotomy causes me to feel in control of absolutely nothing.
 
@@ -56,7 +59,7 @@ Most importantly, you do not have control over the outcome. The outcome is the r
 
 The lack of control can feel unnerving. When I feel unsettled by it, I remind myself that relinquishing control also means relinquishing blame and guilt. It’s not my fault if I don’t get the job. It’s okay that that interview didn’t go perfectly. (I want to note here that I’m not suggesting that we can relieve of ourselves of all responsibility for our actions. When we’re feeling more stable, we can again reframe this in a more proactive way, but when we’re not as well, I find it helpful to focus on gentler approaches like this.)
 
-## [U]nderstand that you cannot singularly change systemic problems.
+## [U]nderstand that you cannot singularly change systemic problems
 
 Deep breath. I really struggle with this one. The complexity of job hunting as a woman of colour in tech is worthy of its own post, as it is for disabled, trans, and queer folks.
 
@@ -70,7 +73,7 @@ Instead heed the direction of airplane oxygen masks: Help yourself first.
 
 Trust me when I say that we all understand. Your fight for social justice, while very noble, requires first for you to be alive and well to do so. Do what you need to do to survive.
 
-## [S]ee yourself from your cheering section.
+## [S]ee yourself from your cheering section
 
 The repeated rejection inherent to job searches can do numbers on even the most stable of egos. Worthlessness, waning confidence, and uncertainty are already part of a packaged deal with depression. The self you see in the mirror, a shell of yourself, is probably not the visage you want to project to prospective employers.
 
@@ -89,7 +92,7 @@ The cheering section is also the place from which you want to conduct all areas 
 
 I think we can forget what we are capable of and what we deserve when we’re sad. We end up dodging failure instead of reaching for radical success. Our peers and loved ones are there to remind us; to cast our best mirrored selves back.
 
-## [T]ake one step at a time.
+## [T]ake one step at a time
 
 When I consult with job hunters who are feeling depressed, I often remind them of this very simple advice. It’s one of my favourite mantras, as it works on a number of different levels.
 

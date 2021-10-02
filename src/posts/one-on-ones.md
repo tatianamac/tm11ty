@@ -8,7 +8,9 @@ tags:
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/one-on-ones
 ---
+
 The creative industry, and the creatives who inhabit it, have a wealth of resources at our disposal.
 
 Want to learn more about user behaviors? Thousands of blog posts by industry experts break down tested research around the smallest UI nuances. Not sure about the best way to texturize hair in Illustrator? There’s hundreds of YouTube videos on that. Widely available and affordable/Open Source design resources are one of the many great aspects of working and learning in this industry.
@@ -20,6 +22,7 @@ As creative leaders, we need to discuss the leadership aspects of our jobs more.
 I am by no means asserting that I am a single-handed expert on creative leadership. Through this series, however, I do hope I can put what I’m doing to start this conversations with my peers.
 
 ## One-on-ones
+
 One-on-ones (or 1:1s) were something new to me when I started agency life. For those not familiar: A one-on-one is a standing meeting (typically weekly) for two people to regularly connect.
 
 One-on-ones are intended to be regularly scheduled, closed-door conversations between managers and direct reports (but they can also extend to leadership or project peers). At their best, they provide a safe space to discuss goals, challenges, and feedback. At their worst, they can be viewed as a weekly rote update or worse, a standing calendar invite that does not happen at all.

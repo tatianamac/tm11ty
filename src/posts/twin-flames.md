@@ -9,7 +9,9 @@ layout: layouts/post.njk
 bgColor: blushpink
 navClass: bg-blushpink
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/twin-flames
 ---
+
 You flew onto the train with your bright blonde hair and even brighter blue eyes. The only free seat, it seemed, was the one next to me and I couldn’t thank fate more. You held me—engaged me—without the proposal—in a way I’d not ever know again until maybe now?
 
 And under other circumstances I should have and would have hated the way you arrived, disheveled, somewhat charmed that the entire class waited for you (as if we had a choice). It only took a few hours for my hate of your charm to be charmed by your love. When everyone else asked questions to posture, you asked questions to postulate. You breathed a life into my own city. It’s as though the brightness of your hair and eyes were a helpless explosion of the brightness within. Your mind and heart could not help but glow through the illumination of your head and the radiance of your gaze.
@@ -28,7 +30,7 @@ Fast forward: you were thousands of miles away from me, and I you, years of Face
 
 And now, over a decade later, I feel like we’ve found each other again. This round, your enthusiasm for politics and the environment manifests itself in other ways. But your inquisitive and gentle questions, your deeply addictive intensity, your enormously entropic heart, and your unspoken adoration carries itself anew. And the brightness; I wish I could turn down the brightness, so my eyes could adjust; so I could read you for longer.
 
-But I'm sure of little but I do know it’s not a relay, this time. In fact, I’m not sure we are running at all. 
+But I'm sure of little but I do know it’s not a relay, this time. In fact, I’m not sure we are running at all.
 
 And maybe because we aren’t running, it feels this time you are freer to express with words; I don’t find myself counting things unsaid and edited out in breaths.
 

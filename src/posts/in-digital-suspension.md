@@ -10,6 +10,7 @@ layout: layouts/post.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/in-digital-suspension
 ---
 
 ⚠️ **CW:** depression, COVID-19
@@ -18,13 +19,13 @@ As a kid, I remember admiring the Holodeck in Star Trek. I loved that Captain Ja
 
 The characters she interacted were complete. They had real backstories and made her feel things. So, while they themselves were complex algorithms of binary code, she herself was affected by them; by their actions, by the emotions they elicited, and by their stories.
 
-While as far as we know we have nothing close to the Holodeck, the global lockdown has got me thinking about what we validate as being *real.*
+While as far as we know we have nothing close to the Holodeck, the global lockdown has got me thinking about what we validate as being _real._
 
 The digital world, my friends, is all that many of us are lucky enough to have right now. Sure. I miss hugs, which I don't even particularly like from most people. I miss resting my head on someone's shoulder. I miss holding hands. I miss physical intimacy. All those physical things are irreplaceable. There's dozens of studies about how humans isolated become very sad (which is why solitary confinement is a particularly heinous corporal punishment). The effect of lack of physical connection is very real, let alone the emotional distance we're feeling as a result.
 
 "In the meantime" many of us are seeking to fill the voids left by not being able to go to the movies, birthday parties, and the gym by doing other equivalent things online. For those of us lucky enough, we're filling time by adapting and adjusting as we can.
 
-I think a lot of people think of what we're all going through as a temporary lockdown; an extended snow day; a pause from reality.  As a coping mechanism, we might remind ourselves of the light at the end of the tunnel—"when things go back to normal" or "when reality returns" we say.
+I think a lot of people think of what we're all going through as a temporary lockdown; an extended snow day; a pause from reality. As a coping mechanism, we might remind ourselves of the light at the end of the tunnel—"when things go back to normal" or "when reality returns" we say.
 
 What is, then, what we're experiencing now, connected by the tenuous threads of ones and zeros? Is it real?
 
@@ -40,9 +41,9 @@ The intent of that statement could be to lessen my worry, to remind me that Twit
 
 The impact of the statement is that it invalidated my sense of what is considered real. It reminds me that we've historically not thought of our experiences on the digital and online world to be real. It could explain a lot of why trolls feel comfortable creating throwaway accounts, but fear standing up for such vitriol face to face.
 
-All of these thoughts about whether what happens digitally is real especially strikes a chord with recently past me. I am an extremely online person who lives alone and primarily connects with friends digitally who (up until recently) worked primarily remotely from other timezones and continents on digital products. It strikes a chord with distant past me, who found solace and friendships through LiveJournal and MySpace that I did not find in the hallways and cafeterias of school, where classmates bullied me and didn't want to be my friend. With that single criterion of what constitutes as real, you could invalidate my entire existence. 
+All of these thoughts about whether what happens digitally is real especially strikes a chord with recently past me. I am an extremely online person who lives alone and primarily connects with friends digitally who (up until recently) worked primarily remotely from other timezones and continents on digital products. It strikes a chord with distant past me, who found solace and friendships through LiveJournal and MySpace that I did not find in the hallways and cafeterias of school, where classmates bullied me and didn't want to be my friend. With that single criterion of what constitutes as real, you could invalidate my entire existence.
 
-It leaves me curious: What *is* it about the proximity of our physical beings that quantifies it at a higher value? For certain there is an instinctual, critical lizard-brain need to touch and to be touched. But Descartes would tell us that beyond this physical meatspace, we are special mammals who have reason and experience life at a higher abstraction. Do we consider what we experience through and in the digital world to be **real**? Does what we've experienced have an impact on the reality we once knew, and the new, unknown reality we will inevitably have to learn?
+It leaves me curious: What _is_ it about the proximity of our physical beings that quantifies it at a higher value? For certain there is an instinctual, critical lizard-brain need to touch and to be touched. But Descartes would tell us that beyond this physical meatspace, we are special mammals who have reason and experience life at a higher abstraction. Do we consider what we experience through and in the digital world to be **real**? Does what we've experienced have an impact on the reality we once knew, and the new, unknown reality we will inevitably have to learn?
 
 I'm not sure.
 

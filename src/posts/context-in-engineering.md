@@ -11,6 +11,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/context-in-engineering
 ---
 
 If you drive and have had to parallel park, you might have encountered a situation where you _could have_ parked somewhere if that Prius just had _pulled up a bit_ or split the difference _better_.

@@ -9,12 +9,14 @@ layout: layouts/post.njk
 bgColor: pale-peach
 navClass: bg-pale-peach
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/dd-our-ugly-middles
 ---
+
 Dear Developer,
 
 I want you to hug your ugly middle.
 
-No, I wasn't insulting your body. I want you to embrace *the concept* of the Ugly Middle. You might know it. The Ugly Middle is that part after the high of the Shiny New Thing has worn off and before the excitement of The End hits.
+No, I wasn't insulting your body. I want you to embrace _the concept_ of the Ugly Middle. You might know it. The Ugly Middle is that part after the high of the Shiny New Thing has worn off and before the excitement of The End hits.
 
 In Corporate Work: The Ugly Middle is when the project is most likely to fail; where the aspirational criteria hit the reality of API limitations, when engineers have been pulled into too many directions, and when lofty and unclear leadership plans mean one too many pivots.
 
@@ -24,7 +26,7 @@ While The Ugly Middle is decidedly Not Fun, it can provide us with valuable less
 
 ## Completion is Arbitrary
 
-I think that chasing the high of completion is a fallable hunt. When is something really done? It shouldn't be, as it's likely that we've forgotten something. Usually, and unfortunately, that thing is probably accessibility- or performance-related (as evidenced by WebAim's [The Majestic Millions 2020](https://webaim.org/projects/million/) update, where things got *worse.* I mean, we knew 2020 sucked more than 2019—here's how we made websites suck too! 🙃).
+I think that chasing the high of completion is a fallable hunt. When is something really done? It shouldn't be, as it's likely that we've forgotten something. Usually, and unfortunately, that thing is probably accessibility- or performance-related (as evidenced by WebAim's [The Majestic Millions 2020](https://webaim.org/projects/million/) update, where things got _worse._ I mean, we knew 2020 sucked more than 2019—here's how we made websites suck too! 🙃).
 
 ## Perfection Kills Progress
 
@@ -65,6 +67,6 @@ I'm giving you permission, Developer, to launch your site when you know that the
 
 Most importantly, I'm giving you permission to be and to make enough, so long as you build in a mechanism for people to give you the feedback and for you to take the feedback seriously sans fragility.
 
-I ask, in return, that you give some grace to other people and their work. When you find something wrong or incomplete, provide space for context you don't have. Find ways to be *helpful* instead of *hurtful.* If you must get angry at something, get angry at infrastructures that make it harder for us all rather than at each other and find ways to dismantle those infrastructures. If you don't have energy to help, then simply step away. If you have the energy to call it out, then you have energy to do so helpfully. We are not burdened to fix everything, nor can we, nor should we try.
+I ask, in return, that you give some grace to other people and their work. When you find something wrong or incomplete, provide space for context you don't have. Find ways to be _helpful_ instead of _hurtful._ If you must get angry at something, get angry at infrastructures that make it harder for us all rather than at each other and find ways to dismantle those infrastructures. If you don't have energy to help, then simply step away. If you have the energy to call it out, then you have energy to do so helpfully. We are not burdened to fix everything, nor can we, nor should we try.
 
 Whether we admit it or not, we're all at our Ugly Middles—some day uglier than others—just trying to make it to the next commit, the next day, and the next challenge ahead.

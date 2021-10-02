@@ -1,17 +1,18 @@
 ---
 title: Cracked
 description: This is a post on My Blog about agile frameworks.
-summary:  But then it happens. The crack goes from its familiar shape to something far scarier, changing states from idle to aggressive. In that fractional moment, I remember why it's dangerous to drive with cracked windshields. It's dangerous because the crack never goes away. 
+summary: But then it happens. The crack goes from its familiar shape to something far scarier, changing states from idle to aggressive. In that fractional moment, I remember why it's dangerous to drive with cracked windshields. It's dangerous because the crack never goes away.
 date: 2019-04-17
 tags:
   - personal
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/context-in-engineering
 ---
 
 Driving with a cracked windshield feels dangerous at first, especially the moments after it happens. Your instinct says to pull over, stop driving until you get a new windshield. But you get distracted and end up driving with it for longer than you want. Then after awhile, you forget how you felt when it first happened and how close you are to a potentially scary fate. At some point, the last bits of tension fail and inevitably shatter when you least expect it.
-            
+
 Every day, I drive around with cracked windshields of varying depth. I never know when they will shatter. I never know how much strength they each have left. But I know they will all eventually shatter.
 
 It obstructs the view, but I learned to navigate around it. I started to find the way it refracts stop lights in the rain a bit charming, if not inconvenient at times.

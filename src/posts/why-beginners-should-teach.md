@@ -9,6 +9,7 @@ tags:
 layout: layouts/post.njk
 bgColor: white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/why-beginners-should-teach
 ---
 
 Beginners! I'd love to see more of you _teach._ You have tremendous value to offer. In our industry, we uphold and revere experts. I get it. Experts do sexy slick things in time lapses, have nice camera equipment, and great hair days.
