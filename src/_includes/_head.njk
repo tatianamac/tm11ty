@@ -4,7 +4,7 @@
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     <meta property="og:title" content={ title or renderData.title or metadata.title }/>
-    <meta property="og:url" content={ page.url } />
+    <meta property="og:url" content="{{ canonical }}" />
     <meta property="og:description" content={description or renderData.description} />
     <meta property="og:image" content="../assets/img/social-card.svg" />
     <meta name="twitter:card" content="summary_large_image" />
