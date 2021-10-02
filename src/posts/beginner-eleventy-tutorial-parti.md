@@ -35,7 +35,7 @@ My hope with this guide is to remove barriers, particularly for designers/develo
 To remove barriers to entry, we must provide adequate context. I will break this guide into a multi-part series:
 
 - **Part I:** What is a static site generator? 👈🏽 You are here
-- **Part II:** [Installation](../beginner-eleventy-tutorial-partii/)
+- **Part II:** [Installation](https://www.tatianamac.com/posts/beginner-eleventy-tutorial-partii)
 - **Part III:** Structure/Basic Customisation (coming soon)
 - **Part IV**: Advanced Customisation (coming soon)
 

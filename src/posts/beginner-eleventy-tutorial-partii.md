@@ -1,6 +1,6 @@
 ---
 title: Beginner's Guide to Eleventy [Part II]
-description: "Part II: Installation and Structure"
+description: "In the second instalment of a four part guide on Eleventy, I show you how to install it, explaining each gruelling step."
 summary: In the second instalment of a four part guide, I show you how to install Eleventy—except I walk through each gruelling step.
 date: 2020-05-19 12:49:13
 tags:
@@ -18,10 +18,10 @@ canonical: https://www.tatianamac.com/posts/beginner-eleventy-tutorial-partii
 ## Welcome to Part II
 
 > You are reading Part II of a IV part series.
-> **Part I:** [What is a static site generator?](../beginner-eleventy-tutorial-parti/) >**Part II:** **Installation** 👈🏽 You are here
+> **Part I:** [What is a static site generator?](https://www.tatianamac.com/posts/beginner-eleventy-tutorial-parti) > **Part II: Installation** 👈🏽 You are here
 > **Part III:** Structure/Basic Customisation (coming soon)
 > **Part IV:** Advanced Customisation (coming soon)
-> If you are confused or in need of context, please go [read Part I](../beginner-eleventy-tutorial-parti/)—it is where I establish all the context of what static site generators are.
+> If you are confused or in need of context, please go [read Part I](https://www.tatianamac.com/posts/beginner-eleventy-tutorial-part)—it is where I establish all the context of what static site generators are.
 
 As much as possible, I'm going to treat this part of the tutorial like a cookbook, except I won't make you read seven paragraphs about that one summer I spent in Emilia Romagna rolling the perfect tortellini as I had a torrid tryst with Paolo (sorry, reading too many romance novels).
 
