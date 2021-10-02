@@ -10,6 +10,7 @@ layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
 colorMode: dark
+canonical: https://www.tatianamac.com/posts/beware-of-burnout/
 ---
 
 White people (and non-Black brown folks):
