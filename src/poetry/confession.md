@@ -1,12 +1,13 @@
 ---
-title: 'Confession'
-date: '2020-02-26'
+title: "Confession"
+date: "2020-02-26"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/confession
 ---
 
 That feeling when

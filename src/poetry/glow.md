@@ -1,12 +1,13 @@
 ---
-title: 'Glow'
-date: '2019-08-16'
+title: "Glow"
+date: "2019-08-16"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/glow
 ---
 
 They benefit from your glow,

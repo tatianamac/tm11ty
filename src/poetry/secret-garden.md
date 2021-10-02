@@ -1,12 +1,13 @@
 ---
-title: 'Secret Garden'
-date: '2019-05-30'
+title: "Secret Garden"
+date: "2019-05-30"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/secret-garden
 ---
 
 I’m accustomed to and comfortable with travelling

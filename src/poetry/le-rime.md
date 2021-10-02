@@ -1,12 +1,13 @@
 ---
-title: 'Le rime per le lacrime'
-date: '2020-01-13'
+title: "Le rime per le lacrime"
+date: "2020-01-13"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/le-rime
 ---
 
 non modesto

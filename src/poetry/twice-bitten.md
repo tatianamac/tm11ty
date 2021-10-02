@@ -1,12 +1,13 @@
 ---
-title: 'Twice Bitten'
-date: '2020-02-01'
+title: "Twice Bitten"
+date: "2020-02-01"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/twice-bitten
 ---
 
 Smells like soft musk

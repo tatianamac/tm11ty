@@ -1,12 +1,13 @@
 ---
-title: 'Schlange'
-date: '2019-06-20'
+title: "Schlange"
+date: "2019-06-20"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/schlange
 ---
 
 Like 8-bit noodles crawling

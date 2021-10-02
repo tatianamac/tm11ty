@@ -1,12 +1,13 @@
 ---
-title: 'White Collar Crimes'
-date: '2020-01-18'
+title: "White Collar Crimes"
+date: "2020-01-18"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/crimes
 ---
 
 There are crimes of need and

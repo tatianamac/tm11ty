@@ -1,12 +1,13 @@
 ---
-title: 'Cove'
-date: '2019-09-30'
+title: "Cove"
+date: "2019-09-30"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/cove
 ---
 
 Mansions would be not Mine but Ours.

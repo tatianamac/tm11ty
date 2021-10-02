@@ -1,12 +1,13 @@
 ---
-title: 'Cindy Sherman'
-date: '2019-03-03'
+title: "Cindy Sherman"
+date: "2019-03-03"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/cindy-sherman
 ---
 
 Do you get Cindy Sherman

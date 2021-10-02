@@ -1,12 +1,13 @@
 ---
-title: 'At the edge of the unknown'
-date: '2019-07-31'
+title: "At the edge of the unknown"
+date: "2019-07-31"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/edge-of-unknown
 ---
 
 There she sat at the edge of the unknown
