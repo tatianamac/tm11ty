@@ -1,12 +1,13 @@
 ---
-title: 'à part, Descartes'
-date: '2019-09-07'
+title: "à part, Descartes"
+date: "2019-09-07"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/apart-descartes
 ---
 
 What if I had integrated,

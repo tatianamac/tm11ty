@@ -1,12 +1,13 @@
 ---
-title: 'Anything'
-date: '2019-11-27'
+title: "Anything"
+date: "2019-11-27"
 tags:
   - rhymes
 layout: layouts/rhymes.njk
 bgColor: baby-blue
 navClass: bg-baby-blue
 colorMode: dark
+canonical: https://www.tatianamac.com/poetry/anything
 ---
 
 Anything that is
