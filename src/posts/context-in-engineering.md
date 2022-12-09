@@ -52,7 +52,7 @@ I stopped to reflect on how I can train myself out of this habit:
 
    When I'm confused by a code decision, I force myself to answer, _why **would** they do it that way?_ I make a little list. The list is different each time, but one item that is ever present is: _There is a lot of ways to do this, and this might have been the best way they knew how._
 
-   Like in the parking situation, we rarely have enough information or context to critique effectively. We make a lot of assumptions in criqitue, but in curiosity, we can _ask_, we can _speculate_ but ultimately never assume anything. Curiosity is expansive, critique is reductive.
+   Like in the parking situation, we rarely have enough information or context to critique effectively. We make a lot of assumptions in critique, but in curiosity, we can _ask_, we can _speculate_ but ultimately never assume anything. Curiosity is expansive, critique is reductive.
    Also, if you feel in a position to critique, it's a gamble. You're allowing yourself to show your ass if you're wrong. Curiosity always allows room for evolving information, missing context, and knowledge you didn't have. After two years in a pandemic, I would hope we'd all see how quickly things can evolve and change on a global scale.
 
 I hope the next time you encounter a shitty park job or a strange function or even a weird situation in your life that makes no sense, you can count to ten, speculate a few reasons why they might have done it that way, and invite curiosity and context into your life.
