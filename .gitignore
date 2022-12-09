@@ -14,5 +14,9 @@ node_modules/
 # eleventy gulp build
 /dist
 
+# vercel
+.vercel
+
 # OSX
 .DS_Store
+
