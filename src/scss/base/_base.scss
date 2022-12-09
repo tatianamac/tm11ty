@@ -10,157 +10,157 @@ html {
 
 img {
   width: 100%;
- }
+}
 
-// GRID 
+// GRID
 .grid-quarter\@xs {
-	@include screen-xs {
-		@include grid-quarter;
-	}
+  @include screen-xs {
+    @include grid-quarter;
+  }
 }
 
 .grid-quarter\@s {
-	@include screen-s {
-		@include grid-quarter;
-	}
+  @include screen-s {
+    @include grid-quarter;
+  }
 }
 
 .grid-quarter\@m {
-	@include screen-m {
-		@include grid-quarter;
-	}
+  @include screen-m {
+    @include grid-quarter;
+  }
 }
 
 .grid-quarter\@l {
-	@include screen-l {
-		@include grid-quarter;
-	}
+  @include screen-l {
+    @include grid-quarter;
+  }
 }
 
 .grid-quarter\@xl {
-	@include screen-xl {
-		@include grid-quarter;
-	}
+  @include screen-xl {
+    @include grid-quarter;
+  }
 }
 
-.grid-third\@xs { 
-	@include screen-xs {
-	@include grid-third;
-	}
+.grid-third\@xs {
+  @include screen-xs {
+    @include grid-third;
+  }
 }
 
-.grid-third\@s { 
-	@include screen-s {
-	@include grid-third;
-	}
+.grid-third\@s {
+  @include screen-s {
+    @include grid-third;
+  }
 }
 
-.grid-third\@m { 
-	@include screen-m {
-		@include grid-third;
-	}
+.grid-third\@m {
+  @include screen-m {
+    @include grid-third;
+  }
 }
 
 .grid-third\@l {
-	@include screen-l {
-		@include grid-third;
-	}
+  @include screen-l {
+    @include grid-third;
+  }
 }
 
 .grid-third\@xl {
-	@include screen-xl {
-		@include grid-third;
-	}
+  @include screen-xl {
+    @include grid-third;
+  }
 }
 
 .grid-half\@xs {
-	@include screen-xs {
-		@include grid-half;
-	}
+  @include screen-xs {
+    @include grid-half;
+  }
 }
 
 .grid-half\@s {
-	@include screen-s {
-		@include grid-half;
-	}	
+  @include screen-s {
+    @include grid-half;
+  }
 }
 
 .grid-half\@m {
-	@include screen-m {
-		@include grid-half;
-	}
+  @include screen-m {
+    @include grid-half;
+  }
 }
 
 .grid-half\@l {
-	@include screen-l {
-		@include grid-half;
-	}	
+  @include screen-l {
+    @include grid-half;
+  }
 }
 
 .grid-half\@xl {
-	@include screen-xl {
-		@include grid-half;
-	}
+  @include screen-xl {
+    @include grid-half;
+  }
 }
 
 .grid-twothirds\@xs {
-	@include screen-xs {
-		@include grid-twothirds;
-	}
+  @include screen-xs {
+    @include grid-twothirds;
+  }
 }
 
 .grid-twothirds\@s {
-	@include screen-s {
-		@include grid-twothirds;
-	}
+  @include screen-s {
+    @include grid-twothirds;
+  }
 }
 
 .grid-twothirds\@m {
-	@include screen-m {
-		@include grid-twothirds;
-	}
+  @include screen-m {
+    @include grid-twothirds;
+  }
 }
 
 .grid-twothirds\@l {
-	@include screen-l {
-		@include grid-twothirds;
-	}
+  @include screen-l {
+    @include grid-twothirds;
+  }
 }
 
 .grid-twothirds\@xl {
-	@include screen-xl {
-		@include grid-twothirds;
-	}
+  @include screen-xl {
+    @include grid-twothirds;
+  }
 }
 
 .grid-whole\@xs {
-	@include screen-xs {
-		@include grid-whole;
-	}
+  @include screen-xs {
+    @include grid-whole;
+  }
 }
 
 .grid-whole\@s {
-	@include screen-s {
-		@include grid-whole;
-	}
+  @include screen-s {
+    @include grid-whole;
+  }
 }
 
 .grid-whole\@m {
-	@include screen-m {
-		@include grid-whole;
-	}
+  @include screen-m {
+    @include grid-whole;
+  }
 }
 
 .grid-whole\@l {
-	@include screen-l {
-		@include grid-whole;
-	}
+  @include screen-l {
+    @include grid-whole;
+  }
 }
 
 .grid-whole\@xl {
-	@include screen-xl {
-		@include grid-whole;
-	}
+  @include screen-xl {
+    @include grid-whole;
+  }
 }
 
 // GRID ALIGNMENT
@@ -168,50 +168,51 @@ img {
 // helpful for SVG illustrations that need more breathing room
 
 .grid-quarter-in-third-r-r {
-	@include grid-quarter-in-third-r-r;
+  @include grid-quarter-in-third-r-r;
 }
 
 .align-self-r {
-	@include align-self-r;
+  @include align-self-r;
 }
 
 // PADDING THINGS
 
 .padding-thinn {
-	@include thinnpadding;
+  @include thinnpadding;
 }
 
 .padding-normie {
-	@include normiepadding;
+  @include normiepadding;
 }
 
 .padding-thicc {
-	@include thiccpadding;
+  @include thiccpadding;
 }
 
 .padding-btm-none {
-	padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 // BACKGROUND THINGS
 
 .bg-primary {
-	background: $primary-color;
+  background: red;
+  // background: $primary-color;
 }
 
 $bg-color: (
-	"black": #{$black},
-	"teal-green": #{$teal-green},
-	"yellow": #{$yellow},
-	"blush-pink": #{$blush-pink},
-	"baby-blue": #{$baby-blue},
-	"emerald-green": #{$emerald-green},
-	"light-grey": #{$light-grey},
-	"dusty-rose": #{$dusty-rose},
-	"pale-peach": #{$pale-peach},
-	"neon-yellow": #{$neon-yellow},
-	"ochre": #{$ochre}
-	);
+  "black": #{$black},
+  "teal-green": #{$teal-green},
+  "yellow": #{$yellow},
+  "blush-pink": #{$blush-pink},
+  "baby-blue": #{$baby-blue},
+  "emerald-green": #{$emerald-green},
+  "light-grey": #{$light-grey},
+  "dusty-rose": #{$dusty-rose},
+  "pale-peach": #{$pale-peach},
+  "neon-yellow": #{$neon-yellow},
+  "ochre": #{$ochre},
+);
 
 @each $name, $colour in $bg-color {
   .bg- {
