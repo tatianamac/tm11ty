@@ -1,12 +1,12 @@
 ---
 title: "Enter strawman: Build a tangible form to anchor esoteric discussions"
-description: "Anchor esoteric discussions with a tangible form"
+description: "Practical engineering"
 summary: "Use a strawman to build up an idea rather than to tear it down."
 date: 2023-03-08 01:47:33
 tags:
   - featured
-  - tutorials
   - engineering
+  - communication
 layout: layouts/post.njk
 bgColor: white
 navClass: bg-white
