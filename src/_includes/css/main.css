@@ -651,7 +651,7 @@ img {
 
 @font-face {
   font-family: "domaine-text-web-light";
-  src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-text-web-light-subset.woff2") format("woff"), url("../../assets/fonts/calibre-web-regular-subset.woff") format("woff");
+  src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
   font-display: swap;
 }
 @font-face {
@@ -663,7 +663,7 @@ img {
 @font-face {
   font-family: "calibre-web-bold";
   font-weight: 700;
-  src: local("calibre-web-bold"), url("../../assets/fonts/calibre-web-bold-subset.woff2") format("woff2"), url("../../assets/fonts/calibre-web-bold-subset.woff") format("woff");
+  src: local("calibre-web-bold"), url("../../assets/fonts/calibre-web-bold.woff2") format("woff2"), url("../../assets/fonts/calibre-web-bold-subset.woff") format("woff");
   font-display: swap;
 }
 /**
@@ -724,6 +724,10 @@ h1 {
 }
 
 .align-self-center {
+  align-self: center;
+}
+
+.align-self-end {
   align-self: center;
 }
 
@@ -1231,6 +1235,10 @@ p.comingsoon {
 
 .t-light-green {
   color: #bdf5bd;
+}
+
+.t-milquetoast {
+  color: #dac6ae;
 }
 
 .t-blush-pink {
@@ -1884,12 +1892,14 @@ section {
 
 .dark {
   color: #222222;
+  font-family: "calibre-web-bold", "Arial Black", sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FF0DD1;
   transition: border 0.2s ease-in;
   text-decoration: none;
   font-size: 0.85rem;
   padding: 0.3rem 0;
+  letter-spacing: 0.15em;
 }
 .dark:hover {
   border-bottom: 1px solid #FF0DD1;
@@ -1901,15 +1911,17 @@ section {
 
 .light {
   color: #ffffff;
+  font-family: "calibre-web-bold", "Arial Black", sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FF0DD1;
   transition: border 0.2s ease-in;
   text-decoration: none;
+  letter-spacing: 0.15em;
   font-size: 0.85rem;
   padding: 0.3rem 0;
 }
 .light:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #42ff0d;
   transition: border 0.2s ease-in;
 }
 .light:focus {
@@ -2106,6 +2118,16 @@ button:focus,
   background: linear-gradient(-45deg, transparent 74%, #767676 75%), linear-gradient(45deg, #f3f315 74%, #eeeeee 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
+}
+
+.grid--half {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid--half--child {
+  flex: 1;
+  min-width: 15em;
 }
 
 .flex--half {

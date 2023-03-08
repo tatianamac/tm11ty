@@ -107,6 +107,10 @@
   align-self: center;
 }
 
+@mixin align-self-end() {
+  align-self: center;
+}
+
 @mixin height-full() {
   height: 100%;
 }
