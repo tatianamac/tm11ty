@@ -108,7 +108,7 @@
 }
 
 @mixin align-self-end() {
-  align-self: center;
+  align-self: end;
 }
 
 @mixin height-full() {
@@ -260,8 +260,18 @@
   @include txn-ease-in-quick;
 }
 
+@mixin bdr--orange() {
+  border-bottom: 1px solid $orange;
+  @include txn-ease-in-quick;
+}
+
 @mixin bdr--green() {
   border-bottom: 1px solid $green;
+  @include txn-ease-in-quick;
+}
+
+@mixin bdr--green--hover() {
+  border-bottom: 18px solid $green;
   @include txn-ease-in-quick;
 }
 

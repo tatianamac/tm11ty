@@ -649,6 +649,10 @@ img {
   background: #ece2ce;
 }
 
+.bg-milquetoast {
+  background: #dac6ae;
+}
+
 @font-face {
   font-family: "domaine-text-web-light";
   src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
@@ -728,7 +732,7 @@ h1 {
 }
 
 .align-self-end {
-  align-self: center;
+  align-self: end;
 }
 
 .height-full {
@@ -1209,12 +1213,56 @@ p.comingsoon {
   color: #767676;
 }
 
-.t-white {
-  color: #ffffff;
+.t-black {
+  color: #222222;
 }
 
-.t-red {
-  color: #e60073;
+.t-teal-green {
+  color: #037A5C;
+}
+
+.t-yellow {
+  color: #FFD926;
+}
+
+.t-blush-pink {
+  color: #FFF3F3;
+}
+
+.t-baby-blue {
+  color: #DAE3FF;
+}
+
+.t-emerald-green {
+  color: #004328;
+}
+
+.t-light-grey {
+  color: #eeeeee;
+}
+
+.t-dusty-rose {
+  color: #cbab99;
+}
+
+.t-pale-peach {
+  color: #ffe0d1;
+}
+
+.t-neon-yellow {
+  color: #f3f315;
+}
+
+.t-ochre {
+  color: #ece2ce;
+}
+
+.t-milquetoast {
+  color: #dac6ae;
+}
+
+.t-pistachio-green {
+  color: #D5FFB1;
 }
 
 .t-dark-grey {
@@ -1225,24 +1273,8 @@ p.comingsoon {
   color: #0e4bff;
 }
 
-.t-black {
-  color: #222222;
-}
-
-.t-light-grey {
-  color: #eeeeee;
-}
-
-.t-light-green {
-  color: #bdf5bd;
-}
-
-.t-milquetoast {
-  color: #dac6ae;
-}
-
-.t-blush-pink {
-  color: #FFF3F3;
+.t-white {
+  color: #ffffff;
 }
 
 .t-link-accent-white {
@@ -1881,7 +1913,7 @@ section {
   }
 }
 .logo #logo {
-  fill: #FF0DD1;
+  fill: #ff5327;
 }
 .logo a {
   border-bottom: none;
@@ -1894,7 +1926,7 @@ section {
   color: #222222;
   font-family: "calibre-web-bold", "Arial Black", sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff5327;
   transition: border 0.2s ease-in;
   text-decoration: none;
   font-size: 0.85rem;
@@ -1902,7 +1934,7 @@ section {
   letter-spacing: 0.15em;
 }
 .dark:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 18px solid #42ff0d;
   transition: border 0.2s ease-in;
 }
 .dark:focus {
@@ -2060,6 +2092,13 @@ button:focus,
 .zigzag-baby-blue-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #DAE3FF 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #DAE3FF 50%, #27B300 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-milquetoast-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #dac6ae 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #dac6ae 50%, #27B300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
@@ -2276,7 +2315,7 @@ button:focus,
 
 .stamp-date path {
   fill: none;
-  border: 1px solid #FF5327;
+  border: 1px solid #e60073;
 }
 
 .stamp-date svg {

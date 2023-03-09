@@ -38,7 +38,7 @@
   }
 
   #logo {
-    fill: $pink;
+    fill: $orange;
   }
 
   a {
@@ -53,13 +53,13 @@
   color: $black;
   font-family: $sans-serif-bold;
   @include t-uppercase;
-  @include bdr--pink;
+  @include bdr--orange;
   text-decoration: none;
   font-size: 0.85rem;
   padding: 0.3rem 0;
   letter-spacing: 0.15em;
   &:hover {
-    @include bdr--pink;
+    @include bdr--green--hover;
   }
 
   &:focus {
