@@ -26,17 +26,18 @@
   "homepage": "https://tatianamac.com/",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
-    "@11ty/eleventy-navigation": "^0.1.5",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
-    "luxon": "^1.22.0",
-    "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.2.5"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "clean-css": "^5.3.2",
+    "luxon": "^3.3.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.7",
+    "sass": "^1.58.3",
+    "stylint": "^2.0.0"
   },
   "dependencies": {
-    "clean-css": "^4.2.3",
     "gray-matter": "^4.0.2",
-    "sass": "^1.56.2",
     "stylelint": "^13.2.0"
   }
 }
