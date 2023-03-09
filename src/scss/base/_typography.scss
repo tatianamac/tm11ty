@@ -430,37 +430,37 @@ p {
   color: $mid-grey;
 }
 
+$t-color: (
+  "black": #{$black},
+  "teal-green": #{$teal-green},
+  "yellow": #{$yellow},
+  "blush-pink": #{$blush-pink},
+  "baby-blue": #{$baby-blue},
+  "emerald-green": #{$emerald-green},
+  "light-grey": #{$light-grey},
+  "dusty-rose": #{$dusty-rose},
+  "pale-peach": #{$pale-peach},
+  "neon-yellow": #{$neon-yellow},
+  "ochre": #{$ochre},
+  "milquetoast": #{$milquetoast},
+  "pistachio-green": #{$pistachio-green},
+  "dark-grey": #{$dark-grey},
+  "cobalt": #{$cobalt},
+);
+
+@each $name, $colour in $t-color {
+  .t- {
+    &#{$name} {
+      color: $colour;
+    }
+  }
+}
+
+
 .t-white {
   @include t-white;
 }
 
-.t-red {
-  color: #e60073;
-}
-
-.t-dark-grey {
-  color: $dark-grey;
-}
-
-.t-cobalt {
-  color: $cobalt;
-}
-
-.t-black {
-  @include t-black;
-}
-
-.t-light-grey {
-  color: $light-grey;
-}
-
-.t-light-green {
-  color: #bdf5bd;
-}
-
-.t-blush-pink {
-  color: $blush-pink;
-}
 
 .t-link-accent-white {
   @include bdr--white;
