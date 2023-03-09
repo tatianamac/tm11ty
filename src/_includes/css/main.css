@@ -1,10 +1,10 @@
 /* Error: Undefined variable.
  *     ,
- * 214 |   "milquetoast": #{$milquetoast},
+ * 445 |   "milquetoast": #{$milquetoast},
  *     |                    ^^^^^^^^^^^^
  *     '
- *   src/scss/base/_base.scss 214:20  @import
- *   src/scss/main.scss 16:3          root stylesheet */
+ *   src/scss/base/_typography.scss 445:20  @import
+ *   src/scss/main.scss 19:3                root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: Undefined variable.\a     \2577 \a 214 \2502    "milquetoast": #{$milquetoast},\a     \2502                     ^^^^^^^^^^^^\a     \2575 \a   src/scss/base/_base.scss 214:20  @import\a   src/scss/main.scss 16:3          root stylesheet';
+  content: 'Error: Undefined variable.\a     \2577 \a 445 \2502    "milquetoast": #{$milquetoast},\a     \2502                     ^^^^^^^^^^^^\a     \2575 \a   src/scss/base/_typography.scss 445:20  @import\a   src/scss/main.scss 19:3                root stylesheet';
 }
