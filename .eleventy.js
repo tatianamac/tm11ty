@@ -53,6 +53,9 @@ module.exports = function (eleventyConfig) {
     markdownIt(options).use(markdownItAnchor, opts)
   );
 
+  // Passthrough assets
+  eleventyConfig.addPassthroughCopy("src/assets");
+
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 
