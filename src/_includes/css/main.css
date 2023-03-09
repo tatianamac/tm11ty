@@ -649,10 +649,6 @@ img {
   background: #ece2ce;
 }
 
-.bg-milquetoast {
-  background: #dac6ae;
-}
-
 @font-face {
   font-family: "domaine-text-web-light";
   src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
@@ -729,10 +725,6 @@ h1 {
 
 .align-self-center {
   align-self: center;
-}
-
-.align-self-end {
-  align-self: end;
 }
 
 .height-full {
@@ -1258,7 +1250,7 @@ p.comingsoon {
 }
 
 .t-milquetoast {
-  color: #dac6ae;
+  color: #ece2ce;
 }
 
 .t-pistachio-green {
@@ -1913,7 +1905,7 @@ section {
   }
 }
 .logo #logo {
-  fill: #ff5327;
+  fill: #FF0DD1;
 }
 .logo a {
   border-bottom: none;
@@ -1924,17 +1916,15 @@ section {
 
 .dark {
   color: #222222;
-  font-family: "calibre-web-bold", "Arial Black", sans-serif;
   text-transform: uppercase;
-  border-bottom: 1px solid #ff5327;
+  border-bottom: 1px solid #FF0DD1;
   transition: border 0.2s ease-in;
   text-decoration: none;
   font-size: 0.85rem;
   padding: 0.3rem 0;
-  letter-spacing: 0.15em;
 }
 .dark:hover {
-  border-bottom: 18px solid #42ff0d;
+  border-bottom: 1px solid #FF0DD1;
   transition: border 0.2s ease-in;
 }
 .dark:focus {
@@ -1943,17 +1933,15 @@ section {
 
 .light {
   color: #ffffff;
-  font-family: "calibre-web-bold", "Arial Black", sans-serif;
   text-transform: uppercase;
   border-bottom: 1px solid #FF0DD1;
   transition: border 0.2s ease-in;
   text-decoration: none;
-  letter-spacing: 0.15em;
   font-size: 0.85rem;
   padding: 0.3rem 0;
 }
 .light:hover {
-  border-bottom: 1px solid #42ff0d;
+  border-bottom: 1px solid #FF0DD1;
   transition: border 0.2s ease-in;
 }
 .light:focus {
@@ -2096,13 +2084,6 @@ button:focus,
   background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag-milquetoast-green {
-  height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #dac6ae 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #dac6ae 50%, #27B300 50%), 0 50%;
-  background-repeat: repeat-x;
-  background-size: 5em 5em, 5em 5em;
-}
-
 .zigzag-blush-pink-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #FFF3F3 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #FFF3F3 50%, #27B300 50%), 0 50%;
@@ -2157,16 +2138,6 @@ button:focus,
   background: linear-gradient(-45deg, transparent 74%, #767676 75%), linear-gradient(45deg, #f3f315 74%, #eeeeee 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
-}
-
-.grid--half {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-.grid--half--child {
-  flex: 1;
-  min-width: 15em;
 }
 
 .flex--half {
@@ -2315,7 +2286,7 @@ button:focus,
 
 .stamp-date path {
   fill: none;
-  border: 1px solid #e60073;
+  border: 1px solid #FF5327;
 }
 
 .stamp-date svg {
