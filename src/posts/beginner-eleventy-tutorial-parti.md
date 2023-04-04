@@ -261,7 +261,7 @@ Eleventy's mission seems to possess some similar biases to me. In the end, this 
 
 To me, the pros outweigh the cons. Developers who work in and support Eleventy can help to improve the two cons. This is why I'm writing this series.
 
-> Next (Part II): Learn how to install Eleventy (and, all the things you need to install in order to install Eleventy). [Read Part II](../beginner-eleventy-tutorial-partii/)
+> Next (Part II): Learn how to install Eleventy (and, all the things you need to install in order to install Eleventy). [Read Part II](../posts/beginner-eleventy-tutorial-partii/)
 
 #### Thank You
 
