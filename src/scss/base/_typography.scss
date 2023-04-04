@@ -612,6 +612,26 @@ $t-color: (
   }
 }
 
+.t-link-accent-green {
+  @include bdr(1px, $green);
+  color: $green;
+  line-height: 1.25em;
+  padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover;
+  }
+
+  &:focus-visible{
+    @include out--blue;
+  }
+
+  &--block {
+    @extend .t-link-accent-blue;
+    display: inline-block;
+  }
+}
+
 .t-link-accent-azure {
   @include t-link-hover($gild);
 
