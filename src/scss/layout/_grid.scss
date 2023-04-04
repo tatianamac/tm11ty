@@ -105,7 +105,10 @@
   }
 }
 
-.margin-bottom-thinn {
+.mb-teeny {
+  @include mb-teeny;
+}
+.mb-thinn {
   @include mb-thinn;
 }
 

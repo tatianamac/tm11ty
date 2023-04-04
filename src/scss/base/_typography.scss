@@ -440,7 +440,7 @@ p {
 .details {
   text-transform: uppercase;
   font-size: 0.75em;
-  color: $black;
+  color: $pale-peach;
   letter-spacing: 0.025em;
   padding-top: 0.5em;
   min-width: 100px;
@@ -551,8 +551,26 @@ $t-color: (
 }
 
 .t-link-accent-orange {
-  @include bdr--orange;
+  @include bdr($orange);
   color: $rust;
+  padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover;
+  }
+  &:focus {
+    @include out--rust;
+  }
+
+  &--block {
+    @extend .t-link-accent-orange;
+    display: inline-block;
+  }
+}
+
+.t-link-accent-rust {
+  @include bdr(1px, $orange);
+  color: $white;
   padding: 2px 0;
   text-decoration: none;
   &:hover {
@@ -595,7 +613,7 @@ $t-color: (
 
 .t-link-accent-azure {
   @include t-link-hover($gild);
-  
+
   color: $azure;
   line-height: 1.25em;
   padding: 2px 0;

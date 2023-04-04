@@ -292,10 +292,11 @@
   @include txn-ease-in-quick;
 }
 
-@mixin bdr--orange() {
-  border-bottom: 10px solid $orange;
+@mixin bdr($width: 1px, $color: $orange) {
+  border-bottom: $width solid $color;
   @include txn-ease-in-quick;
 }
+
 @mixin deco--orange() {
   text-decoration: wavy;
   text-decoration-color: $rust;

@@ -654,6 +654,10 @@ img {
   background: hsl(225, 95%, 11%);
 }
 
+.bg-rust {
+  background: hsl(19, 100%, 19%);
+}
+
 @font-face {
   font-family: "domaine-display-narrow-regular";
   src: local("domaine-display-narrow-regular"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
@@ -1233,7 +1237,7 @@ p.comingsoon {
 .details {
   text-transform: uppercase;
   font-size: 0.75em;
-  color: #222222;
+  color: #ffe0d1;
   letter-spacing: 0.025em;
   padding-top: 0.5em;
   min-width: 100px;
@@ -1379,40 +1383,58 @@ p.comingsoon {
 
 .t-link-accent-hero {
   text-decoration: wavy;
-  text-decoration-color: #942f00;
+  text-decoration-color: hsl(19, 100%, 19%);
   transition: border 0.2s ease-in;
-  color: #942f00;
+  color: hsl(19, 100%, 19%);
   padding: 2px 0;
   text-decoration: underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: #942f00;
+  text-decoration-color: hsl(19, 100%, 19%);
   text-decoration-skip-ink: auto;
 }
 .t-link-accent-hero:hover {
   text-decoration: wavy;
 }
 .t-link-accent-hero:focus {
-  outline: 0.25em ridge #942f00;
+  outline: 0.25em ridge hsl(19, 100%, 19%);
 }
 .t-link-accent-hero--block {
   display: inline-block;
 }
 
-.t-link-accent-orange, .t-link-accent-orange--block, .t-link-accent-white--block, .t-link-accent-hero--block {
-  border-bottom: 10px solid #ff5327;
+.t-link-accent-orange, .t-link-accent-rust--block, .t-link-accent-orange--block, .t-link-accent-white--block, .t-link-accent-hero--block {
+  border-bottom: #ff5327 solid #ff5327;
   transition: border 0.2s ease-in;
-  color: #942f00;
+  color: hsl(19, 100%, 19%);
   padding: 2px 0;
   text-decoration: none;
 }
-.t-link-accent-orange:hover, .t-link-accent-orange--block:hover, .t-link-accent-white--block:hover, .t-link-accent-hero--block:hover {
+.t-link-accent-orange:hover, .t-link-accent-rust--block:hover, .t-link-accent-orange--block:hover, .t-link-accent-white--block:hover, .t-link-accent-hero--block:hover {
   border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
-.t-link-accent-orange:focus, .t-link-accent-orange--block:focus, .t-link-accent-white--block:focus, .t-link-accent-hero--block:focus {
-  outline: 0.25em ridge #942f00;
+.t-link-accent-orange:focus, .t-link-accent-rust--block:focus, .t-link-accent-orange--block:focus, .t-link-accent-white--block:focus, .t-link-accent-hero--block:focus {
+  outline: 0.25em ridge hsl(19, 100%, 19%);
 }
 .t-link-accent-orange--block {
+  display: inline-block;
+}
+
+.t-link-accent-rust {
+  border-bottom: 1px solid #ff5327;
+  transition: border 0.2s ease-in;
+  color: #ffffff;
+  padding: 2px 0;
+  text-decoration: none;
+}
+.t-link-accent-rust:hover {
+  border-bottom: 1px solid #ff0dd1;
+  transition: border 0.2s ease-in;
+}
+.t-link-accent-rust:focus {
+  outline: 0.25em ridge hsl(19, 100%, 19%);
+}
+.t-link-accent-rust--block {
   display: inline-block;
 }
 
@@ -1703,7 +1725,11 @@ a.right-arrow:after {
   }
 }
 
-.margin-bottom-thinn {
+.mb-teeny {
+  margin-bottom: 0.5em;
+}
+
+.mb-thinn {
   margin-bottom: 1em;
 }
 
@@ -2212,6 +2238,13 @@ button:focus,
 .zigzag-black-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #222222 50%, #27b300 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-rust-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, hsl(19, 100%, 19%) 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, hsl(19, 100%, 19%) 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
