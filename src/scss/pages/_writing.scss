@@ -1,12 +1,36 @@
-.zigzag-black-green {
-    height: 5em;
-    background: 
-                linear-gradient(45deg, transparent 50%, $black 50%),
-                linear-gradient(90deg, transparent 50%, $green 50%),
-                linear-gradient(135deg, $black 50%, $leaf-green 50%), 0 50%;
-    background-repeat: repeat-x;
-    background-size: 5em 5em, 5em 5em;
-  }
+.stamp-home {
+  outline: 20px dotted $black;
+  outline-offset: -10px;
+  background: $dark-grey;
+  padding: 1em;
+  position: relative;
+  max-width: 10rem;
+  height: 10rem;
+}
+
+.stamp-inner {
+  background: $black;
+  height: 100%;
+}
+
+.zigzag-midnight-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, $midnight 50%),
+    linear-gradient(90deg, transparent 50%, $green 50%),
+    linear-gradient(135deg, $midnight 50%, $leaf-green 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.callout {
+  font-family: $sans-bold;
+  line-height: 1em;
+}
+
+.river {
+  max-width: $screen-s-max;
+  margin: 0 auto;
+}
 
 .post-blob {
   background: $blush-pink;

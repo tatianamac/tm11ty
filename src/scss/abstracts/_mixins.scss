@@ -91,6 +91,10 @@
   padding: $thinn;
 }
 
+@mixin babypadding() {
+  padding: $baby;
+}
+
 @mixin normiepadding() {
   padding: $normie;
 }
@@ -99,12 +103,24 @@
   padding-bottom: 0;
 }
 
-@mixin margin-bottom-thinn() {
+@mixin mb-teeny() {
+  margin-bottom: $teeny;
+}
+
+@mixin mb-thinn() {
   margin-bottom: $thinn;
+}
+
+@mixin pt-thinn() {
+  padding-top: $thinn;
 }
 
 @mixin align-self-center() {
   align-self: center;
+}
+
+@mixin align-self-end() {
+  align-self: end;
 }
 
 @mixin height-full() {
@@ -114,6 +130,10 @@
 //TYPOGRAPHY
 
 // Size
+
+@mixin teenyfont() {
+  font-size: $teeny;
+}
 
 @mixin babyfont() {
   font-size: $baby;
@@ -155,18 +175,20 @@
   font-family: $serif;
 }
 
+@mixin serifnarrow() {
+  font-family: $serif-narrow;
+}
+
 @mixin typewriter() {
   font-family: Courier, monospace;
 }
 
-@mixin sansserif() {
-  font-family: $sans-serif;
-  font-weight: $light;
+@mixin mono() {
+  font-family: $mono;
 }
 
-@mixin serifweight() {
-  @include serif;
-  font-weight: $light;
+@mixin sansserif() {
+  font-family: $sans-serif;
 }
 
 @mixin t-white() {
@@ -193,7 +215,7 @@
   @include babyfont;
   @include t-uppercase;
   @include t-ltr-spaceout-m;
-  font-family: $sans-serif-bold;
+  font-family: $sans-serif-accent;
 }
 
 @mixin list-clear-style() {
@@ -236,7 +258,7 @@
 }
 
 // BORDER
-
+//TODO: Use map to shorten up this code
 @mixin bdr--blue() {
   border-bottom: 1px solid $cobalt;
   @include txn-ease-in-quick;
@@ -244,6 +266,10 @@
 
 @mixin bdr--white() {
   border-bottom: 1px solid $white;
+}
+
+@mixin bdr--gild() {
+  border-bottom: 1px solid $gild;
 }
 
 @mixin bdr--black() {
@@ -263,6 +289,16 @@
 
 @mixin bdr--pink() {
   border-bottom: 1px solid $pink;
+  @include txn-ease-in-quick;
+}
+
+@mixin bdr--orange() {
+  border-bottom: 10px solid $orange;
+  @include txn-ease-in-quick;
+}
+@mixin deco--orange() {
+  text-decoration: wavy;
+  text-decoration-color: $rust;
   @include txn-ease-in-quick;
 }
 
@@ -290,13 +326,8 @@
   outline: 0.25em ridge $green;
 }
 
-@mixin bdr--orange() {
-  border-bottom: 1px solid $orange;
-  @include txn-ease-in-quick;
-}
-
-@mixin t-link-hover() {
-  border-bottom: 1px solid $pink;
+@mixin t-link-hover($color: $pink) {
+  border-bottom: 1px solid $color;
   @include txn-ease-in-quick;
 }
 

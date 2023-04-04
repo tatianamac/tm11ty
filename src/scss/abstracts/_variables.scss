@@ -13,45 +13,47 @@ $screen-l-max: 3000px;
 
 // COLORS //
 :root {
-    font-size: calc(20px + .05vw);
+  font-size: calc(20px + 0.05vw);
 }
 
 $cobalt: #0e4bff;
-$citron: #F3F315;
+$citron: #f3f315;
 
 $black: #222222;
 $white: #ffffff;
-$beige: #F5F4EE;
+$beige: #f5f4ee;
 
-$dark-grey: #4F4F4F;
+$dark-grey: #4f4f4f;
 $mid-grey: #767676; // the lightest shade of grey you can get away with, #a11y
 $light-grey: #eeeeee; // for backgrounds only
 
-$fuchsia: #B2098B;
+$fuchsia: #b2098b;
+$pink: #ff0dd1;
+$barbie-pink: #ffcff2;
+$blush-pink: #fff3f3;
+$midnight: hsla(225, 95%, 11%, 1);
+$azure: hsla(225, 95%, 71%, 1);
+$true-blue: #0531b2;
+$royal-blue: #2159fe;
+$baby-blue: #dae3ff;
 $neon-yellow: #f3f315;
-$yellow: #FFD926;
-$red: #FF5327;
-$pink: #FF0DD1;
-$barbie-pink: #FFCFF2;
-$blush-pink: #FFF3F3;
-$true-blue: #0531B2; 
-$royal-blue: #2159FE;
-$baby-blue: #DAE3FF;
-$gold: #FFBC0E;
+$yellow: #ffd926;
+$gold: #ffbc0e;
 $orange: #ff5327;
 $rust: #942f00;
 
 //greens
-$pistachio-green: #D5FFB1;
+$pistachio-green: #d5ffb1;
 $green: #42ff0d;
-$leaf-green: #27B300;
-$teal-green: #037A5C;
+$leaf-green: #27b300;
+$teal-green: #037a5c;
 $emerald-green: #004328;
 
 //yellows
 $curry: #cbab00;
 $dark-curry: #a88d00;
-$milquetoast: #ece2ce;
+$gild: #b28100;
+$milquetoast: #dac6ae;
 $ochre: #ece2ce;
 $dusty-rose: #cbab99;
 $pale-peach: #ffe0d1;
@@ -60,14 +62,16 @@ $primary-color: $cobalt;
 $secondary-color: $blush-pink;
 
 // TYPOGRAPHY //
-$sans-serif: 'calibre-web-regular', Helvetica, sans-serif;
-$sans-serif-bold: 'calibre-web-bold', 'Arial Black', sans-serif;
-$serif: 'domaine-text-web-light', Georgia, 'Times New Roman', serif;
-$condensed: 'calibre-web-bold', Impact, sans-serif;
-$mono: Courier, mono;
+$sans-serif: "calibre-web-regular", Helvetica, Arial, sans-serif;
+$sans-serif-bold: "calibre-web-bold", "Arial Black", sans-serif;
+$sans-serif-accent: "founders-grotesk-bold", Arial Black, mono;
+$serif: "domaine-text-web-light", Georgia, "Times New Roman", serif;
+$serif-narrow: "domaine-display-narrow-regular", Georgia, "Times New Roman",
+  serif;
+$mono: "founders-grotesk-mono-light", Roboto Mono, Lucida Mono, Courier, mono;
 
 $t-height-none: 0;
-$t-height-dense: .9;
+$t-height-dense: 0.9;
 $t-height-tight: 1.1;
 $t-height-cozy: 1.25;
 $t-height-loose: 2;
@@ -80,8 +84,8 @@ $medium: 500;
 $bold: 700;
 
 // SIZE //
-
-$baby: .8em;
+$teeny: 0.5em;
+$baby: 0.8em;
 $thinn: 1em;
 $slimm: 1.25em;
 $normie: 1.5em;
@@ -90,4 +94,4 @@ $thicc: 2.25em;
 $chonk: 3em;
 $ultrachonk: 5em;
 $gigantic: 10em;
-$bg-repeat: repeat-x 5em 5em ;
+$bg-repeat: repeat-x 5em 5em;

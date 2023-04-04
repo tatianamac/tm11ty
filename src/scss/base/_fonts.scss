@@ -1,14 +1,33 @@
 @font-face {
-    font-family: 'domaine-text-web-light';
-    src: local('domaine-text-web-light'),
+    font-family: 'domaine-display-narrow-regular';
+    src: local('domaine-display-narrow-regular'),
          url('../../assets/fonts/domaine-display-narrow-regular.woff') format('woff');
     font-display: swap;
 }
 
 @font-face {
+    font-family: 'domaine-text-web-light';
+    src: local('domaine-text-web-light'),
+         url('../../assets/fonts/domaine-text-web-light.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'founders-grotesk-mono-light';
+    src: local('founders-grotesk-mono-light'),
+         url('../../assets/fonts/founders-grotesk-mono-light.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'calibre-web-regular';
-    font-weight: 400;
-    src: local('calibre-web-regular'), url('../../assets/fonts/calibre-web-regular-subset.woff2') format('woff2'), url('../../assets/fonts/calibre-web-regular-subset.woff') format('woff');
+    src: url('../../assets/fonts/calibre-web-regular.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'founders-grotesk-bold';
+    src: url('../../assets/fonts/founders-grotesk-bold.woff') format('woff');
     font-display: swap;
 }
 
