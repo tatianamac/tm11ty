@@ -4,6 +4,7 @@ description: "How to make meaningful change"
 summary: "Activism is not a sprint to a finish; there is no finish, but rather a life-long marathon commitment to showing up every single day. Like running, it requires training and a strategy"
 date: 2020-06-08 18:27:11
 tags:
+  - featured
   - humans
 layout: layouts/post.njk
 bgColor: white

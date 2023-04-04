@@ -62,15 +62,13 @@ $primary-color: $cobalt;
 $secondary-color: $blush-pink;
 
 // TYPOGRAPHY //
-$sans-serif: "calibre-web-regular", Helvetica, sans-serif;
+$sans-serif: "calibre-web-regular", Helvetica, Arial, sans-serif;
 $sans-serif-bold: "calibre-web-bold", "Arial Black", sans-serif;
-$sans-serif: "calibre-web-regular", "Arial", sans-serif;
+$sans-serif-accent: "founders-grotesk-bold", Arial Black, mono;
+$serif: "domaine-text-web-light", Georgia, "Times New Roman", serif;
 $serif-narrow: "domaine-display-narrow-regular", Georgia, "Times New Roman",
   serif;
-$serif: "domaine-text-web-light", Georgia, "Times New Roman", serif;
-$condensed: "calibre-web-bold", Impact, sans-serif;
-$mono: "founders-grotesk-mono-light", Courier, mono;
-$sans-bold: "founders-grotesk-bold", Arial Black, mono;
+$mono: "founders-grotesk-mono-light", Roboto Mono, Lucida Mono, Courier, mono;
 
 $t-height-none: 0;
 $t-height-dense: 0.9;

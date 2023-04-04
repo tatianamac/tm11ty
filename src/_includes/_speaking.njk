@@ -1,31 +1,24 @@
 {% for post in collections.event | reverse %}
-    <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-        <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
-            <svg viewbox="0 0 100 100">
-                <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
-                <text>
-                    <textpath href="#stamp-{{ post.data.eventCityAbbr }}" aria-label="{{ post.data.eventCityName }}">
-                        {{ post.data.eventCityName }}
-                    </textpath>
-                </text>
-            </svg>
-        </div>
-        <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
-            <p class="t-black details t-typeweight t-babyfont">{{ post.data.eventMonthYear }}</p>
-            <p>
-                <a href="{{ post.data.eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
-            </p>
-            <p>
-                {% if post.data.eventSlidesURL %}
-                    <a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>
-                {% endif %}
-                {% if post.data.eventVideoURL %}
-                    ·
-                    <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>
-                {% endif %}
-                {% if post.data.eventKeynote %}🗝🎵{% endif %}
-            </p>
-
-        </div>
-    </figure>
+            <figure class="stamp stamp{% if post.data.eventStampRot %}--{{ post.data.eventStampRot }}@m stamp--{{ post.data.eventStampRot }}@l stamp--{{ post.data.eventStampRot }}@xl {% endif %}stamp stamp@m stamp@l stamp@xl grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
+                <div class="stamp-date {% if post.data.eventStampLoc %} stamp--{{ post.data.eventStampLoc }}{% endif %}">
+                    <svg viewbox="0 0 100 100">
+                        <path d="M 0,50 a 32, 30 0 1, 1 0,1 z" id="stamp-{{ post.data.eventCityAbbr }}"/>
+                        <text>
+                            <textpath href="#stamp-{{ post.data.eventCityAbbr }}" aria-label="{{ post.data.eventCityName }}">
+                                {{ post.data.eventCityName }}
+                            </textpath>
+                        </text>
+                    </svg>
+                </div>
+                <div class="calendar-item grid-whole@xs grid-half@s grid-third@m grid-quarter@l grid-quarter@xl">
+                    <p class="t-black details t-typeweight t-babyfont">{{ post.data.eventMonthYear }}</p>
+                    <p>
+                        <a href="{{ post.data.eventURL }}" rel="noreferrer noopener" class="t-black t-link-accent-black t-titlingfont t-thiccfont@xs t-thiccfont@s t-thiccfont@m t-thiccfont@l t-thiccfont@xl t-height-tight">{{ post.data.eventName }}</a>
+                    </p>
+                    <p>
+                        {% if post.data.eventSlidesURL %}<a class="details t-link-accent-blue" href="{{ post.data.eventSlidesURL }}" rel="noopener noreferrer">Slides</a>{% endif %}{% if post.data.eventVideoURL %} · <a class="details t-link-accent-blue" href="{{ post.data.eventVideoURL }}" rel="noopener noreferrer">Video</a>{% endif %} {% if post.data.eventKeynote %}🗝🎵{% endif %}
+                    </p>
+                
+                </div>
+            </figure>
 {% endfor %}

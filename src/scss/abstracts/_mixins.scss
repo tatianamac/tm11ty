@@ -215,7 +215,7 @@
   @include babyfont;
   @include t-uppercase;
   @include t-ltr-spaceout-m;
-  font-family: $sans-serif-bold;
+  font-family: $sans-serif-accent;
 }
 
 @mixin list-clear-style() {

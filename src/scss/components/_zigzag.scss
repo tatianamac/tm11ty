@@ -8,24 +8,6 @@
     background-size: 5em 5em, 5em 5em;
 }
 
-.zigzag-black-black {
-    height: 5em;
-    background: 
-                linear-gradient(45deg, transparent 50%, $black 50%),
-                linear-gradient(90deg, transparent 50%, $light-grey 50%),
-                linear-gradient(135deg, $black 50%, $mid-grey 50%), 0 50%;
-    background-repeat: repeat-x;
-    background-size: 5em 5em, 5em 5em;
-}
-
-.zigzag-grey-black {
-    height: 5em;
-    background: linear-gradient(-45deg, transparent 74%, $mid-grey 75%),
-                linear-gradient(45deg, transparent 74%, $light-grey 75%) 0 50%;
-    background-repeat: repeat-x;
-    background-size: 5em 5em, 5em 5em;
-}
-
 .zigzag-yellow-white {
     height: 5em;
     background: linear-gradient(-45deg, transparent 74%, $curry 75%),

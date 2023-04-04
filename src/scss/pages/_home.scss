@@ -8,15 +8,6 @@
 	flex: 1;
 	min-width: 15em;
 }
-.grid--half {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-}
-
-.grid--half--child {
-	flex: 1;
-	min-width: 15em;
-}
 
 #floating-hands {
 	margin: 1em;

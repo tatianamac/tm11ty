@@ -1,7 +1,7 @@
 ---
 title: "Why'd you park like such an a-hole?: Inviting curiosity, context into engineering, our lives"
 description: Curiosity over critique—in parking and engineering
-summary: Leading with more curiousity and less critique forces us to examine our biases and critically question our decisions more rigorously.
+summary: Being more curious and less critical in engineering
 date: 2021-09-03 17:50:33
 tags:
   - featured
@@ -42,7 +42,7 @@ I stopped to reflect on how I can train myself out of this habit:
 
 1. **Assume no intent and observe all impact.** We're often told to assume positive intent because we want to believe in the "good in all people." I have a lot of thoughts on this binary thinking (saved for another day, though you can watch my talk if you're curious). But here, I think we'd be better off to not assume anything. Speculation is fine, as long as we recognise the only way to know for sure is to ask the previous engineer (and that's not always possible).
 
-2. **Leave things better than you found them—when possible.** In the parking situation, you can do your best to not worsen the situation for people downstream. Try to neutralise the ill-effects of the unideal park job. The code equivalent is to document. I made sure to document against why I made the decision I did above (redoing, in part, the previous engineer's work). Leaving notes for the future engineer lets them know why I parked like an a-hole, so to speak.
+2. **Leave things better than you found them—when possible.** In the parking situation, you can do your best to not worsen the situation for people downstream. Try to neutralise the ill-effects of the unideal park job. The code equivalent is to document. I made sure to document against why I made the decision I did above (redoing, in part, the previous engineer's work. Leaving notes for the future engineer lets them know why I parked like an a-hole, so to speak.
 
    Even more proactively, if you find yourself writing code that is unexpected (which yes, requires a great deal of self-awareness and experience), document it. I am of the school of thought it's better to overdocument than underdocument.
 
