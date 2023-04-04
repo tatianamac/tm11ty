@@ -373,12 +373,12 @@ article blockquote {
   border-left: 10px solid $pink;
   padding: 1em;
   p:first-of-type:before {
+    @include t-ltr-spaceout-m;
     content: "Note";
     color: $fuchsia;
     display: block;
     font-family: $sans-serif-bold;
     font-size: 1em;
-    letter-spacing: 0.2em;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -594,13 +594,14 @@ $t-color: (
 }
 
 .t-link-accent-azure {
-  @include bdr--white;
+  @include t-link-hover($gild);
+  
   color: $azure;
   line-height: 1.25em;
   padding: 2px 0;
   text-decoration: none;
   &:hover {
-    @include t-link-hover($gild);
+    @include bdr--white;
   }
 
   &:focus {
@@ -631,7 +632,7 @@ $t-color: (
 }
 
 .t-titlingfont {
-  font-family: $sans-serif-bold;
+  font-family: $sans-serif-accent;
   font-size: 1.25em;
   text-transform: uppercase;
 }

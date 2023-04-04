@@ -211,6 +211,7 @@ $bg-color: (
   "pale-peach": #{$pale-peach},
   "neon-yellow": #{$neon-yellow},
   "ochre": #{$ochre},
+  "midnight": #{$midnight},
 );
 
 @each $name, $colour in $bg-color {

@@ -650,6 +650,10 @@ img {
   background: #ece2ce;
 }
 
+.bg-midnight {
+  background: hsl(225, 95%, 11%);
+}
+
 @font-face {
   font-family: "domaine-display-narrow-regular";
   src: local("domaine-display-narrow-regular"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
@@ -1166,12 +1170,12 @@ article blockquote {
   padding: 1em;
 }
 article blockquote p:first-of-type:before {
+  letter-spacing: 0.15em;
   content: "Note";
   color: #b2098b;
   display: block;
   font-family: "calibre-web-bold", "Arial Black", sans-serif;
   font-size: 1em;
-  letter-spacing: 0.2em;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -1437,15 +1441,15 @@ p.comingsoon {
 }
 
 .t-link-accent-azure {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #b28100;
+  transition: border 0.2s ease-in;
   color: hsl(225, 95%, 71%);
   line-height: 1.25em;
   padding: 2px 0;
   text-decoration: none;
 }
 .t-link-accent-azure:hover {
-  border-bottom: 1px solid #b28100;
-  transition: border 0.2s ease-in;
+  border-bottom: 1px solid #ffffff;
 }
 .t-link-accent-azure:focus {
   outline: 0.5em ridge #0e4bff;
@@ -1476,7 +1480,7 @@ p.comingsoon {
 }
 
 .t-titlingfont {
-  font-family: "calibre-web-bold", "Arial Black", sans-serif;
+  font-family: "founders-grotesk-bold", Arial Black, mono;
   font-size: 1.25em;
   text-transform: uppercase;
 }
@@ -2008,39 +2012,41 @@ section {
 .logo a {
   border-bottom: none;
 }
-.logo a:focus {
+.logo a:focus-visible {
   outline: 0.5em ridge #ffd926;
 }
 
 .dark {
   color: #222222;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
   text-decoration: none;
   font-size: 0.85rem;
+  font-family: "founders-grotesk-bold", Arial Black, mono;
   padding: 0.3rem 0;
 }
 .dark:hover {
-  border-bottom: 1px solid #ff0dd1;
-  transition: border 0.2s ease-in;
+  border-bottom: 1px solid #ffffff;
 }
-.dark:focus {
+.dark:focus-visible {
   outline: 0.5em ridge #0e4bff;
 }
 
 .light {
   color: #ffffff;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
   text-decoration: none;
   font-size: 0.85rem;
+  font-family: "founders-grotesk-bold", Arial Black, mono;
   padding: 0.3rem 0;
 }
 .light:hover {
-  border-bottom: 1px solid #ff0dd1;
-  transition: border 0.2s ease-in;
+  border-bottom: 1px solid #ffffff;
 }
 .light:focus {
   outline: 0.5em ridge #ffd926;
@@ -2303,7 +2309,7 @@ button:focus,
 
 .zigzag-midnight-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, hsl(225, 95%, 11%) 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, hsl(225, 95%, 11%) 50%, #27b300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, hsl(225, 95%, 11%) 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, hsl(225, 95%, 11%) 50.25%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
