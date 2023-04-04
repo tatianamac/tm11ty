@@ -1,7 +1,7 @@
 ---
 title: Compassionate action over empathy
-description: "On Empathy"
-summary: "Empathy gets thrown around a lot as the solution to the world's problems. I think we need to examine what empathy really is."
+description: "I see a lot of chatter about “empathy.” In design and tech we frame nearly every human problem with it. The word has become a watery, vague catch-all. I think it’s a problem."
+summary: "Empathy gets thrown around a lot as the solution to the world's problems. I think we need to examine what empathy really is. (It's not what you think.)"
 date: 2020-06-09 12:57:02
 tags:
   - featured

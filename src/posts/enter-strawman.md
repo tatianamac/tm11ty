@@ -4,7 +4,6 @@ description: "Practical engineering"
 summary: "Use a strawman to build up an idea rather than to tear it down."
 date: 2023-03-08 01:47:33
 tags:
-  - featured
   - engineering
   - communication
 layout: layouts/post.njk

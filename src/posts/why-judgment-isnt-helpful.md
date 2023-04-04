@@ -4,7 +4,6 @@ description: "The Good-Bad Lie"
 summary: "We're quick to judge everyone by our own moral compass. Our north star is just that: ours."
 date: 2021-01-02 18:55:02
 tags:
-  - featured
   - humans
 layout: layouts/post.njk
 bgColor: white
