@@ -376,7 +376,7 @@ article blockquote {
     content: "Note";
     color: $fuchsia;
     display: block;
-    font-family: $sans-bold;
+    font-family: $sans-serif-bold;
     font-size: 1em;
     letter-spacing: 0.2em;
     margin: 0;
@@ -631,7 +631,7 @@ $t-color: (
 }
 
 .t-titlingfont {
-  font-family: $sans-bold;
+  font-family: $sans-serif-bold;
   font-size: 1.25em;
   text-transform: uppercase;
 }
