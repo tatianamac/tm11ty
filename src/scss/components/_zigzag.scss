@@ -155,6 +155,15 @@
   background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-true-black-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, $true-black 50%),
+    linear-gradient(90deg, transparent 50%, $green 50%),
+    linear-gradient(135deg, $true-black 50%, $leaf-green 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 .zigzag-black-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, $black 50%),
