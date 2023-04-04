@@ -15,19 +15,22 @@ strong {
 }
 
 .t-tag {
-  border: 1px solid black;
+  @include t-ltr-spaceout-m;
+  border: 1px solid currentColor;
   border-radius: 2em;
-  color: black;
-  font-size: 0.75em;
+  color: currentColor;
+  font-family: $mono;
+  font-size: 0.5em;
   padding: 0.5em 1em;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
   &:hover {
     background: black;
     color: white;
   }
 
-  &:focus {
+  &:focus-visible {
     background: black;
     color: white;
     outline: 0 solid transparent;
@@ -58,8 +61,9 @@ strong {
 }
 
 .t-extrajumbo {
-  font-size: 10em;
+  font-size: 20em;
   padding: 0;
+  line-height: 0;
 }
 
 .t-center {
@@ -67,7 +71,19 @@ strong {
 }
 
 .t-serifweight {
-  @include serifweight;
+  @include serifnarrow;
+}
+
+.t-serif {
+  @include serifnarrow;
+}
+
+.t-sansserif {
+  @include sansserif;
+}
+
+.t-mono {
+  @include mono;
 }
 
 .t-typeweight {
@@ -360,7 +376,7 @@ article blockquote {
     content: "Note";
     color: $fuchsia;
     display: block;
-    font-family: $condensed;
+    font-family: $sans-bold;
     font-size: 1em;
     letter-spacing: 0.2em;
     margin: 0;
@@ -388,6 +404,11 @@ article li a {
   &:hover {
     border-bottom: 1px solid $pink;
   }
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0 0 0 1.5em;
 }
 
 article ul {
@@ -436,7 +457,10 @@ $t-color: (
   "yellow": #{$yellow},
   "blush-pink": #{$blush-pink},
   "baby-blue": #{$baby-blue},
+  "royal-blue": #{$royal-blue},
+  "true-blue": #{$true-blue},
   "emerald-green": #{$emerald-green},
+  "azure": #{$azure},
   "light-grey": #{$light-grey},
   "dusty-rose": #{$dusty-rose},
   "pale-peach": #{$pale-peach},
@@ -446,6 +470,9 @@ $t-color: (
   "pistachio-green": #{$pistachio-green},
   "dark-grey": #{$dark-grey},
   "cobalt": #{$cobalt},
+  "orange": #{$orange},
+  "green": #{$green},
+  "curry": #{$curry},
 );
 
 @each $name, $colour in $t-color {
@@ -456,11 +483,9 @@ $t-color: (
   }
 }
 
-
 .t-white {
   @include t-white;
 }
-
 
 .t-link-accent-white {
   @include bdr--white;
@@ -500,6 +525,28 @@ $t-color: (
   }
   &:focus {
     @include out--pink;
+  }
+}
+
+.t-link-accent-hero {
+  @include deco--orange;
+  color: $rust;
+  padding: 2px 0;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: $rust;
+  text-decoration-skip-ink: auto;
+  &:hover {
+    text-decoration: wavy;
+    // @include t-link-hover;
+  }
+  &:focus {
+    @include out--rust;
+  }
+
+  &--block {
+    @extend .t-link-accent-orange;
+    display: inline-block;
   }
 }
 
@@ -546,6 +593,26 @@ $t-color: (
   }
 }
 
+.t-link-accent-azure {
+  @include bdr--white;
+  color: $azure;
+  line-height: 1.25em;
+  padding: 2px 0;
+  text-decoration: none;
+  &:hover {
+    @include t-link-hover($gild);
+  }
+
+  &:focus {
+    @include out--blue;
+  }
+
+  &--block {
+    @extend .t-link-accent-blue;
+    display: inline-block;
+  }
+}
+
 .t-link-accent-pink {
   @include bdr--white;
   color: $pink;
@@ -564,7 +631,7 @@ $t-color: (
 }
 
 .t-titlingfont {
-  font-family: $condensed;
+  font-family: $sans-bold;
   font-size: 1.25em;
   text-transform: uppercase;
 }

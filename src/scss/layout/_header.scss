@@ -50,15 +50,16 @@
 }
 
 .dark {
-  color: $black;
+  color: $white;
 
     @include t-uppercase;
     @include bdr--pink;
     text-decoration: none;
     font-size: .85rem;
+    font-family: $sans-bold;
     padding: .3rem 0;
     &:hover {
-      @include bdr--pink;
+      @include bdr--orange;
     }
 
     &:focus {
@@ -68,14 +69,16 @@
 }
 
 .light {
-  color: $white;
+    color: $white;
     @include t-uppercase;
     @include bdr--pink;
     text-decoration: none;
     font-size: .85rem;
+    font-family: $sans-bold;
     padding: .3rem 0;
+    letter-spacing: 0.15em;
     &:hover {
-      @include bdr--pink;
+      @include bdr--orange;
     }
 
     &:focus {

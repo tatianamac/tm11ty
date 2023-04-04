@@ -54,6 +54,10 @@ h1 {
   @include align-self-center;
 }
 
+.align-self-end {
+  @include align-self-end;
+}
+
 .height-full {
   @include height-full;
 }

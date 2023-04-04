@@ -1,7 +1,7 @@
 ---
 title: "Enter strawman: Build a tangible form to anchor esoteric discussions"
 description: "Practical engineering"
-summary: "Use a strawman to build up an idea rather than to tear it down."
+summary: "Whether a diagram, a list of options, or pseudocode, effective use of 'strawmen' can build up ideas, rather than tear them down."
 date: 2023-03-08 01:47:33
 tags:
   - featured

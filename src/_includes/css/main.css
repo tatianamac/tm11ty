@@ -48,6 +48,7 @@ section {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-weight: initial;
 }
 
 /* Grouping content
@@ -610,19 +611,19 @@ img {
 }
 
 .bg-teal-green {
-  background: #037A5C;
+  background: #037a5c;
 }
 
 .bg-yellow {
-  background: #FFD926;
+  background: #ffd926;
 }
 
 .bg-blush-pink {
-  background: #FFF3F3;
+  background: #fff3f3;
 }
 
 .bg-baby-blue {
-  background: #DAE3FF;
+  background: #dae3ff;
 }
 
 .bg-emerald-green {
@@ -649,15 +650,41 @@ img {
   background: #ece2ce;
 }
 
+.bg-orange {
+  background: #ff5327;
+}
+
+.bg-milquetoast {
+  background: #dac6ae;
+}
+
+.bg-midnight {
+  background: hsl(225, 95%, 11%);
+}
+
+@font-face {
+  font-family: "domaine-display-narrow-regular";
+  src: local("domaine-display-narrow-regular"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
+  font-display: swap;
+}
 @font-face {
   font-family: "domaine-text-web-light";
-  src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
+  src: local("domaine-text-web-light"), url("../../assets/fonts/domaine-text-web-light.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "founders-grotesk-mono-light";
+  src: local("founders-grotesk-mono-light"), url("../../assets/fonts/founders-grotesk-mono-light.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "calibre-web-regular";
-  font-weight: 400;
-  src: local("calibre-web-regular"), url("../../assets/fonts/calibre-web-regular-subset.woff2") format("woff2"), url("../../assets/fonts/calibre-web-regular-subset.woff") format("woff");
+  src: url("../../assets/fonts/calibre-web-regular.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "founders-grotesk-bold";
+  src: url("../../assets/fonts/founders-grotesk-bold.woff") format("woff");
   font-display: swap;
 }
 @font-face {
@@ -727,6 +754,10 @@ h1 {
   align-self: center;
 }
 
+.align-self-end {
+  align-self: end;
+}
+
 .height-full {
   height: 100%;
 }
@@ -793,23 +824,26 @@ strong {
 }
 
 .t-tag {
-  border: 1px solid black;
+  letter-spacing: 0.15em;
+  border: 1px solid currentColor;
   border-radius: 2em;
-  color: black;
-  font-size: 0.75em;
+  color: currentColor;
+  font-family: "founders-grotesk-mono-light", Courier, mono;
+  font-size: 0.5em;
   padding: 0.5em 1em;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
+  text-transform: uppercase;
 }
 .t-tag:hover {
   background: black;
   color: white;
 }
-.t-tag:focus {
+.t-tag:focus-visible {
   background: black;
   color: white;
   outline: 0 solid transparent;
-  box-shadow: 0 0 0 0.25em #0531B2, 0 0 0 0.5em #2159FE;
+  box-shadow: 0 0 0 0.25em #0531b2, 0 0 0 0.5em #2159fe;
 }
 
 .t-tag-white {
@@ -835,8 +869,9 @@ strong {
 }
 
 .t-extrajumbo {
-  font-size: 10em;
+  font-size: 20em;
   padding: 0;
+  line-height: 0;
 }
 
 .t-center {
@@ -844,8 +879,19 @@ strong {
 }
 
 .t-serifweight {
-  font-family: "domaine-text-web-light", Georgia, "Times New Roman", serif;
-  font-weight: 300;
+  font-family: "domaine-display-narrow-regular", Georgia, "Times New Roman", serif;
+}
+
+.t-serif {
+  font-family: "domaine-display-narrow-regular", Georgia, "Times New Roman", serif;
+}
+
+.t-sansserif {
+  font-family: "calibre-web-regular", "Arial", sans-serif;
+}
+
+.t-mono {
+  font-family: "founders-grotesk-mono-light", Courier, mono;
 }
 
 .t-typeweight {
@@ -1117,7 +1163,7 @@ strong {
 }
 
 body {
-  font-family: "calibre-web-regular", Helvetica, sans-serif;
+  font-family: "calibre-web-regular", "Arial", sans-serif;
   line-height: 1.75;
 }
 
@@ -1132,14 +1178,14 @@ h4 {
 article blockquote {
   background: #eeeeee;
   margin: 0;
-  border-left: 10px solid #FF0DD1;
+  border-left: 10px solid #ff0dd1;
   padding: 1em;
 }
 article blockquote p:first-of-type:before {
   content: "Note";
-  color: #B2098B;
+  color: #b2098b;
   display: block;
-  font-family: "calibre-web-bold", Impact, sans-serif;
+  font-family: "founders-grotesk-bold", Arial Black, mono;
   font-size: 1em;
   letter-spacing: 0.2em;
   margin: 0;
@@ -1148,10 +1194,10 @@ article blockquote p:first-of-type:before {
 }
 
 article a:focus {
-  outline: 0.25em ridge #FF0DD1;
+  outline: 0.25em ridge #ff0dd1;
 }
 article a:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
 }
 
 article p a,
@@ -1163,7 +1209,12 @@ article li a {
 }
 article p a:hover,
 article li a:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
+}
+
+aside ul {
+  list-style-type: none;
+  margin: 0 0 0 1.5em;
 }
 
 article ul {
@@ -1210,23 +1261,35 @@ p.comingsoon {
 }
 
 .t-teal-green {
-  color: #037A5C;
+  color: #037a5c;
 }
 
 .t-yellow {
-  color: #FFD926;
+  color: #ffd926;
 }
 
 .t-blush-pink {
-  color: #FFF3F3;
+  color: #fff3f3;
 }
 
 .t-baby-blue {
-  color: #DAE3FF;
+  color: #dae3ff;
+}
+
+.t-royal-blue {
+  color: #2159fe;
+}
+
+.t-true-blue {
+  color: #0531b2;
 }
 
 .t-emerald-green {
   color: #004328;
+}
+
+.t-azure {
+  color: hsl(225, 95%, 71%);
 }
 
 .t-light-grey {
@@ -1250,19 +1313,31 @@ p.comingsoon {
 }
 
 .t-milquetoast {
-  color: #ece2ce;
+  color: #dac6ae;
 }
 
 .t-pistachio-green {
-  color: #D5FFB1;
+  color: #d5ffb1;
 }
 
 .t-dark-grey {
-  color: #4F4F4F;
+  color: #4f4f4f;
 }
 
 .t-cobalt {
   color: #0e4bff;
+}
+
+.t-orange {
+  color: #ff5327;
+}
+
+.t-green {
+  color: #42ff0d;
+}
+
+.t-curry {
+  color: #cbab00;
 }
 
 .t-white {
@@ -1275,7 +1350,7 @@ p.comingsoon {
   padding: 10px 0;
 }
 .t-link-accent-white:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
 .t-link-accent-white:focus {
@@ -1292,7 +1367,7 @@ p.comingsoon {
   text-decoration: none;
 }
 .t-link-accent-black:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
 .t-link-accent-black:focus {
@@ -1307,25 +1382,46 @@ p.comingsoon {
   text-decoration: none;
 }
 .t-link-accent-green:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
 .t-link-accent-green:focus {
-  outline: 0.25em ridge #FF0DD1;
+  outline: 0.25em ridge #ff0dd1;
 }
 
-.t-link-accent-orange, .t-link-accent-orange--block, .t-link-accent-white--block {
-  border-bottom: 1px solid #ff5327;
+.t-link-accent-hero {
+  text-decoration: wavy;
+  text-decoration-color: #942f00;
+  transition: border 0.2s ease-in;
+  color: #942f00;
+  padding: 2px 0;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #942f00;
+  text-decoration-skip-ink: auto;
+}
+.t-link-accent-hero:hover {
+  text-decoration: wavy;
+}
+.t-link-accent-hero:focus {
+  outline: 0.25em ridge #942f00;
+}
+.t-link-accent-hero--block {
+  display: inline-block;
+}
+
+.t-link-accent-orange, .t-link-accent-orange--block, .t-link-accent-white--block, .t-link-accent-hero--block {
+  border-bottom: 10px solid #ff5327;
   transition: border 0.2s ease-in;
   color: #942f00;
   padding: 2px 0;
   text-decoration: none;
 }
-.t-link-accent-orange:hover, .t-link-accent-orange--block:hover, .t-link-accent-white--block:hover {
-  border-bottom: 1px solid #FF0DD1;
+.t-link-accent-orange:hover, .t-link-accent-orange--block:hover, .t-link-accent-white--block:hover, .t-link-accent-hero--block:hover {
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
-.t-link-accent-orange:focus, .t-link-accent-orange--block:focus, .t-link-accent-white--block:focus {
+.t-link-accent-orange:focus, .t-link-accent-orange--block:focus, .t-link-accent-white--block:focus, .t-link-accent-hero--block:focus {
   outline: 0.25em ridge #942f00;
 }
 .t-link-accent-orange--block {
@@ -1337,7 +1433,7 @@ p.comingsoon {
   letter-spacing: 0.05em;
 }
 
-.t-link-accent-blue, .t-link-accent-blue--block {
+.t-link-accent-blue, .t-link-accent-azure--block, .t-link-accent-blue--block {
   border-bottom: 1px solid #222222;
   transition: border 0.2s ease-in;
   color: #0e4bff;
@@ -1345,25 +1441,43 @@ p.comingsoon {
   padding: 2px 0;
   text-decoration: none;
 }
-.t-link-accent-blue:hover, .t-link-accent-blue--block:hover {
-  border-bottom: 1px solid #FF0DD1;
+.t-link-accent-blue:hover, .t-link-accent-azure--block:hover, .t-link-accent-blue--block:hover {
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
-.t-link-accent-blue:focus, .t-link-accent-blue--block:focus {
+.t-link-accent-blue:focus, .t-link-accent-azure--block:focus, .t-link-accent-blue--block:focus {
   outline: 0.5em ridge #0e4bff;
 }
 .t-link-accent-blue--block {
   display: inline-block;
 }
 
+.t-link-accent-azure {
+  border-bottom: 1px solid #ffffff;
+  color: hsl(225, 95%, 71%);
+  line-height: 1.25em;
+  padding: 2px 0;
+  text-decoration: none;
+}
+.t-link-accent-azure:hover {
+  border-bottom: 1px solid #b28100;
+  transition: border 0.2s ease-in;
+}
+.t-link-accent-azure:focus {
+  outline: 0.5em ridge #0e4bff;
+}
+.t-link-accent-azure--block {
+  display: inline-block;
+}
+
 .t-link-accent-pink {
   border-bottom: 1px solid #ffffff;
-  color: #FF0DD1;
+  color: #ff0dd1;
   padding: 2px 0;
   text-decoration: none;
 }
 .t-link-accent-pink:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
 .t-link-accent-pink:focus {
@@ -1378,13 +1492,13 @@ p.comingsoon {
 }
 
 .t-titlingfont {
-  font-family: "calibre-web-bold", Impact, sans-serif;
+  font-family: "founders-grotesk-bold", Arial Black, mono;
   font-size: 1.25em;
   text-transform: uppercase;
 }
 
 code {
-  background: #DAE3FF;
+  background: #dae3ff;
   border-radius: 0.25em;
   padding: 0.25rem;
   color: #222222;
@@ -1479,7 +1593,7 @@ ul.longform li {
 
 a[href].direct-link:focus,
 a[href].direct-link:focus:visited {
-  outline: 2px solid #FF0DD1;
+  outline: 2px solid #ff0dd1;
   display: inline-block;
 }
 
@@ -1601,8 +1715,16 @@ a.right-arrow:after {
   }
 }
 
-.margin-bottom-thinn {
+.mb-teeny {
+  margin-bottom: 0.5em;
+}
+
+.mb-thinn {
   margin-bottom: 1em;
+}
+
+.pt-thinn {
+  padding-top: 1em;
 }
 
 .order-one {
@@ -1872,13 +1994,13 @@ section {
   color: #ffffff;
   text-decoration: none;
   background: #222222;
-  border: 1px #FF0DD1;
+  border: 1px #ff0dd1;
 }
 
 #skip a:focus {
   transform: translateY(0);
   transition: all 0.2s ease-in-out;
-  outline: 1px solid #FF0DD1;
+  outline: 1px solid #ff0dd1;
 }
 
 .site-header {
@@ -1905,26 +2027,27 @@ section {
   }
 }
 .logo #logo {
-  fill: #FF0DD1;
+  fill: #ff0dd1;
 }
 .logo a {
   border-bottom: none;
 }
 .logo a:focus {
-  outline: 0.5em ridge #FFD926;
+  outline: 0.5em ridge #ffd926;
 }
 
 .dark {
-  color: #222222;
+  color: #ffffff;
   text-transform: uppercase;
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
   text-decoration: none;
   font-size: 0.85rem;
+  font-family: "founders-grotesk-bold", Arial Black, mono;
   padding: 0.3rem 0;
 }
 .dark:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 10px solid #ff5327;
   transition: border 0.2s ease-in;
 }
 .dark:focus {
@@ -1934,18 +2057,20 @@ section {
 .light {
   color: #ffffff;
   text-transform: uppercase;
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
   text-decoration: none;
   font-size: 0.85rem;
+  font-family: "founders-grotesk-bold", Arial Black, mono;
   padding: 0.3rem 0;
+  letter-spacing: 0.15em;
 }
 .light:hover {
-  border-bottom: 1px solid #FF0DD1;
+  border-bottom: 10px solid #ff5327;
   transition: border 0.2s ease-in;
 }
 .light:focus {
-  outline: 0.5em ridge #FFD926;
+  outline: 0.5em ridge #ffd926;
 }
 
 button,
@@ -1970,12 +2095,12 @@ button.secondary,
 }
 button:hover,
 .download:hover {
-  background: #FF0DD1;
+  background: #ff0dd1;
   transition: border 0.2s ease-in;
 }
 button:focus,
 .download:focus {
-  outline: 0.25em ridge #FF0DD1;
+  outline: 0.25em ridge #ff0dd1;
 }
 
 .selfportrait-pink {
@@ -1988,35 +2113,49 @@ button:focus,
 
 .zigzag-blue-yellow {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #0e4bff 50%), linear-gradient(90deg, transparent 50%, #FFD926 50%), linear-gradient(135deg, #0e4bff 50%, #cbab00 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #0e4bff 50%), linear-gradient(90deg, transparent 50%, #ffd926 50%), linear-gradient(135deg, #0e4bff 50%, #cbab00 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-black-black {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #eeeeee 50%), linear-gradient(135deg, #222222 50%, #767676 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
+.zigzag-grey-black {
+  height: 5em;
+  background: linear-gradient(-45deg, transparent 74%, #767676 75%), linear-gradient(45deg, transparent 74%, #eeeeee 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-yellow-white {
   height: 5em;
-  background: linear-gradient(-45deg, transparent 74%, #cbab00 75%), linear-gradient(45deg, transparent 74%, #FFD926 75%) 0 50%;
+  background: linear-gradient(-45deg, transparent 74%, #cbab00 75%), linear-gradient(45deg, transparent 74%, #ffd926 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-neon-yellow-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #f3f315 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #f3f315 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #f3f315 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #f3f315 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-emerald-green-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #004328 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #004328 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #004328 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #004328 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-yellow-white {
   height: 5em;
-  background: linear-gradient(-45deg, transparent 74%, #cbab00 75%), linear-gradient(45deg, transparent 74%, #FFD926 75%) 0 50%;
+  background: linear-gradient(-45deg, transparent 74%, #cbab00 75%), linear-gradient(45deg, transparent 74%, #ffd926 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
@@ -2037,98 +2176,98 @@ button:focus,
 
 .zigzag-black-pink {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #FF0DD1 50%), linear-gradient(135deg, #222222 50%, #B2098B 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #ff0dd1 50%), linear-gradient(135deg, #222222 50%, #b2098b 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-pink-white {
   height: 5em;
-  background: linear-gradient(-45deg, transparent 74%, #B2098B 75%), linear-gradient(45deg, #ffffff 74%, #FF0DD1 75%) 0 50%;
+  background: linear-gradient(-45deg, transparent 74%, #b2098b 75%), linear-gradient(45deg, #ffffff 74%, #ff0dd1 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-white-blue {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #ffffff 50%), linear-gradient(90deg, transparent 50%, #0e4bff 50%), linear-gradient(135deg, #ffffff 50%, #0531B2 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #ffffff 50%), linear-gradient(90deg, transparent 50%, #0e4bff 50%), linear-gradient(135deg, #ffffff 50%, #0531b2 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-blue-blush {
   height: 5em;
-  background: linear-gradient(-45deg, transparent 74%, #0531B2 75%), linear-gradient(45deg, #FFF3F3 74%, #0e4bff 75%) 0 50%;
+  background: linear-gradient(-45deg, transparent 74%, #0531b2 75%), linear-gradient(45deg, #fff3f3 74%, #0e4bff 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-white-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #ffffff 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ffffff 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #ffffff 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ffffff 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-pale-peach-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #ffe0d1 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ffe0d1 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #ffe0d1 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ffe0d1 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-baby-blue-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #DAE3FF 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #DAE3FF 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #dae3ff 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #dae3ff 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-blush-pink-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #FFF3F3 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #FFF3F3 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #fff3f3 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #fff3f3 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-ochre-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #ece2ce 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ece2ce 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #ece2ce 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #ece2ce 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-light-grey-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #eeeeee 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #eeeeee 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #eeeeee 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #eeeeee 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-black-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #222222 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #222222 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-green-black {
   height: 5em;
-  background: linear-gradient(-45deg, transparent 74%, #27B300 75%), linear-gradient(45deg, #222222 74%, #42ff0d 75%) 0 50%;
+  background: linear-gradient(-45deg, transparent 74%, #27b300 75%), linear-gradient(45deg, #222222 74%, #42ff0d 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-yellow-black {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #f3f315 50%), linear-gradient(90deg, transparent 50%, #4F4F4F 50%), linear-gradient(135deg, #f3f315 50%, #222222 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, #f3f315 50%), linear-gradient(90deg, transparent 50%, #4f4f4f 50%), linear-gradient(135deg, #f3f315 50%, #222222 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
 .zigzag-black-grey {
   height: 5em;
-  background: linear-gradient(-45deg, transparent 74%, #222222 75%), linear-gradient(45deg, #eeeeee 74%, #4F4F4F 75%) 0 50%;
+  background: linear-gradient(-45deg, transparent 74%, #222222 75%), linear-gradient(45deg, #eeeeee 74%, #4f4f4f 75%) 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
@@ -2147,6 +2286,16 @@ button:focus,
 }
 
 .flex--half--child {
+  flex: 1;
+  min-width: 15em;
+}
+
+.grid--half {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.grid--half--child {
   flex: 1;
   min-width: 15em;
 }
@@ -2188,15 +2337,40 @@ button:focus,
     transform: translate(0, 0px);
   }
 }
-.zigzag-black-green {
+.stamp-home {
+  outline: 20px dotted #222222;
+  outline-offset: -10px;
+  background: #4f4f4f;
+  padding: 1em;
+  position: relative;
+  max-width: 10rem;
+  height: 10rem;
+}
+
+.stamp-inner {
+  background: #222222;
+  height: 100%;
+}
+
+.zigzag-midnight-green {
   height: 5em;
-  background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #222222 50%, #27B300 50%), 0 50%;
+  background: linear-gradient(45deg, transparent 50%, hsl(225, 95%, 11%) 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, hsl(225, 95%, 11%) 50%, #27b300 50%), 0 50%;
   background-repeat: repeat-x;
   background-size: 5em 5em, 5em 5em;
 }
 
+.callout {
+  font-family: "founders-grotesk-bold", Arial Black, mono;
+  line-height: 1em;
+}
+
+.river {
+  max-width: 1023px;
+  margin: 0 auto;
+}
+
 .post-blob {
-  background: #FFF3F3;
+  background: #fff3f3;
   border-radius: 30% 25%/20% 30%;
   padding: 3em;
 }
@@ -2223,9 +2397,9 @@ button:focus,
 }
 
 .stamp {
-  outline: 20px dotted #FFF3F3;
+  outline: 20px dotted #fff3f3;
   outline-offset: -10px;
-  background: #FFCFF2;
+  background: #ffcff2;
   margin: 0.75em;
   position: relative;
 }
@@ -2286,7 +2460,7 @@ button:focus,
 
 .stamp-date path {
   fill: none;
-  border: 1px solid #FF5327;
+  border: 1px solid #ff5327;
 }
 
 .stamp-date svg {
