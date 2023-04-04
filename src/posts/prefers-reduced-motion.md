@@ -1,7 +1,7 @@
 ---
 title: "prefers-reduced-motion: Taking a no-motion-first approach to animations"
 description: Animations should be an enhancement, not critical to a user's understanding
-summary: Use the prefers-reduced-motion media query to help guide your animation principles
+summary: Animations should be an enhancement, not critical to a user's understanding. Use the prefers-reduced-motion media query to help guide your animation principles
 date: 2021-03-18 12:56:13
 tags:
   - featured
@@ -75,7 +75,7 @@ When I collaborate with a designer/animator on an animation, I first ask, "Is th
 
 ### When the answer is "No"
 
-More often than not, the answer is "no." (It might take some finessing of the conversation, so remember to emphasise that being **critical** isn't the same thing as being **important** or **nice** or **aesthetic**.) When conceived well, animations should be an _enhancement_ to an explanation.
+More often than not, the answer is "no." (It might take some finessing of the conversation, so remember to emphasise that being **critical** isn't the same thing as being **important** or **nice** or **aesthetic**.) When conceived well, animations should be an *enhancement* to an explanation.
 
 If the animation isn't critical, then my default code is to include `animation: none` for all of my animations. In CSS, it could look something like this:
 
@@ -89,7 +89,7 @@ If the animation isn't critical, then my default code is to include `animation: 
 }
 ```
 
-Another way it could look is to reverse our thought process. Instead of defaulting to _adding_ animations universally, we can instead _only add_ them for people who have designated `no-preference`.
+Another way it could look is to reverse our thought process. Instead of defaulting to *adding* animations universally, we can instead *only add* them for people who have designated `no-preference`.
 
 The code could look something like this:
 
@@ -124,7 +124,7 @@ Framer Motion sets a good tone for accessibilty in documentation with their [Gui
 
 ### Animation-specific stylesheet
 
-Since we've all agreed that our animations aren't critical to perceiving our page (winky face), we can take that one step further and _only_ serve our users CSS if they are cool with `prefers-reduced-motion: no-preference`.
+Since we've all agreed that our animations aren't critical to perceiving our page (winky face), we can take that one step further and *only* serve our users CSS if they are cool with `prefers-reduced-motion: no-preference`.
 
 Here's what you might include in your HTML file in the `<head>` tag:
 
@@ -156,13 +156,13 @@ I also ranked these questions in level of spiciness for ~~no other reason than m
 - What other ways can we serve up the critical animation? (e.g., through written text, through a static diagram, etc) 🌶🌶
 - If the animation can't load for someone or they can't see it, what was your plan? 🌶🌶🌶
 
-Most of the time, I'm negotiating a way to get information to be served in _more_ ways. Changing the answer from "yes, this animation is critical to understanding" to "no, this animation is not critical but an enhancement." Remember, accessibility means giving the users as many, diversified options as possible, not determining which option works best for them.
+Most of the time, I'm negotiating a way to get information to be served in *more* ways. Changing the answer from "yes, this animation is critical to understanding" to "no, this animation is not critical but an enhancement." Remember, accessibility means giving the users as many, diversified options as possible, not determining which option works best for them.
 
 ## Beyond CSS animations
 
 ### Auto-playing video
 
-Auto-playing anything is cruel to both users who experience vestibular disorders _and_ neurodivergent users for whom autoplay can cause major focus issues.
+Auto-playing anything is cruel to both users who experience vestibular disorders *and* neurodivergent users for whom autoplay can cause major focus issues.
 
 CSS-tricks covers this well with [Reduced motion picture technique: take two](https://css-tricks.com/reduced-motion-picture-technique-take-two/).
 

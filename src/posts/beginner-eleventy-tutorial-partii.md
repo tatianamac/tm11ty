@@ -6,7 +6,6 @@ date: 2020-05-19 12:49:13
 tags:
   - tutorials
   - Eleventy
-  - featured
   - engineering
 layout: layouts/post.njk
 bgColor: white
