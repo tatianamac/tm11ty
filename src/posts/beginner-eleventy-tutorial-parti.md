@@ -199,7 +199,7 @@ We have to admit that part of the rise of SSGs is that as developers, we are com
 
 New SSGs are popping up every day as this modern approach to tooling becomes more widely adopted. Popular static site generators (and their frameworks/languages) include: [Hugo](https://gohugo.io/) (Go), [Gatsby](https://www.gatsbyjs.org/), [Next.js](https://nextjs.org/), [React Static](https://github.com/react-static/react-static/tree/master/) (React); [NuxtJS](https://nuxtjs.org/) (Vue.js); [Middleman](https://middlemanapp.com/), [Jekyll](https://jekyllrb.com/) (Ruby); [Sapper](https://sapper.svelte.dev/) (Svelte); and my personal favourite, [Eleventy](https://11ty.io) (Node.js).
 
-Examples of _sites_ made on these _SSGs_ on these can be found on each of those links. (See how the naming convention is confusing?!)
+Examples of _sites_ made on these _SSGs_ can be found on each of those links. (See how the naming convention is confusing?!)
 
 #### Aside: On JAMstack and Humans
 
