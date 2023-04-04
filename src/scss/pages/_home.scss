@@ -1,6 +1,6 @@
-.flex--half {
-	display: flex;
-	flex-direction: row;
+.grid--half {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
 	flex-wrap: wrap;
 }
 
