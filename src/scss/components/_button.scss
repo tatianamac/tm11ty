@@ -23,7 +23,7 @@ button,
     @include txn-ease-in-quick;
   }
 
-  &:focus {
+  &:focus-visible{
     @include out--pink;
   }
 }

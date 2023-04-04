@@ -46,7 +46,7 @@ strong {
   text-decoration: none;
   transition: all 0.4s ease-in-out;
   &:hover,
-  &:focus {
+  &:focus-visible{
     background: white;
     color: black;
   }
@@ -386,7 +386,7 @@ article blockquote {
 }
 
 article a {
-  &:focus {
+  &:focus-visible{
     outline: 0.25em ridge $pink;
   }
 
@@ -495,7 +495,7 @@ $t-color: (
   &:hover {
     @include t-link-hover;
   }
-  &:focus {
+  &:focus-visible{
     @include out--green;
   }
   &--block {
@@ -511,7 +511,7 @@ $t-color: (
   &:hover {
     @include t-link-hover;
   }
-  &:focus {
+  &:focus-visible{
     @include out--green;
   }
 }
@@ -524,7 +524,7 @@ $t-color: (
   &:hover {
     @include t-link-hover;
   }
-  &:focus {
+  &:focus-visible{
     @include out--pink;
   }
 }
@@ -541,7 +541,7 @@ $t-color: (
     text-decoration: wavy;
     // @include t-link-hover;
   }
-  &:focus {
+  &:focus-visible{
     @include out--rust;
   }
 
@@ -559,7 +559,7 @@ $t-color: (
   &:hover {
     @include t-link-hover;
   }
-  &:focus {
+  &:focus-visible{
     @include out--rust;
   }
 
@@ -577,7 +577,7 @@ $t-color: (
   &:hover {
     @include t-link-hover;
   }
-  &:focus {
+  &:focus-visible{
     @include out--rust;
   }
 
@@ -602,7 +602,7 @@ $t-color: (
     @include t-link-hover;
   }
 
-  &:focus {
+  &:focus-visible{
     @include out--blue;
   }
 
@@ -623,7 +623,7 @@ $t-color: (
     @include bdr--white;
   }
 
-  &:focus {
+  &:focus-visible{
     @include out--blue;
   }
 
@@ -641,7 +641,7 @@ $t-color: (
   &:hover {
     @include t-link-hover;
   }
-  &:focus {
+  &:focus-visible{
     @include out--green;
   }
 }

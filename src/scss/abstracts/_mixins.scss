@@ -7,13 +7,13 @@
     &,
     &:hover,
     &:active,
-    &:focus {
+    &:focus-visible{
       @content;
     }
   } @else {
     &:hover,
     &:active,
-    &:focus {
+    &:focus-visible{
       @content;
     }
   }
