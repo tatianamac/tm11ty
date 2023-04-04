@@ -43,7 +43,7 @@
 
   a {
   border-bottom: none;
-  &:focus { 
+  &:focus-visible { 
     @include out--yellow;
   }
 	}
@@ -51,31 +51,35 @@
 
 .dark {
   color: $black;
-
+    @include t-ltr-spaceout-s;
     @include t-uppercase;
     @include bdr--pink;
     text-decoration: none;
     font-size: .85rem;
+    font-family: $sans-serif-accent;
     padding: .3rem 0;
+
     &:hover {
-      @include bdr--pink;
+      @include bdr--white;
     }
 
-    &:focus {
+    &:focus-visible {
       @include out--blue;
     }
 
 }
 
 .light {
-  color: $white;
+    color: $white;
+    @include t-ltr-spaceout-s;
     @include t-uppercase;
     @include bdr--pink;
     text-decoration: none;
     font-size: .85rem;
+    font-family: $sans-serif-accent;
     padding: .3rem 0;
     &:hover {
-      @include bdr--pink;
+      @include bdr--white;
     }
 
     &:focus {
