@@ -2273,6 +2273,13 @@ button:focus-visible,
   background-size: 5em 5em, 5em 5em;
 }
 
+.zigzag-true-black-green {
+  height: 5em;
+  background: linear-gradient(45deg, transparent 50%, #000000 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #000000 50%, #27b300 50%), 0 50%;
+  background-repeat: repeat-x;
+  background-size: 5em 5em, 5em 5em;
+}
+
 .zigzag-black-green {
   height: 5em;
   background: linear-gradient(45deg, transparent 50%, #222222 50%), linear-gradient(90deg, transparent 50%, #42ff0d 50%), linear-gradient(135deg, #222222 50%, #27b300 50%), 0 50%;
