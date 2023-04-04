@@ -214,6 +214,7 @@ $bg-color: (
   "ochre": #{$ochre},
   "midnight": #{$midnight},
   "rust": #{$rust},
+  "true-black": #{$true-black},
 );
 
 @each $name, $colour in $bg-color {

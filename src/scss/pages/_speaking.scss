@@ -1,7 +1,32 @@
+.vid-grid {
+  width: 100%;
+  grid-column: span 12;
+}
+
+.rider {
+  grid-column: span 8;
+  width: 100%;
+}
+
+.row {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  justify-content: space-between;
+  gap: 6em;
+  margin-bottom: $ultrachonk;
+}
+
+.title {
+  font-family: $sans-serif-accent;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+
 .stamp {
-    outline: 20px dotted $blush-pink;
+    outline: 20px dotted $true-black;
     outline-offset: -10px;
-    background: $barbie-pink;
+    background: $dark-grey;
     margin: .75em;
     position: relative;
   }
@@ -61,11 +86,12 @@
     width: 7em;
     height: 7em;
     position: absolute;
+    color: $light-grey;
   }
 
   .stamp-date text {
   text-transform: uppercase;
-  fill: $cobalt;
+  fill: $green;
   font-size: .4em;
   font-family: Courier;
 }
@@ -189,7 +215,7 @@
     padding: .1em 1.5em;
     margin: 1.25em;
     vertical-align: baseline;
-    background: $white;
+    background: $black;
   }
 
   // SPONSOR //

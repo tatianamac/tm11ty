@@ -662,6 +662,10 @@ img {
   background: hsl(19, 100%, 19%);
 }
 
+.bg-true-black {
+  background: #000000;
+}
+
 @font-face {
   font-family: "domaine-display-narrow-regular";
   src: local("domaine-display-narrow-regular"), url("../../assets/fonts/domaine-display-narrow-regular.woff") format("woff");
@@ -1451,7 +1455,7 @@ p.comingsoon {
   letter-spacing: 0.05em;
 }
 
-.t-link-accent-blue, .t-link-accent-azure--block, .t-link-accent-blue--block {
+.t-link-accent-blue, .t-link-accent-azure--block, .t-link-accent-green--block, .t-link-accent-blue--block {
   border-bottom: 1px solid #222222;
   transition: border 0.2s ease-in;
   color: #0e4bff;
@@ -1459,14 +1463,33 @@ p.comingsoon {
   padding: 2px 0;
   text-decoration: none;
 }
-.t-link-accent-blue:hover, .t-link-accent-azure--block:hover, .t-link-accent-blue--block:hover {
+.t-link-accent-blue:hover, .t-link-accent-azure--block:hover, .t-link-accent-green--block:hover, .t-link-accent-blue--block:hover {
   border-bottom: 1px solid #ff0dd1;
   transition: border 0.2s ease-in;
 }
-.t-link-accent-blue:focus-visible, .t-link-accent-azure--block:focus-visible, .t-link-accent-blue--block:focus-visible {
+.t-link-accent-blue:focus-visible, .t-link-accent-azure--block:focus-visible, .t-link-accent-green--block:focus-visible, .t-link-accent-blue--block:focus-visible {
   outline: 0.5em ridge #0e4bff;
 }
 .t-link-accent-blue--block {
+  display: inline-block;
+}
+
+.t-link-accent-green {
+  border-bottom: 1px solid #42ff0d;
+  transition: border 0.2s ease-in;
+  color: #42ff0d;
+  line-height: 1.25em;
+  padding: 2px 0;
+  text-decoration: none;
+}
+.t-link-accent-green:hover {
+  border-bottom: 1px solid #ff0dd1;
+  transition: border 0.2s ease-in;
+}
+.t-link-accent-green:focus-visible {
+  outline: 0.5em ridge #0e4bff;
+}
+.t-link-accent-green--block {
   display: inline-block;
 }
 
@@ -2405,10 +2428,35 @@ button:focus-visible,
   flex-direction: row;
 }
 
+.vid-grid {
+  width: 100%;
+  grid-column: span 12;
+}
+
+.rider {
+  grid-column: span 8;
+  width: 100%;
+}
+
+.row {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  justify-content: space-between;
+  gap: 6em;
+  margin-bottom: 5em;
+}
+
+.title {
+  font-family: "founders-grotesk-bold", Arial Black, mono;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+
 .stamp {
-  outline: 20px dotted #fff3f3;
+  outline: 20px dotted #000000;
   outline-offset: -10px;
-  background: #ffcff2;
+  background: #4f4f4f;
   margin: 0.75em;
   position: relative;
 }
@@ -2458,11 +2506,12 @@ button:focus-visible,
   width: 7em;
   height: 7em;
   position: absolute;
+  color: #eeeeee;
 }
 
 .stamp-date text {
   text-transform: uppercase;
-  fill: #0e4bff;
+  fill: #42ff0d;
   font-size: 0.4em;
   font-family: Courier;
 }
@@ -2587,7 +2636,7 @@ button:focus-visible,
   padding: 0.1em 1.5em;
   margin: 1.25em;
   vertical-align: baseline;
-  background: #ffffff;
+  background: #222222;
 }
 
 .pixel-box {
