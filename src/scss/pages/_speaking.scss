@@ -8,12 +8,37 @@
   width: 100%;
 }
 
+.video {
+  width: 100%;
+  aspect-ratio: 5 / 4;
+  // height: auto;
+}
+
 .row {
-  grid-template-columns: 1fr 1fr;
+  @include screen-xs {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+  @include screen-s {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   display: grid;
   justify-content: space-between;
   gap: 6em;
   margin-bottom: $ultrachonk;
+}
+
+.reverse-order {
+  @include screen-xs {
+    order: unset;
+  }
+  @include screen-s {
+    order: unset;
+  }
+
+  order: 1;
 }
 
 .title {

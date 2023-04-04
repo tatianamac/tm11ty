@@ -2445,12 +2445,43 @@ button:focus-visible,
   width: 100%;
 }
 
+.video {
+  width: 100%;
+  aspect-ratio: 5/4;
+}
+
 .row {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   display: grid;
   justify-content: space-between;
   gap: 6em;
   margin-bottom: 5em;
+}
+@media screen and (min-width: 200px) and (max-width: 599px) {
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+    width: 100%;
+  }
+}
+
+.reverse-order {
+  order: 1;
+}
+@media screen and (min-width: 200px) and (max-width: 599px) {
+  .reverse-order {
+    order: unset;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .reverse-order {
+    order: unset;
+  }
 }
 
 .title {
