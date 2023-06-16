@@ -34,7 +34,7 @@ My hope with this guide is to remove barriers, particularly for designers/develo
 To remove barriers to entry, we must provide adequate context. I will break this guide into a multi-part series:
 
 - **Part I:** What is a static site generator? 👈🏽 You are here
-- **Part II:** [Installation](https://www.tatianamac.com/posts/beginner-eleventy-tutorial-partii)
+- **Part II:** [Installation](/posts/beginner-eleventy-tutorial-partii)
 - **Part III:** Structure/Basic Customisation (coming soon)
 - **Part IV**: Advanced Customisation (coming soon)
 
@@ -261,7 +261,7 @@ Eleventy's mission seems to possess some similar biases to me. In the end, this 
 
 To me, the pros outweigh the cons. Developers who work in and support Eleventy can help to improve the two cons. This is why I'm writing this series.
 
-> Next (Part II): Learn how to install Eleventy (and, all the things you need to install in order to install Eleventy). [Read Part II](../posts/beginner-eleventy-tutorial-partii/)
+> Next (Part II): Learn how to install Eleventy (and, all the things you need to install in order to install Eleventy). [Read Part II](/posts/beginner-eleventy-tutorial-partii)
 
 #### Thank You
 
